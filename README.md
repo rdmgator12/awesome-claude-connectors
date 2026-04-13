@@ -53,13 +53,12 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 ## AI and ML
 
 - [Cloudglue](https://cloudglue.dev) - Video analysis and processing. *Use case: Extracting insights from video content, automated video summarization.*
-- [ElevenLabs Agents](https://elevenlabs.io) - Build conversational AI agents with voice. *Use case: Voice-enabled AI assistants, phone agents, voice-first applications.*
-- [ElevenLabs Player](https://elevenlabs.io) - Audio generation and playback. *Use case: Text-to-speech, audio content creation, voiceover generation.*
+- [ElevenLabs Agents](https://elevenlabs.io/conversational-ai) - Build conversational AI agents with voice. *Use case: Voice-enabled AI assistants, phone agents, voice-first applications.*
+- [ElevenLabs Player](https://elevenlabs.io/text-to-speech) - Audio generation and playback. *Use case: Text-to-speech, audio content creation, voiceover generation.*
 - [Hugging Face](https://huggingface.co) - Access Hugging Face Hub models and Gradio apps. *Use case: Model exploration, running inference on hosted models, discovering pretrained models for ML workflows.*
 - [Owkin](https://owkin.com) - AI agents for biology. *Use case: Biological research, computational biology workflows, drug discovery.*
 - [ToolUniverse](https://tooluniverse.org) - Access 600+ scientific tools. *Use case: Scientific computing, running domain-specific tools for chemistry, physics, and biology research.*
 
-[back to top](#contents)
 
 ## Automation and Integration
 
@@ -73,14 +72,12 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Workato](https://www.workato.com) - Automate and connect apps. *Use case: Enterprise integration, workflow automation across business systems.*
 - [Zapier](https://zapier.com) - Automate workflows across apps. *Use case: No-code automation, connecting 6000+ apps with trigger-based workflows.*
 
-[back to top](#contents)
 
 ## Blockchain
 
 - [BlockchainQuery](https://www.blockchainquery.com) - Blockchain data across 60+ networks. *Use case: Querying on-chain data, analyzing transaction history, monitoring wallet activity across multiple chains.*
-- [Blockscout](https://www.blockscout.com) - Analyze blockchain data with a block explorer. *Use case: Smart contract verification, transaction tracing, token analytics.*
+- [Blockscout](https://www.blockscout.com) - Analyze Blockchain data with a block explorer. *Use case: Smart contract verification, transaction tracing, token analytics.*
 
-[back to top](#contents)
 
 ## Calendar and Scheduling
 
@@ -89,7 +86,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Fantastical](https://flexibits.com/fantastical) - Calendar management for Apple devices. *Use case: Natural language event creation, calendar views, Apple ecosystem calendar management.*
 - [Google Calendar](https://calendar.google.com) - Manage your schedule and coordinate meetings. *Use case: Creating and updating events, finding free time, coordinating across multiple calendars, scheduling automation.*
 
-[back to top](#contents)
 
 ## Cloud and Infrastructure
 
@@ -99,15 +95,14 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Databricks](https://www.databricks.com) - Unity Catalog and Mosaic AI. *Use case: Data engineering, ML model management, lakehouse analytics.*
 - [Dremio Cloud](https://www.dremio.com) - Access lakehouse data. *Use case: Querying data lakes, federated SQL across multiple data sources.*
 - [GCE](https://cloud.google.com/compute) - Google Compute Engine management. *Use case: Managing GCP virtual machines, instance configuration, cloud compute workflows.*
-- [Kubernetes](https://kubernetes.io) - K8s management via kubectl. *Use case: Cluster management, pod debugging, deployment automation.*
+- [Kubernetes](https://kubernetes.io) - Container orchestration cluster management via kubectl. *Use case: Cluster management, pod debugging, deployment automation.*
 - [MotherDuck](https://motherduck.com) - DuckDB in the cloud. *Use case: Serverless analytical queries, local-first data analysis that scales to cloud.*
 - [Netlify](https://www.netlify.com) - Create, deploy, and manage websites. *Use case: Static site deployment, serverless functions, CI/CD for web projects.*
-- [PlanetScale](https://planetscale.com) - Managed Postgres and MySQL. *Use case: Database branching, schema management, serverless database operations.*
+- [PlanetScale](https://planetscale.com) - Managed PostgreSQL and MySQL. *Use case: Database branching, schema management, serverless database operations.*
 - [Starburst](https://www.starburst.io) - Federated data access. *Use case: Querying data across multiple sources with a single SQL interface.*
 - [Supabase](https://supabase.com) - Databases, auth, and storage. *Use case: Postgres-backed backend, real-time subscriptions, auth, file storage for modern apps.*
 - [Vercel](https://vercel.com) - Analyze, debug, and manage deployments. *Use case: Next.js deployment, serverless functions, edge config, deployment analytics.*
 
-[back to top](#contents)
 
 ## CMS and Web Building
 
@@ -118,7 +113,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Wix](https://www.wix.com) - Website creation and management on the Wix platform. *Use case: Site building, e-commerce setup, domain management, blog publishing.*
 - [WordPress.com](https://wordpress.com) - Manage WordPress sites. *Use case: Content management, plugin configuration, site administration for WordPress.*
 
-[back to top](#contents)
 
 ## Communication
 
@@ -133,7 +127,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Slack](https://slack.com) - Send messages, create canvases, and fetch data from Slack. *Use case: Team communication, searching channel history, posting updates, creating collaborative documents.*
 - [Zoom for Claude](https://zoom.us) - Search, recap, and act on Zoom meetings. *Use case: Meeting recaps, finding key moments in recordings, extracting action items from Zoom calls.*
 
-[back to top](#contents)
 
 ## Customer Support
 
@@ -145,7 +138,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Unthread](https://unthread.io) - Support ticket management. *Use case: Converting Slack messages into trackable support tickets.*
 - [Zoho Desk](https://www.zoho.com/desk) - Helpdesk and support ticket automation. *Use case: Ticket routing, SLA management, customer support analytics, knowledge base integration.*
 
-[back to top](#contents)
 
 ## Data and Analytics
 
@@ -171,7 +163,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Windsor.ai](https://windsor.ai) - Connect 325+ marketing data sources. *Use case: Marketing attribution, cross-channel performance analysis.*
 - [Zocks](https://www.zocks.ai) - Analyze client conversations. *Use case: Financial advisor conversation analysis, compliance review, client insight extraction.*
 
-[back to top](#contents)
 
 ## Design and Creative
 
@@ -188,21 +179,19 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Three.js 3D Viewer](https://threejs.org) - Interactive 3D scenes. *Use case: 3D visualization, WebGL prototyping, rendering 3D models.*
 - [tldraw](https://www.tldraw.com) - Sketch, draw, and diagram. *Use case: Quick sketching, informal diagrams, lightweight whiteboarding.*
 
-[back to top](#contents)
 
 ## Desktop Automation
 
 - [Android-MCP](https://github.com/nicepkg/visioncraft) - Control Android devices. *Use case: Android app testing, mobile automation workflows, device management.*
-- [Control Chrome](https://github.com/nichochar/open-control-plane) - Chrome tab and navigation control. *Use case: Browser automation, tab management, web scraping from Chrome.*
-- [Control your Mac](https://github.com/nichochar/open-control-plane) - Execute AppleScript to automate macOS. *Use case: System-level Mac automation, app control, file management via AppleScript.*
+- [Control Chrome](https://github.com/nichochar/open-control-plane#chrome) - Chrome tab and navigation control. *Use case: Browser automation, tab management, web scraping from Chrome.*
+- [Control your Mac](https://github.com/nichochar/open-control-plane#mac) - Execute AppleScript to automate macOS. *Use case: System-level Mac automation, app control, file management via AppleScript.*
 - [Dash](https://kapeli.com/dash) - Search documentation in Dash. *Use case: Quick API reference lookups from the Dash documentation browser on macOS.*
-- [Desktop Commander](https://github.com/nichochar/open-control-plane) - Local machine automation. *Use case: File system operations, process management, system-level tasks.*
-- [Macos](https://github.com/nichochar/open-control-plane) - Lightweight macOS interaction. *Use case: Basic Mac control, window management, system queries.*
-- [Read and Send iMessages](https://github.com/nichochar/open-control-plane) - Send and read Apple Messages. *Use case: Messaging automation, reading conversation history, sending quick replies from Claude.*
+- [Desktop Commander](https://github.com/nichochar/open-control-plane#commander) - Local machine automation. *Use case: File system operations, process management, system-level tasks.*
+- [macOS](https://github.com/nichochar/open-control-plane#macos) - Lightweight macOS system interaction. *Use case: Basic Mac control, window management, system queries.*
+- [Read and Send iMessages](https://github.com/nichochar/open-control-plane#imessage) - Send and read Apple Messages. *Use case: Messaging automation, reading conversation history, sending quick replies from Claude.*
 - [Vybit Notifications](https://vybit.net) - Custom push notification routing and alert delivery. *Use case: Custom alert systems, notification routing, event-driven alerts.*
-- [Windows-MCP](https://github.com/nichochar/open-control-plane) - Windows OS automation and system control. *Use case: Windows application automation, file management, system administration tasks.*
+- [Windows-MCP](https://github.com/nichochar/open-control-plane#windows) - Windows OS automation and system control. *Use case: Windows application automation, file management, system administration tasks.*
 
-[back to top](#contents)
 
 ## Development Tools
 
@@ -218,13 +207,12 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [pg-aiguide](https://github.com/ruizlabs/pg-aiguide) - PostgreSQL docs and skills. *Use case: PostgreSQL query help, configuration guidance, performance tuning.*
 - [Port IO](https://www.getport.io) - Developer portal context lake. *Use case: Internal developer platform management, service catalog, developer experience.*
 - [Postman](https://www.postman.com) - API context and collections. *Use case: API testing, documentation, sharing request collections across teams.*
-- [Postman MCP (Minimal)](https://www.postman.com) - Lightweight API access on Postman. *Use case: Quick API exploration without the full Postman suite.*
+- [Postman MCP (Minimal)](https://www.postman.com/product/what-is-postman/) - Lightweight API access on Postman. *Use case: Quick API exploration without the full Postman suite.*
 - [Shadcn UI](https://ui.shadcn.com) - shadcn/ui component source and demos. *Use case: Browsing component implementations, copying component code, exploring the shadcn/ui library.*
 - [Socket](https://socket.dev) - Dependency security scanning. *Use case: Checking npm/PyPI packages for supply chain risks, vulnerability detection.*
 - [Stytch](https://stytch.com) - Authentication management. *Use case: Passwordless auth, OAuth, session management for web apps.*
 - [Tomba](https://tomba.io) - Professional email address discovery and verification. *Use case: Finding work emails for outreach, domain-based contact search, email deliverability verification.*
 
-[back to top](#contents)
 
 ## Documents and Files
 
@@ -236,22 +224,20 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Filesystem](https://github.com/modelcontextprotocol/servers) - Local filesystem read and write. *Use case: File management, reading and writing files on your machine. Note: Claude Code has this built in.*
 - [Google Drive](https://drive.google.com) - Find and analyze files in Drive. *Use case: Searching Google Drive, summarizing documents, cross-referencing files.*
 - [Lumin](https://www.luminpdf.com) - Documents, signatures, and Markdown-to-PDF conversion. *Use case: PDF annotation, e-signatures, converting Markdown to formatted PDFs.*
-- [PDF (By Anthropic)](https://github.com/anthropics) **`A`** - Read and interact with PDFs. *Use case: Extracting text from PDFs, answering questions about PDF content.*
-- [PDF Tools](https://github.com/anthropics) **`A`** - Fill, analyze, and extract from local PDFs. *Use case: PDF form filling, data extraction, local PDF processing without uploading.*
-- [PDF Viewer](https://github.com/anthropics) **`A`** - Render PDFs from URLs. *Use case: Quick preview of PDFs from arxiv.org and other URL-based sources.*
-- [PowerPoint (By Anthropic)](https://github.com/anthropics) **`A`** - Control PowerPoint with AppleScript. *Use case: Creating and modifying presentations programmatically on macOS.*
+- [PDF (By Anthropic)](https://github.com/anthropics/anthropic-quickstarts) **`A`** - Read and interact with PDFs. *Use case: Extracting text from PDFs, answering questions about PDF content.*
+- [PDF Tools](https://github.com/anthropics/anthropic-quickstarts#pdf-tools) **`A`** - Fill, analyze, and extract from local PDFs. *Use case: PDF form filling, data extraction, local PDF processing without uploading.*
+- [PDF Viewer](https://github.com/anthropics/anthropic-quickstarts#pdf-viewer) **`A`** - Render PDFs from URLs. *Use case: Quick preview of PDFs from arxiv.org and other URL-based sources.*
+- [PowerPoint (By Anthropic)](https://github.com/anthropics/anthropic-quickstarts#powerpoint) **`A`** - Control PowerPoint with AppleScript. *Use case: Creating and modifying presentations programmatically on macOS.*
 - [SignNow](https://www.signnow.com) - Automate e-signatures. *Use case: Bulk signature requests, document workflow automation.*
 - [SignWell](https://www.signwell.com) - E-signature workflows. *Use case: Simple document signing, tracking signature completion.*
-- [Word (By Anthropic)](https://github.com/anthropics) **`A`** - Control Microsoft Word with AppleScript. *Use case: Creating and editing Word documents programmatically on macOS. Useful for formatted reports and documents.*
+- [Word (By Anthropic)](https://github.com/anthropics/anthropic-quickstarts#word) **`A`** - Control Microsoft Word with AppleScript. *Use case: Creating and editing Word documents programmatically on macOS. Useful for formatted reports and documents.*
 
-[back to top](#contents)
 
 ## Education
 
 - [Learning Commons](https://www.learningcommons.com) - K-12 standards and skills. *Use case: Curriculum alignment, standards-based assessment, educational content mapping.*
 - [Udemy Business](https://business.udemy.com) - Skill-building resources. *Use case: Employee training, course discovery, learning path management.*
 
-[back to top](#contents)
 
 ## Entertainment
 
@@ -259,7 +245,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Play Sheet Music](https://github.com/cole-c/play-sheet-music-mcp) - Generate and play sheet music. *Use case: Music composition, MIDI playback, music theory exploration.*
 - [Spotify](https://www.spotify.com) - Control Spotify playback. *Use case: Music control, playlist management, listening history.*
 
-[back to top](#contents)
 
 ## Finance and Trading
 
@@ -299,7 +284,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Vendr](https://www.vendr.com) - Software pricing insights. *Use case: SaaS procurement, license negotiation, software spend optimization.*
 - [Zoho Books](https://www.zoho.com/books) - Online accounting and finance operations. *Use case: Invoicing, expense management, bank reconciliation, financial reporting within the Zoho ecosystem.*
 
-[back to top](#contents)
 
 ## Government and Nonprofit
 
@@ -309,7 +293,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [MoSPI](https://mospi.gov.in) - India official statistics. *Use case: Indian economic data, demographic statistics, government datasets.*
 - [Tango](https://www.tango.us) - US Government contracting data. *Use case: Federal procurement research, contract analysis, government sales intelligence.*
 
-[back to top](#contents)
 
 ## Healthcare and Life Sciences
 
@@ -332,21 +315,18 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [PubMed](https://pubmed.ncbi.nlm.nih.gov) - Search biomedical literature. *Use case: Medical literature search, finding clinical evidence, systematic reviews, accessing abstracts and full-text articles via NCBI.*
 - [Synapse.org](https://www.synapse.org) - Access scientific data on Synapse. *Use case: Open science data sharing, collaborative research datasets, challenge platforms.*
 
-[back to top](#contents)
 
 ## Jobs
 
 - [Dice](https://www.dice.com) - Technology-focused job search and career marketplace. *Use case: Finding tech roles, salary benchmarking, tech hiring market data.*
 - [Indeed](https://www.indeed.com) - Job search across all industries and experience levels. *Use case: Job discovery, salary research, employer reviews, hiring market analysis.*
 
-[back to top](#contents)
 
 ## Legal
 
 - [Harvey](https://www.harvey.ai) - Legal queries, vault search, and research. *Use case: Legal research, case law analysis, contract review, document search within Harvey's legal AI platform.*
 - [Midpage Legal Research](https://www.midpage.ai) - Legal research and work product. *Use case: Case law search, legal citation analysis, brief drafting support, jurisdiction-specific research.*
 
-[back to top](#contents)
 
 ## Marketing and Sales
 
@@ -357,7 +337,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [CB Insights](https://www.cbinsights.com) - Predictive intelligence. *Use case: Market research, startup tracking, industry trend analysis, competitive intelligence.*
 - [Clarify](https://www.clarify.ai) - Query CRM and create records. *Use case: CRM data management, contact creation, pipeline tracking.*
 - [Clay](https://www.clay.com) - Find prospects, research, and outreach. *Use case: Lead enrichment, personalized outreach, prospect research automation.*
-- [Close](https://www.close.com) - Close CRM management. *Use case: Sales pipeline management, call tracking, email sequences for inside sales teams.*
+- [Close](https://www.close.com) - Inside sales CRM for calls, emails, and pipeline. *Use case: Sales pipeline management, call tracking, email sequences for inside sales teams.*
 - [Common Room](https://www.commonroom.io) - Community and go-to-market signal detection across social, product, and support channels. *Use case: Identifying high-intent prospects, tracking community engagement, surfacing buying signals.*
 - [Crossbeam](https://www.crossbeam.com) - Partner data and ecosystem intelligence. *Use case: Partner overlap analysis, co-selling opportunities, ecosystem mapping.*
 - [Customer.io](https://customer.io) - Explore customer data. *Use case: Behavioral messaging, customer segmentation, lifecycle email campaigns.*
@@ -377,7 +357,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Zoho CRM](https://www.zoho.com/crm) - CRM pipeline and workflow automation within the Zoho ecosystem. *Use case: Contact management, deal tracking, sales automation, lead scoring.*
 - [ZoomInfo](https://www.zoominfo.com) - Enrich contacts and accounts. *Use case: B2B data enrichment, company intelligence, contact information, sales targeting.*
 
-[back to top](#contents)
 
 ## Observability and Monitoring
 
@@ -390,7 +369,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [PagerDuty](https://www.pagerduty.com) - Incidents and on-call management. *Use case: Incident response, on-call scheduling, alerting workflows.*
 - [Sentry](https://sentry.io) - Error tracking and debugging. *Use case: Monitoring production errors, stack trace analysis, performance monitoring, release health.*
 
-[back to top](#contents)
 
 ## Productivity
 
@@ -405,7 +383,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Notion](https://www.notion.so) - Connect your Notion workspace. *Use case: Knowledge base management, project documentation, wiki search, database queries.*
 - [Read and Write Apple Notes](https://support.apple.com/guide/notes) - Read, write, and organize notes in Apple Notes. *Use case: Quick capture, reading note content, creating structured notes from Claude.*
 
-[back to top](#contents)
 
 ## Project Management
 
@@ -418,28 +395,24 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Smartsheet](https://www.smartsheet.com) - Analyze and manage data. *Use case: Enterprise work management, resource planning, portfolio management.*
 - [Zoho Projects](https://www.zoho.com/projects) - Task and project automation. *Use case: Project management within the Zoho ecosystem, Gantt charts, time tracking.*
 
-[back to top](#contents)
 
 ## Real Estate
 
 - [Yardi Virtuoso](https://www.yardi.com) - Real estate and property management data from Yardi. *Use case: Property management, real estate portfolio analytics, tenant management.*
 
-[back to top](#contents)
 
 ## Research and Academic
 
 - [Scholar Gateway](https://scholargateway.com) - Scholarly research and citation discovery. *Use case: Academic paper search, citation analysis, cross-disciplinary research that spans beyond biomedical literature.*
 
-[back to top](#contents)
 
 ## SAP
 
 - [SAP CAP](https://cap.cloud.sap) - SAP Cloud Application Programming Model. *Use case: Building enterprise apps on SAP Business Technology Platform.*
-- [SAP Fiori](https://www.sap.com/products/technology-platform/fiori.html) - SAP Fiori app development. *Use case: SAP enterprise UX development, Fiori element configuration.*
+- [SAP Fiori](https://www.sap.com/products/technology-platform/fiori.html) - Enterprise UX development for SAP applications. *Use case: SAP enterprise UX development, Fiori element configuration.*
 - [SAP MDK](https://developers.sap.com/topics/mobile-development-kit.html) - SAP Mobile Development Kit. *Use case: Building SAP mobile apps, offline-capable enterprise mobile development.*
 - [SAPUI5](https://sapui5.hana.ondemand.com) - SAP web application development using the SAPUI5 framework. *Use case: SAP web application development using the SAPUI5 framework.*
 
-[back to top](#contents)
 
 ## Security
 
@@ -449,7 +422,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [PanOS MCP](https://www.paloaltonetworks.com) - Palo Alto Networks firewall management. *Use case: Firewall rule management, network security configuration, PAN-OS administration.*
 - [Zscaler](https://www.zscaler.com) - Zero Trust Exchange. *Use case: Zero trust network access, cloud security, secure web gateway management.*
 
-[back to top](#contents)
 
 ## SEO and Web
 
@@ -458,19 +430,17 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Apify MCP server](https://apify.com) - Extract data from any website. *Use case: Web scraping, data extraction, automated content collection at scale.*
 - [Bitly](https://bitly.com) - Link shortening and QR codes. *Use case: Link management, click analytics, branded short URLs, QR code generation.*
 - [Cloudinary](https://cloudinary.com) - Image and video management. *Use case: Media asset optimization, image transformation, CDN delivery.*
-- [Cloudinary Asset Mgmt](https://cloudinary.com) - Digital asset management. *Use case: Media library management, asset organization, DAM workflows.*
+- [Cloudinary Asset Mgmt](https://cloudinary.com/products/digital_asset_management) - Digital asset management. *Use case: Media library management, asset organization, DAM workflows.*
 - [Exa](https://exa.ai) - Neural web search and code documentation search. *Use case: AI-powered web search that understands intent. Describe the ideal page in natural language instead of keywords. Returns clean content ready for LLM use.*
 - [GoDaddy](https://www.godaddy.com) - Domain search and availability. *Use case: Domain registration, DNS management, domain availability checking.*
 - [Local Falcon](https://www.localfalcon.com) - Local search intelligence. *Use case: Local SEO tracking, Google Maps ranking analysis, local search visibility.*
 - [Tavily](https://tavily.com) - Connect AI agents to the web. *Use case: Web search API for AI applications, real-time web data access.*
 
-[back to top](#contents)
 
 ## Ticketing and Events
 
 - [Ticket Tailor](https://www.tickettailor.com) - Event platform for tickets and orders. *Use case: Event ticketing, order management, attendee tracking.*
 
-[back to top](#contents)
 
 ## Travel
 
@@ -481,15 +451,9 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Trivago](https://www.trivago.com) - Hotel price comparison across booking platforms. *Use case: Finding the best hotel rates, comparing properties, travel planning.*
 - [Wyndham](https://www.wyndhamhotels.com) - Discover Wyndham hotels. *Use case: Wyndham property search, loyalty program management, hotel booking.*
 
-[back to top](#contents)
 
 ---
 
-## Contributing
-
-See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
-
-## License
 
 [![CC0](https://licensebuttons.net/p/zero/1.0/88x31.png)](https://creativecommons.org/publicdomain/zero/1.0/)
 
