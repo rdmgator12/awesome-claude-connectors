@@ -182,15 +182,15 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Desktop Automation
 
-- [Android-MCP](https://github.com/nicepkg/visioncraft) - Control Android devices. *Use case: Android app testing, mobile automation workflows, device management.*
-- [Control Chrome](https://github.com/nichochar/open-control-plane#chrome) - Chrome tab and navigation control. *Use case: Browser automation, tab management, web scraping from Chrome.*
-- [Control your Mac](https://github.com/nichochar/open-control-plane#mac) - Execute AppleScript to automate macOS. *Use case: System-level Mac automation, app control, file management via AppleScript.*
+- [Android-MCP](https://github.com/CursorTouch/Android-MCP) - Control Android devices. *Use case: Android app testing, mobile automation workflows, device management.*
+- [Control Chrome](https://chromedevtools.github.io/devtools-protocol/) - Chrome tab and navigation control. *Use case: Browser automation, tab management, web scraping from Chrome.*
+- [Control your Mac](https://support.apple.com/guide/terminal/use-applescript-apd44b0e5b2-3b9b-46de-8bfc-4741be13ef5b) - Execute AppleScript to automate macOS. *Use case: System-level Mac automation, app control, file management via AppleScript.*
 - [Dash](https://kapeli.com/dash) - Search documentation in Dash. *Use case: Quick API reference lookups from the Dash documentation browser on macOS.*
-- [Desktop Commander](https://github.com/nichochar/open-control-plane#commander) - Local machine automation. *Use case: File system operations, process management, system-level tasks.*
-- [macOS](https://github.com/nichochar/open-control-plane#macos) - Lightweight macOS system interaction. *Use case: Basic Mac control, window management, system queries.*
-- [Read and Send iMessages](https://github.com/nichochar/open-control-plane#imessage) - Send and read Apple Messages. *Use case: Messaging automation, reading conversation history, sending quick replies from Claude.*
+- [Desktop Commander](https://claude.com/docs/connectors/directory#desktop-commander) - Local machine automation. *Use case: File system operations, process management, system-level tasks.*
+- [macOS](https://support.apple.com/guide/terminal/use-applescript-apd44b0e5b2-3b9b-46de-8bfc-4741be13ef5bos) - Lightweight macOS system interaction. *Use case: Basic Mac control, window management, system queries.*
+- [Read and Send iMessages](https://claude.com/docs/connectors/directory#imessage) - Send and read Apple Messages. *Use case: Messaging automation, reading conversation history, sending quick replies from Claude.*
 - [Vybit Notifications](https://vybit.net) - Custom push notification routing and alert delivery. *Use case: Custom alert systems, notification routing, event-driven alerts.*
-- [Windows-MCP](https://github.com/nichochar/open-control-plane#windows) - Windows OS automation and system control. *Use case: Windows application automation, file management, system administration tasks.*
+- [Windows-MCP](https://claude.com/docs/connectors/directory#windows) - Windows OS automation and system control. *Use case: Windows application automation, file management, system administration tasks.*
 
 
 ## Development Tools
@@ -201,10 +201,10 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [DevRev](https://devrev.ai) - Company knowledge graph. *Use case: Connecting product, support, and engineering data into a unified graph.*
 - [GrowthBook](https://www.growthbook.io) - Feature flags and experiments. *Use case: A/B testing, gradual rollouts, experiment analysis.*
 - [Kapture](https://kapture.dev) - Browser control via DevTools. *Use case: Browser automation using Chrome DevTools Protocol.*
-- [KARP Inspector](https://github.com/nichochar/karp-inspector) - Semantic codebase search. *Use case: Understanding unfamiliar codebases, finding relevant code by meaning rather than keywords.*
+- [KARP Inspector](https://github.com/souldriver007/karp-inspector-lite) - Semantic codebase search. *Use case: Understanding unfamiliar codebases, finding relevant code by meaning rather than keywords.*
 - [Mailtrap](https://mailtrap.io) - Email testing and templates. *Use case: Testing email delivery, previewing templates, email sandbox for development.*
 - [Microsoft Learn](https://learn.microsoft.com) - Microsoft documentation. *Use case: Azure, .NET, Office, and Windows development documentation.*
-- [pg-aiguide](https://github.com/ruizlabs/pg-aiguide) - PostgreSQL docs and skills. *Use case: PostgreSQL query help, configuration guidance, performance tuning.*
+- [pg-aiguide](https://www.postgresql.org/docs/) - PostgreSQL docs and skills. *Use case: PostgreSQL query help, configuration guidance, performance tuning.*
 - [Port IO](https://www.getport.io) - Developer portal context lake. *Use case: Internal developer platform management, service catalog, developer experience.*
 - [Postman](https://www.postman.com) - API context and collections. *Use case: API testing, documentation, sharing request collections across teams.*
 - [Postman MCP (Minimal)](https://www.postman.com/product/what-is-postman/) - Lightweight API access on Postman. *Use case: Quick API exploration without the full Postman suite.*
@@ -242,7 +242,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 ## Entertainment
 
 - [Melon](https://www.melon.com) - Music charts and data. *Use case: Music industry analytics, charting data, trend tracking.*
-- [Play Sheet Music](https://github.com/cole-c/play-sheet-music-mcp) - Generate and play sheet music. *Use case: Music composition, MIDI playback, music theory exploration.*
+- [Play Sheet Music](https://claude.com/docs/connectors/directory#play-sheet-music) - Generate and play sheet music. *Use case: Music composition, MIDI playback, music theory exploration.*
 - [Spotify](https://www.spotify.com) - Control Spotify playback. *Use case: Music control, playlist management, listening history.*
 
 
@@ -289,7 +289,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 - [Benevity](https://www.benevity.com) - Nonprofit discovery and corporate giving platform. *Use case: Corporate social responsibility programs, donation matching, nonprofit vetting.*
 - [Candid](https://candid.org) - Research nonprofits and funders. *Use case: Grant research, foundation discovery, nonprofit due diligence.*
-- [Granted](https://www.granted.co) - Discover grant opportunities. *Use case: Finding federal, state, and foundation grants. Useful for researchers, nonprofits, and anyone writing grant applications.*
+- [Granted](https://granted.dev) - Discover grant opportunities. *Use case: Finding federal, state, and foundation grants. Useful for researchers, nonprofits, and anyone writing grant applications.*
 - [MoSPI](https://mospi.gov.in) - India official statistics. *Use case: Indian economic data, demographic statistics, government datasets.*
 - [Tango](https://www.tango.us) - US Government contracting data. *Use case: Federal procurement research, contract analysis, government sales intelligence.*
 
