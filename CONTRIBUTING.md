@@ -2,6 +2,8 @@
 
 This list tracks every connector in Anthropic's official Connectors Directory. Contributions welcome.
 
+> This is an independent, community-maintained project. Not affiliated with, endorsed by, or sponsored by Anthropic PBC.
+
 ## What You Can Contribute
 
 ### New Connectors
