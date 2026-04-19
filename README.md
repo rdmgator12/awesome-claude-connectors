@@ -12,20 +12,7 @@ Connectors marked with **`A`** are built and maintained by Anthropic.
 
 This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
----
-
-## Connector of the Week
-
-**Week of April 19, 2026** — [AdisInsight](https://adisinsight.springer.com) *(Healthcare and Life Sciences)*
-
-> Springer Nature's drug, device, and clinical trial intelligence database — 40K+ drugs and 100K+ trials, the kind of specialized pharma pipeline data that big-pharma competitive intelligence teams rely on daily. Signals where the MCP ecosystem is heading: serious vertical knowledge bases becoming agent-accessible, not just another CRM or project tracker. If you do drug development research, translational work, or pharma competitive analysis, this is the connector to wire up first.
-
-<details>
-<summary>Previous picks</summary>
-
-<!-- New entries go at the top. Format: Week of DATE — [Name](url) *(Category)* — one-line rationale. -->
-
-</details>
+**Connector of the Week — April 19, 2026:** **AdisInsight** *(Healthcare and Life Sciences)*. Springer Nature's drug, device, and clinical trial intelligence database — 40K+ drugs and 100K+ trials, the kind of specialized pharma pipeline data that big-pharma competitive intelligence teams rely on daily. Signals where the MCP ecosystem is heading: serious vertical knowledge bases becoming agent-accessible, not just another CRM or project tracker. If you do drug development research, translational work, or pharma competitive analysis, this is the connector to wire up first.
 
 ---
 
