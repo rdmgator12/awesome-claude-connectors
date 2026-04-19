@@ -1,4 +1,4 @@
-# Awesome Claude Connectors [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
+# Awesome List for Claude Connectors [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
 > A comprehensive directory of every connector in Anthropic's official [Claude Connectors Directory](https://www.anthropic.com/partners/mcp) — 299 verified MCP integrations, organized by category with descriptions and use cases.
 
