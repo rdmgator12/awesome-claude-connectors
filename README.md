@@ -15,11 +15,11 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 > This is an independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Anthropic PBC. "Claude" and related marks are the property of Anthropic PBC. Each connector is the property of its respective owner.
 
 > [!TIP]
-> ### Connector of the Week — April 19, 2026
+> ### Connector of the Week — April 25, 2026
 >
-> **AdisInsight** · *Healthcare and Life Sciences*
+> **Ketryx** · *Healthcare and Life Sciences*
 >
-> Springer Nature's drug, device, and clinical trial intelligence database — 40K+ drugs and 100K+ trials, the kind of specialized pharma pipeline data that big-pharma competitive intelligence teams rely on daily. Signals where the MCP ecosystem is heading: serious vertical knowledge bases becoming agent-accessible, not just another CRM or project tracker. If you do drug development research, translational work, or pharma competitive analysis, this is the connector to wire up first.
+> AI-native compliance platform for regulated software development — used by 3 of the top 5 medical device manufacturers. The bottleneck for medical-device software approval has never been the code; it's the FDA paperwork (Design History File, traceability matrix, IEC 62304, 21 CFR Part 11, ISO 13485). Ketryx watches your normal dev tools (Jira, GitHub, GitLab, AWS) and generates the regulatory documentation in the background while engineers keep shipping. When the auditor or FDA submission shows up, the package is already there. Pairs naturally with last week's pick (AdisInsight): one bookend covers drug-pipeline intelligence, the other covers the actual SDLC for software-as-a-medical-device. If you build SaMD/SiMD or any FDA-regulated software, this is the connector that pays for itself the day you wire it up.
 
 ---
 
