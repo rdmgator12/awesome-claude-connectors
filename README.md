@@ -201,11 +201,11 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Control Chrome](https://chromedevtools.github.io/devtools-protocol/) - Chrome tab and navigation control. *Use case: Browser automation, tab management, web scraping from Chrome.*
 - [Control your Mac](https://support.apple.com/guide/terminal/use-applescript-apd44b0e5b2-3b9b-46de-8bfc-4741be13ef5b) - Execute AppleScript to automate macOS. *Use case: System-level Mac automation, app control, file management via AppleScript.*
 - [Dash](https://kapeli.com/dash) - Search documentation in Dash. *Use case: Quick API reference lookups from the Dash documentation browser on macOS.*
-- [Desktop Commander](https://claude.com/docs/connectors/directory#desktop-commander) - Local machine automation. *Use case: File system operations, process management, system-level tasks.*
+- [Desktop Commander](https://github.com/wonderwhy-er/DesktopCommanderMCP) - Local machine automation. *Use case: File system operations, process management, system-level tasks.*
 - [macOS](https://support.apple.com/guide/terminal/use-applescript-apd44b0e5b2-3b9b-46de-8bfc-4741be13ef5bos) - Lightweight macOS system interaction. *Use case: Basic Mac control, window management, system queries.*
-- [Read and Send iMessages](https://claude.com/docs/connectors/directory#imessage) - Send and read Apple Messages. *Use case: Messaging automation, reading conversation history, sending quick replies from Claude.*
+- [Read and Send iMessages](https://claude.com/plugins/imessage) - Send and read Apple Messages. *Use case: Messaging automation, reading conversation history, sending quick replies from Claude.*
 - [Vybit Notifications](https://vybit.net) - Custom push notification routing and alert delivery. *Use case: Custom alert systems, notification routing, event-driven alerts.*
-- [Windows-MCP](https://claude.com/docs/connectors/directory#windows) - Windows OS automation and system control. *Use case: Windows application automation, file management, system administration tasks.*
+- [Windows-MCP](https://github.com/CursorTouch/Windows-MCP) - Windows OS automation and system control. *Use case: Windows application automation, file management, system administration tasks.*
 
 
 ## Development Tools
