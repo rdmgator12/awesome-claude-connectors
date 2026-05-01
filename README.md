@@ -1,8 +1,8 @@
 # Awesome List for Claude Connectors [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A comprehensive directory of every connector in Anthropic's official [Claude Connectors Directory](https://www.anthropic.com/partners/mcp) — 375 verified MCP integrations, organized by category with descriptions and use cases.
+> A comprehensive directory of every connector in Anthropic's official [Claude Connectors Directory](https://www.anthropic.com/partners/mcp) — 343 verified MCP integrations, organized by category with descriptions and use cases.
 
-**Last updated:** May 1, 2026 | **Total connectors:** 375 | **Categories:** 33
+**Last updated:** May 1, 2026 | **Total connectors:** 343 | **Categories:** 32
 
 Claude connectors are verified MCP (Model Context Protocol) servers that extend Claude with real-time access to external tools, data sources, and services. They work across Claude.ai, Claude Desktop, Claude Mobile, and Claude Code. Every connector in the official directory is vetted by Anthropic for security, reliability, and compatibility.
 
