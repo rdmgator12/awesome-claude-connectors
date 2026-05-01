@@ -1,8 +1,8 @@
 # Awesome List for Claude Connectors [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-> A comprehensive directory of every connector in Anthropic's official [Claude Connectors Directory](https://www.anthropic.com/partners/mcp) — 299 verified MCP integrations, organized by category with descriptions and use cases.
+> A comprehensive directory of every connector in Anthropic's official [Claude Connectors Directory](https://www.anthropic.com/partners/mcp) — 375 verified MCP integrations, organized by category with descriptions and use cases.
 
-**Last updated:** April 25, 2026 | **Total connectors:** 355 | **Categories:** 33
+**Last updated:** May 1, 2026 | **Total connectors:** 375 | **Categories:** 33
 
 Claude connectors are verified MCP (Model Context Protocol) servers that extend Claude with real-time access to external tools, data sources, and services. They work across Claude.ai, Claude Desktop, Claude Mobile, and Claude Code. Every connector in the official directory is vetted by Anthropic for security, reliability, and compatibility.
 
@@ -15,11 +15,11 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 > This is an independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Anthropic PBC. "Claude" and related marks are the property of Anthropic PBC. Each connector is the property of its respective owner.
 
 > [!TIP]
-> ### Connector of the Week — April 25, 2026
+> ### Connector of the Week — May 2, 2026
 >
-> **Ketryx** · *Healthcare and Life Sciences*
+> **Scite** · *Research and Academic*
 >
-> AI-native compliance platform for regulated software development — used by 3 of the top 5 medical device manufacturers. The bottleneck for medical-device software approval has never been the code; it's the FDA paperwork (Design History File, traceability matrix, IEC 62304, 21 CFR Part 11, ISO 13485). Ketryx watches your normal dev tools (Jira, GitHub, GitLab, AWS) and generates the regulatory documentation in the background while engineers keep shipping. When the auditor or FDA submission shows up, the package is already there. Pairs naturally with last week's pick (AdisInsight): one bookend covers drug-pipeline intelligence, the other covers the actual SDLC for software-as-a-medical-device. If you build SaMD/SiMD or any FDA-regulated software, this is the connector that pays for itself the day you wire it up.
+> Evidence-based answers grounded in research — and unlike most citation tools, Scite tells you *how* a paper has been cited. Smart Citations classify every citing reference as **supporting**, **contrasting**, or **mentioning** the cited claim, with the surrounding sentence pulled in as context. That distinction is the difference between "this study has 400 citations" and "this study has been directly contradicted 38 times since 2019" — a gap raw citation count quietly hides. For anyone doing clinical reasoning, expert-witness work, systematic reviews, or any research where claim-level evidence weight matters more than vibes-from-the-abstract, this is the connector that catches the studies that have aged badly and the ones that have been replicated. Pairs naturally with Consensus and PubMed: PubMed for primary search, Consensus for AI synthesis, Scite for adversarial citation context. Cross-disciplinary too — not limited to biomedical literature, so it's useful well beyond healthcare.
 
 ---
 
@@ -120,6 +120,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Base44](https://base44.com) - Build and manage Base44 apps. *Use case: Low-code app development on the Base44 platform.*
 - [Natoma](https://natoma.com) - Internal tools and apps. *Use case: Building internal dashboards and admin tools.*
 - [Sanity](https://www.sanity.io) - Manage content in Sanity CMS. *Use case: Headless CMS content management, structured content queries, editorial workflows.*
+- [Shopify](https://www.shopify.com) - Build, manage, and analyze your Shopify store. *Use case: Storefront management, product and inventory queries, order analytics, e-commerce automation.*
 - [Webflow](https://webflow.com) - CMS and site management. *Use case: Visual web development, CMS content management, design-to-production workflows.*
 - [Wix](https://www.wix.com) - Website creation and management on the Wix platform. *Use case: Site building, e-commerce setup, domain management, blog publishing.*
 - [WordPress.com](https://wordpress.com) - Manage WordPress sites. *Use case: Content management, plugin configuration, site administration for WordPress.*
@@ -132,10 +133,13 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Fellow.ai](https://fellow.app) - Chat with your meeting data. *Use case: Querying meeting transcripts, finding action items, reviewing past discussions.*
 - [Fireflies](https://fireflies.ai) - Meeting transcripts and search. *Use case: Searching across all meeting transcripts, extracting decisions and action items.*
 - [Gmail](https://mail.google.com) - Draft replies, summarize threads, and search your inbox. *Use case: Email triage, composing context-aware replies, finding specific conversations, summarizing long threads.*
+- [Grain](https://grain.com) - Turn meetings into insights and next steps. *Use case: Meeting recording, AI-generated highlights, deal-coaching insights, automated CRM updates.*
 - [Granola](https://granola.ai) - AI notepad for meetings. *Use case: Real-time meeting notes with AI enhancement, structured meeting summaries.*
 - [Krisp](https://krisp.ai) - Meeting transcripts. *Use case: Noise-cancelled meeting transcription, speaker identification.*
 - [MeetGeek](https://meetgeek.ai) - Meetings and transcripts. *Use case: Automated meeting recording, transcript search, meeting analytics.*
 - [Minutes](https://minutes.me) - Local-only meeting transcription. *Use case: Privacy-first meeting transcription that processes entirely on-device. No data leaves your machine.*
+- [Otter.ai](https://otter.ai) - Meeting intelligence and transcription. *Use case: Live meeting notes, searchable transcripts, automatic summaries and action items across Zoom/Meet/Teams.*
+- [Quo](https://www.quo.com) - Business phone with call insights and transcripts. *Use case: Pulling call transcripts, surfacing missed-opportunity patterns from voice/SMS, querying voicemail history.*
 - [Slack](https://slack.com) - Send messages, create canvases, and fetch data from Slack. *Use case: Team communication, searching channel history, posting updates, creating collaborative documents.*
 - [Superhuman Mail](https://superhuman.com) - Drive your email and calendar from Claude. *Use case: Inbox triage at speed, AI-drafted replies in personal voice, calendar coordination, follow-up automation.*
 - [Zoom for Claude](https://zoom.us) - Search, recap, and act on Zoom meetings. *Use case: Meeting recaps, finding key moments in recordings, extracting action items from Zoom calls.*
@@ -181,15 +185,20 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Design and Creative
 
+- [Autodesk Fusion](https://www.autodesk.com/products/fusion-360) - Create, modify, and inspect CAD geometry in Fusion. *Use case: Parametric CAD modeling, mechanical part design, engineering geometry inspection.*
 - [B12 Website Generator](https://www.b12.io) - Create websites with AI. *Use case: Rapid website prototyping, small business site generation.*
+- [Blender](https://www.blender.org) - Natural language interface to Blender's Python API and docs. *Use case: 3D modeling automation, scene scripting, animation workflows controlled by natural language.*
 - [Canva](https://www.canva.com) - Create, autofill, and export designs. *Use case: Quick graphics, social media posts, presentation slides, brand-consistent visual content.*
 - [Excalidraw](https://excalidraw.com) - Interactive hand-drawn style diagrams. *Use case: Whiteboarding, architecture sketches, informal diagrams that feel approachable.*
 - [Figma](https://www.figma.com) - Generate diagrams and code from Figma designs. *Use case: Design-to-code workflows, inspecting Figma files, extracting design tokens.*
 - [Gamma](https://gamma.app) - AI-powered presentations, docs, and webpages. *Use case: Rapid presentation generation, visual document creation, landing pages.*
+- [Lens Studio](https://ar.snap.com/lens-studio) - Build, debug, and generate Lenses for Snapchat and Spectacles. *Use case: AR Lens development, asset and effect generation, Snap Spectacles content creation.*
 - [Lucid](https://lucid.co) - Ideation and diagramming. *Use case: Flowcharts, org charts, process maps, collaborative visual planning.*
 - [Magic Patterns](https://www.magicpatterns.com) - AI-powered UI pattern exploration and component prototyping. *Use case: UI pattern exploration, design iteration, component prototyping.*
 - [Mermaid Chart](https://www.mermaidchart.com) - Validate Mermaid syntax and render SVG diagrams. *Use case: Architecture diagrams, sequence diagrams, flowcharts rendered from code. Clean SVG output for docs and papers.*
 - [Miro](https://miro.com) - Collaborative online whiteboard for teams. *Use case: Mind mapping, workshop facilitation, brainstorming, visual project planning.*
+- [Resolume Arena](https://resolume.com/software/avmixer) - Control Resolume Arena VJ software. *Use case: Live visual performance, video mixing, projection mapping driven by natural language.*
+- [Resolume Wire](https://resolume.com/wire) - Control Resolume Wire node-based effects. *Use case: Building real-time visual effects, generative graphics patches, VJ effect chains.*
 - [Sketch](https://www.sketch.com) - Explore designs in Sketch. *Use case: Inspecting Sketch files, extracting assets, reviewing design specs on macOS.*
 - [Three.js 3D Viewer](https://threejs.org) - Interactive 3D scenes. *Use case: 3D visualization, WebGL prototyping, rendering 3D models.*
 - [tldraw](https://www.tldraw.com) - Sketch, draw, and diagram. *Use case: Quick sketching, informal diagrams, lightweight whiteboarding.*
@@ -211,6 +220,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 ## Development Tools
 
 - [Atlassian Rovo](https://www.atlassian.com/rovo) - Access Jira and Confluence. *Use case: Issue tracking, searching wiki documentation, project management within the Atlassian ecosystem.*
+- [Autodesk Product Help](https://help.autodesk.com) - Securely access Autodesk product documentation. *Use case: Looking up AutoCAD/Revit/Maya/Fusion docs, troubleshooting Autodesk software, in-context help retrieval.*
 - [Clerk](https://clerk.com) - Authentication and billing management. *Use case: User management, auth configuration, billing setup for web applications.*
 - [Context7](https://context7.com) - Up-to-date documentation for libraries, frameworks, and SDKs. *Use case: Getting current API docs instead of relying on training data. Essential for coding against any library that updates frequently.*
 - [DevRev](https://devrev.ai) - Company knowledge graph. *Use case: Connecting product, support, and engineering data into a unified graph.*
@@ -225,6 +235,9 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Port IO](https://www.getport.io) - Developer portal context lake. *Use case: Internal developer platform management, service catalog, developer experience.*
 - [Postman](https://www.postman.com) - API context and collections. *Use case: API testing, documentation, sharing request collections across teams.*
 - [Postman MCP (Minimal)](https://www.postman.com/product/what-is-postman/) - Lightweight API access on Postman. *Use case: Quick API exploration without the full Postman suite.*
+- [Qase Test Management](https://qase.io) - Manage test cases, runs, plans, and suites. *Use case: QA test management, test plan automation, run tracking and reporting for engineering teams.*
+- [React Aria](https://react-spectrum.adobe.com/react-aria) - Accessible React UI primitives from Adobe. *Use case: Building keyboard- and screen-reader-accessible components, custom design systems on top of WAI-ARIA-compliant hooks.*
+- [React Spectrum (S2)](https://react-spectrum.adobe.com) - Adobe's React Spectrum component library. *Use case: Building apps on Adobe's design system, themed UI development, accessible component composition.*
 - [Shadcn UI](https://ui.shadcn.com) - shadcn/ui component source and demos. *Use case: Browsing component implementations, copying component code, exploring the shadcn/ui library.*
 - [Socket](https://socket.dev) - Dependency security scanning. *Use case: Checking npm/PyPI packages for supply chain risks, vulnerability detection.*
 - [Stytch](https://stytch.com) - Authentication management. *Use case: Passwordless auth, OAuth, session management for web apps.*
@@ -245,6 +258,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [PDF Tools](https://github.com/anthropics/anthropic-quickstarts#pdf-tools) **`A`** - Fill, analyze, and extract from local PDFs. *Use case: PDF form filling, data extraction, local PDF processing without uploading.*
 - [PDF Viewer](https://github.com/anthropics/anthropic-quickstarts#pdf-viewer) **`A`** - Render PDFs from URLs. *Use case: Quick preview of PDFs from arxiv.org and other URL-based sources.*
 - [PowerPoint (By Anthropic)](https://github.com/anthropics/anthropic-quickstarts#powerpoint) **`A`** - Control PowerPoint with AppleScript. *Use case: Creating and modifying presentations programmatically on macOS.*
+- [Send](https://www.send.co) - Create shareable documents, one-pagers, and decks. *Use case: Turning conversations into tracked, shareable web documents with view analytics — no re-sharing required when content updates.*
 - [SignNow](https://www.signnow.com) - Automate e-signatures. *Use case: Bulk signature requests, document workflow automation.*
 - [SignWell](https://www.signwell.com) - E-signature workflows. *Use case: Simple document signing, tracking signature completion.*
 - [Word (By Anthropic)](https://github.com/anthropics/anthropic-quickstarts#word) **`A`** - Control Microsoft Word with AppleScript. *Use case: Creating and editing Word documents programmatically on macOS. Useful for formatted reports and documents.*
@@ -258,6 +272,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Entertainment
 
+- [Ableton Knowledge](https://www.ableton.com) - Ask Claude about Ableton products. *Use case: Music production help, Ableton Live and Push reference lookups, workflow guidance for producers.*
 - [Audible](https://www.audible.com) - Audiobook recommendations and library access. *Use case: Discovering new audiobooks, managing listening queue, exploring genres and series.*
 - [Melon](https://www.melon.com) - Music charts and data. *Use case: Music industry analytics, charting data, trend tracking.*
 - [Play Sheet Music](https://claude.com/docs/connectors/directory#play-sheet-music) - Generate and play sheet music. *Use case: Music composition, MIDI playback, music theory exploration.*
@@ -309,6 +324,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [TurboTax](https://turbotax.intuit.com) - Consumer tax preparation and refund estimation. *Use case: Tax filing assistance, deduction identification, refund estimation.*
 - [Tropic](https://www.tropicapp.io) - SaaS procurement and contract negotiation intelligence. *Use case: Software spend benchmarking, renewal negotiation, vendor contract management.*
 - [Vendr](https://www.vendr.com) - Software pricing insights. *Use case: SaaS procurement, license negotiation, software spend optimization.*
+- [Xero](https://www.xero.com) - Cloud accounting for small business. *Use case: Bank reconciliation, invoicing, expense tracking, financial reporting from your Xero ledger.*
 - [Zoho Books](https://www.zoho.com/books) - Online accounting and finance operations. *Use case: Invoicing, expense management, bank reconciliation, financial reporting within the Zoho ecosystem.*
 
 
@@ -433,6 +449,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Noteplan](https://noteplan.co) - Markdown-based planning and daily notes for macOS. *Use case: Markdown-based planning, daily notes, task management integrated with calendar.*
 - [Notion](https://www.notion.so) - Connect your Notion workspace. *Use case: Knowledge base management, project documentation, wiki search, database queries.*
 - [Read and Write Apple Notes](https://support.apple.com/guide/notes) - Read, write, and organize notes in Apple Notes. *Use case: Quick capture, reading note content, creating structured notes from Claude.*
+- [SurveyMonkey](https://www.surveymonkey.com) - Design surveys, collect responses, and analyze results. *Use case: Survey design, distribution, response analysis, quantitative research workflows.*
 
 
 ## Project Management
@@ -455,6 +472,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 ## Research and Academic
 
 - [Scholar Gateway](https://scholargateway.com) - Scholarly research and citation discovery. *Use case: Academic paper search, citation analysis, cross-disciplinary research that spans beyond biomedical literature.*
+- [Scite](https://scite.ai) - Evidence-based answers grounded in research. *Use case: Smart citations showing whether papers support or contrast a claim, AI-assisted literature review, citation context analysis.*
 
 
 ## SAP
@@ -470,8 +488,10 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Conviso](https://www.convisoappsec.com) - Application security metrics. *Use case: AppSec posture management, vulnerability tracking, security program metrics.*
 - [DataGrail](https://www.datagrail.io) - Agentic data privacy orchestration. *Use case: DSR fulfillment, privacy impact assessments, PII discovery across SaaS stacks, AI governance.*
 - [Defense.com](https://www.defense.com) - Cybersecurity threat intelligence and monitoring. *Use case: Attack surface management, threat detection, vulnerability prioritization.*
+- [Malwarebytes](https://www.malwarebytes.com) - Check links, phone numbers, and emails for scams. *Use case: On-demand scam detection for suspicious URLs and contacts, phishing triage, consumer-grade threat checks.*
 - [Miggo](https://www.miggo.io) - Vulnerability and findings management. *Use case: Security finding triage, vulnerability management, risk assessment.*
 - [PanOS MCP](https://www.paloaltonetworks.com) - Palo Alto Networks firewall management. *Use case: Firewall rule management, network security configuration, PAN-OS administration.*
+- [Rapid7 Bulk Export](https://www.rapid7.com) - Bulk export of Rapid7 vulnerability and exposure data. *Use case: Pulling InsightVM/InsightAppSec findings into reports, bulk asset and vulnerability data analysis.*
 - [Zscaler](https://www.zscaler.com) - Zero Trust Exchange. *Use case: Zero trust network access, cloud security, secure web gateway management.*
 
 
