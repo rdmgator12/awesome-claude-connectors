@@ -197,8 +197,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Magic Patterns](https://www.magicpatterns.com) - AI-powered UI pattern exploration and component prototyping. *Use case: UI pattern exploration, design iteration, component prototyping.*
 - [Mermaid Chart](https://www.mermaidchart.com) - Validate Mermaid syntax and render SVG diagrams. *Use case: Architecture diagrams, sequence diagrams, flowcharts rendered from code. Clean SVG output for docs and papers.*
 - [Miro](https://miro.com) - Collaborative online whiteboard for teams. *Use case: Mind mapping, workshop facilitation, brainstorming, visual project planning.*
-- [Resolume Arena](https://resolume.com/software/avmixer) - Control Resolume Arena VJ software. *Use case: Live visual performance, video mixing, projection mapping driven by natural language.*
-- [Resolume Wire](https://resolume.com/wire) - Control Resolume Wire node-based effects. *Use case: Building real-time visual effects, generative graphics patches, VJ effect chains.*
+- [Resolume Arena](https://www.resolume.com/software/avenue-arena) - Control Resolume Arena VJ software. *Use case: Live visual performance, video mixing, projection mapping driven by natural language.*
+- [Resolume Wire](https://resolume.com/software/wire) - Control Resolume Wire node-based effects. *Use case: Building real-time visual effects, generative graphics patches, VJ effect chains.*
 - [Sketch](https://www.sketch.com) - Explore designs in Sketch. *Use case: Inspecting Sketch files, extracting assets, reviewing design specs on macOS.*
 - [Three.js 3D Viewer](https://threejs.org) - Interactive 3D scenes. *Use case: 3D visualization, WebGL prototyping, rendering 3D models.*
 - [tldraw](https://www.tldraw.com) - Sketch, draw, and diagram. *Use case: Quick sketching, informal diagrams, lightweight whiteboarding.*
@@ -236,7 +236,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Postman](https://www.postman.com) - API context and collections. *Use case: API testing, documentation, sharing request collections across teams.*
 - [Postman MCP (Minimal)](https://www.postman.com/product/what-is-postman/) - Lightweight API access on Postman. *Use case: Quick API exploration without the full Postman suite.*
 - [Qase Test Management](https://qase.io) - Manage test cases, runs, plans, and suites. *Use case: QA test management, test plan automation, run tracking and reporting for engineering teams.*
-- [React Aria](https://react-spectrum.adobe.com/react-aria) - Accessible React UI primitives from Adobe. *Use case: Building keyboard- and screen-reader-accessible components, custom design systems on top of WAI-ARIA-compliant hooks.*
+- [React Aria](https://react-spectrum.adobe.com/react-aria/) - Accessible React UI primitives from Adobe. *Use case: Building keyboard- and screen-reader-accessible components, custom design systems on top of WAI-ARIA-compliant hooks.*
 - [React Spectrum (S2)](https://react-spectrum.adobe.com) - Adobe's React Spectrum component library. *Use case: Building apps on Adobe's design system, themed UI development, accessible component composition.*
 - [Shadcn UI](https://ui.shadcn.com) - shadcn/ui component source and demos. *Use case: Browsing component implementations, copying component code, exploring the shadcn/ui library.*
 - [Socket](https://socket.dev) - Dependency security scanning. *Use case: Checking npm/PyPI packages for supply chain risks, vulnerability detection.*
@@ -266,7 +266,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Education
 
-- [Learning Commons](https://www.learningcommons.com) - K-12 standards and skills. *Use case: Curriculum alignment, standards-based assessment, educational content mapping.*
+- [Learning Commons](https://learningcommons.org) - K-12 standards and skills. *Use case: Curriculum alignment, standards-based assessment, educational content mapping.*
 - [Udemy Business](https://business.udemy.com) - Skill-building resources. *Use case: Employee training, course discovery, learning path management.*
 
 
@@ -299,7 +299,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [GoCardless](https://gocardless.com) - Bank-to-bank payment collection and recurring direct debit API. *Use case: Recurring billing, subscription payments, open banking payment initiation.*
 - [Gusto](https://gusto.com) - Payroll, benefits, and HR for small businesses. *Use case: Running payroll, managing benefits, onboarding employees, tax filing automation.*
 - [ICE Data Services](https://www.ice.com/fixed-income-data-services) - U.S. fixed income trade and reference data. *Use case: Bond pricing, fixed income trade analysis, reference data for institutional fixed income desks.*
-- [Jaz Accounting](https://www.jazaccounting.com) - Full accounting platform. *Use case: Bookkeeping, financial reporting, invoice management.*
+- [Jaz Accounting](https://jaz.ai) - Full accounting platform. *Use case: Bookkeeping, financial reporting, invoice management.*
 - [LSEG](https://www.lseg.com) - Data across asset classes. *Use case: Institutional market data, fixed income, derivatives, ESG data from London Stock Exchange Group.*
 - [LunarCrush](https://lunarcrush.com) - Social media data for markets. *Use case: Social sentiment analysis for crypto and stocks, trending asset detection.*
 - [Massive Market Data](https://massive.com) - Stocks, options, and indices via Massive.com. *Use case: Real-time and historical market data, options chains, backtesting data feeds.*
@@ -417,7 +417,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Pendo](https://www.pendo.io) - Product and user insights. *Use case: Product analytics, in-app guidance, user onboarding, feature adoption tracking.*
 - [Sprouts Data Intelligence](https://sproutsai.com) - Query to qualified lead. *Use case: Lead qualification, data enrichment, sales intelligence.*
 - [Sybill](https://www.sybill.ai) - Sales calls and pipeline intelligence. *Use case: AI meeting summaries, behavioral analysis of sales calls, pipeline updates.*
-- [Vibe Prospecting](https://www.vibe.co) - Company and contact data. *Use case: B2B prospecting, company information, contact discovery.*
+- [Vibe Prospecting](https://www.vibeprospecting.ai) - Company and contact data. *Use case: B2B prospecting, company information, contact discovery.*
 - [Zoho CRM](https://www.zoho.com/crm) - CRM pipeline and workflow automation within the Zoho ecosystem. *Use case: Contact management, deal tracking, sales automation, lead scoring.*
 - [ZoomInfo](https://www.zoominfo.com) - Enrich contacts and accounts. *Use case: B2B data enrichment, company intelligence, contact information, sales targeting.*
 
@@ -458,7 +458,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [ClickUp](https://clickup.com) - All-in-one project and task management platform. *Use case: Team task tracking, time management, document collaboration, sprint planning.*
 - [Linear](https://linear.app) - Issues, projects, and team workflows. *Use case: Software development project tracking, issue management, sprint planning. Popular with engineering teams.*
 - [monday.com](https://monday.com) - Projects, boards, and workflows. *Use case: Visual project management, cross-team workflows, custom automations.*
-- [Pathmode](https://www.pathmode.com) - Strategic context and dependency graphs. *Use case: Strategic planning, dependency visualization, project prioritization.*
+- [Pathmode](https://pathmode.io) - Strategic context and dependency graphs. *Use case: Strategic planning, dependency visualization, project prioritization.*
 - [Process Street](https://www.process.st) - Process and workflow data. *Use case: Standard operating procedures, recurring workflow management, compliance checklists.*
 - [Smartsheet](https://www.smartsheet.com) - Analyze and manage data. *Use case: Enterprise work management, resource planning, portfolio management.*
 - [Zoho Projects](https://www.zoho.com/projects) - Task and project automation. *Use case: Project management within the Zoho ecosystem, Gantt charts, time tracking.*
