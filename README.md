@@ -17,7 +17,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 > [!TIP]
 > ### Connector of the Week — May 2, 2026
 >
-> **[Scite](https://scite.ai)** · *Research and Academic*
+> **[Scite](https://scite.ai/features)** · *Research and Academic*
 >
 > Evidence-based answers grounded in research — and unlike most citation tools, Scite tells you *how* a paper has been cited. Smart Citations classify every citing reference as **supporting**, **contrasting**, or **mentioning** the cited claim, with the surrounding sentence pulled in as context. That distinction is the difference between "this study has 400 citations" and "this study has been directly contradicted 38 times since 2019" — a gap raw citation count quietly hides. For anyone doing clinical reasoning, expert-witness work, systematic reviews, or any research where claim-level evidence weight matters more than vibes-from-the-abstract, this is the connector that catches the studies that have aged badly and the ones that have been replicated. Pairs naturally with Consensus and PubMed: PubMed for primary search, Consensus for AI synthesis, Scite for adversarial citation context. Cross-disciplinary too — not limited to biomedical literature, so it's useful well beyond healthcare.
 
