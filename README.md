@@ -1,8 +1,12 @@
 # Awesome List for Claude Connectors [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+<p align="center">
+  <img src="media/banner.svg" alt="Awesome Claude Connectors" width="800">
+</p>
+
 > A comprehensive directory of every connector in Anthropic's official [Claude Connectors Directory](https://www.anthropic.com/partners/mcp) — 343 verified MCP integrations, organized by category with descriptions and use cases.
 
-**Last updated:** May 1, 2026 | **Total connectors:** 343 | **Categories:** 32
+**Last updated:** May 1, 2026 | **Total connectors:** 343 | **Categories:** 30
 
 Claude connectors are verified MCP (Model Context Protocol) servers that extend Claude with real-time access to external tools, data sources, and services. They work across Claude.ai, Claude Desktop, Claude Mobile, and Claude Code. Every connector in the official directory is vetted by Anthropic for security, reliability, and compatibility.
 
@@ -27,7 +31,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 - [AI and ML](#ai-and-ml)
 - [Automation and Integration](#automation-and-integration)
-- [Blockchain](#blockchain)
 - [Calendar and Scheduling](#calendar-and-scheduling)
 - [Cloud and Infrastructure](#cloud-and-infrastructure)
 - [CMS and Web Building](#cms-and-web-building)
@@ -50,7 +53,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Observability and Monitoring](#observability-and-monitoring)
 - [Productivity](#productivity)
 - [Project Management](#project-management)
-- [Real Estate](#real-estate)
 - [Research and Academic](#research-and-academic)
 - [SAP](#sap)
 - [Security](#security)
@@ -82,12 +84,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Tines](https://www.tines.com) - Deploy and manage automation servers. *Use case: Security orchestration, workflow automation for SecOps.*
 - [Workato](https://www.workato.com) - Automate and connect apps. *Use case: Enterprise integration, workflow automation across business systems.*
 - [Zapier](https://zapier.com) - Automate workflows across apps. *Use case: No-code automation, connecting 6000+ apps with trigger-based workflows.*
-
-
-## Blockchain
-
-- [BlockchainQuery](https://www.blockchainquery.com) - Blockchain data across 60+ networks. *Use case: Querying on-chain data, analyzing transaction history, monitoring wallet activity across multiple chains.*
-- [Blockscout](https://www.blockscout.com) - Analyze Blockchain data with a block explorer. *Use case: Smart contract verification, transaction tracing, token analytics.*
 
 
 ## Calendar and Scheduling
@@ -162,6 +158,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Amplitude](https://amplitude.com) - Search and get product analytics insights. *Use case: Understanding user behavior, funnel analysis, retention metrics, A/B test results.*
 - [Aura](https://aura.co) - Company and workforce analytics. *Use case: HR analytics, workforce planning, organizational insights.*
 - [BigQuery](https://cloud.google.com/bigquery) - Analytical insights from Google BigQuery. *Use case: Large-scale data analysis, SQL queries against data warehouses, business intelligence.*
+- [BlockchainQuery](https://www.blockchainquery.com) - Blockchain data across 60+ networks. *Use case: Querying on-chain data, analyzing transaction history, monitoring wallet activity across multiple chains.*
+- [Blockscout](https://www.blockscout.com) - Analyze Blockchain data with a block explorer. *Use case: Smart contract verification, transaction tracing, token analytics.*
 - [CKAN](https://ckan.org) - Access open data portals. *Use case: Querying government and public datasets, open data exploration for research.*
 - [Contentsquare](https://contentsquare.com) - Digital experience analytics and session replay. *Use case: Understanding user behavior across web and mobile, identifying UX friction, conversion optimization.*
 - [Coupler.io](https://www.coupler.io) - Pull data from hundreds of sources. *Use case: Cross-platform data aggregation, building dashboards from multiple SaaS tools.*
@@ -451,6 +449,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Notion](https://www.notion.so) - Connect your Notion workspace. *Use case: Knowledge base management, project documentation, wiki search, database queries.*
 - [Read and Write Apple Notes](https://support.apple.com/guide/notes) - Read, write, and organize notes in Apple Notes. *Use case: Quick capture, reading note content, creating structured notes from Claude.*
 - [SurveyMonkey](https://www.surveymonkey.com) - Design surveys, collect responses, and analyze results. *Use case: Survey design, distribution, response analysis, quantitative research workflows.*
+- [Yardi Virtuoso](https://www.yardi.com) - Real estate and property management data from Yardi. *Use case: Property management, real estate portfolio analytics, tenant management.*
 
 
 ## Project Management
@@ -463,11 +462,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Process Street](https://www.process.st) - Process and workflow data. *Use case: Standard operating procedures, recurring workflow management, compliance checklists.*
 - [Smartsheet](https://www.smartsheet.com) - Analyze and manage data. *Use case: Enterprise work management, resource planning, portfolio management.*
 - [Zoho Projects](https://www.zoho.com/projects) - Task and project automation. *Use case: Project management within the Zoho ecosystem, Gantt charts, time tracking.*
-
-
-## Real Estate
-
-- [Yardi Virtuoso](https://www.yardi.com) - Real estate and property management data from Yardi. *Use case: Property management, real estate portfolio analytics, tenant management.*
 
 
 ## Research and Academic
