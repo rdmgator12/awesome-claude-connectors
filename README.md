@@ -57,6 +57,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [SEO and Web](#seo-and-web)
 - [Ticketing and Events](#ticketing-and-events)
 - [Travel](#travel)
+- [Related](#related)
 
 ---
 
@@ -529,6 +530,13 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Uber](https://www.uber.com) - Ride pricing and ETA estimates for any ride option. *Use case: Comparing ride options, trip cost estimation, transportation planning.*
 - [Viator](https://www.viator.com) - Tours, activities, and travel experiences worldwide. *Use case: Booking travel experiences, day tours, multi-day itineraries, attraction tickets.*
 - [Wyndham](https://www.wyndhamhotels.com) - Discover Wyndham hotels. *Use case: Wyndham property search, loyalty program management, hotel booking.*
+
+
+## Related
+
+- [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - Model Context Protocol servers powering many of the connectors above.
+- [awesome-chatgpt-apps](https://github.com/rdmgator12/Chtgpt-Apps-Awesome-List) - Companion list cataloging apps in the ChatGPT directory.
+- [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - LLM-powered applications across providers.
 
 
 ---
