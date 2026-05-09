@@ -306,8 +306,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [CoinDesk](https://data.coindesk.com) - Institutional-grade crypto market and on-chain data. *Use case: Real-time and historical prices across 300+ exchanges, derivatives data, on-chain metrics for Bitcoin/Ethereum, indices and reference data.*
 - [Credit Karma](https://www.creditkarma.com) - Credit score insights. *Use case: Personal credit monitoring, financial health assessment.*
 - [Crypto.com](https://crypto.com) - Cryptocurrency trading. *Use case: Crypto portfolio management, trading, market data.*
-- [Daloopa](https://www.daloopa.com) - Financial KPIs from public filings. *Use case: Fundamental analysis, extracting KPIs from 10-Ks and 10-Qs.*
 - [D&B Risk Analytics](https://www.dnb.com/products/dnb-supplier-intelligence.html) - Supplier intelligence and third-party risk monitoring from the Dun & Bradstreet Data Cloud. *Use case: Supplier screening, ongoing risk monitoring, compliance reporting, supply-chain due diligence powered by the commercial graph.*
+- [Daloopa](https://www.daloopa.com) - Financial KPIs from public filings. *Use case: Fundamental analysis, extracting KPIs from 10-Ks and 10-Qs.*
 - [Digits](https://digits.com) - Real-time bookkeeping and financial intelligence for small businesses. *Use case: Automated transaction categorization, cash-flow forecasting, expense analysis, AI-assisted accounting.*
 - [Era Context](https://era.app/context) - Personal finance MCP server connecting bank, card, and investment accounts. *Use case: Asking Claude about real balances, spending patterns, recurring charges; automating money movement; cross-agent memory across MCP-compatible AI clients.*
 - [FactSet](https://www.factset.com) - Institutional financial data. *Use case: Enterprise-grade market data, quantitative analysis, portfolio analytics.*
@@ -339,8 +339,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [S&P Global](https://www.spglobal.com) - Query financial datasets. *Use case: Market intelligence, credit ratings, commodity data, institutional research.*
 - [Square](https://squareup.com) - Transaction and payment data. *Use case: POS data, payment analytics, merchant services management.*
 - [Stripe](https://stripe.com) - Payment processing infrastructure. *Use case: Payment management, subscription billing, revenue analytics, checkout configuration.*
-- [TurboTax](https://turbotax.intuit.com) - Consumer tax preparation and refund estimation. *Use case: Tax filing assistance, deduction identification, refund estimation.*
 - [Tropic](https://www.tropicapp.io) - SaaS procurement and contract negotiation intelligence. *Use case: Software spend benchmarking, renewal negotiation, vendor contract management.*
+- [TurboTax](https://turbotax.intuit.com) - Consumer tax preparation and refund estimation. *Use case: Tax filing assistance, deduction identification, refund estimation.*
 - [Vendr](https://www.vendr.com) - Software pricing insights. *Use case: SaaS procurement, license negotiation, software spend optimization.*
 - [Verisk Underwriting Intelligence](https://www.verisk.com/resources/verisk-underwriting-intelligence/) - ISO loss costs, indications, and experience-trend data for P&C insurers. *Use case: Plain-language queries against actuarial filings, indication-driver analysis, loss-cost trend research for underwriting and pricing teams.*
 - [Verisk XactRestore](https://www.verisk.com/products/xactrestore/) - Natural-language restoration job estimating. *Use case: Building water-mitigation and remediation estimates with restoration-specific pricing, project tracking, Xactimate integration for restoration contractors.*
@@ -352,8 +352,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 - [Benevity](https://www.benevity.com) - Nonprofit discovery and corporate giving platform. *Use case: Corporate social responsibility programs, donation matching, nonprofit vetting.*
 - [Candid](https://candid.org) - Research nonprofits and funders. *Use case: Grant research, foundation discovery, nonprofit due diligence.*
-- [Granted](https://granted.dev) - Discover grant opportunities. *Use case: Finding federal, state, and foundation grants. Useful for researchers, nonprofits, and anyone writing grant applications.*
 - [GovTribe](https://govtribe.com) - Federal procurement, awards, and spending intelligence. *Use case: Government contract discovery, competitive intelligence, agency spending analysis, capture management.*
+- [Granted](https://granted.dev) - Discover grant opportunities. *Use case: Finding federal, state, and foundation grants. Useful for researchers, nonprofits, and anyone writing grant applications.*
 - [Kindora](https://www.kindora.co) - AI funder discovery for nonprofits. *Use case: Matching mission-aligned funders, grant prospecting, personalized funder outreach for fundraising teams.*
 - [MoSPI](https://mospi.gov.in) - India official statistics. *Use case: Indian economic data, demographic statistics, government datasets.*
 - [Tango](https://www.tango.us) - US Government contracting data. *Use case: Federal procurement research, contract analysis, government sales intelligence.*
@@ -464,8 +464,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 - [Airtable](https://www.airtable.com) - Structured data in Claude. *Use case: Database-spreadsheet hybrid, project tracking, content calendars, inventory management.*
 - [Craft](https://www.craft.do) - Notes and second brain. *Use case: Linked note-taking, document creation, knowledge management on Apple devices.*
-- [Drafts](https://getdrafts.com) - Access Drafts on macOS. *Use case: Quick text capture, processing notes into actions, markdown drafting.*
 - [Dovetail](https://dovetail.com) - Customer feedback and research repository. *Use case: User research synthesis, customer interview analysis, feedback theming and decision tracking.*
+- [Drafts](https://getdrafts.com) - Access Drafts on macOS. *Use case: Quick text capture, processing notes into actions, markdown drafting.*
 - [Glean](https://www.glean.com) - Enterprise context and search. *Use case: Searching across all company knowledge sources, finding internal information.*
 - [Goodnotes](https://www.goodnotes.com) - AI insights from documents. *Use case: Handwritten note analysis, document search, study note management.*
 - [Jotform](https://www.jotform.com) - Online form builder and submission management. *Use case: Custom form creation, collecting payments and registrations, routing submissions to downstream tools.*
