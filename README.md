@@ -4,9 +4,9 @@
   <img src="media/banner.svg" alt="Awesome Claude Connectors" width="800">
 </p>
 
-> A comprehensive directory of every connector in Anthropic's official [Claude Connectors Directory](https://www.anthropic.com/partners/mcp) — 375 verified MCP integrations, organized by category with descriptions and use cases.
+> A comprehensive directory of every connector in Anthropic's official [Claude Connectors Directory](https://www.anthropic.com/partners/mcp) — 398 verified MCP integrations, organized by category with descriptions and use cases.
 
-**Last updated:** May 9, 2026 | **Total connectors:** 375 | **Categories:** 30
+**Last updated:** May 15, 2026 | **Total connectors:** 398 | **Categories:** 30
 
 Claude connectors are verified MCP (Model Context Protocol) servers that extend Claude with real-time access to external tools, data sources, and services. They work across Claude.ai, Claude Desktop, Claude Mobile, and Claude Code. Every connector in the official directory is vetted by Anthropic for security, reliability, and compatibility.
 
@@ -19,11 +19,11 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 > This is an independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Anthropic PBC. "Claude" and related marks are the property of Anthropic PBC. Each connector is the property of its respective owner.
 
 > [!TIP]
-> ### Connector of the Week — May 9, 2026
+> ### Connector of the Week — May 15, 2026
 >
-> **[Synthesize Bio](https://web.synthesize.bio/)** · *Healthcare and Life Sciences*
+> **[CoCounsel Legal](https://cocounsel.thomsonreuters.com)** · *Legal*
 >
-> Generative genomics — predict gene expression in human tissues from a natural-language experiment description, before anyone runs a single wet lab assay. The GEM-1 foundation model is trained on the largest annotated, normalized RNA-seq corpus ever assembled, which is the load-bearing detail: predictions are grounded in real human biology rather than mouse models stretched into clinical relevance. For drug discovery, that means simulating off-target effects across human tissue types before committing to a candidate. For trial design, it means stratifying patient subpopulations by predicted response and identifying biomarkers before enrolling a single patient. For translational medicine, it means closing the preclinical-to-human gap that breaks most pipelines at Phase 2. Pairs naturally with Open Targets for target validation and Clinical Trials for downstream design — one connector that lets you ask "what would this drug do to this tissue?" and get a lab-quality answer rather than a guess.
+> This week's wave brings sixteen new Legal connectors — the biggest single-category expansion in this list's history — and CoCounsel Legal is the load-bearing arrival. Thomson Reuters' flagship legal-AI product now sits inside Claude with the Westlaw corpus underneath it: case law, statutes, regulations, secondary sources, and the editorial layer (KeyCite, headnotes, jurisdictional weight) that turns raw caselaw into actionable research. The significance isn't "another legal-search tool" — it's that the citation-graph backbone most U.S. litigation has run on for forty years is now an MCP endpoint. For trial attorneys, that means brief drafting where every cite is pre-validated for treatment and good-law status. For in-house counsel, contract review against a real obligation library instead of pattern-matched clauses. For litigators preparing depositions, fact-pattern search across millions of decisions with editorial weighting that surfaces controlling authority first. Pairs naturally with CourtListener for open dockets and PACER, Trellis for trial-court analytics, Relativity and Everlaw for the eDiscovery side, and Midpage for jurisdiction-specific drafting — together these turn Claude into a real legal workstation, not a legal-tech demo. If you're a working attorney, this is the connector that changes what's actually possible.
 
 ---
 
@@ -66,7 +66,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 ## AI and ML
 
 - [Cloudglue](https://cloudglue.dev) - Video analysis and processing. *Use case: Extracting insights from video content, automated video summarization.*
-- [ElevenLabs Agents](https://elevenlabs.io/conversational-ai) - Build conversational AI agents with voice. *Use case: Voice-enabled AI assistants, phone agents, voice-first applications.*
+- [ElevenLabs Agents MCP App](https://elevenlabs.io/conversational-ai) - Build conversational AI agents with voice. *Use case: Voice-enabled AI assistants, phone agents, voice-first applications.*
 - [ElevenLabs Player](https://elevenlabs.io/text-to-speech) - Audio generation and playback. *Use case: Text-to-speech, audio content creation, voiceover generation.*
 - [Hugging Face](https://huggingface.co) - Access Hugging Face Hub models and Gradio apps. *Use case: Model exploration, running inference on hosted models, discovering pretrained models for ML workflows.*
 - [Owkin](https://owkin.com) - AI agents for biology. *Use case: Biological research, computational biology workflows, drug discovery.*
@@ -80,7 +80,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Jentic](https://jentic.com) - Universal tool access. *Use case: Connecting to APIs without writing integration code.*
 - [Make](https://www.make.com) - Run automation scenarios. *Use case: Visual workflow automation, connecting apps without code.*
 - [n8n](https://n8n.io) - Run automation workflows. *Use case: Self-hosted workflow automation, open-source alternative to Zapier.*
-- [PlayMCP](https://playmcp.com) - Run PlayMCP servers. *Use case: Testing and running MCP server configurations.*
+- [PlayMCP](https://playmcp.kakao.com) - Kakao MCP gateway and toolbox. *Use case: Browsing Kakao-registered MCP servers, bundling up to 10 into a personal toolbox, and routing through a single OAuth2 gateway endpoint.*
 - [Tines](https://www.tines.com) - Deploy and manage automation servers. *Use case: Security orchestration, workflow automation for SecOps.*
 - [Tray.ai](https://tray.ai) - AI orchestration platform with iPaaS, agent builder, and 700+ connectors. *Use case: Enterprise integration with built-in governance, MCP tool policies via Agent Gateway, embedded automation across business apps.*
 - [Workato](https://www.workato.com) - Automate and connect apps. *Use case: Enterprise integration, workflow automation across business systems.*
@@ -97,14 +97,14 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Cloud and Infrastructure
 
-- [AWS API MCP](https://aws.amazon.com) - Manage AWS resources. *Use case: Cloud infrastructure management, querying AWS services, deployment automation.*
+- [AWS API MCP Server](https://aws.amazon.com) - Manage AWS resources. *Use case: Cloud infrastructure management, querying AWS services, deployment automation.*
 - [AWS Marketplace](https://aws.amazon.com/marketplace) - Browse cloud solutions. *Use case: Discovering SaaS tools and infrastructure components on AWS.*
 - [Azure MCP Server](https://learn.microsoft.com/en-us/azure/developer/azure-mcp-server/) - Manage Azure resources via natural language. *Use case: Querying storage accounts, running KQL against databases, deploying with Entra ID auth and RBAC scoping.*
-- [Cloudflare](https://www.cloudflare.com) - Compute, storage, and AI on Cloudflare. *Use case: Edge deployment, Workers management, CDN configuration, AI inference at the edge.*
+- [Cloudflare Developer Platform](https://www.cloudflare.com) - Compute, storage, and AI on Cloudflare. *Use case: Edge deployment, Workers management, CDN configuration, AI inference at the edge.*
 - [Databricks](https://www.databricks.com) - Unity Catalog and Mosaic AI. *Use case: Data engineering, ML model management, lakehouse analytics.*
 - [Dremio Cloud](https://www.dremio.com) - Access lakehouse data. *Use case: Querying data lakes, federated SQL across multiple data sources.*
-- [GCE](https://cloud.google.com/compute) - Google Compute Engine management. *Use case: Managing GCP virtual machines, instance configuration, cloud compute workflows.*
-- [Kubernetes](https://kubernetes.io) - Container orchestration cluster management via kubectl. *Use case: Cluster management, pod debugging, deployment automation.*
+- [Google Compute Engine](https://cloud.google.com/compute) - GCP virtual machine management and provisioning. *Use case: Managing GCP virtual machines, instance configuration, cloud compute workflows.*
+- [Kubernetes MCP Server](https://kubernetes.io) - Container orchestration cluster management via kubectl. *Use case: Cluster management, pod debugging, deployment automation.*
 - [MotherDuck](https://motherduck.com) - DuckDB in the cloud. *Use case: Serverless analytical queries, local-first data analysis that scales to cloud.*
 - [Netlify](https://www.netlify.com) - Create, deploy, and manage websites. *Use case: Static site deployment, serverless functions, CI/CD for web projects.*
 - [PlanetScale](https://planetscale.com) - Managed PostgreSQL and MySQL. *Use case: Database branching, schema management, serverless database operations.*
@@ -136,7 +136,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Granola](https://granola.ai) - AI notepad for meetings. *Use case: Real-time meeting notes with AI enhancement, structured meeting summaries.*
 - [Krisp](https://krisp.ai) - Meeting transcripts. *Use case: Noise-cancelled meeting transcription, speaker identification.*
 - [MeetGeek](https://meetgeek.ai) - Meetings and transcripts. *Use case: Automated meeting recording, transcript search, meeting analytics.*
-- [Minutes](https://minutes.me) - Local-only meeting transcription. *Use case: Privacy-first meeting transcription that processes entirely on-device. No data leaves your machine.*
+- [Minutes — Meeting Memory for AI](https://minutes.me) - Local-only meeting transcription. *Use case: Privacy-first meeting transcription that processes entirely on-device. No data leaves your machine.*
 - [Otter.ai](https://otter.ai) - Meeting intelligence and transcription. *Use case: Live meeting notes, searchable transcripts, automatic summaries and action items across Zoom/Meet/Teams.*
 - [Quo](https://www.quo.com) - Business phone with call insights and transcripts. *Use case: Pulling call transcripts, surfacing missed-opportunity patterns from voice/SMS, querying voicemail history.*
 - [Slack](https://slack.com) - Send messages, create canvases, and fetch data from Slack. *Use case: Team communication, searching channel history, posting updates, creating collaborative documents.*
@@ -160,17 +160,18 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 - [Amplitude](https://amplitude.com) - Search and get product analytics insights. *Use case: Understanding user behavior, funnel analysis, retention metrics, A/B test results.*
 - [Aura](https://aura.co) - Company and workforce analytics. *Use case: HR analytics, workforce planning, organizational insights.*
-- [BigQuery](https://cloud.google.com/bigquery) - Analytical insights from Google BigQuery. *Use case: Large-scale data analysis, SQL queries against data warehouses, business intelligence.*
 - [BlockchainQuery](https://www.blockchainquery.com) - Blockchain data across 60+ networks. *Use case: Querying on-chain data, analyzing transaction history, monitoring wallet activity across multiple chains.*
 - [Blockscout](https://www.blockscout.com) - Analyze Blockchain data with a block explorer. *Use case: Smart contract verification, transaction tracing, token analytics.*
-- [CKAN](https://ckan.org) - Access open data portals. *Use case: Querying government and public datasets, open data exploration for research.*
+- [CKAN MCP Server](https://ckan.org) - Access open data portals. *Use case: Querying government and public datasets, open data exploration for research.*
 - [Contentsquare](https://contentsquare.com) - Digital experience analytics and session replay. *Use case: Understanding user behavior across web and mobile, identifying UX friction, conversion optimization.*
 - [Coupler.io](https://www.coupler.io) - Pull data from hundreds of sources. *Use case: Cross-platform data aggregation, building dashboards from multiple SaaS tools.*
-- [Enterpret Wisdom](https://www.enterpret.com) - Unified customer feedback analysis. *Use case: Aggregating feedback from multiple channels, identifying product themes and trends.*
+- [Enterpret](https://www.enterpret.com) - Unified customer feedback analysis. *Use case: Aggregating feedback from multiple channels, identifying product themes and trends.*
+- [Google Cloud BigQuery](https://cloud.google.com/bigquery) - Analytical insights from Google BigQuery. *Use case: Large-scale data analysis, SQL queries against data warehouses, business intelligence.*
 - [Hex](https://hex.tech) - Answer questions with Hex notebooks. *Use case: Data science workflows, querying databases via notebooks, sharing analytical results.*
 - [Metabase](https://www.metabase.com) - Analytics and dashboards. *Use case: Business intelligence, SQL-free data exploration, embedded analytics.*
 - [Microsoft Clarity](https://clarity.microsoft.com) - Session replays and heatmaps. *Use case: Understanding how users interact with your website, identifying UX friction points.*
 - [Mixpanel](https://mixpanel.com) - Analyze and query product data. *Use case: Event-based analytics, cohort analysis, engagement tracking.*
+- [Monte Carlo](https://www.montecarlodata.com) - Data and AI observability. *Use case: Detecting data freshness, schema, volume, and quality incidents across warehouses, lakes, and ML pipelines.*
 - [Omni Analytics](https://omni.co) - Query data via natural language. *Use case: Asking business questions in plain English against your data warehouse.*
 - [Orion by Gravity](https://www.bygravity.com) - Autonomous AI analyst for your data stack. *Use case: Proactive data monitoring, automated insight generation, Looker and warehouse analysis delivered to Slack.*
 - [Pigment](https://www.gopigment.com) - Analyze business planning data. *Use case: Financial planning, revenue forecasting, scenario modeling.*
@@ -181,8 +182,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Similarweb](https://www.similarweb.com) - Web, mobile app, and market data. *Use case: Competitive analysis, traffic estimation, market research.*
 - [Snowflake](https://www.snowflake.com) - Structured and unstructured data. *Use case: Data warehousing, cross-cloud analytics, data sharing.*
 - [Stats Compass](https://statscompass.com) - Data science tools for loading, visualization, and ML. *Use case: Statistical analysis, data visualization, running ML models within Claude.*
-- [Supermetrics](https://supermetrics.com) - Marketing performance data. *Use case: Aggregating marketing metrics across ad platforms, reporting automation.*
-- [Tableau](https://www.tableau.com) - Data visualization and business intelligence dashboards. *Use case: Interactive analytics, visual data exploration, cross-source reporting, dashboard publishing.*
+- [Supermetrics Marketing Analytics](https://supermetrics.com) - Marketing performance data. *Use case: Aggregating marketing metrics across ad platforms, reporting automation.*
+- [Tableau MCP Server](https://www.tableau.com) - Data visualization and business intelligence dashboards. *Use case: Interactive analytics, visual data exploration, cross-source reporting, dashboard publishing.*
 - [Visier](https://www.visier.com) - People and productivity insights. *Use case: Workforce analytics, talent planning, organizational health metrics.*
 - [Windsor.ai](https://windsor.ai) - Connect 325+ marketing data sources. *Use case: Marketing attribution, cross-channel performance analysis.*
 - [Zocks](https://www.zocks.ai) - Analyze client conversations. *Use case: Financial advisor conversation analysis, compliance review, client insight extraction.*
@@ -204,9 +205,9 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Magic Patterns](https://www.magicpatterns.com) - AI-powered UI pattern exploration and component prototyping. *Use case: UI pattern exploration, design iteration, component prototyping.*
 - [Mermaid Chart](https://www.mermaidchart.com) - Validate Mermaid syntax and render SVG diagrams. *Use case: Architecture diagrams, sequence diagrams, flowcharts rendered from code. Clean SVG output for docs and papers.*
 - [Miro](https://miro.com) - Collaborative online whiteboard for teams. *Use case: Mind mapping, workshop facilitation, brainstorming, visual project planning.*
-- [OpenSTAAD](https://www.bentley.com/software/staad-pro/) - Bentley STAAD.Pro structural analysis via the OpenSTAAD API. *Use case: Programmatic access to STAAD.Pro models, finite-element analysis automation, structural design integration with custom apps.*
-- [Resolume Arena](https://www.resolume.com/software/avenue-arena) - Control Resolume Arena VJ software. *Use case: Live visual performance, video mixing, projection mapping driven by natural language.*
-- [Resolume Wire](https://resolume.com/software/wire) - Control Resolume Wire node-based effects. *Use case: Building real-time visual effects, generative graphics patches, VJ effect chains.*
+- [OpenSTAAD MCP Server](https://www.bentley.com/software/staad-pro/) - Bentley STAAD.Pro structural analysis via the OpenSTAAD API. *Use case: Programmatic access to STAAD.Pro models, finite-element analysis automation, structural design integration with custom apps.*
+- [Resolume Arena MCP Server](https://www.resolume.com/software/avenue-arena) - Control Resolume Arena VJ software. *Use case: Live visual performance, video mixing, projection mapping driven by natural language.*
+- [Resolume Wire MCP Server](https://resolume.com/software/wire) - Control Resolume Wire node-based effects. *Use case: Building real-time visual effects, generative graphics patches, VJ effect chains.*
 - [Sketch](https://www.sketch.com) - Explore designs in Sketch. *Use case: Inspecting Sketch files, extracting assets, reviewing design specs on macOS.*
 - [Three.js 3D Viewer](https://threejs.org) - Interactive 3D scenes. *Use case: 3D visualization, WebGL prototyping, rendering 3D models.*
 - [tldraw](https://www.tldraw.com) - Sketch, draw, and diagram. *Use case: Quick sketching, informal diagrams, lightweight whiteboarding.*
@@ -233,25 +234,24 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Clerk](https://clerk.com) - Authentication and billing management. *Use case: User management, auth configuration, billing setup for web applications.*
 - [Context7](https://context7.com) - Up-to-date documentation for libraries, frameworks, and SDKs. *Use case: Getting current API docs instead of relying on training data. Essential for coding against any library that updates frequently.*
 - [DevRev](https://devrev.ai) - Company knowledge graph. *Use case: Connecting product, support, and engineering data into a unified graph.*
-- [GitLab](https://about.gitlab.com) - Code hosting, CI/CD, and DevOps platform. *Use case: Source control, pipeline management, issue tracking, merge request workflows for software teams.*
 - [GraphOS MCP Tools](https://www.apollographql.com) - Apollo GraphQL documentation and best practices. *Use case: GraphQL schema design guidance, Apollo Connectors specification lookup, agentic GraphQL development.*
 - [GrowthBook](https://www.growthbook.io) - Feature flags and experiments. *Use case: A/B testing, gradual rollouts, experiment analysis.*
-- [Harness](https://www.harness.io) - AI-native CI/CD, deployment, and feature management platform. *Use case: Pipeline orchestration, AI-verified rollbacks, GitOps for multi-cloud deployments, feature-flag-driven release control.*
-- [Kapture](https://kapture.dev) - Browser control via DevTools. *Use case: Browser automation using Chrome DevTools Protocol.*
-- [KARP Inspector](https://github.com/souldriver007/karp-inspector-lite) - Semantic codebase search. *Use case: Understanding unfamiliar codebases, finding relevant code by meaning rather than keywords.*
+- [Harness MCP Server](https://www.harness.io) - AI-native CI/CD, deployment, and feature management platform. *Use case: Pipeline orchestration, AI-verified rollbacks, GitOps for multi-cloud deployments, feature-flag-driven release control.*
+- [Kapture Browser Automation](https://kapture.dev) - Browser control via DevTools. *Use case: Browser automation using Chrome DevTools Protocol.*
+- [KARP Inspector Lite](https://github.com/souldriver007/karp-inspector-lite) - Semantic codebase search. *Use case: Understanding unfamiliar codebases, finding relevant code by meaning rather than keywords.*
 - [Mailtrap](https://mailtrap.io) - Email testing and templates. *Use case: Testing email delivery, previewing templates, email sandbox for development.*
 - [Microsoft Learn](https://learn.microsoft.com) - Microsoft documentation. *Use case: Azure, .NET, Office, and Windows development documentation.*
+- [Mintlify](https://mintlify.com) - Search, read, and edit your documentation. *Use case: Editing developer docs in-place, surfacing the right page for a coding task, keeping API references in sync with code.*
 - [pg-aiguide](https://www.postgresql.org/docs/) - PostgreSQL docs and skills. *Use case: PostgreSQL query help, configuration guidance, performance tuning.*
 - [Port IO](https://www.getport.io) - Developer portal context lake. *Use case: Internal developer platform management, service catalog, developer experience.*
 - [Postman](https://www.postman.com) - API context and collections. *Use case: API testing, documentation, sharing request collections across teams.*
-- [Postman MCP (Minimal)](https://www.postman.com/product/what-is-postman/) - Lightweight API access on Postman. *Use case: Quick API exploration without the full Postman suite.*
 - [Qase Test Management](https://qase.io) - Manage test cases, runs, plans, and suites. *Use case: QA test management, test plan automation, run tracking and reporting for engineering teams.*
 - [React Aria](https://react-spectrum.adobe.com/react-aria/) - Accessible React UI primitives from Adobe. *Use case: Building keyboard- and screen-reader-accessible components, custom design systems on top of WAI-ARIA-compliant hooks.*
 - [React Spectrum (S2)](https://react-spectrum.adobe.com) - Adobe's React Spectrum component library. *Use case: Building apps on Adobe's design system, themed UI development, accessible component composition.*
 - [Shadcn UI](https://ui.shadcn.com) - shadcn/ui component source and demos. *Use case: Browsing component implementations, copying component code, exploring the shadcn/ui library.*
 - [Socket](https://socket.dev) - Dependency security scanning. *Use case: Checking npm/PyPI packages for supply chain risks, vulnerability detection.*
 - [Stytch](https://stytch.com) - Authentication management. *Use case: Passwordless auth, OAuth, session management for web apps.*
-- [Tomba](https://tomba.io) - Professional email address discovery and verification. *Use case: Finding work emails for outreach, domain-based contact search, email deliverability verification.*
+- [Tomba MCP Server](https://tomba.io) - Professional email address discovery and verification. *Use case: Finding work emails for outreach, domain-based contact search, email deliverability verification.*
 
 
 ## Documents and Files
@@ -264,10 +264,13 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Egnyte](https://www.egnyte.com) - Access Egnyte content. *Use case: Enterprise file sharing, content governance, hybrid cloud storage management.*
 - [Filesystem](https://github.com/modelcontextprotocol/servers) - Local filesystem read and write. *Use case: File management, reading and writing files on your machine. Note: Claude Code has this built in.*
 - [Google Drive](https://drive.google.com) - Find and analyze files in Drive. *Use case: Searching Google Drive, summarizing documents, cross-referencing files.*
+- [iManage Work](https://imanage.com) - Governed knowledge management for law firms and professional services. *Use case: Matter-centric document and email management, version control, ethical-wall enforcement, AI-ready knowledge retrieval.*
 - [Lumin](https://www.luminpdf.com) - Documents, signatures, and Markdown-to-PDF conversion. *Use case: PDF annotation, e-signatures, converting Markdown to formatted PDFs.*
+- [NetDocuments](https://www.netdocuments.com) - Securely access your documents in NetDocuments. *Use case: Cloud DMS for law firms and regulated industries — matter-scoped document search, version control, and governance.*
 - [Nutrient DWS](https://www.nutrient.io/api/processor-api/) - Hosted document processing — generation, conversion, OCR, redaction, signatures. *Use case: HTML/Office-to-PDF conversion, AI redaction at scale, PDF form filling, watermarking, archive-grade PDF/A workflows.*
-- [PDF (By Anthropic)](https://github.com/anthropics/anthropic-quickstarts) **`A`** - Read and interact with PDFs. *Use case: Extracting text from PDFs, answering questions about PDF content.*
-- [PDF Tools](https://github.com/anthropics/anthropic-quickstarts#pdf-tools) **`A`** - Fill, analyze, and extract from local PDFs. *Use case: PDF form filling, data extraction, local PDF processing without uploading.*
+- [PandaDoc](https://www.pandadoc.com) - Create, send, sign, and track documents. *Use case: Proposal and quote generation, e-signature workflows, document analytics across the sales lifecycle.*
+- [PDF Tools - View, Fill, Merge, Split, Manage Pages, Extract](https://github.com/anthropics/anthropic-quickstarts#pdf-tools) **`A`** - Fill, analyze, and extract from local PDFs. *Use case: PDF form filling, data extraction, local PDF processing without uploading.*
+- [pdf-viewer](https://github.com/anthropics/anthropic-quickstarts) **`A`** - Read and interact with PDFs. *Use case: Extracting text from PDFs, answering questions about PDF content.*
 - [PDF Viewer](https://github.com/anthropics/anthropic-quickstarts#pdf-viewer) **`A`** - Render PDFs from URLs. *Use case: Quick preview of PDFs from arxiv.org and other URL-based sources.*
 - [PowerPoint (By Anthropic)](https://github.com/anthropics/anthropic-quickstarts#powerpoint) **`A`** - Control PowerPoint with AppleScript. *Use case: Creating and modifying presentations programmatically on macOS.*
 - [Send](https://www.send.co) - Create shareable documents, one-pagers, and decks. *Use case: Turning conversations into tracked, shareable web documents with view analytics — no re-sharing required when content updates.*
@@ -278,7 +281,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Education
 
-- [Learning Commons](https://learningcommons.org) - K-12 standards and skills. *Use case: Curriculum alignment, standards-based assessment, educational content mapping.*
+- [Learning Commons Knowledge Graph](https://learningcommons.org) - K-12 standards and skills. *Use case: Curriculum alignment, standards-based assessment, educational content mapping.*
 - [Udemy Business](https://business.udemy.com) - Skill-building resources. *Use case: Employee training, course discovery, learning path management.*
 
 
@@ -295,43 +298,46 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 ## Finance and Trading
 
 - [Aiera](https://www.aiera.com) - Financial events, filings, and publications. *Use case: Earnings call analysis, SEC filing search, financial event monitoring.*
-- [Airwallex](https://www.airwallex.com) - Global payment platform. *Use case: Cross-border payments, multi-currency accounts, payment processing.*
-- [Aiwyn Tax](https://aiwyn.ai) - Tax estimation and analysis. *Use case: Tax planning, estimation workflows, accounting firm automation.*
+- [Airwallex Developer](https://www.airwallex.com) - Global payment platform. *Use case: Cross-border payments, multi-currency accounts, payment processing.*
+- [Aiwyn Tax (formerly Column Tax)](https://aiwyn.ai) - Tax estimation and analysis. *Use case: Tax planning, estimation workflows, accounting firm automation.*
 - [Bigdata.com](https://bigdata.com) - Real-time financial data. *Use case: Market data feeds, stock screening, financial research.*
 - [Brex](https://www.brex.com) - Corporate card management and spend automation. *Use case: Expense tracking, corporate card controls, receipt management, budget monitoring.*
 - [Campfire](https://campfire.ai) - AI-native ERP and accounting platform. *Use case: General ledger automation, revenue recognition, close management for high-growth finance teams.*
+- [Carta](https://carta.com) - Connected ERP for private capital. *Use case: Cap-table management, 409A valuations, fund administration, and LP reporting for private companies and funds.*
 - [Cash App](https://cash.app) - Personal finance, payments, and merchant discovery. *Use case: Send and receive money, discover local merchants and food spots, track spending.*
 - [Chronograph](https://www.chronograph.pe) - Private market data. *Use case: Private equity analytics, fund performance tracking.*
 - [Clarity AI](https://clarity.ai) - Sustainability data and SFDR fund classification. *Use case: ESG reporting, SFDR 2.0 fund categorization, sustainable investment disclosures.*
 - [CoinDesk](https://data.coindesk.com) - Institutional-grade crypto market and on-chain data. *Use case: Real-time and historical prices across 300+ exchanges, derivatives data, on-chain metrics for Bitcoin/Ethereum, indices and reference data.*
-- [Credit Karma](https://www.creditkarma.com) - Credit score insights. *Use case: Personal credit monitoring, financial health assessment.*
 - [Crypto.com](https://crypto.com) - Cryptocurrency trading. *Use case: Crypto portfolio management, trading, market data.*
-- [D&B Risk Analytics](https://www.dnb.com/products/dnb-supplier-intelligence.html) - Supplier intelligence and third-party risk monitoring from the Dun & Bradstreet Data Cloud. *Use case: Supplier screening, ongoing risk monitoring, compliance reporting, supply-chain due diligence powered by the commercial graph.*
 - [Daloopa](https://www.daloopa.com) - Financial KPIs from public filings. *Use case: Fundamental analysis, extracting KPIs from 10-Ks and 10-Qs.*
+- [D&B Risk Analytics](https://www.dnb.com/products/dnb-supplier-intelligence.html) - Supplier intelligence and third-party risk monitoring from the Dun & Bradstreet Data Cloud. *Use case: Supplier screening, ongoing risk monitoring, compliance reporting, supply-chain due diligence powered by the commercial graph.*
 - [Digits](https://digits.com) - Real-time bookkeeping and financial intelligence for small businesses. *Use case: Automated transaction categorization, cash-flow forecasting, expense analysis, AI-assisted accounting.*
 - [Era Context](https://era.app/context) - Personal finance MCP server connecting bank, card, and investment accounts. *Use case: Asking Claude about real balances, spending patterns, recurring charges; automating money movement; cross-agent memory across MCP-compatible AI clients.*
-- [FactSet](https://www.factset.com) - Institutional financial data. *Use case: Enterprise-grade market data, quantitative analysis, portfolio analytics.*
+- [FactSet AI-Ready Data](https://www.factset.com) - Institutional financial data. *Use case: Enterprise-grade market data, quantitative analysis, portfolio analytics.*
 - [Fiscal.ai](https://fiscal.ai) - Clean public equity fundamental data. *Use case: Stock fundamentals, financial statement analysis, equity research.*
 - [FMP](https://financialmodelingprep.com) - Financial Modeling Prep real-time and historical financial datasets. *Use case: 30+ years of fundamentals, real-time quotes via REST and WebSocket, earnings transcripts, insider and congressional ownership data.*
 - [GoCardless](https://gocardless.com) - Bank-to-bank payment collection and recurring direct debit API. *Use case: Recurring billing, subscription payments, open banking payment initiation.*
 - [Gusto](https://gusto.com) - Payroll, benefits, and HR for small businesses. *Use case: Running payroll, managing benefits, onboarding employees, tax filing automation.*
 - [IBISWorld](https://www.ibisworld.com) - Industry intelligence and structured market data on 50,000+ industries. *Use case: Industry benchmarking, market sizing, five-year forecasts, competitive landscape research grounded in human-verified data.*
 - [ICE Data Services](https://www.ice.com/fixed-income-data-services) - U.S. fixed income trade and reference data. *Use case: Bond pricing, fixed income trade analysis, reference data for institutional fixed income desks.*
+- [Intuit Credit Karma](https://www.creditkarma.com) - Credit score insights. *Use case: Personal credit monitoring, financial health assessment.*
+- [Intuit QuickBooks](https://quickbooks.intuit.com) - Small business accounting, invoicing, and financial reporting. *Use case: Bookkeeping, expense categorization, invoice management, tax preparation.*
+- [Intuit TurboTax](https://turbotax.intuit.com) - Consumer tax preparation and refund estimation. *Use case: Tax filing assistance, deduction identification, refund estimation.*
 - [Jaz Accounting](https://jaz.ai) - Full accounting platform. *Use case: Bookkeeping, financial reporting, invoice management.*
 - [LSEG](https://www.lseg.com) - Data across asset classes. *Use case: Institutional market data, fixed income, derivatives, ESG data from London Stock Exchange Group.*
 - [LunarCrush](https://lunarcrush.com) - Social media data for markets. *Use case: Social sentiment analysis for crypto and stocks, trending asset detection.*
 - [Massive Market Data](https://massive.com) - Stocks, options, and indices via Massive.com. *Use case: Real-time and historical market data, options chains, backtesting data feeds.*
 - [Mercury](https://mercury.com) - Banking and finances on Mercury. *Use case: Startup banking, transaction management, financial operations for Mercury customers.*
-- [Moodys](https://www.moodys.com) - Credit risk analytics and economic forecasting. *Use case: Fixed income analysis, credit risk assessment, economic scenario modeling.*
+- [Moody's](https://www.moodys.com) - Credit risk analytics and economic forecasting. *Use case: Fixed income analysis, credit risk assessment, economic scenario modeling.*
 - [Morningstar](https://www.morningstar.com) - Investment insights. *Use case: Fund analysis, stock ratings, portfolio research for individual and institutional investors.*
 - [MSCI](https://www.msci.com) - Data-to-insight platform. *Use case: ESG ratings, factor models, risk analytics for institutional investors.*
 - [MT Newswires](https://www.mtnewswires.com) - Real-time global financial news. *Use case: Breaking financial news, market-moving event detection, news-based trading signals.*
 - [NetSuite](https://www.netsuite.com) - Access NetSuite data. *Use case: ERP data, financial reporting, inventory management within Oracle NetSuite.*
 - [PayPal](https://www.paypal.com) - Payment processing and transaction history. *Use case: Transaction management, payment tracking, dispute monitoring, financial reporting.*
-- [PitchBook](https://pitchbook.com) - Private market data. *Use case: Venture capital research, startup valuations, M&A data, fundraising intelligence.*
-- [Plaid](https://plaid.com) - Financial data integration. *Use case: Bank account linking, transaction data, identity verification for fintech apps.*
+- [PitchBook Premium](https://pitchbook.com) - Private market data. *Use case: Venture capital research, startup valuations, M&A data, fundraising intelligence.*
+- [Plaid Developer Tools](https://plaid.com) - Financial data integration. *Use case: Bank account linking, transaction data, identity verification for fintech apps.*
+- [Privacy.com](https://privacy.com) - Manage virtual cards and track spending patterns. *Use case: Generating burner virtual cards per merchant, capping merchant spend, monitoring subscription leakage and unauthorized charges.*
 - [Quartr](https://quartr.com) - Earnings call transcripts and investor presentation research. *Use case: Fundamental analysis, listening to management commentary, tracking company guidance.*
-- [QuickBooks](https://quickbooks.intuit.com) - Small business accounting, invoicing, and financial reporting. *Use case: Bookkeeping, expense categorization, invoice management, tax preparation.*
 - [Ramp](https://ramp.com) - Financial data from Ramp. *Use case: Corporate spend management, expense tracking, vendor management.*
 - [Razorpay](https://razorpay.com) - Payment processing and subscription management for Indian markets. *Use case: Online payment collection, recurring billing, payment analytics.*
 - [Revolut X](https://www.revolut.com/revolut-x/) - Advanced crypto exchange with low fees. *Use case: Crypto trading, market and limit orders, backtesting, portfolio management for active traders.*
@@ -340,8 +346,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Square](https://squareup.com) - Transaction and payment data. *Use case: POS data, payment analytics, merchant services management.*
 - [Stripe](https://stripe.com) - Payment processing infrastructure. *Use case: Payment management, subscription billing, revenue analytics, checkout configuration.*
 - [Tropic](https://www.tropicapp.io) - SaaS procurement and contract negotiation intelligence. *Use case: Software spend benchmarking, renewal negotiation, vendor contract management.*
-- [TurboTax](https://turbotax.intuit.com) - Consumer tax preparation and refund estimation. *Use case: Tax filing assistance, deduction identification, refund estimation.*
-- [Vendr](https://www.vendr.com) - Software pricing insights. *Use case: SaaS procurement, license negotiation, software spend optimization.*
+- [Vendr Software Pricing Tools](https://www.vendr.com) - Software pricing insights. *Use case: SaaS procurement, license negotiation, software spend optimization.*
 - [Verisk Underwriting Intelligence](https://www.verisk.com/resources/verisk-underwriting-intelligence/) - ISO loss costs, indications, and experience-trend data for P&C insurers. *Use case: Plain-language queries against actuarial filings, indication-driver analysis, loss-cost trend research for underwriting and pricing teams.*
 - [Verisk XactRestore](https://www.verisk.com/products/xactrestore/) - Natural-language restoration job estimating. *Use case: Building water-mitigation and remediation estimates with restoration-specific pricing, project tracking, Xactimate integration for restoration contractors.*
 - [Xero](https://www.xero.com) - Cloud accounting for small business. *Use case: Bank reconciliation, invoicing, expense tracking, financial reporting from your Xero ledger.*
@@ -354,8 +359,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Candid](https://candid.org) - Research nonprofits and funders. *Use case: Grant research, foundation discovery, nonprofit due diligence.*
 - [GovTribe](https://govtribe.com) - Federal procurement, awards, and spending intelligence. *Use case: Government contract discovery, competitive intelligence, agency spending analysis, capture management.*
 - [Granted](https://granted.dev) - Discover grant opportunities. *Use case: Finding federal, state, and foundation grants. Useful for researchers, nonprofits, and anyone writing grant applications.*
-- [Kindora](https://www.kindora.co) - AI funder discovery for nonprofits. *Use case: Matching mission-aligned funders, grant prospecting, personalized funder outreach for fundraising teams.*
-- [MoSPI](https://mospi.gov.in) - India official statistics. *Use case: Indian economic data, demographic statistics, government datasets.*
+- [Kindora Funder Discovery](https://www.kindora.co) - AI funder discovery for nonprofits. *Use case: Matching mission-aligned funders, grant prospecting, personalized funder outreach for fundraising teams.*
+- [MoSPI](https://www.mospi.gov.in) - India official statistics. *Use case: Indian economic data, demographic statistics, government datasets.*
 - [Tango](https://www.tango.us) - US Government contracting data. *Use case: Federal procurement research, contract analysis, government sales intelligence.*
 
 
@@ -378,8 +383,9 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Medidata](https://www.medidata.com) - Clinical trial software. *Use case: Clinical trial data management, EDC systems, regulatory compliance in trials.*
 - [NPI Registry](https://npiregistry.cms.hhs.gov) - US National Provider Identifier lookup. *Use case: Provider verification, referral workflows, healthcare directory lookups, credentialing.*
 - [Open Targets](https://www.opentargets.org) - Drug target discovery. *Use case: Target identification, disease-gene associations, drug repurposing research.*
-- [PopHIVE Public Health](https://www.pophive.org) - Public health dashboards. *Use case: Epidemiological data, population health metrics, public health surveillance.*
+- [PopHIVE Public Health Data](https://www.pophive.org) - Public health dashboards. *Use case: Epidemiological data, population health metrics, public health surveillance.*
 - [PubMed](https://pubmed.ncbi.nlm.nih.gov) - Search biomedical literature. *Use case: Medical literature search, finding clinical evidence, systematic reviews, accessing abstracts and full-text articles via NCBI.*
+- [SandboxAQ](https://www.sandboxaq.com) - Large quantitative models for scientific discovery. *Use case: Quantum-grade simulation for drug-design lead optimization, protein-ligand binding, materials science, and PQC cryptography research.*
 - [Synapse.org](https://www.synapse.org) - Access scientific data on Synapse. *Use case: Open science data sharing, collaborative research datasets, challenge platforms.*
 - [Synthesize Bio](https://www.synthesize.bio) - Generative genomics: predict gene expression from natural-language experiment descriptions. *Use case: Drug-discovery hypothesis testing, biomarker prediction, in silico RNA-seq experiments grounded in the largest annotated public corpus.*
 
@@ -395,17 +401,33 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Legal
 
+- [Aurora](https://consilio.com) - Consilio Aurora matter, document, and review intelligence. *Use case: Searching eDiscovery matters, surfacing documents across review platforms, accelerating litigation workflows.*
+- [BoardWise](https://boardwise.com) - Board-defense guidance for licensed professionals. *Use case: Calm, structured guidance for physicians and other licensees facing board complaints or disciplinary actions.*
+- [CoCounsel Legal](https://legal.thomsonreuters.com/en/c/cocounsel) - Thomson Reuters CoCounsel Legal, in Claude. *Use case: Westlaw-grade research, contract review, deposition prep, and brief drafting with Thomson Reuters' legal AI.*
+- [CourtListener](https://www.courtlistener.com) - Legal research across millions of court records. *Use case: Federal and state opinion search, docket monitoring, citation analysis from the Free Law Project's open archive.*
+- [Courtroom5](https://courtroom5.com) - Civil legal guidance for self-represented litigants. *Use case: Pro se procedural support, motion drafting templates, case-strategy guidance for litigants without counsel.*
+- [Definely](https://www.definely.com) - Structured contract review tools for legal teams. *Use case: Defined-term review, cross-reference checking, and definition-level navigation inside long contracts.*
+- [Descrybe Legal Engine](https://descrybe.ai) - Ground your work in clean, structured U.S. primary law. *Use case: Statute-and-case research grounded in normalized primary-law data, with citation-level provenance.*
+- [Everlaw](https://www.everlaw.com) - Search and explore your Everlaw eDiscovery database. *Use case: Litigation document review, deposition-binder building, predictive coding queries inside Everlaw matters.*
 - [Harvey](https://www.harvey.ai) - Legal queries, vault search, and research. *Use case: Legal research, case law analysis, contract review, document search within Harvey's legal AI platform.*
 - [Intapp Celeste](https://www.intapp.com/celeste/) - Agentic AI for regulated professional firms. *Use case: Conflict clearance, ethical walls, compliance-aware workflows for law firms and advisory services.*
+- [Ironclad Contracts](https://ironcladapp.com) - Plain-language search for faster contract answers. *Use case: Natural-language queries across executed contracts, obligation tracking, clause and counterparty lookup.*
+- [Lawve AI](https://lawve.ai) - Expert-written skills for legal work. *Use case: Workflow library of attorney-authored task skills (drafting, review, research) callable from Claude.*
+- [Legal Data Hunter](https://legaldatahunter.com) - Search 23M+ legal docs in 160+ jurisdictions. *Use case: Cross-jurisdictional case and statute search, comparative-law research, multi-country regulatory review.*
 - [LegalZoom](https://www.legalzoom.com) - Business formation and attorney-assisted legal services. *Use case: LLC formation, trademark filing, estate planning documents, on-demand attorney guidance.*
+- [Lloyd by The L Suite](https://www.lsuite.co/lloyd) - In-house counsel insights for L Suite members. *Use case: Peer-curated in-house legal guidance, playbooks, and benchmarking for corporate legal teams.*
 - [Midpage Legal Research](https://www.midpage.ai) - Legal research and work product. *Use case: Case law search, legal citation analysis, brief drafting support, jurisdiction-specific research.*
+- [Relativity](https://www.relativity.com) - Organize data, discover the truth, act on it. *Use case: eDiscovery, internal investigations, and regulatory response inside the RelativityOne review platform.*
+- [Solve Intelligence](https://www.solveintelligence.com) - Search, draft, and chart patents. *Use case: Patent prior-art search, claim drafting, prosecution-history analysis, and IP-portfolio visualization.*
+- [TopCounsel by The L Suite](https://topcounsel.ai) - Outside counsel recommendations from in-house counsel. *Use case: Vendor selection and warm-intro outside-counsel referrals sourced from in-house attorney peers.*
+- [Trellis](https://trellis.law) - Claude for trial court litigators. *Use case: State trial-court data search, judge analytics, motion outcomes, and litigant history across U.S. trial courts.*
 
 
 ## Lifestyle and Local
 
 - [Instacart](https://www.instacart.com) - Grocery and household delivery as fast as 30 minutes. *Use case: Grocery shopping automation, recipe-to-cart workflows, household supply restocking.*
 - [Resy](https://resy.com) - Restaurant discovery and reservation booking. *Use case: Finding restaurants, booking tables, managing dining plans.*
-- [Taskrabbit](https://www.taskrabbit.com) - Find and book local Tasker services. *Use case: Furniture assembly, moving help, handyman services, errands, local task booking.*
+- [Taskrabbit Booking Assistance](https://www.taskrabbit.com) - Find and book local Tasker services. *Use case: Furniture assembly, moving help, handyman services, errands, local task booking.*
 - [Thumbtack](https://www.thumbtack.com) - Find and hire local pros. *Use case: Home services, contractors, event vendors, professional services discovery and booking.*
 - [Uber Eats](https://www.ubereats.com) - Restaurant discovery and food delivery. *Use case: Restaurant search, dish recommendations, order placement, delivery tracking.*
 
@@ -418,7 +440,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Affinity](https://www.affinity.co) - Relationship intelligence CRM for private capital. *Use case: Venture capital and private equity deal sourcing, warm-intro mapping, automatic CRM enrichment.*
 - [Apollo.io](https://www.apollo.io) - Find buyers and book meetings. *Use case: Sales prospecting, lead enrichment, outbound campaign management.*
 - [Attio](https://attio.com) - Search and manage CRM data. *Use case: Modern CRM workflows, relationship tracking, deal management.*
-- [Braze](https://www.braze.com) - Access Braze REST API. *Use case: Customer engagement campaigns, push notification management, marketing automation.*
+- [Braze MCP Server](https://www.braze.com) - Access Braze REST API. *Use case: Customer engagement campaigns, push notification management, marketing automation.*
 - [CB Insights](https://www.cbinsights.com) - Predictive intelligence. *Use case: Market research, startup tracking, industry trend analysis, competitive intelligence.*
 - [Clarify](https://www.clarify.ai) - Query CRM and create records. *Use case: CRM data management, contact creation, pipeline tracking.*
 - [Clay](https://www.clay.com) - Find prospects, research, and outreach. *Use case: Lead enrichment, personalized outreach, prospect research automation.*
@@ -428,7 +450,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Customer.io](https://customer.io) - Explore customer data. *Use case: Behavioral messaging, customer segmentation, lifecycle email campaigns.*
 - [Day AI](https://www.day.ai) - AI-powered CRM with automatic relationship tracking. *Use case: Prospect research, contact enrichment, pipeline management, meeting prep.*
 - [G2](https://www.g2.com) - B2B software buyer intent and review data. *Use case: Identifying accounts researching your category, competitive analysis, leveraging review insights for sales.*
-- [Gainsight](https://www.gainsight.com) - Customer success management and health scoring. *Use case: Renewal forecasting, churn prevention, customer health monitoring, expansion tracking.*
+- [Gainsight (Staircase AI)](https://www.gainsight.com) - Customer success management and health scoring. *Use case: Renewal forecasting, churn prevention, customer health monitoring, expansion tracking.*
 - [Harmonic](https://www.harmonic.ai) - Discover companies and people. *Use case: Company discovery, people search, market mapping for sales and recruiting.*
 - [HubSpot](https://www.hubspot.com) - All-in-one CRM, marketing, and sales platform. *Use case: CRM queries, marketing analytics, sales pipeline management, inbound marketing.*
 - [Intuit Mailchimp](https://mailchimp.com) - Marketing campaign management. *Use case: Email campaigns, audience segmentation, marketing analytics.*
@@ -450,12 +472,12 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 ## Observability and Monitoring
 
 - [Datadog](https://www.datadoghq.com) - End-to-end observability across logs, metrics, and traces. *Use case: APM, infrastructure visibility, distributed tracing, security threat detection across the full stack.*
-- [Dynatrace](https://www.dynatrace.com) - Observability via DQL. *Use case: Application performance monitoring, infrastructure observability, root cause analysis.*
-- [Grafana](https://grafana.com) - Dashboards and alerting. *Use case: Monitoring infrastructure, querying Prometheus/Loki, visualizing metrics.*
+- [Dynatrace MCP Server](https://www.dynatrace.com) - Observability via DQL. *Use case: Application performance monitoring, infrastructure observability, root cause analysis.*
+- [Grafana MCP Server](https://grafana.com) - Dashboards and alerting. *Use case: Monitoring infrastructure, querying Prometheus/Loki, visualizing metrics.*
 - [Honeycomb](https://www.honeycomb.io) - High-cardinality observability for distributed systems. *Use case: Distributed tracing, debugging production issues, query-driven investigation.*
 - [incident.io](https://incident.io) - Incident management. *Use case: Declaring and managing incidents, post-mortems, on-call coordination.*
-- [Instana](https://www.instana.com) - Observability platform. *Use case: Auto-instrumented application monitoring, infrastructure visibility.*
 - [Jam](https://jam.dev) - Screen recording for bug reports. *Use case: Capturing and sharing browser-based bug reproductions with context.*
+- [MCP Instana Server](https://www.instana.com) - Observability platform. *Use case: Auto-instrumented application monitoring, infrastructure visibility.*
 - [PagerDuty](https://www.pagerduty.com) - Incidents and on-call management. *Use case: Incident response, on-call scheduling, alerting workflows.*
 - [Sentry](https://sentry.io) - Error tracking and debugging. *Use case: Monitoring production errors, stack trace analysis, performance monitoring, release health.*
 
@@ -502,42 +524,43 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## SAP
 
-- [SAP CAP](https://cap.cloud.sap) - SAP Cloud Application Programming Model. *Use case: Building enterprise apps on SAP Business Technology Platform.*
-- [SAP Fiori](https://www.sap.com/products/technology-platform/fiori.html) - Enterprise UX development for SAP applications. *Use case: SAP enterprise UX development, Fiori element configuration.*
-- [SAP MDK](https://developers.sap.com/topics/mobile-development-kit.html) - SAP Mobile Development Kit. *Use case: Building SAP mobile apps, offline-capable enterprise mobile development.*
-- [SAPUI5](https://sapui5.hana.ondemand.com) - SAP web application development using the SAPUI5 framework. *Use case: SAP web application development using the SAPUI5 framework.*
+- [SAP CAP MCP Server](https://cap.cloud.sap) - SAP Cloud Application Programming Model. *Use case: Building enterprise apps on SAP Business Technology Platform.*
+- [SAP Fiori MCP Server](https://www.sap.com/products/technology-platform/fiori.html) - Enterprise UX development for SAP applications. *Use case: SAP enterprise UX development, Fiori element configuration.*
+- [SAP MDK MCP Server](https://developers.sap.com/topics/mobile-development-kit.html) - SAP Mobile Development Kit. *Use case: Building SAP mobile apps, offline-capable enterprise mobile development.*
+- [SAPUI5 MCP Server](https://sapui5.hana.ondemand.com) - SAP web application development using the SAPUI5 framework. *Use case: SAP web application development using the SAPUI5 framework.*
 
 
 ## Security
 
-- [Conviso](https://www.convisoappsec.com) - Application security metrics. *Use case: AppSec posture management, vulnerability tracking, security program metrics.*
+- [Conviso MCP Server](https://www.convisoappsec.com) - Application security metrics. *Use case: AppSec posture management, vulnerability tracking, security program metrics.*
 - [DataGrail](https://www.datagrail.io) - Agentic data privacy orchestration. *Use case: DSR fulfillment, privacy impact assessments, PII discovery across SaaS stacks, AI governance.*
-- [Defense.com](https://www.defense.com) - Cybersecurity threat intelligence and monitoring. *Use case: Attack surface management, threat detection, vulnerability prioritization.*
+- [Defense.com Threat Analysis](https://www.defense.com) - Cybersecurity threat intelligence and monitoring. *Use case: Attack surface management, threat detection, vulnerability prioritization.*
 - [Malwarebytes](https://www.malwarebytes.com) - Check links, phone numbers, and emails for scams. *Use case: On-demand scam detection for suspicious URLs and contacts, phishing triage, consumer-grade threat checks.*
 - [Miggo](https://www.miggo.io) - Vulnerability and findings management. *Use case: Security finding triage, vulnerability management, risk assessment.*
 - [PanOS MCP](https://www.paloaltonetworks.com) - Palo Alto Networks firewall management. *Use case: Firewall rule management, network security configuration, PAN-OS administration.*
 - [Rapid7 Bulk Export](https://www.rapid7.com) - Bulk export of Rapid7 vulnerability and exposure data. *Use case: Pulling InsightVM/InsightAppSec findings into reports, bulk asset and vulnerability data analysis.*
 - [Snyk Security](https://snyk.io) - Developer-first security platform for code, dependencies, containers, and IaC. *Use case: SAST/SCA scanning, vulnerability triage with reachability analysis, AI-generated code security guardrails, automated fix PRs.*
-- [Zscaler](https://www.zscaler.com) - Zero Trust Exchange. *Use case: Zero trust network access, cloud security, secure web gateway management.*
+- [Zscaler MCP Server](https://www.zscaler.com) - Zero Trust Exchange. *Use case: Zero trust network access, cloud security, secure web gateway management.*
 
 
 ## SEO and Web
 
 - [Ahrefs](https://ahrefs.com) - SEO and AI search analytics. *Use case: Backlink analysis, keyword research, site audits, competitive SEO analysis.*
 - [AirOps](https://www.airops.com) - Content that wins AI search. *Use case: SEO content optimization, AI-era search strategy, programmatic content.*
-- [Apify MCP server](https://apify.com) - Extract data from any website. *Use case: Web scraping, data extraction, automated content collection at scale.*
+- [Apify](https://apify.com) - Extract data from any website. *Use case: Web scraping, data extraction, automated content collection at scale.*
 - [Bitly](https://bitly.com) - Link shortening and QR codes. *Use case: Link management, click analytics, branded short URLs, QR code generation.*
 - [Cloudinary](https://cloudinary.com) - Image and video management. *Use case: Media asset optimization, image transformation, CDN delivery.*
-- [Cloudinary Asset Mgmt](https://cloudinary.com/products/digital_asset_management) - Digital asset management. *Use case: Media library management, asset organization, DAM workflows.*
+- [Cloudinary Asset Management](https://cloudinary.com/products/digital_asset_management) - Digital asset management. *Use case: Media library management, asset organization, DAM workflows.*
 - [Exa](https://exa.ai) - Neural web search and code documentation search. *Use case: AI-powered web search that understands intent. Describe the ideal page in natural language instead of keywords. Returns clean content ready for LLM use.*
 - [GoDaddy](https://www.godaddy.com) - Domain search and availability. *Use case: Domain registration, DNS management, domain availability checking.*
 - [Local Falcon](https://www.localfalcon.com) - Local search intelligence. *Use case: Local SEO tracking, Google Maps ranking analysis, local search visibility.*
+- [Semrush](https://www.semrush.com) - SEO, market data, and brand visibility insights. *Use case: Keyword research, competitor SEO analysis, content audits, paid-search planning, and brand-mention monitoring across organic and AI search.*
 - [Tavily](https://tavily.com) - Connect AI agents to the web. *Use case: Web search API for AI applications, real-time web data access.*
 
 
 ## Ticketing and Events
 
-- [Fever](https://feverup.com) - Discover live events and experiences worldwide. *Use case: Finding concerts, immersive experiences, tours, and cultural events across 200+ cities.*
+- [Fever Event Discovery](https://feverup.com) - Discover live events and experiences worldwide. *Use case: Finding concerts, immersive experiences, tours, and cultural events across 200+ cities.*
 - [StubHub](https://www.stubhub.com) - Secondary-market ticket marketplace for concerts, sports, and theater. *Use case: Finding event tickets, price comparison across the world's largest ticket marketplace, last-minute event access.*
 - [Ticket Tailor](https://www.tickettailor.com) - Event platform for tickets and orders. *Use case: Event ticketing, order management, attendee tracking.*
 
@@ -550,12 +573,12 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Expedia](https://www.expedia.com) - Flights, hotels, car rentals, and vacation packages. *Use case: Travel planning, hotel comparison, flight + hotel bundling, multi-leg trip building.*
 - [Kiwi.com](https://www.kiwi.com) - Flight search with multi-city and self-transfer routing. *Use case: Complex itinerary building, budget flight discovery, multi-carrier route planning.*
 - [lastminute.com](https://www.lastminute.com) - Last-minute travel deals for flights and hotels. *Use case: Spontaneous trip planning, discounted flight and hotel packages.*
-- [TomTom Maps](https://www.tomtom.com) - Maps, routing, and traffic. *Use case: Route planning, real-time traffic data, geocoding, map visualization.*
+- [TomTom Maps MCP](https://www.tomtom.com) - Maps, routing, and traffic. *Use case: Route planning, real-time traffic data, geocoding, map visualization.*
 - [Tripadvisor](https://www.tripadvisor.com) - Hotel discovery powered by traveler reviews. *Use case: Review-driven hotel selection, restaurant and attraction discovery, trip planning research.*
 - [Trivago](https://www.trivago.com) - Hotel price comparison across booking platforms. *Use case: Finding the best hotel rates, comparing properties, travel planning.*
 - [Uber](https://www.uber.com) - Ride pricing and ETA estimates for any ride option. *Use case: Comparing ride options, trip cost estimation, transportation planning.*
 - [Viator](https://www.viator.com) - Tours, activities, and travel experiences worldwide. *Use case: Booking travel experiences, day tours, multi-day itineraries, attraction tickets.*
-- [Wyndham](https://www.wyndhamhotels.com) - Discover Wyndham hotels. *Use case: Wyndham property search, loyalty program management, hotel booking.*
+- [Wyndham Hotels and Resorts](https://www.wyndhamhotels.com) - Discover Wyndham hotels. *Use case: Wyndham property search, loyalty program management, hotel booking.*
 
 
 ## Related
