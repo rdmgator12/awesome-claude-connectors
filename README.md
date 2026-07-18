@@ -432,6 +432,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Finance and Trading
 
+- [AgentServices](https://github.com/vbkotecha/aiservices-api) - x402-paid data APIs for AI agents: crypto prices, OHLCV, DeFi yields, technical indicators, DEX swap quotes, prediction markets, on-chain analytics, marketing intelligence, IP geolocation, web search, FX rates. 37 MCP tools, 41 x402-paid endpoints. *Use case: Real-time and historical market data, agent-native API access with micropayments.*
 - [Aiera](https://www.aiera.com) - Financial events, filings, and publications. *Use case: Earnings call analysis, SEC filing search, financial event monitoring.*
 - [Airwallex](https://www.airwallex.com) - Global payment platform. *Use case: Cross-border payments, multi-currency accounts, payment processing.*
 - [Aiwyn Tax (formerly Column Tax)](https://aiwyn.ai) - Tax estimation and analysis. *Use case: Tax planning, estimation workflows, accounting firm automation.*
