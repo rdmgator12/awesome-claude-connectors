@@ -13,3 +13,13 @@ jobs:
         with:
           node-version: 20
       - run: npx awesome-lint@2.3.0
+
+  generated-in-sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: README.md must match data/connectors.json
+        run: python3 scripts/generate_readme.py --check
