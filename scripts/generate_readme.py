@@ -259,6 +259,25 @@ def validate(data, template):
         for c in cats:
             if not used[c]:
                 add(f"category has no connectors: {c}")
+        if subheadings_on:
+            # all-or-none per category: a partially subcategorized category would
+            # render its unfiled entries as a headless clump above the first ###
+            for c in cats:
+                entries = [
+                    e
+                    for e in data["connectors"]
+                    if isinstance(e, dict) and e.get("category") == c
+                ]
+                unfiled = [
+                    e["name"]
+                    for e in entries
+                    if not e.get("subcategory") and isinstance(e.get("name"), str)
+                ]
+                if unfiled and len(unfiled) != len(entries):
+                    add(
+                        f"category {c!r} is partially subcategorized — assign these or "
+                        f"none: {unfiled[:5]}{' ...' if len(unfiled) > 5 else ''}"
+                    )
 
     held_names = {}
     if not isinstance(data["held"], list) or not data["held"]:
