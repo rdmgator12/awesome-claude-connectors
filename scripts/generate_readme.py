@@ -197,14 +197,14 @@ def validate(data, template):
         name = e.get("name")
         if not isinstance(name, str) or not name or name != name.strip():
             add(f"{label}: name must be a non-empty stripped string")
-        elif "[" in name or "]" in name or "\n" in name:
+        elif "[" in name or "]" in name or "\n" in name or "\r" in name:
             add(f"{label}: name must not contain square brackets or newlines")
         else:
             names.setdefault(name.lower(), []).append(name)
         url = e.get("url")
         if not isinstance(url, str) or not url.startswith("https://"):
             add(f"{label}: url must start with https://")
-        elif ")" in url or " " in url or "\n" in url:
+        elif ")" in url or " " in url or "\n" in url or "\r" in url:
             add(f"{label}: url must not contain ')', spaces, or newlines")
         else:
             urls.setdefault(url, []).append(label)
@@ -220,7 +220,7 @@ def validate(data, template):
             if not isinstance(v, str) or not v or v != v.strip():
                 add(f"{label}: {field} must be a non-empty stripped string")
                 continue
-            if "\n" in v:
+            if "\n" in v or "\r" in v:
                 add(f"{label}: {field} must not contain newlines")
             if "*" in v:
                 add(
@@ -233,7 +233,11 @@ def validate(data, template):
         if "subcategory" in e:
             sub = e["subcategory"]
             if sub is not None and (
-                not isinstance(sub, str) or not sub or sub != sub.strip() or "\n" in sub
+                not isinstance(sub, str)
+                or not sub
+                or sub != sub.strip()
+                or "\n" in sub
+                or "\r" in sub
             ):
                 add(f"{label}: subcategory must be null or a non-empty stripped string")
             elif isinstance(sub, str):
@@ -270,7 +274,7 @@ def validate(data, template):
             v = h[k]
             if not isinstance(v, str) or not v or v != v.strip():
                 add(f"held {hlabel}: {k} must be a non-empty stripped string")
-            elif "|" in v or "\n" in v:
+            elif "|" in v or "\n" in v or "\r" in v:
                 add(f"held {hlabel}: {k} must not contain '|' or newlines")
         if isinstance(h["name"], str) and h["name"]:
             held_names.setdefault(h["name"].lower(), []).append(h["name"])
