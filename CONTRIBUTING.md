@@ -4,10 +4,22 @@ This list tracks every connector in Anthropic's official Connectors Directory. C
 
 > This is an independent, community-maintained project. Not affiliated with, endorsed by, or sponsored by Anthropic PBC.
 
+## How This Repo Works (Data-First)
+
+`data/connectors.json` is the source of truth. `README.md` is generated from it -- don't hand-edit the README; CI rejects any README that doesn't match the data (`generated-in-sync` job).
+
+To add or change an entry:
+
+1. Edit `data/connectors.json` (add the entry object anywhere -- sorting is automatic).
+2. Run `python3 scripts/generate_readme.py` (stdlib only, no dependencies).
+3. Commit `data/connectors.json` and `README.md` together.
+
+The generator validates the data before writing: duplicate names (case-insensitive), duplicate URLs, unknown categories, entry format, and terminal punctuation all fail loud with the offending entry named. `python3 scripts/generate_readme.py --check` runs the exact check CI runs.
+
 ## What You Can Contribute
 
 ### New Connectors
-When Anthropic adds new connectors to the directory, submit a PR adding them to the appropriate category with a description and use case.
+When Anthropic adds new connectors to the directory, submit a PR adding them to `data/connectors.json` with the appropriate category, a description, and a use case.
 
 ### Improved Descriptions
 If a description or use case is missing detail or could be more helpful, submit a PR with a better one.
@@ -16,12 +28,7 @@ If a description or use case is missing detail or could be more helpful, submit 
 If a connector is in the wrong category, submit a PR moving it.
 
 ### Field Reports
-Tested a connector and have real-world notes? Add a brief field report below the connector entry:
-
-```markdown
-- [Connector Name](https://www.anthropic.com/partners/mcp) - Description. *Use case: ...*
-  > **Field report:** One paragraph on what worked, what didn't, what surprised you. Be specific.
-```
+Tested a connector and have real-world notes? Open an issue or PR with one paragraph on what worked, what didn't, what surprised you -- be specific. (The README is generated, so field reports land through the data file; the entry schema grows a field when the first report is accepted.)
 
 ## Guidelines
 
@@ -30,7 +37,7 @@ Tested a connector and have real-world notes? Add a brief field report below the
 - The use case is one sentence containing a concrete task or 2--3 comma-separated task fragments a user would actually perform in Claude (e.g. "Comparing carrier rates for a 40-lb package, buying a return label, checking where an order stalled in transit."). It must NOT restate the description -- it adds scenario information the description lacks. No vendor voice ("your"/"our"), no marketing adjectives, and every capability it implies must be stated in the description.
 - Provenance markers: **`A`** only for entries whose canonical URL is Anthropic-owned (anthropic.com / github.com/anthropics) or whose catalog name self-identifies as Anthropic-built; **`C`** for entries carrying the in-app catalog's Community badge, applied from dated catalog captures (see docs/catalog-snapshots/).
 - Don't add connectors that aren't in the official Anthropic directory. This list tracks the official directory, not all MCP servers (see [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) for that).
-- Maintain alphabetical order within categories.
+- Alphabetical order within categories is enforced by the generator -- add entries anywhere in `data/connectors.json`.
 
 ## Weekly Updates
 
