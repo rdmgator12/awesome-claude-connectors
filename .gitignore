@@ -1,2 +1,3 @@
 claude-connectors-audit.xlsx
 .DS_Store
+__pycache__/

@@ -68,6 +68,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## AI and ML
 
+46 connectors.
+
 - [Agensi](https://www.agensi.io) **`C`** - Search, discover, and install AI agent skills. *Use case: Searching for a skill that drafts release notes, installing an agent skill for meeting summaries, checking what's new in the catalog this week.*
 - [Agently](https://www.agently.dev) **`C`** - Give your agents your company's memory. *Use case: Asking an agent what pricing was quoted to a customer last month, pulling up a decision made in a past project, checking a policy the team agreed to earlier this year.*
 - [Ai for Work](https://www.kore.ai/ai-for-work) **`C`** - Search across silos, automate workflows, and orchestrate AI agents. *Use case: Finding a contract buried across shared drives and email, triggering a workflow when a deal closes, coordinating agents on a quarterly report.*
@@ -117,6 +119,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Automation and Integration
 
+22 connectors.
+
 - [Ace Work](https://aceworkflow.io/ace-work) **`C`** - Capture workflows by talking to Claude, run your SOPs step by step, and log where reality differs. *Use case: Walking through an onboarding process out loud so a workflow gets recorded automatically, running a shipping SOP step by step during an actual shift, flagging the point where the actual process skipped a documented step.*
 - [Azava](https://azava.com) **`C`** - Automations over your tools, built by asking Claude. *Use case: Asking for a workflow that moves a new signup from a form into a CRM automatically, building an automation that files a support ticket when a keyword appears, having an agent wire two tools together without writing the integration by hand.*
 - [CData Connect AI](https://www.cdata.com) - Managed MCP for 350+ data sources. *Use case: Universal data connector, querying databases and SaaS APIs through a single interface.*
@@ -142,6 +146,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Calendar and Scheduling
 
+12 connectors.
+
 - [Akiflow](https://akiflow.com) - Plans tasks across multiple calendars from any AI assistant. *Use case: Unifying calendars from multiple accounts, blocking time for tasks, planning a daily schedule.*
 - [BusyCal](https://www.busymac.com/busycal) - Calendar management for macOS. *Use case: Managing complex schedules on Apple devices, syncing with multiple calendar providers.*
 - [Calendesk - Appointment scheduling software](https://calendesk.com) **`C`** - Check the calendar, book clients, and pull revenue reports from your Calendesk account. *Use case: Checking whether a Tuesday slot is open before confirming a client, booking a returning client into next week's schedule, pulling last month's revenue report before a planning meeting.*
@@ -156,6 +162,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Tweek](https://tweek.so) **`C`** - Manage your Tweek weekly planner — read and update tasks and calendars from Claude. *Use case: Checking what's on this week's planner before agreeing to a new meeting, marking a task done without opening the app, moving a task that didn't get finished into next week.*
 
 ## Cloud and Infrastructure
+
+41 connectors.
 
 - [Aiven MCP](https://aiven.io) **`C`** - Provision PostgreSQL, manage Apache Kafka, and deploy apps on Aiven - straight from your AI assistant. *Use case: Spinning up a PostgreSQL database for a new project without leaving the chat, checking why a Kafka topic is lagging, deploying an app after a code change is approved.*
 - [AWS API MCP Server](https://aws.amazon.com) - Manage AWS resources. *Use case: Cloud infrastructure management, querying AWS services, deployment automation.*
@@ -201,6 +209,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## CMS and Web Building
 
+31 connectors.
+
 - [Adobe Experience Manager](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html) - Enterprise content and digital asset management. *Use case: Large-scale web content management, digital asset workflows, omnichannel experience delivery for enterprises.*
 - [Agility CMS](https://agilitycms.com) **`C`** - Model content, author pages, publish updates, and manage media across multiple Agility CMS instances through natural language. *Use case: Adding a new content model field before a marketing team builds a landing page, publishing an update across two CMS instances at once, swapping out an image in a media library without opening a separate dashboard.*
 - [Base44](https://base44.com) - Build and manage Base44 apps. *Use case: Low-code app development on the Base44 platform.*
@@ -234,6 +244,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [WPJshop](https://www.wpj.cz) **`C`** - Manage your WPJshop e-commerce solution effortlessly with AI. *Use case: Making a quick price change to a store's listings between other tasks, checking on a store's status without logging into a separate dashboard.*
 
 ## Communication
+
+39 connectors.
 
 - [AgentMail](https://agentmail.to) - Email inboxes for AI agents. *Use case: Programmatic email send and receive, dedicated agent mailboxes, automated email workflows.*
 - [BirdyChat](https://www.birdy.chat) **`C`** - Let your AI read your inbox and act on it. *Use case: Flagging an email that needs a reply before end of day, drafting a response to a customer question sitting in the inbox, archiving newsletters automatically after a quick read.*
@@ -277,6 +289,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Customer Support
 
+25 connectors.
+
 - [AfterShip Post-Purchase](https://www.aftership.com) **`C`** - Track shipments and returns with AfterShip context. *Use case: Checking where a package is stuck in transit, starting a return for an item that arrived damaged, seeing whether a shipment will make it before a deadline.*
 - [Canny](https://canny.io) **`C`** - Capture and analyze feedback. *Use case: Logging a feature request a user mentioned in a support call, checking how many people have asked for the same improvement, spotting a pattern across a batch of recent feedback.*
 - [Computer by DevRev](https://devrev.ai/meet-computer) - Conversational AI teammate with shared memory. *Use case: Ticket resolution, service desk automation, CRM updates, customer support.*
@@ -304,6 +318,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Zoho Desk](https://www.zoho.com/desk) - Helpdesk and support ticket automation. *Use case: Ticket routing, SLA management, customer support analytics, knowledge base integration.*
 
 ## Data and Analytics
+
+160 connectors.
 
 - [Adobe Customer Journey Analytics](https://business.adobe.com/products/adobe-analytics/customer-journey-analytics.html) - Cross-channel analytics across the full customer journey. *Use case: Omnichannel journey analysis, attribution modeling, customer-level insights, conversion optimization.*
 - [Alloy Robotics](https://www.usealloy.ai) **`C`** - Analyze robot fleet data. *Use case: Comparing battery performance across a robot fleet, spotting a robot with an unusual error rate, checking uptime trends over the past week.*
@@ -468,6 +484,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Design and Creative
 
+61 connectors.
+
 - [3DOptix optical design and simulations](https://www.3doptix.com) **`C`** - Design, simulate, and analyse optical systems with GPU-powered ray tracing, building setups from the 3DOptix catalog, running irradiance, PSF, and MTF analyses, and importing designs from Zemax or CAD. *Use case: Importing a lens design from Zemax to check its MTF curve, building an optical setup from the catalog to test a new configuration, running a PSF analysis before finalizing a design.*
 - [Adobe for creativity](https://developer.adobe.com/adobe-for-creativity/) - Photoshop, Lightroom, Illustrator, Firefly, Premiere, Express, InDesign, and Adobe Stock through Claude. *Use case: Edit photos and vectors, design from templates, resize video for social, license stock — all through natural language without app-switching.*
 - [Alpix](https://github.com/alpic-ai/alpix) **`C`** - Draw pixel art on a shared canvas. *Use case: Sketching a pixel art mascot together with someone else on the same canvas in real time.*
@@ -532,6 +550,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Desktop Automation
 
+11 connectors.
+
 - [Android-MCP](https://github.com/CursorTouch/Android-MCP) - Control Android devices. *Use case: Android app testing, mobile automation workflows, device management.*
 - [Asteroid](https://asteroid.ai) - Builds and runs agentic, repeatable browser and computer-use workflows. *Use case: Automating portal workflows, running repeatable data-entry tasks, scaling browser-based back-office work.*
 - [Control Chrome](https://chromedevtools.github.io/devtools-protocol/) - Chrome tab and navigation control. *Use case: Browser automation, tab management, web scraping from Chrome.*
@@ -545,6 +565,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Windows-MCP](https://github.com/CursorTouch/Windows-MCP) - Windows OS automation and system control. *Use case: Windows application automation, file management, system administration tasks.*
 
 ## Development Tools
+
+76 connectors.
 
 - [3Min API](https://3minapi.com) **`C`** - Create a working REST API endpoint without writing backend code, then test it, search what comes in, and share access with partners — all from chat. *Use case: Spinning up an endpoint to collect signups for a landing page, checking which requests came in overnight, giving a partner access to the data.*
 - [Algolia Productivity](https://www.algolia.com) **`C`** - Connect LLM tools to your Algolia account with user-scoped access for internal workflows. *Use case: Connecting an internal support workflow to an account with access scoped to just that team's data.*
@@ -625,6 +647,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Documents and Files
 
+51 connectors.
+
 - [Avanquest PDF API Extension](https://developers.avanquest.com/products/pdf-api) - Scalable PDF processing API. *Use case: PDF conversion, merging, compression, splitting, and document-processing automation.*
 - [Box](https://www.box.com) - Enterprise cloud content management and file sharing. *Use case: Document collaboration, secure file sharing, content governance, workflow automation.*
 - [ChangeThisFile](https://changethisfile.com) **`C`** - Free online file converter supporting over 690 conversion routes across images, documents, video, audio, and archive formats, with no account required. *Use case: Convert an uploaded PDF invoice into a DOCX file without creating an account.*
@@ -679,6 +703,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Education
 
+21 connectors.
+
 - [Articulate](https://www.articulate.com) - Build interactive training right from Claude. *Use case: Building an onboarding training module for new hires, right from a conversation.*
 - [Beeline Workspace](https://beelinelearn.com) **`C`** - Manage your Beeline workspace from Claude — courses, learner groups, job roles, and workforce insights, all in one connector. *Use case: Checking which learners haven't finished a required course, updating a job role's training requirements, reviewing workforce insights before a training budget review.*
 - [Brisk Teaching](https://www.briskteaching.com) - Build classroom activities and lessons with AI. *Use case: Lesson planning, classroom activity generation, K-12 teaching workflows.*
@@ -703,6 +729,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Entertainment
 
+14 connectors.
+
 - [Ableton Knowledge](https://www.ableton.com) - Ask Claude about Ableton products. *Use case: Music production help, Ableton Live and Push reference lookups, workflow guidance for producers.*
 - [Artist Growth](https://www.artistgrowth.com) **`C`** - Music Ops Built for AI. *Use case: Handling a routine music operations task through an AI-driven workflow.*
 - [Audible](https://www.audible.com) - Audiobook recommendations and library access. *Use case: Discovering new audiobooks, managing listening queue, exploring genres and series.*
@@ -719,6 +747,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [withPICA](https://withpica.com) **`C`** - Manage your music catalog. *Use case: Checking a specific song's entry in a catalog, updating its details before release.*
 
 ## Finance and Trading
+
+199 connectors.
 
 - [Abacum.ai](https://www.abacum.ai) **`C`** - Get live actuals, plans and forecasts from Abacum without leaving Claude. *Use case: Checking this quarter's actuals against the forecast before a board meeting, pulling next month's plan without opening a separate tool.*
 - [Acquirepad Real Estate Intelligence](https://www.acquirepad.com) **`C`** - CRE deal intelligence for investment teams. *Use case: Checking comparable sale prices for a potential acquisition, reviewing deal intelligence before an investment committee meeting.*
@@ -922,6 +952,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Government and Nonprofit
 
+24 connectors.
+
 - [Benevity](https://www.benevity.com) - Nonprofit discovery and corporate giving platform. *Use case: Corporate social responsibility programs, donation matching, nonprofit vetting.*
 - [BidPrime](https://www.bidprime.com) **`C`** - Access your BidPrime leads. *Use case: Checking new bid leads posted this week, comparing lead details before submitting a proposal, filtering leads relevant to a specific project.*
 - [Blackbaud](https://www.blackbaud.com) - Software for nonprofits, foundations, and education. *Use case: Fundraising, donor management, grantmaking, nonprofit financial management.*
@@ -948,6 +980,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [USLege](https://www.uslege.ai) **`C`** - Search and track legislation across U.S. state legislatures—bills, votes, committees, statutes, hearings, and lobbying - organized with tracks, dashboards, and alerts. *Use case: Checking how a state legislator voted on a specific bill, setting an alert for when a statute changes, tracking lobbying activity ahead of a committee hearing.*
 
 ## Healthcare and Life Sciences
+
+54 connectors.
 
 - [10x Genomics Cloud](https://www.10xgenomics.com) - Access the 10x Genomics platform. *Use case: Single-cell genomics, spatial transcriptomics, chromatin accessibility analysis.*
 - [AdisInsight](https://adisinsight.springer.com) - Drug, clinical trial, and pharma pipeline intelligence. *Use case: Drug development tracking, competitive pipeline analysis, licensing opportunity identification.*
@@ -1006,6 +1040,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Jobs
 
+25 connectors.
+
 - [Aquent Job Search](https://aquent.com) - Aquent is a creative and marketing staffing agency whose job search connector surfaces active postings on aquent.com. *Use case: Search open creative or marketing contract roles currently listed on Aquent.*
 - [Ashby](https://www.ashbyhq.com) - Search, analyze, and act on recruiting data. *Use case: Reviewing candidate pipeline status, analyzing hiring funnel metrics, acting on recruiting tasks from a conversation.*
 - [BrightHire](https://brighthire.com) - Interview intelligence and hiring data. *Use case: Recording and analyzing interviews, structured hiring decisions, candidate evaluation insights.*
@@ -1033,6 +1069,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [ZipRecruiter](https://www.ziprecruiter.com) - Job-search marketplace with AI-powered matching. *Use case: Searching open US roles, salary research, candidate-employer matching for job seekers and small-business hiring.*
 
 ## Legal
+
+60 connectors.
 
 - [Aurora](https://consilio.com) - Consilio Aurora matter, document, and review intelligence. *Use case: Searching eDiscovery matters, surfacing documents across review platforms, accelerating litigation workflows.*
 - [Avvoka](https://avvoka.com) **`C`** - Generate documents from your Avvoka templates. *Use case: Generating a client contract from a saved template, producing a quick NDA for a new deal.*
@@ -1097,6 +1135,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Lifestyle and Local
 
+54 connectors.
+
 - [Aisle Wedding](https://aislewedding.com) - AI-assisted destination wedding planning. *Use case: Building a destination wedding itinerary, comparing venues and vendors, coordinating guest travel logistics.*
 - [Ask Soma - Astrology](https://asksoma.ai) **`C`** - An AI Vedic astrology app that generates birth charts and personalized readings using Swiss Ephemeris calculations. *Use case: Generating a birth chart from date, time, and place of birth and asking for career or relationship insights.*
 - [AutoMotion](https://automotionapp.com) **`C`** - Car Maintenance & Repair. *Use case: Scheduling an oil change, tracking when a tire rotation is due, logging repairs after a shop visit.*
@@ -1153,6 +1193,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [다나와 가격비교](https://www.danawa.com) - 여러 쇼핑몰, 다양한 상품의 가격과 스펙을 한 번에 비교하고 구매만 결정하세요. *Use case: 노트북을 사기 전에 여러 쇼핑몰의 가격과 스펙을 한 번에 비교하기, 특정 상품의 최저가를 확인하기.*
 
 ## Marketing and Sales
+
+241 connectors.
 
 - [1Social](https://1social.dev) **`C`** - Publish and schedule posts to Instagram, TikTok, LinkedIn, X, Facebook, Threads and Bluesky — and see what actually landed on each one. *Use case: Scheduling a product-launch post across every platform for the same morning, checking which platform drove the most engagement on last week's video.*
 - [6sense](https://6sense.com) **`C`** - Get 6sense Insights. *Use case: Retrieving account insights.*
@@ -1398,6 +1440,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Observability and Monitoring
 
+20 connectors.
+
 - [Bronto](https://bronto.io) - Query your Observability data in plain language, then turn what you find into monitors, saved searches, and Investigation Reports. *Use case: Checking why error rates spiked overnight, turning the finding into a monitor, saving the search for next time.*
 - [Coralogix](https://coralogix.com) - Explore and debug observability data. *Use case: Log and metrics analysis, troubleshooting incidents, querying telemetry without indexing costs.*
 - [Datadog](https://www.datadoghq.com) - End-to-end observability across logs, metrics, and traces. *Use case: APM, infrastructure visibility, distributed tracing, security threat detection across the full stack.*
@@ -1420,6 +1464,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Tsuga](https://www.tsuga.com) - Query telemetry and manage assets. *Use case: Investigating production incidents, searching logs and traces, monitoring infrastructure assets.*
 
 ## Productivity
+
+95 connectors.
 
 - [Aboard](https://www.aboardhr.com) **`C`** - Connect Claude to Aboard to look up colleagues, schedule meetings, manage tasks, request time off, and run reviews right from the conversation. *Use case: Looking up a colleague's role before a meeting, requesting next week off, checking the status of an overdue task.*
 - [Airepoto](https://www.airepoto.com) **`C`** - Find, read, and summarize your Airepoto meetings. *Use case: Finding last Tuesday's meeting, summarizing what was decided, checking who was assigned a follow-up.*
@@ -1519,6 +1565,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Project Management
 
+53 connectors.
+
 - [Adobe Workfront](https://business.adobe.com/products/workfront.html) - Enterprise work management: planning, projects, tasks, approvals. *Use case: Enterprise work management, project planning, resource allocation, approval workflows.*
 - [Aerion](https://www.aerion.app) **`C`** - Inspect and act on your Aerion projects, time tracking, staffing, and approvals - straight from Claude. *Use case: Checking a project's staffing gaps before a kickoff, approving a submitted timesheet, reviewing hours logged this week.*
 - [Aha!](https://www.aha.io) **`C`** - Product management platform for roadmapping, strategy, and release planning. *Use case: Pull product roadmap and feature-prioritization data into Claude for strategic planning conversations.*
@@ -1575,6 +1623,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Research and Academic
 
+30 connectors.
+
 - [AlphaSights](https://www.alphasights.com) **`C`** - Direct access to expert knowledge. *Use case: Getting an expert's take on a niche market question, requesting expert knowledge before making a decision.*
 - [alphaXiv](https://www.alphaxiv.org) - Search and full-text access over arXiv preprints. *Use case: Finding and reading arXiv papers, full-text search, staying current on research.*
 - [Atomscale](https://www.atomscale.ai) - Search, analyze, and build insights from materials science and engineering data. *Use case: Extracting information from synthesis and characterization data, analyzing materials-processing datasets, accelerating materials research.*
@@ -1608,12 +1658,16 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## SAP
 
+4 connectors.
+
 - [SAP CAP MCP Server](https://cap.cloud.sap) - SAP Cloud Application Programming Model. *Use case: Building enterprise apps on SAP Business Technology Platform.*
 - [SAP Fiori MCP Server](https://www.sap.com/products/technology-platform/fiori.html) - Enterprise UX development for SAP applications. *Use case: SAP enterprise UX development, Fiori element configuration.*
 - [SAP MDK MCP Server](https://developers.sap.com/topics/mobile-development-kit.html) - SAP Mobile Development Kit. *Use case: Building SAP mobile apps, offline-capable enterprise mobile development.*
 - [SAPUI5 MCP Server](https://sapui5.hana.ondemand.com) - SAP web application development using the SAPUI5 framework. *Use case: SAP web application development using the SAPUI5 framework.*
 
 ## Security
+
+45 connectors.
 
 - [Affirmed AI](https://www.affirmed.ai) **`C`** - AI-powered vulnerability management for Claude — query security findings, browse your endpoint inventory, and import scan files. *Use case: Checking whether a specific CVE affects any endpoint in the inventory, importing a scan file from last night's run, prioritizing which findings to fix first.*
 - [Ansvar AI](https://ansvar.eu) **`C`** - Gap analyses, DPIAs, threat models and TARAs across NIS2, DORA, GDPR, the EU AI Act and CRA — every claim cited to verified law, licensed ISO clauses and live CVE data. *Use case: Checking whether a data processing activity has a compliance gap under GDPR, building a threat model for a new system before a DORA audit, verifying a claim against a live CVE.*
@@ -1663,6 +1717,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## SEO and Web
 
+38 connectors.
+
 - [Able SEO by VibeSEO](https://vibeseo.dev) **`C`** - SEO keyword research, competitor analysis, backlink data, technical site audits, and Google Search Console insights — plus AI-assisted blog drafting. *Use case: Checking which keywords a competitor ranks for that a site doesn't, running a technical audit before a site migration, drafting a blog post informed by Search Console data.*
 - [Advanced GSC](https://www.advancedgsc.com) **`C`** - Search Console & GA4 data for SEO — audits, reporting, backlinks, and SERP analysis. *Use case: Checking why organic traffic dropped using GA4 and Search Console data together, building an SEO report ahead of a monthly review, spotting a backlink that disappeared.*
 - [Agenticsis Visibility Monitor](https://agenticsis.ch/ai-aeo-seo-optimization) **`C`** - See how AI assistants and search see your company: AI citations, Share of Voice, rankings, backlinks, and a 54-check AEO/SEO scorecard, measured monthly. *Use case: Checking whether an AI assistant is citing a company correctly, tracking how share of voice moved after a product launch, reviewing last month's AEO/SEO scorecard for a drop in rankings.*
@@ -1704,6 +1760,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Ticketing and Events
 
+16 connectors.
+
 - [ADITUS Evo](https://www.aditus.com) **`C`** - Translates the complexity of modern events into clear insights and makes data-driven decisions easier than ever. *Use case: Turning a stack of event data into a clear takeaway before a decision, asking what the data suggests instead of digging through raw numbers.*
 - [Checkin](https://www.checkinevent.com) **`C`** - Access your event and attendee data from Checkin. *Use case: Checking how many attendees checked in to a specific event, pulling attendee contact info after an event wraps.*
 - [Eventfrog](https://eventfrog.ch) - Swiss event discovery and ticketing platform for concerts, festivals, and local events. *Use case: Find events happening nearby and buy tickets directly.*
@@ -1722,6 +1780,8 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Tixel](https://tixel.com) - Buy and sell tickets safely, fan to fan, at fair prices. *Use case: Finding resale tickets with price caps, listing spares, avoiding ticket fraud.*
 
 ## Travel
+
+57 connectors.
 
 - [AirHelp flight compensation checker](https://www.airhelp.com) **`C`** - Get up to €600 for a delayed or cancelled flight. *Use case: Checking eligibility for a flight that landed three hours late, filing a claim after a cancelled connecting flight to Lisbon.*
 - [Alice Flights](https://www.alice.co.il) **`C`** - Search and book flights with Alice, Israel's top travel and flights provider, without leaving your chat. *Use case: Searching for flights to Tel Aviv next week, choosing an airline before booking, confirming a return ticket.*

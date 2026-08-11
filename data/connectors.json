@@ -3,7 +3,7 @@
     "last_updated": "August 10, 2026",
     "capture_date": "2026-08-10",
     "render": {
-      "category_counts": false,
+      "category_counts": true,
       "subcategory_headings": false
     }
   },
