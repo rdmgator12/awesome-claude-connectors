@@ -21,7 +21,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 > [!TIP]
 > ### Connector Snap Stack — August 10, 2026
 >
-> *New format: instead of a single Connector of the Week, each sweep now features a persona and a small stack of connectors that click together — always including at least one connector new to the list.*
+> New format: instead of a single Connector of the Week, each sweep now features a persona and a small stack of connectors that click together — always including at least one connector new to the list.
 >
 > **The solo Shopify operator** — Metorik *(new)* · Intelligems *(new)* · AfterShip Post-Purchase *(new)* · Meta Ads by Windsor.ai *(new)* · running in **Claude Cowork**
 >
