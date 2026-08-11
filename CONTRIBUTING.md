@@ -26,8 +26,9 @@ Tested a connector and have real-world notes? Add a brief field report below the
 ## Guidelines
 
 - One PR per change unless closely related.
-- Keep descriptions concise -- one sentence for the description, one for the use case.
-- Use cases should be specific and practical, not marketing copy.
+- Keep descriptions concise -- one sentence for the description, one sentence for the use case.
+- The use case is one sentence containing a concrete task or 2--3 comma-separated task fragments a user would actually perform in Claude (e.g. "Comparing carrier rates for a 40-lb package, buying a return label, checking where an order stalled in transit."). It must NOT restate the description -- it adds scenario information the description lacks. No vendor voice ("your"/"our"), no marketing adjectives, and every capability it implies must be stated in the description.
+- Provenance markers: **`A`** only for entries whose canonical URL is Anthropic-owned (anthropic.com / github.com/anthropics) or whose catalog name self-identifies as Anthropic-built; **`C`** for entries carrying the in-app catalog's Community badge, applied from dated catalog captures (see docs/catalog-snapshots/).
 - Don't add connectors that aren't in the official Anthropic directory. This list tracks the official directory, not all MCP servers (see [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) for that).
 - Maintain alphabetical order within categories.
 
@@ -59,3 +60,7 @@ Every entry needs a working vendor URL. A domain returning 200 is not proof of i
 Catalog entries whose vendor URL cannot be confirmed are published in the README's **Held for Verification** section -- name, catalog description, and the reason held, with no link -- rather than being listed with a guessed or generic link, and rather than being silently omitted. Presence in at least one catalog surface is still required.
 
 If you are the vendor of a held entry, or you know its canonical product page, open an issue or PR with the URL. The entry graduates to its category section once the page content confirms the product. Never point a held entry at a generic directory page as a placeholder -- shared placeholder links fail lint (`double-link`) and tell the reader nothing.
+
+### Connector Snap Stacks
+
+Each sweep features a Connector Snap Stack in the README tip: a persona plus a small stack of connectors that click together, run through Claude Cowork or Claude Code. Composition rule: at least one connector new to the list and at least one proven one (the 2026-08-10 debut used four new entries; that is the exception, not the pattern). Stacks are archived in docs/stacks/; sweep statistics live in docs/CHANGELOG.md. A stack write-up must not assert outcomes that have not been field-tested -- mark untested stacks as composed, and upgrade them when a Field Report comes in.

@@ -12,7 +12,7 @@ Entries that don't follow the format will be closed.
 Each entry must follow this exact format and live in the appropriate category, alphabetized:
 
 ```
-- [Name](https://link) - One-sentence description ending with a period. *Use case: Concrete usage scenario, second scenario, third scenario.*
+- [Name](https://link) - One-sentence description ending with a period. *Use case: One sentence -- a concrete scenario or 2-3 comma-separated scenarios that do not restate the description; no "your"/"our".*
 ```
 
 ## Checklist
@@ -20,7 +20,7 @@ Each entry must follow this exact format and live in the appropriate category, a
 - [ ] Connector is publicly listed or installable as a Claude connector / MCP server
 - [ ] Entry is placed in the correct category, alphabetized
 - [ ] Description is one sentence, no marketing language, ends with a period
-- [ ] `*Use case:*` italics block is included with 2–3 concrete scenarios
+- [ ] `*Use case:*` italics block: one sentence, 1-3 concrete comma-separated scenarios, not a restatement of the description
 - [ ] Link uses HTTPS and points to the canonical product page
 - [ ] No duplicate entry exists in another category
 - [ ] `awesome-lint` passes locally (`npx awesome-lint@2.3.0`)
