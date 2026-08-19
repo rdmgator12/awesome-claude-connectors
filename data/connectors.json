@@ -4018,7 +4018,7 @@
     },
     {
       "name": "Harness",
-      "url": "https://app.harness.io",
+      "url": "https://www.harness.io",
       "marker": null,
       "category": "Development Tools",
       "description": "Build, ship, and secure apps on the Harness Platform.",
@@ -4618,7 +4618,7 @@
     },
     {
       "name": "Nutrient PDF Editor",
-      "url": "https://www.nutrient.io/products/pdf-editor",
+      "url": "https://www.nutrient.io",
       "marker": null,
       "category": "Documents and Files",
       "description": "View, annotate, fill forms, and redact PDFs directly from Claude.",
@@ -10866,7 +10866,7 @@
     },
     {
       "name": "MCP Instana Server",
-      "url": "https://www.instana.com",
+      "url": "https://www.ibm.com/products/instana",
       "marker": null,
       "category": "Observability and Monitoring",
       "description": "Observability platform.",
@@ -11754,7 +11754,7 @@
     },
     {
       "name": "Backlog",
-      "url": "https://nulab.com/services/backlog/",
+      "url": "https://nulab.com/backlog/",
       "marker": null,
       "category": "Project Management",
       "description": "Nulab Backlog project management.",
