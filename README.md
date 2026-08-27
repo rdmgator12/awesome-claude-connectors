@@ -4,9 +4,9 @@
   <img src="media/banner.svg" alt="Awesome Claude Connectors" width="800">
 </p>
 
-> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 1,625 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 72 held pending vendor verification, organized by category with descriptions and use cases.
+> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 1,626 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 72 held pending vendor verification, organized by category with descriptions and use cases.
 
-**Last updated:** August 10, 2026 | **Connectors tracked:** 1,625 listed + 72 held | **Categories:** 30
+**Last updated:** August 10, 2026 | **Connectors tracked:** 1,626 listed + 72 held | **Categories:** 30
 
 Claude connectors are MCP (Model Context Protocol) servers that extend Claude with real-time access to external tools, data sources, and services. They work across Claude.ai, Claude Desktop, Claude Mobile, Claude Code, and Claude Cowork. Connectors in the **curated web directory** are vetted by Anthropic for security, reliability, and compatibility; the **in-app catalog** additionally surfaces community-built and local desktop-extension connectors that Anthropic makes available but does not itself build or vet. This list tracks the union of both surfaces — see CONTRIBUTING.md for the two-surface methodology.
 
@@ -1269,10 +1269,11 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Marketing and Sales
 
-241 connectors.
+242 connectors.
 
 ### Advertising and Paid Media
 
+- [AdKit - Ads Manager](https://adkit.so) **`C`** - Manage campaigns, ad sets, keywords, audiences, and budgets across Meta, Google, TikTok, LinkedIn, Reddit, Microsoft, and X Ads, with reporting on spend, ROAS, and cost per result, PPC budget audits, a library of 500k+ competitor ads, and changes that stay drafts until approved. *Use case: Pulling last week's ROAS before a client report, pausing a campaign whose cost per result crossed a threshold, checking which competitor creatives have run longest before briefing a new set.*
 - [Adlicio](https://tryadlicio.com) **`C`** - Turn customer comments into ad angles. *Use case: Pulling a recurring complaint from product reviews to find a new ad hook, turning a glowing customer quote into ad copy for a new campaign.*
 - [Adology](https://adologyai.com) **`C`** - Competitive ad intelligence for marketers that pulls a brand's ad creative, hooks, and spend patterns across Meta, TikTok, YouTube, and more. *Use case: Checking a competitor's TikTok ad spend before planning next quarter's budget, pulling a rival's best-performing ad hooks on Meta for inspiration.*
 - [AdShields](https://www.adshields.pro/en) **`C`** - Creative operations hub: a library of videos and VSLs where your team writes scripts, comments by passage, versions, approves, and pushes to your ad platform — all in natural language. *Use case: Leaving a comment on a specific line of a VSL script before recording, approving a final video cut before it pushes live to the ad platform.*

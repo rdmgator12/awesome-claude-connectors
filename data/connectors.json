@@ -13639,6 +13639,15 @@
       "category": "Travel",
       "description": "Trouvez et réservez un parking à l'heure ou à la journée près de votre destination, partout en France et en Europe.",
       "use_case": "Réservant un parking à l'heure avant un rendez-vous en ville, trouvant une place de parking à la journée près d'une gare, confirmant un stationnement avant un déplacement en Europe."
+    },
+    {
+      "name": "AdKit - Ads Manager",
+      "url": "https://adkit.so",
+      "marker": "C",
+      "category": "Marketing and Sales",
+      "description": "Manage campaigns, ad sets, keywords, audiences, and budgets across Meta, Google, TikTok, LinkedIn, Reddit, Microsoft, and X Ads, with reporting on spend, ROAS, and cost per result, PPC budget audits, a library of 500k+ competitor ads, and changes that stay drafts until approved.",
+      "use_case": "Pulling last week's ROAS before a client report, pausing a campaign whose cost per result crossed a threshold, checking which competitor creatives have run longest before briefing a new set.",
+      "subcategory": "Advertising and Paid Media"
     }
   ],
   "held": [
