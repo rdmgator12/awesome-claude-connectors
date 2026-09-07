@@ -13648,6 +13648,14 @@
       "description": "Understand your personal finances.",
       "use_case": "Checking spending for the past month, comparing this month's expenses to last month's, seeing where money went after a big purchase.",
       "subcategory": "Personal Finance and Consumer Tax"
+    },
+    {
+      "name": "MCP Memory",
+      "url": "https://mnemoverse.com/docs/api/mcp-server",
+      "marker": null,
+      "category": "AI and ML",
+      "description": "Hosted persistent memory for AI agents with one key across Claude Code, Cursor, VS Code, and ChatGPT.",
+      "use_case": "Carrying a decision made in a Claude Code session into a Cursor session the next day, recalling a preference stored weeks earlier before drafting a reply, marking a remembered fact as wrong so it fades."
     }
   ],
   "held": [
@@ -13835,11 +13843,6 @@
       "name": "mailnix",
       "catalog_description": "forms and email with your mta",
       "why_held": "no vendor page found for \"mailnix\"; searches returned unrelated MCP email servers (MailMCP, Postmark, AIMX)."
-    },
-    {
-      "name": "MCP Memory",
-      "catalog_description": "Hosted persistent memory for AI agents with one key across Claude Code, Cursor, VS Code, and ChatGPT.",
-      "why_held": "No confirmed vendor site; possibly a rebrand of Mnemoverse Memory (unconfirmed)."
     },
     {
       "name": "mcpMyAdmin",

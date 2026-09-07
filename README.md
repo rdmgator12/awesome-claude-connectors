@@ -4,9 +4,9 @@
   <img src="media/banner.svg" alt="Awesome Claude Connectors" width="800">
 </p>
 
-> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 1,626 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 72 held pending vendor verification, organized by category with descriptions and use cases.
+> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 1,627 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 71 held pending vendor verification, organized by category with descriptions and use cases.
 
-**Last updated:** August 10, 2026 | **Connectors tracked:** 1,626 listed + 72 held | **Categories:** 30
+**Last updated:** August 10, 2026 | **Connectors tracked:** 1,627 listed + 71 held | **Categories:** 30
 
 Claude connectors are MCP (Model Context Protocol) servers that extend Claude with real-time access to external tools, data sources, and services. They work across Claude.ai, Claude Desktop, Claude Mobile, Claude Code, and Claude Cowork. Connectors in the **curated web directory** are vetted by Anthropic for security, reliability, and compatibility; the **in-app catalog** additionally surfaces community-built and local desktop-extension connectors that Anthropic makes available but does not itself build or vet. This list tracks the union of both surfaces — see CONTRIBUTING.md for the two-surface methodology.
 
@@ -94,7 +94,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## AI and ML
 
-46 connectors.
+47 connectors.
 
 - [Agensi](https://www.agensi.io) **`C`** - Search, discover, and install AI agent skills. *Use case: Searching for a skill that drafts release notes, installing an agent skill for meeting summaries, checking what's new in the catalog this week.*
 - [Agently](https://www.agently.dev) **`C`** - Give your agents your company's memory. *Use case: Asking an agent what pricing was quoted to a customer last month, pulling up a decision made in a past project, checking a policy the team agreed to earlier this year.*
@@ -118,6 +118,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Komplyt Zero](https://www.kompl.yt/zero) **`C`** - Stop briefing and start working. *Use case: Handing off a task without writing a lengthy brief first, letting an agent start on the work immediately.*
 - [LeapMemory](https://leapmemory.com) **`C`** - Permanent, private memory for Claude. *Use case: Picking up a conversation from weeks ago without repeating the backstory, keeping a personal note that only one account can see.*
 - [Lenz](https://lenz.io) **`C`** - An independent fact-checking layer for AI output that returns a sourced verdict for any factual claim, either a fast check or the full eight-model trace. *Use case: Checking whether a claim in a draft article is actually true, verifying a statistic before it goes into a report, running the full eight-model trace on a contested fact instead of a quick pass.*
+- [MCP Memory](https://mnemoverse.com/docs/api/mcp-server) - Hosted persistent memory for AI agents with one key across Claude Code, Cursor, VS Code, and ChatGPT. *Use case: Carrying a decision made in a Claude Code session into a Cursor session the next day, recalling a preference stored weeks earlier before drafting a reply, marking a remembered fact as wrong so it fades.*
 - [Meko](https://mekodata.ai) **`C`** - Shared context for agents that work and learn together. *Use case: Letting one agent pick up context another agent already gathered, keeping multiple agents working from the same shared notes as a project evolves.*
 - [Mem0](https://mem0.ai) - Persistent memory for AI agents and assistants. *Use case: Long-term memory that survives across sessions, semantic recall of prior context, shared memory across tools.*
 - [Memories.ai](https://memories.ai) **`C`** - Search, recall & analyze your video memories. *Use case: Finding the clip where a specific person appears across old footage, recalling what happened during a trip last summer, analyzing a video for a recurring pattern.*
@@ -1986,7 +1987,6 @@ Every link above has been checked against the live page — a URL ships only whe
 | LedgerHQ                                           | Work with your LedgerHQ books in Claude. Run financial reports, search transactions, code and post bank activity, create journal entries,…  | no bookkeeping vendor named LedgerHQ found; LedgerHQ is the crypto hardware-wallet org (ledger.com), not this product.                                               |
 | Magicweave                                         | Design, validate, simulate, and one-click-build complete game economies & backend from a plain-English brief.                               | no vendor homepage found; only Mintlify-hosted docs subdomain and console/api.magicweave.xyz references.                                                             |
 | mailnix                                            | forms and email with your mta                                                                                                               | no vendor page found for "mailnix"; searches returned unrelated MCP email servers (MailMCP, Postmark, AIMX).                                                         |
-| MCP Memory                                         | Hosted persistent memory for AI agents with one key across Claude Code, Cursor, VS Code, and ChatGPT.                                       | No confirmed vendor site; possibly a rebrand of Mnemoverse Memory (unconfirmed).                                                                                     |
 | mcpMyAdmin                                         | Query databases from Claude, on any device                                                                                                  | Two searches returned only unrelated MySQL MCP servers and McMyAdmin (Minecraft panel); no vendor homepage found.                                                    |
 | Mercado Libre Inmuebles                            | Encontrar tu propiedad ideal                                                                                                                | Product page exists per country (.com.ar / .com.mx / .com.co /c/inmuebles); connector's country not specified.                                                       |
 | Milan Metro Status                                 | Real-time Milan Metro Status                                                                                                                | no vendor page found; only official ATM Milano transit site, which is not this connector.                                                                            |
