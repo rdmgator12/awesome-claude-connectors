@@ -2724,7 +2724,7 @@
     },
     {
       "name": "Real-Time LCA MCP",
-      "url": "https://realtimelca.com",
+      "url": "https://realtimelca.com/en-us/",
       "marker": "C",
       "category": "Data and Analytics",
       "description": "Edit full building LCA, Find EPDs, optimize design.",
@@ -6699,15 +6699,6 @@
       "description": "Your Twinfield bookkeeping, now on speaking terms with your AI assistant.",
       "use_case": "Checking a client's outstanding invoice, reconciling last month's bank transactions, asking for a summary of bookkeeping entries from a specific week.",
       "subcategory": "Accounting Payroll and Financial Planning"
-    },
-    {
-      "name": "ualet",
-      "url": "https://www.ualet.com",
-      "marker": "C",
-      "category": "Finance and Trading",
-      "description": "Understand your personal finances.",
-      "use_case": "Checking spending for the past month, comparing this month's expenses to last month's, seeing where money went after a big purchase.",
-      "subcategory": "Personal Finance and Consumer Tax"
     },
     {
       "name": "Upflow MCP",
@@ -13971,6 +13962,11 @@
       "name": "Truehome Desk",
       "catalog_description": "Run your estate agency from the AI you already use.",
       "why_held": "No live product page found."
+    },
+    {
+      "name": "ualet",
+      "catalog_description": "Understand your personal finances",
+      "why_held": "site dead since 2026-08-17 (https TLS failure, HubSpot 409, crawl error 9/6); Ualet folded into Flink 2022 — removal candidate at the next in-app export."
     },
     {
       "name": "Upbuild",

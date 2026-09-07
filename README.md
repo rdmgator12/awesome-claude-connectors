@@ -4,9 +4,9 @@
   <img src="media/banner.svg" alt="Awesome Claude Connectors" width="800">
 </p>
 
-> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 1,625 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 72 held pending vendor verification, organized by category with descriptions and use cases.
+> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 1,624 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 73 held pending vendor verification, organized by category with descriptions and use cases.
 
-**Last updated:** August 10, 2026 | **Connectors tracked:** 1,625 listed + 72 held | **Categories:** 30
+**Last updated:** August 10, 2026 | **Connectors tracked:** 1,624 listed + 73 held | **Categories:** 30
 
 Claude connectors are MCP (Model Context Protocol) servers that extend Claude with real-time access to external tools, data sources, and services. They work across Claude.ai, Claude Desktop, Claude Mobile, Claude Code, and Claude Cowork. Connectors in the **curated web directory** are vetted by Anthropic for security, reliability, and compatibility; the **in-app catalog** additionally surfaces community-built and local desktop-extension connectors that Anthropic makes available but does not itself build or vet. This list tracks the union of both surfaces — see CONTRIBUTING.md for the two-surface methodology.
 
@@ -485,7 +485,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Matchory](https://matchory.com) **`C`** - Find, evaluate, and organise suppliers with Matchory's supplier discovery and market intelligence. *Use case: Finding a new supplier for a hard-to-source part, comparing two suppliers before signing a contract, organizing a shortlist ahead of a sourcing decision.*
 - [Normhyra.ai](https://normhyra.ai) **`C`** - Swedish normhyra calculation engine – convert rents, process rent rolls, generate PDF reports. *Use case: Converting an old rent to today's normhyra rate before a lease renewal, processing a building's full rent roll at once, generating a PDF report for a tenant dispute.*
 - [Optilogic](https://optilogic.com) **`C`** - AI-driven supply chain design and decision intelligence. *Use case: Redesigning a supply chain network after a warehouse closes, running a decision-intelligence analysis before choosing a new distribution route.*
-- [Real-Time LCA MCP](https://realtimelca.com) **`C`** - Edit full building LCA, Find EPDs, optimize design. *Use case: Swapping a structural material in a building LCA to see the carbon impact, finding an EPD for a specific product, optimizing a design before a sustainability submission.*
+- [Real-Time LCA MCP](https://realtimelca.com/en-us/) **`C`** - Edit full building LCA, Find EPDs, optimize design. *Use case: Swapping a structural material in a building LCA to see the carbon impact, finding an EPD for a specific product, optimizing a design before a sustainability submission.*
 - [RED Atlas API](https://api.atlas.red) - Programmatic access to real estate data for Puerto Rico and Colombia, including listings, parcels, transactions, and valuations. *Use case: Query property valuations and ownership records for a parcel in San Juan or Bogota.*
 - [SkyWatch](https://skywatch.com) - Search and price satellite imagery worldwide. *Use case: Finding satellite imagery of a location, comparing pricing across providers, tasking a new capture.*
 - [Swath API](https://swathapi.com) **`C`** - Radar-verified hail and wind storm detection with affected-property intelligence for the continental US — find storms, map damage swaths, and pull ranked property reports. *Use case: Checking if a specific address fell inside last week's hail swath, ranking which properties in a storm's path likely need the most repair, mapping a wind event before dispatching an inspector.*
@@ -797,7 +797,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Finance and Trading
 
-199 connectors.
+198 connectors.
 
 ### Accounting Payroll and Financial Planning
 
@@ -978,7 +978,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [TaxAct](https://www.taxact.com) - Estimate your refund and check what documents you need. *Use case: Tax-refund estimation, document checklists, filing preparation guidance.*
 - [Tiller](https://tiller.com) - Connect to transactions in a Tiller spreadsheet. *Use case: Pulling recent bank transactions into a budgeting review, reconciling a spreadsheet against actual spending, generating a monthly cash-flow summary.*
 - [Trioteca Hipotecas](https://trioteca.com) **`C`** - Calcula costes hipotecarios. *Use case: Comparando el coste total de una hipoteca a 20 años, calculando los gastos de notaría antes de firmar, revisando el coste de cancelar una hipoteca anticipadamente.*
-- [ualet](https://www.ualet.com) **`C`** - Understand your personal finances. *Use case: Checking spending for the past month, comparing this month's expenses to last month's, seeing where money went after a big purchase.*
 - [ValYou](https://getvalyou.co/claude) **`C`** - Ask Claude about your net worth, wealth ranking, and financial future. *Use case: Checking how net worth compares to a wealth ranking benchmark, projecting financial future after a raise, tracking net worth growth over the past year.*
 
 ### Private Markets Real Estate and Deal Intelligence
@@ -2014,6 +2013,7 @@ Every link above has been checked against the live page — a URL ships only whe
 | Tomi — AI Phone Calls                              | Claude makes real phone calls for you, in many languages                                                                                    | Ambiguous name; TOMIS (tour-operator voice AI) and TOMI (crypto wallet) are different vendors, neither matches.                                                      |
 | TotalCtrl                                          | Bring your TotalCtrl workspace into Claude — look up and update CRM, projects, tasks, support tickets, notes, surveys, analytics, and more. | only totalctrl.com found = Norwegian food-waste/kitchen inventory vendor; does not match CRM/projects/tickets/surveys description.                                   |
 | Truehome Desk                                      | Run your estate agency from the AI you already use.                                                                                         | No live product page found.                                                                                                                                          |
+| ualet                                              | Understand your personal finances                                                                                                           | site dead since 2026-08-17 (https TLS failure, HubSpot 409, crawl error 9/6); Ualet folded into Flink 2022 — removal candidate at the next in-app export.            |
 | Upbuild                                            | Query your marketing and analytics data in natural language                                                                                 | upbuild.io is a defunct SEO agency (2015-2023), no NL-query product; no other vendor named Upbuild matched after two searches.                                       |
 | Vergabe Dashboard                                  | Ausschreibungen finden, ohne Portale zu durchforsten                                                                                        | German public-tender search product; two searches surfaced only other German tender platforms (tender-service.de, vergabe24.de,…                                     |
 | WalkMyPlan — AI Home Design & 3D Floor Plans       | Design your floor plan in chat, get a 3D link to walk through it — then tell the chat what to change, or sketch it yourself right in the…   | no vendor page found in two searches; only unrelated floor-plan-to-3D vendors.                                                                                       |

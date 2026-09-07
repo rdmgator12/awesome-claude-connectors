@@ -8,8 +8,3 @@ https://www.turkishairlines.com/.*
 https://www.uber.com/.*
 # Radware Bot Manager (returns nonstandard 247 to non-browsers); site alive.
 https://www.alice.co.il/.*
-# Vendor sites currently broken but entries kept pending upstream-catalog check at next sweep:
-# realtimelca.com — HTTP 500 on all variants since >=2026-08-17; recheck, remove entry if still dead.
-https://realtimelca.com/.*
-# ualet.com — TLS handshake failure; Ualet acquired by Flink (2022), service inactivated. Removal candidate.
-https://www.ualet.com/.*
