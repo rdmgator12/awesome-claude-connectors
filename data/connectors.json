@@ -9734,7 +9734,7 @@
     },
     {
       "name": "Moody's Growth & Strategy",
-      "url": "https://www.moodys.com/web/en/us/solutions/business-intelligence/data-for-sales-and-marketing.html",
+      "url": "https://www.moodys.com/web/en/us/solutions/growth-strategy.html",
       "marker": "C",
       "category": "Marketing and Sales",
       "description": "Insights that fuel GTM growth.",
@@ -13639,6 +13639,15 @@
       "description": "Manage campaigns, ad sets, keywords, audiences, and budgets across Meta, Google, TikTok, LinkedIn, Reddit, Microsoft, and X Ads, with reporting on spend, ROAS, and cost per result, PPC budget audits, a library of 500k+ competitor ads, and changes that stay drafts until approved.",
       "use_case": "Pulling last week's ROAS before a client report, pausing a campaign whose cost per result crossed a threshold, checking which competitor creatives have run longest before briefing a new set.",
       "subcategory": "Advertising and Paid Media"
+    },
+    {
+      "name": "ualet",
+      "url": "https://ualet.cl",
+      "marker": "C",
+      "category": "Finance and Trading",
+      "description": "Understand your personal finances.",
+      "use_case": "Checking spending for the past month, comparing this month's expenses to last month's, seeing where money went after a big purchase.",
+      "subcategory": "Personal Finance and Consumer Tax"
     }
   ],
   "held": [
@@ -13971,11 +13980,6 @@
       "name": "Truehome Desk",
       "catalog_description": "Run your estate agency from the AI you already use.",
       "why_held": "No live product page found."
-    },
-    {
-      "name": "ualet",
-      "catalog_description": "Understand your personal finances",
-      "why_held": "site dead since 2026-08-17 (https TLS failure, HubSpot 409, crawl error 9/6); Ualet folded into Flink 2022 — removal candidate at the next in-app export."
     },
     {
       "name": "Upbuild",
