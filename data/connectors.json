@@ -6027,7 +6027,7 @@
     },
     {
       "name": "mrmarket.ai",
-      "url": "https://mrmarket.ai",
+      "url": "https://github.com/mrmarket-ai/mrmarket-mcp",
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Ad-hoc analysis of US-listed stocks in English.",

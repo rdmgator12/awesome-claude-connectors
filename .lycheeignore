@@ -8,3 +8,9 @@ https://www.turkishairlines.com/.*
 https://www.uber.com/.*
 # Radware Bot Manager (returns nonstandard 247 to non-browsers); site alive.
 https://www.alice.co.il/.*
+# TLS refused to curl/lychee, content verified via a second fetch channel 2026-09-06 (docs.inlace.co also 200); site alive.
+https://inlace.co/.*
+# minutes.me — 200 to browser AND checker user agents from a residential network 2026-09-06; TLS handshake fails only from the
+# GitHub runner. NOTE: absent from the 2026-09-06 directory feed and the web sitemap → removal candidate once the feed's
+# coverage is validated against the 2026-08-10 export at the next sweep.
+https://minutes.me/.*
