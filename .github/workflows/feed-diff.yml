@@ -1,0 +1,38 @@
+name: feed-diff
+
+on:
+  schedule:
+    - cron: "0 11 * * 5" # Fridays 11:00 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  diff:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+      - name: Diff the directory feed and the web sitemap against data/connectors.json
+        id: diff
+        run: |
+          python3 scripts/feed_diff.py --out feed-diff.md --full-out feed-diff-full.md
+          echo "date=$(date -u +%Y-%m-%d)" >> "$GITHUB_OUTPUT"
+      - name: Keep the full report as an artifact
+        uses: actions/upload-artifact@v7
+        with:
+          name: feed-diff-${{ steps.diff.outputs.date }}
+          path: |
+            feed-diff.md
+            feed-diff-full.md
+          retention-days: 90
+      - name: Open the report as an issue
+        uses: peter-evans/create-issue-from-file@v5
+        with:
+          title: "Feed diff: ${{ steps.diff.outputs.date }}"
+          content-filepath: ./feed-diff.md
+          labels: feed-diff

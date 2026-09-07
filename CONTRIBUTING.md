@@ -48,7 +48,7 @@ This list is updated weekly to stay in sync with the official directory. If you 
 Anthropic's catalog lives on two surfaces that don't fully overlap, and this list tracks the **union** of both:
 
 - **Web directory** (claude.com/connectors) -- a curated subset, enumerable from `claude.com/sitemap.xml`. Exclude locale-prefixed duplicates when counting.
-- **In-app catalog** (claude.ai -> Settings -> Connectors) -- the full set, including Community connectors and local desktop extensions that never appear on the web listing. Not scrapeable; requires a manual export.
+- **In-app catalog** (claude.ai -> Settings -> Connectors) -- the full set, including Community connectors and local desktop extensions that never appear on the web listing. Enumerable since September 2026 through Anthropic's directory feed (`api.anthropic.com/api/directory/servers`, one JSON call, tier + vendor URL per entry); `python3 scripts/feed_diff.py` diffs it and the sitemap against the data and the `feed-diff` workflow files that report as an issue every Friday. The feed's coverage against the app view is still being validated -- treat feed-absence as one surface, not both.
 
 **Removal rule: only remove an entry when it is absent from _both_ surfaces.** Absence from one surface alone is expected and is not evidence of delisting. A removal batch was cancelled in July 2026 for exactly this reason, and three entries were removed in July 2026 only after failing the two-surface test.
 
