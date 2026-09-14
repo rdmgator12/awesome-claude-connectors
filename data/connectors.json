@@ -21512,12 +21512,12 @@
     {
       "name": "Airmail",
       "catalog_description": "Manage emails, calendars, contacts, and more from Claude using Airmail's MCP server.",
-      "why_held": "feed carries only a profile/org or asset page (github.com/Airmail), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (a GitHub profile or org page), not a product page (2026-09-14)"
     },
     {
       "name": "Commerce Layer Metrics",
       "catalog_description": "Commerce Layer Metrics MCP server",
-      "why_held": "feed carries only a profile/org or asset page (github.com/pviti), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (a GitHub profile or org page), not a product page (2026-09-14)"
     },
     {
       "name": "Dango",
@@ -21532,7 +21532,7 @@
     {
       "name": "Denodo MCP Connector",
       "catalog_description": "Connect Claude Desktop to a Denodo Virtual DataPort database via MCP",
-      "why_held": "feed carries only a profile/org or asset page (github.com/denodo), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (a GitHub profile or org page), not a product page (2026-09-14)"
     },
     {
       "name": "doDomain",
@@ -21542,22 +21542,22 @@
     {
       "name": "droplinked",
       "catalog_description": "Discover and verify products across droplinked's KYB-attested merchant network. Read-only agentic-commerce discovery.",
-      "why_held": "feed carries only a profile/org or asset page (github.com/droplinked), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (a GitHub profile or org page), not a product page (2026-09-14)"
     },
     {
       "name": "Fieldy",
       "catalog_description": "Search and recall your Fieldy conversations directly in Claude.",
-      "why_held": "feed carries only a profile/org or asset page (linkedin.com/in/adomasv), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (a LinkedIn personal profile), not a product page (2026-09-14)"
     },
     {
       "name": "Firefox Control",
       "catalog_description": "Control Mozilla Firefox: tabs, history and web content (privacy aware)",
-      "why_held": "feed carries only a profile/org or asset page (github.com/eyalzh), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (a GitHub profile or org page), not a product page (2026-09-14)"
     },
     {
       "name": "FlitIQ — FMCSA Carrier Intelligence",
       "catalog_description": "Look up U.S. motor carriers, check CSA safety scores, verify insurance, and save carriers to your FlitIQ pipeline — all inside Claude. Requires a FlitIQ Pro or",
-      "why_held": "feed carries only a profile/org or asset page (github.com/smartlink-basics), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (a GitHub profile or org page), not a product page (2026-09-14)"
     },
     {
       "name": "GetItDone",
@@ -21577,7 +21577,7 @@
     {
       "name": "hvacbuilder.app",
       "catalog_description": "Design, solve and simulate HVAC systems with real physics",
-      "why_held": "feed carries only a profile/org or asset page (linkedin.com/in/myron-van-staden-452346106), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (a LinkedIn personal profile), not a product page (2026-09-14)"
     },
     {
       "name": "Inbin Pulse",
@@ -21612,7 +21612,7 @@
     {
       "name": "Minutes Conversation Memory",
       "catalog_description": "The private, owned conversation-memory layer for AI. Record, transcribe, and search every meeting, voice memo, and dictation entirely on your own machine — noth",
-      "why_held": "feed carries only a profile/org or asset page (github.com/silverstein), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (a GitHub profile or org page), not a product page (2026-09-14)"
     },
     {
       "name": "NeetoDesk",
@@ -21642,12 +21642,12 @@
     {
       "name": "PopHIVE Public Health Data",
       "catalog_description": "Access near real-time public health data from PopHIVE dashboards including immunizations, respiratory diseases, chronic conditions, hospital capacity, injury/ov",
-      "why_held": "feed carries only a profile/org or asset page (github.com/Cicatriiz), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (a GitHub profile or org page), not a product page (2026-09-14)"
     },
     {
       "name": "Reddit MCP Buddy",
       "catalog_description": "Browse Reddit directly in Claude Desktop. Search posts, analyze users, explore communities - no API keys needed.",
-      "why_held": "feed carries only a profile/org or asset page (github.com/karanb192), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (a GitHub profile or org page), not a product page (2026-09-14)"
     },
     {
       "name": "SiD Corp MCP",
@@ -21667,7 +21667,7 @@
     {
       "name": "Things (AppleScript)",
       "catalog_description": "Claude Desktop Extension for Things, the award-winning personal task manager",
-      "why_held": "feed carries only a profile/org or asset page (github.com/mbmccormick), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (a GitHub profile or org page), not a product page (2026-09-14)"
     },
     {
       "name": "Uptimely",
@@ -21687,7 +21687,7 @@
     {
       "name": "Website Auditor",
       "catalog_description": "AI visibility and site audits: see whether ChatGPT, Perplexity, Claude, and Gemini recommend a website.",
-      "why_held": "feed carries only a profile/org or asset page (github.com/SpikeyCoder), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (a GitHub profile or org page), not a product page (2026-09-14)"
     }
   ]
 }
