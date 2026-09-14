@@ -83,7 +83,7 @@
     {
       "name": "AskNeedl",
       "url": "https://needl.ai",
-      "marker": null,
+      "marker": "C",
       "category": "AI and ML",
       "description": "Enterprise AI assistant that searches internal and external data sources and returns cited answers.",
       "use_case": "Ask a question across company documents, filings, and news feeds to get a sourced answer."
@@ -155,7 +155,7 @@
     {
       "name": "Graffiticode",
       "url": "https://graffiticode.org",
-      "marker": null,
+      "marker": "C",
       "category": "AI and ML",
       "description": "An open toolbox of task-specific AI tools.",
       "use_case": "Calling a purpose-built tool for a narrow task, chaining task-specific tools into an agent workflow, extending an agent with a new tool."
@@ -227,7 +227,7 @@
     {
       "name": "Meko",
       "url": "https://mekodata.ai",
-      "marker": "C",
+      "marker": null,
       "category": "AI and ML",
       "description": "Shared context for agents that work and learn together.",
       "use_case": "Letting one agent pick up context another agent already gathered, keeping multiple agents working from the same shared notes as a project evolves."
@@ -267,7 +267,7 @@
     {
       "name": "Orbismo",
       "url": "https://orbismo.com",
-      "marker": null,
+      "marker": "C",
       "category": "AI and ML",
       "description": "Build collaborative worlds with AI.",
       "use_case": "Maintaining a novel's character and timeline canon, tracking a game campaign's world lore, keeping a knowledge base of people and relationships current."
@@ -307,7 +307,7 @@
     {
       "name": "Qontext",
       "url": "https://qontext.ai",
-      "marker": null,
+      "marker": "C",
       "category": "AI and ML",
       "description": "Self-updating company context repository that AI agents can search, read, and edit over MCP.",
       "use_case": "Pull the latest account facts on a customer or deal directly into a Claude conversation instead of gathering context by hand."
@@ -347,7 +347,7 @@
     {
       "name": "Synthflow",
       "url": "https://synthflow.ai",
-      "marker": "C",
+      "marker": null,
       "category": "AI and ML",
       "description": "Build and manage AI voice agents from chat.",
       "use_case": "Setting up a voice agent to handle inbound support calls, updating a voice agent's script after a product change, checking why a call transferred to the wrong flow."
@@ -395,7 +395,7 @@
     {
       "name": "Vertiso Memory",
       "url": "https://memory.vertiso.ai",
-      "marker": "C",
+      "marker": null,
       "category": "AI and ML",
       "description": "Portable, durable memory for every AI agent you use.",
       "use_case": "Bringing a fact saved in one agent into a conversation with a different one, checking a note from last month without re-entering it."
@@ -539,7 +539,7 @@
     {
       "name": "SignalSync",
       "url": "https://signalsync.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Automation and Integration",
       "description": "Query workflows and requests across an organization.",
       "use_case": "Checking workflow request status, querying cross-department process data, monitoring operational workflow health."
@@ -547,7 +547,7 @@
     {
       "name": "Tekst",
       "url": "https://www.tekst.com",
-      "marker": null,
+      "marker": "C",
       "category": "Automation and Integration",
       "description": "Analyze and automate enterprise processes.",
       "use_case": "Mapping a quote-to-cash exception into an automated rule, auditing where a procure-to-pay process breaks down, generating process documentation from workflow data."
@@ -595,7 +595,7 @@
     {
       "name": "Akiflow",
       "url": "https://akiflow.com",
-      "marker": null,
+      "marker": "C",
       "category": "Calendar and Scheduling",
       "description": "Plans tasks across multiple calendars from any AI assistant.",
       "use_case": "Unifying calendars from multiple accounts, blocking time for tasks, planning a daily schedule."
@@ -731,7 +731,7 @@
     {
       "name": "Blynk",
       "url": "https://www.blynk.io",
-      "marker": null,
+      "marker": "C",
       "category": "Cloud and Infrastructure",
       "description": "Create, monitor, and control Blynk IoT devices.",
       "use_case": "Monitoring sensor data from IoT devices, controlling connected hardware remotely, building an IoT dashboard."
@@ -763,7 +763,7 @@
     {
       "name": "Costory",
       "url": "https://costory.io",
-      "marker": null,
+      "marker": "C",
       "category": "Cloud and Infrastructure",
       "description": "FinOps cost-context layer for engineering teams.",
       "use_case": "Investigating a cloud cost spike, attributing spend to services or teams, surfacing cost context during engineering work."
@@ -851,7 +851,7 @@
     {
       "name": "Litmus MCP",
       "url": "https://litmus.io/litmus-edge",
-      "marker": "C",
+      "marker": null,
       "category": "Cloud and Infrastructure",
       "description": "Connect Claude to Litmus Edge industrial devices through your Litmus MCP Server.",
       "use_case": "Checking a sensor reading from a factory floor device without opening a separate dashboard, asking whether an industrial device is reporting data, pulling the current status of equipment on a production line."
@@ -859,7 +859,7 @@
     {
       "name": "MongoDB Atlas",
       "url": "https://www.mongodb.com/products/platform/atlas-database",
-      "marker": "C",
+      "marker": null,
       "category": "Cloud and Infrastructure",
       "description": "Manage MongoDB Atlas resources and read & write cluster data.",
       "use_case": "Checking why a database cluster's storage is nearly full, writing a new record into a collection without opening a separate client, provisioning a read replica before an expected traffic spike."
@@ -1011,7 +1011,7 @@
     {
       "name": "Zylo",
       "url": "https://zylo.com",
-      "marker": null,
+      "marker": "C",
       "category": "Cloud and Infrastructure",
       "description": "View, update, and manage a SaaS portfolio.",
       "use_case": "Auditing SaaS license spend, tracking app usage, managing renewals."
@@ -1027,7 +1027,7 @@
     {
       "name": "Agility CMS",
       "url": "https://agilitycms.com",
-      "marker": "C",
+      "marker": null,
       "category": "CMS and Web Building",
       "description": "Model content, author pages, publish updates, and manage media across multiple Agility CMS instances through natural language.",
       "use_case": "Adding a new content model field before a marketing team builds a landing page, publishing an update across two CMS instances at once, swapping out an image in a media library without opening a separate dashboard."
@@ -1051,7 +1051,7 @@
     {
       "name": "Deplixo",
       "url": "https://deplixo.com",
-      "marker": null,
+      "marker": "C",
       "category": "CMS and Web Building",
       "description": "Build and deploy web apps to a live URL in seconds.",
       "use_case": "Spinning up a prototype app, deploying a landing page, sharing a working demo."
@@ -1059,7 +1059,7 @@
     {
       "name": "Domhaul",
       "url": "https://domhaul.com",
-      "marker": null,
+      "marker": "C",
       "category": "CMS and Web Building",
       "description": "An AI domain name search tool that generates brandable name ideas and checks live availability across TLDs.",
       "use_case": "Describing a new project and getting a list of available, brandable domain names to register."
@@ -1099,7 +1099,7 @@
     {
       "name": "Laioutr",
       "url": "https://www.laioutr.com",
-      "marker": null,
+      "marker": "C",
       "category": "CMS and Web Building",
       "description": "Edit Cockpit sections, blocks, and props in real time.",
       "use_case": "Composing storefront pages from sections and blocks, editing component props live, managing a composable-commerce frontend."
@@ -1139,7 +1139,7 @@
     {
       "name": "Mystore",
       "url": "https://www.mystore.in",
-      "marker": null,
+      "marker": "C",
       "category": "CMS and Web Building",
       "description": "Search products, orders, customers, and analytics from a Mystore store.",
       "use_case": "Checking order status, pulling sales analytics, looking up customer purchase history."
@@ -1155,7 +1155,7 @@
     {
       "name": "Nuvemshop",
       "url": "https://www.nuvemshop.com.br",
-      "marker": null,
+      "marker": "C",
       "category": "CMS and Web Building",
       "description": "Connects Claude to Nuvemshop (Tiendanube), a Latin American e-commerce platform, to create, manage, analyze, and automate online stores.",
       "use_case": "Ask Claude to update product inventory and pull last month's sales report for a Nuvemshop storefront."
@@ -1387,7 +1387,7 @@
     {
       "name": "Inkbox",
       "url": "https://inkbox.ai",
-      "marker": "C",
+      "marker": null,
       "category": "Communication",
       "description": "Email, SMS, and iMessage for AI agents.",
       "use_case": "Having an agent text a customer an order update, sending a follow-up email after a missed call, replying to an iMessage from a customer without a human picking up the phone."
@@ -1475,7 +1475,7 @@
     {
       "name": "RECOG",
       "url": "https://www.recog.works",
-      "marker": null,
+      "marker": "C",
       "category": "Communication",
       "description": "感謝のレターを贈り、称賛の投稿をシェアし、チームとトークでやり取り。",
       "use_case": "今月がんばったメンバーに感謝のレターを贈る、称賛の投稿をチームのトークでシェアする、プロジェクト完了後にお礼のメッセージを送る。"
@@ -1833,7 +1833,7 @@
     {
       "name": "Asset Vision",
       "url": "https://www.assetvision.com.au",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "Unlocks asset insights through conversation.",
       "use_case": "Querying asset maintenance status, reviewing infrastructure inspection data, planning asset lifecycle decisions.",
@@ -1923,7 +1923,7 @@
     {
       "name": "Carbon Arc",
       "url": "https://www.carbonarc.co",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "Data infrastructure for the AI economy.",
       "use_case": "Sourcing external datasets for AI models, integrating third-party data feeds, building data pipelines.",
@@ -1959,7 +1959,7 @@
     {
       "name": "CivilQuants",
       "url": "https://civilquants.com",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "Software for producing civil engineering bills of quantities using the CESMM4, NRM2, SMM7, and MMHW standards.",
       "use_case": "Generate a bill of quantities for a civil works project from a set of drawings.",
@@ -2139,7 +2139,7 @@
     {
       "name": "Evidence Studio",
       "url": "https://evidence.dev",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "Evidence is a code-based business intelligence framework for building data reports and dashboards with SQL and Markdown.",
       "use_case": "Ask natural-language questions about your team's Evidence-built reports and get answers grounded in the underlying data.",
@@ -2148,7 +2148,7 @@
     {
       "name": "exascale.build",
       "url": "https://exascale.build",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "Source-cited dataset of US power, infrastructure, and AI-economy statistics built for querying by agents.",
       "use_case": "Pull sourced figures on US data center power capacity for a market analysis.",
@@ -2175,7 +2175,7 @@
     {
       "name": "Fincome",
       "url": "https://www.fincome.co",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "A subscription revenue analytics platform that unifies billing, CRM, and ERP data for SaaS and recurring-revenue businesses.",
       "use_case": "Analyzing MRR and churn by customer segment to identify the strongest growth drivers.",
@@ -2220,7 +2220,7 @@
     {
       "name": "Geckoboard",
       "url": "https://www.geckoboard.com",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "A dashboard tool that pulls live business metrics from connected data sources into shareable displays.",
       "use_case": "Pulling real-time sales and support KPIs onto a team dashboard for daily standups.",
@@ -2229,7 +2229,7 @@
     {
       "name": "GIS Cloud",
       "url": "https://www.giscloud.com",
-      "marker": "C",
+      "marker": null,
       "category": "Data and Analytics",
       "description": "Run your entire GIS workflow in plain language: maps, data, analysis, field apps, and reports.",
       "use_case": "Asking for a map of flood zones in plain language, running an analysis on collected field data, generating a report for a site inspection.",
@@ -2247,7 +2247,7 @@
     {
       "name": "Global Database",
       "url": "https://www.globaldatabase.com",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "Turns a company name into full company insight and data.",
       "use_case": "Researching a prospective business partner, verifying a company's financial standing, building a target list for outreach.",
@@ -2328,7 +2328,7 @@
     {
       "name": "IQLand (Official)",
       "url": "https://iqland.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "IQLand is a real estate development intelligence platform that evaluates properties and development potential for land investors.",
       "use_case": "Evaluate a parcel's zoning and development potential before making an offer.",
@@ -2337,7 +2337,7 @@
     {
       "name": "iSpv",
       "url": "https://ispv.ro",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "Romanian company and financial data.",
       "use_case": "Looking up a Romanian company's filings, checking a partner's registration status, researching a competitor's financials.",
@@ -2364,7 +2364,7 @@
     {
       "name": "JoomPulse",
       "url": "https://joompulse.com",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "Brazilian e-commerce data on products, sellers, and trends.",
       "use_case": "Finding high-margin products to sell, tracking a competitor seller's pricing changes, spotting a trending category early.",
@@ -2373,7 +2373,7 @@
     {
       "name": "Kamai AI",
       "url": "https://kamai.io",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "AI takeoff for construction that turns blueprints into structured, traceable quantities.",
       "use_case": "Extracting material quantities from a blueprint set, generating structured output for estimating software, validating takeoffs across sheets.",
@@ -2535,7 +2535,7 @@
     {
       "name": "MyCoach Pro",
       "url": "https://mycoachpro.io",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "Query MyCoach Pro performance and scouting data.",
       "use_case": "Reviewing athlete performance dashboards, pulling scouting reports, tracking training load across a squad.",
@@ -2742,7 +2742,7 @@
     {
       "name": "RED Atlas API",
       "url": "https://api.atlas.red",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "Programmatic access to real estate data for Puerto Rico and Colombia, including listings, parcels, transactions, and valuations.",
       "use_case": "Query property valuations and ownership records for a parcel in San Juan or Bogota.",
@@ -2751,7 +2751,7 @@
     {
       "name": "Reflect",
       "url": "https://getreflect.io",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "An HR data visualization platform that lets teams build reports and query workforce metrics across departments.",
       "use_case": "Asking for headcount and attrition trends by department ahead of a leadership review.",
@@ -2787,7 +2787,7 @@
     {
       "name": "Sellerise",
       "url": "https://sellerise.com",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "Analyze Amazon seller business data.",
       "use_case": "Tracking Amazon sales trends, monitoring profit margins, auditing inventory levels.",
@@ -2859,7 +2859,7 @@
     {
       "name": "SkyWatch",
       "url": "https://skywatch.com",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "Search and price satellite imagery worldwide.",
       "use_case": "Finding satellite imagery of a location, comparing pricing across providers, tasking a new capture.",
@@ -2886,7 +2886,7 @@
     {
       "name": "Speeda",
       "url": "https://www.ub-speeda.com",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "Japanese business intelligence covering standardized company financials, industry reports, and expert views.",
       "use_case": "Pulling a Japanese company's financials before a deal, gathering industry reports for a market-entry study, sourcing expert commentary.",
@@ -2895,7 +2895,7 @@
     {
       "name": "SQD",
       "url": "https://sqd.dev",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "Query validated onchain data across 200+ blockchains.",
       "use_case": "Pulling historical transaction data for a token across chains, auditing smart contract activity, building a cross-chain analytics dashboard.",
@@ -2922,7 +2922,7 @@
     {
       "name": "Streamkap",
       "url": "https://streamkap.com",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "Build, monitor, and troubleshoot real-time change-data-capture pipelines.",
       "use_case": "Debugging a lagging CDC pipeline, monitoring data freshness across source-to-warehouse syncs, standing up a pipeline for a database migration.",
@@ -2958,7 +2958,7 @@
     {
       "name": "Syntitan",
       "url": "https://syntitan.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "Score, refine, and reproduce AI-ready data.",
       "use_case": "Cleaning a dataset before model training, scoring data quality across sources, regenerating a reproducible dataset for retraining.",
@@ -2976,7 +2976,7 @@
     {
       "name": "Tableau Cloud",
       "url": "https://www.tableau.com/products/cloud-bi",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "Salesforce's fully hosted version of the Tableau analytics platform for visualizing and acting on data.",
       "use_case": "Explore and act on dashboards and data sources hosted in a Tableau Cloud site.",
@@ -3003,7 +3003,7 @@
     {
       "name": "Trackunit IrisX",
       "url": "https://trackunit.com",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "Turns construction fleet telematics into action.",
       "use_case": "Flagging underutilized equipment across a fleet, scheduling preventive maintenance from telematics data, tracking fuel usage across job sites.",
@@ -3066,7 +3066,7 @@
     {
       "name": "Upsolve AI",
       "url": "https://upsolve.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "Natural-language analytics over business data.",
       "use_case": "Querying business data in plain language, generating analytics answers, exploring datasets conversationally.",
@@ -3111,7 +3111,7 @@
     {
       "name": "Vortex IQ",
       "url": "https://www.vortexiq.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "AI operating system for ecommerce that monitors store performance, KPIs, and alerts across platforms like Shopify and BigCommerce.",
       "use_case": "Ask for a summary of this week's store KPI anomalies and alerts before a Monday standup.",
@@ -3156,7 +3156,7 @@
     {
       "name": "Wizerr",
       "url": "https://www.wizerr.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "Component decisions for hardware programs.",
       "use_case": "Finding component cross-references and alternates, checking BOM lifecycle risk, comparing part pricing and availability.",
@@ -3183,7 +3183,7 @@
     {
       "name": "Zint",
       "url": "https://www.zint.io",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "UK company data, financials, and news.",
       "use_case": "Pulling UK company financials, researching director and ownership data, monitoring corporate news signals.",
@@ -3192,7 +3192,7 @@
     {
       "name": "Zite",
       "url": "https://www.zite.com",
-      "marker": null,
+      "marker": "C",
       "category": "Data and Analytics",
       "description": "Manage and query Zite data.",
       "use_case": "Querying custom databases in natural language, creating and updating records, building data from uploaded documents.",
@@ -3379,7 +3379,7 @@
     {
       "name": "Fonts",
       "url": "https://www.myfonts.com",
-      "marker": null,
+      "marker": "C",
       "category": "Design and Creative",
       "description": "AI-powered font discovery.",
       "use_case": "Finding a typeface matching a brand's tone, pairing fonts for a campaign, getting font recommendations for a redesign."
@@ -3467,7 +3467,7 @@
     {
       "name": "Maze",
       "url": "https://maze.co",
-      "marker": null,
+      "marker": "C",
       "category": "Design and Creative",
       "description": "Pull Maze user research.",
       "use_case": "Retrieving usability-test results, reviewing research findings, summarizing a product research study."
@@ -3491,7 +3491,7 @@
     {
       "name": "Mobbin",
       "url": "https://mobbin.com",
-      "marker": "C",
+      "marker": null,
       "category": "Design and Creative",
       "description": "Find UI and UX design references.",
       "use_case": "Researching mobile app design patterns, benchmarking competitor onboarding flows, building a reference library for a redesign."
@@ -3531,7 +3531,7 @@
     {
       "name": "Presentations.AI",
       "url": "https://www.presentations.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Design and Creative",
       "description": "Create slides and decks from topics, text, or files.",
       "use_case": "Drafting a deck from a document or outline, restyling presentations, template-driven slide generation."
@@ -3627,7 +3627,7 @@
     {
       "name": "Tella",
       "url": "https://www.tella.com",
-      "marker": "C",
+      "marker": null,
       "category": "Design and Creative",
       "description": "Edit, polish, and publish your Tella videos by chatting with Claude.",
       "use_case": "Trimming a screen recording, adding a title card, publishing the finished video for a team update."
@@ -3851,7 +3851,7 @@
     {
       "name": "Autonoma",
       "url": "https://getautonoma.com",
-      "marker": null,
+      "marker": "C",
       "category": "Development Tools",
       "description": "Agentic end-to-end testing platform that runs AI agents against live pull-request preview deployments and reports results back on the PR.",
       "use_case": "Diagnose and fix a broken preview deploy by pulling build logs, runtime logs, and deploy status directly from a coding agent."
@@ -3867,7 +3867,7 @@
     {
       "name": "Baz",
       "url": "https://baz.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Development Tools",
       "description": "An engineering review platform that indexes code repositories and enforces org-specific review standards.",
       "use_case": "Searching indexed repos across the org to plan a change before writing code and pushing the plan back for team review."
@@ -3883,7 +3883,7 @@
     {
       "name": "Caffeine",
       "url": "https://caffeine.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Development Tools",
       "description": "Describe an app and Caffeine builds, deploys, and hosts it — no servers, no setup.",
       "use_case": "Natural-language app building on the Internet Computer, zero-infrastructure prototyping and hosting."
@@ -3899,7 +3899,7 @@
     {
       "name": "commercetools Knowledge",
       "url": "https://commercetools.com",
-      "marker": null,
+      "marker": "C",
       "category": "Development Tools",
       "description": "Product knowledge and API references for the commercetools platform.",
       "use_case": "Composable-commerce development, API reference lookup, commercetools integration guidance."
@@ -3907,7 +3907,7 @@
     {
       "name": "Compiler Explorer",
       "url": "https://godbolt.org",
-      "marker": null,
+      "marker": "C",
       "category": "Development Tools",
       "description": "Compile, run, and explore assembly in 80+ languages.",
       "use_case": "Inspecting compiler output, comparing optimization flags, teaching and debugging at the assembly level."
@@ -3915,7 +3915,7 @@
     {
       "name": "Componecat",
       "url": "https://componecat.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Development Tools",
       "description": "Hierarchical registry of systems, services, and libraries with Git integration and hosted docs.",
       "use_case": "Cataloging services across a codebase, keeping docs synced with repos, letting an agent query the software catalog."
@@ -3931,7 +3931,7 @@
     {
       "name": "Devart Learn",
       "url": "https://devart.com",
-      "marker": null,
+      "marker": "C",
       "category": "Development Tools",
       "description": "Search Devart product documentation.",
       "use_case": "Looking up driver documentation, troubleshooting a connection issue, finding setup instructions."
@@ -3963,7 +3963,7 @@
     {
       "name": "Firecrawl",
       "url": "https://www.firecrawl.dev",
-      "marker": "C",
+      "marker": null,
       "category": "Development Tools",
       "description": "Search the live web, research papers, and code repositories for high-quality context.",
       "use_case": "Looking up a competitor's pricing page, pulling recent papers on a research topic, checking a repo's README before using a library."
@@ -4107,7 +4107,7 @@
     {
       "name": "MercadoLibre",
       "url": "https://developers.mercadolibre.com",
-      "marker": null,
+      "marker": "C",
       "category": "Development Tools",
       "description": "Mercado Libre developer documentation.",
       "use_case": "Looking up the API reference while coding, checking endpoint parameters, integrating marketplace listings."
@@ -4139,7 +4139,7 @@
     {
       "name": "OctoPerf MCP",
       "url": "https://octoperf.com",
-      "marker": null,
+      "marker": "C",
       "category": "Development Tools",
       "description": "OctoPerf is a JMeter-based load-testing platform for importing, running, and scheduling performance test scenarios and reviewing the resulting metrics and reports.",
       "use_case": "Trigger a scheduled load test scenario and pull back the performance metrics and insights."
@@ -4155,7 +4155,7 @@
     {
       "name": "Pega Blueprint",
       "url": "https://blueprint.pega.com",
-      "marker": null,
+      "marker": "C",
       "category": "Development Tools",
       "description": "Application design built on enterprise best practices.",
       "use_case": "Drafting an enterprise app workflow from a description, generating a case-management design, accelerating a Pega app build."
@@ -4195,7 +4195,7 @@
     {
       "name": "Qencode",
       "url": "https://qencode.com",
-      "marker": null,
+      "marker": "C",
       "category": "Development Tools",
       "description": "A cloud video API for encoding, transcoding, and streaming video content.",
       "use_case": "Kicking off a video transcoding job and checking its status directly from a prompt."
@@ -4331,7 +4331,7 @@
     {
       "name": "swatchdog",
       "url": "https://www.swatchdog.dev",
-      "marker": null,
+      "marker": "C",
       "category": "Development Tools",
       "description": "Checks AI-built UI code against design tokens and reports drift.",
       "use_case": "Catching an agent that introduced an off-palette color, auditing a component for spacing-token violations, generating a drift report before a merge."
@@ -4355,7 +4355,7 @@
     {
       "name": "Tseha.io",
       "url": "https://tseha.io",
-      "marker": "C",
+      "marker": null,
       "category": "Development Tools",
       "description": "Your coding standards, live in Claude.",
       "use_case": "Checking a team's naming convention before writing a new function, referencing formatting rules during a code review."
@@ -4435,7 +4435,7 @@
     {
       "name": "DeviceLink",
       "url": "https://devicelink.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Documents and Files",
       "description": "Secure, real-time file access from your own devices.",
       "use_case": "Reading files from a local machine, searching a local codebase, listing directories."
@@ -4443,7 +4443,7 @@
     {
       "name": "Docfarm",
       "url": "https://doc.farm",
-      "marker": "C",
+      "marker": null,
       "category": "Documents and Files",
       "description": "Host, share, track and collaborate on anything you build with AI.",
       "use_case": "Hosting a project built with AI, sharing it with a collaborator, tracking changes over time."
@@ -4467,7 +4467,7 @@
     {
       "name": "Document360",
       "url": "https://document360.com",
-      "marker": null,
+      "marker": "C",
       "category": "Documents and Files",
       "description": "Read, create, update, and publish Document360 knowledge base articles.",
       "use_case": "Drafting a help center article, updating documentation, publishing a knowledge base change."
@@ -4507,7 +4507,7 @@
     {
       "name": "Entropia",
       "url": "https://entropia.io",
-      "marker": null,
+      "marker": "C",
       "category": "Documents and Files",
       "description": "Access and analyze your data rooms.",
       "use_case": "Diligence document review, data-room search and analysis, deal-artifact insights."
@@ -4547,7 +4547,7 @@
     {
       "name": "Ideals",
       "url": "https://www.idealsvdr.com",
-      "marker": "C",
+      "marker": null,
       "category": "Documents and Files",
       "description": "Search, manage, and update your Ideals project from Claude.",
       "use_case": "Searching a project for a specific item, updating its details, and checking its status without leaving the chat."
@@ -4571,7 +4571,7 @@
     {
       "name": "iScanner",
       "url": "https://iscanner.com",
-      "marker": null,
+      "marker": "C",
       "category": "Documents and Files",
       "description": "Scan and create PDF files.",
       "use_case": "Scanning a paper document into a PDF, converting a photo into a searchable PDF, merging scanned pages."
@@ -4579,7 +4579,7 @@
     {
       "name": "Jotform Sign",
       "url": "https://www.jotform.com/products/sign",
-      "marker": "C",
+      "marker": null,
       "category": "Documents and Files",
       "description": "Create, share, and edit e-signature documents right inside Claude.",
       "use_case": "Sending a rental agreement out for signature, editing a contract before resending it, sharing a signed form with a client."
@@ -4667,7 +4667,7 @@
     {
       "name": "PDF.net",
       "url": "https://pdf.net",
-      "marker": "C",
+      "marker": null,
       "category": "Documents and Files",
       "description": "Generate and edit pdfs.",
       "use_case": "Turning a set of notes into a formatted PDF, editing the text on an existing PDF contract."
@@ -4779,7 +4779,7 @@
     {
       "name": "Unstructured Transform",
       "url": "https://unstructured.io",
-      "marker": "C",
+      "marker": null,
       "category": "Documents and Files",
       "description": "Unstructured converts documents and files across many formats into clean, structured data for retrieval and GenAI pipelines.",
       "use_case": "Parse a batch of PDFs and scanned contracts into structured text chunks ready to load into a vector database."
@@ -4923,7 +4923,7 @@
     {
       "name": "Mathify",
       "url": "https://mathify.dev",
-      "marker": null,
+      "marker": "C",
       "category": "Education",
       "description": "Create math animations.",
       "use_case": "Generating an animation of a math concept, producing a visual explanation for teaching, rendering an animated proof from a prompt."
@@ -4939,7 +4939,7 @@
     {
       "name": "QuizHP",
       "url": "https://www.quizhp.com",
-      "marker": null,
+      "marker": "C",
       "category": "Education",
       "description": "Turns any topic into an interactive quiz mini-game.",
       "use_case": "Self-quizzing on a study topic, turning a document into a grounded quiz, generating question sets by difficulty."
@@ -5003,7 +5003,7 @@
     {
       "name": "CardChain AI",
       "url": "https://www.cardchain.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Entertainment",
       "description": "AI platform for sports and Pokemon card collectors covering grading, valuation, and investing.",
       "use_case": "Check the estimated grade and market value of a trading card before listing it for sale."
@@ -5043,7 +5043,7 @@
     {
       "name": "HANKOOKILBO MCP",
       "url": "https://www.hankookilbo.com",
-      "marker": null,
+      "marker": "C",
       "category": "Entertainment",
       "description": "한국일보의 주요 뉴스, 섹션별 기사, 기사 검색, 운세 정보 메타데이터를 제공하는 MCP 서버입니다.",
       "use_case": "오늘의 경제 섹션 기사를 확인하기, 특정 키워드로 지난주 기사를 검색하기, 이번 달 운세 정보를 확인하기."
@@ -5298,7 +5298,7 @@
     {
       "name": "Clarity AI",
       "url": "https://clarity.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Sustainability data and SFDR fund classification.",
       "use_case": "ESG reporting, SFDR 2.0 fund categorization, sustainable investment disclosures.",
@@ -5316,7 +5316,7 @@
     {
       "name": "Cognitive Credit",
       "url": "https://cognitivecredit.com",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Real-time credit data, analytics, and AI-driven insights across public and private bond and loan markets.",
       "use_case": "Pull real-time bond market analytics on a company's credit profile before drafting an investment memo.",
@@ -5370,7 +5370,7 @@
     {
       "name": "CRE Agents (Vic)",
       "url": "https://creagents.com",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Commercial real estate expertise with expert methods, live market data, and review-ready deliverables.",
       "use_case": "Underwriting a deal, drafting an LOI or IC memo, pulling comps for market analysis.",
@@ -5379,7 +5379,7 @@
     {
       "name": "CredCore - Tusk Liquid",
       "url": "https://credcore.com",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Curated database of public credit-agreement terms covering covenants, debt structure, pricing, and amendments.",
       "use_case": "Researching covenant language across deals, comparing debt structures, tracking amendment history.",
@@ -5559,7 +5559,7 @@
     {
       "name": "FinancialFilings",
       "url": "https://financialfilings.com",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Regulatory filings and financials for listed companies.",
       "use_case": "Pulling a company's latest 10-K, comparing financials across quarters, researching public disclosures.",
@@ -5595,7 +5595,7 @@
     {
       "name": "Flanks Aggregate",
       "url": "https://flanks.io",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Connect bank accounts and portfolios.",
       "use_case": "Reviewing portfolio holdings across banks, checking account balances, pulling investment transaction history.",
@@ -5712,7 +5712,7 @@
     {
       "name": "In Practise",
       "url": "https://inpractise.com",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Library of expert interviews and company primary research for fundamental investors.",
       "use_case": "Researching management commentary before an investment decision, reviewing primary research on a company, studying expert interviews for due diligence.",
@@ -5784,7 +5784,7 @@
     {
       "name": "Jump",
       "url": "https://jump.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "An AI platform for financial advisors that automates meeting prep, notetaking, CRM updates, and client follow-ups.",
       "use_case": "Generating a pre-meeting client briefing and syncing the notes back to the CRM after the call.",
@@ -5793,7 +5793,7 @@
     {
       "name": "Kick",
       "url": "https://www.kick.co",
-      "marker": "C",
+      "marker": null,
       "category": "Finance and Trading",
       "description": "Manage accounting and reporting with agents.",
       "use_case": "Reconciling a bank account at month end, generating a profit and loss report, categorizing recent transactions.",
@@ -5838,7 +5838,7 @@
     {
       "name": "Lili",
       "url": "https://lili.co",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Access Lili business accounts or client accounts.",
       "use_case": "Checking business banking balances, reviewing recent transactions, managing client accounts for bookkeeping.",
@@ -5883,7 +5883,7 @@
     {
       "name": "MANDA",
       "url": "https://manda.bz",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Japan-wide M&A and business-succession deal search.",
       "use_case": "Searching nationwide M&A listings by industry and region, finding business-succession opportunities, screening buyer or seller candidates.",
@@ -5892,7 +5892,7 @@
     {
       "name": "Mantle Portal",
       "url": "https://www.withmantle.com",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Intelligence layer for private markets.",
       "use_case": "Tracking capital calls and fund documents, aggregating alternative-investment data, summarizing investor statements.",
@@ -5955,7 +5955,7 @@
     {
       "name": "Mesh",
       "url": "https://meshpayments.com",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Expense management, cards, and travel through natural language.",
       "use_case": "Issuing and managing corporate cards, automating expense-report processing, booking business travel.",
@@ -5991,7 +5991,7 @@
     {
       "name": "Monk",
       "url": "https://monk.com",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Accounts receivable automation platform that manages invoicing, collections, and cash application.",
       "use_case": "Check the status of outstanding invoices and recent payment matches for a customer.",
@@ -6063,7 +6063,7 @@
     {
       "name": "Multiples.vc",
       "url": "https://multiples.vc",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Public comps, M&A multiples, and VC data.",
       "use_case": "Benchmarking sector valuation multiples, pulling M&A deal comps, checking VC round pricing.",
@@ -6072,7 +6072,7 @@
     {
       "name": "MYOB",
       "url": "https://www.myob.com",
-      "marker": "C",
+      "marker": null,
       "category": "Finance and Trading",
       "description": "Understand your MYOB business finances with Claude.",
       "use_case": "Checking cash flow before payroll, comparing expenses month over month, confirming an outstanding invoice.",
@@ -6081,7 +6081,7 @@
     {
       "name": "NAVI Protocol",
       "url": "https://naviprotocol.io",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "DeFi lending pool and oracle data on Sui.",
       "use_case": "Checking pool utilization and rates, pulling flash loan configuration, reviewing a wallet's claimed rewards history.",
@@ -6099,7 +6099,7 @@
     {
       "name": "Numeric",
       "url": "https://www.numeric.io",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Manage your close tasks, reports, and Numeric workflows.",
       "use_case": "Month-end close management, accounting workflow queries, close-status reporting.",
@@ -6108,7 +6108,7 @@
     {
       "name": "NuMetric",
       "url": "https://numetric.work",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Cloud-based accounting software for managing invoices, reports, and financial documents across multiple countries.",
       "use_case": "Pull recent invoices and financial reports from NuMetric directly into a conversation for review.",
@@ -6144,7 +6144,7 @@
     {
       "name": "Pagos",
       "url": "https://www.pagos.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Query harmonized payments data and the Pagos BIN database.",
       "use_case": "Looking up a card BIN for routing decisions, reconciling payments data across processors, investigating a decline pattern.",
@@ -6153,7 +6153,7 @@
     {
       "name": "Parallel",
       "url": "https://getparallel.com",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Query a Parallel financial model.",
       "use_case": "Checking current runway and burn, modeling the impact of a new hire, prepping a board or investor report.",
@@ -6270,7 +6270,7 @@
     {
       "name": "Pyth",
       "url": "https://pyth.network",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Access financial market data across every asset class.",
       "use_case": "Real-time and historical price feeds for crypto, equities, and FX from the Pyth oracle network.",
@@ -6315,7 +6315,7 @@
     {
       "name": "Ratehub Mortgage",
       "url": "https://www.ratehub.ca/mortgages",
-      "marker": "C",
+      "marker": null,
       "category": "Finance and Trading",
       "description": "Find and compare Canada's best mortgage rates.",
       "use_case": "Comparing rates for a 5-year fixed mortgage, checking today's rate against last month's, finding the lowest rate for a renewal.",
@@ -6360,7 +6360,7 @@
     {
       "name": "Rho",
       "url": "https://www.rho.co",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Analyze and model Rho business finances.",
       "use_case": "Reviewing business banking transactions, modeling cash flow, analyzing spend by category.",
@@ -6378,7 +6378,7 @@
     {
       "name": "Rockhopper",
       "url": "https://www.rockhopper.co",
-      "marker": "C",
+      "marker": null,
       "category": "Finance and Trading",
       "description": "Spreadsheet audit and observability for finance teams working with AI agents.",
       "use_case": "Catching a broken formula before a report goes out, tracking who changed a spreadsheet and when, flagging a number an AI agent altered unexpectedly.",
@@ -6396,7 +6396,7 @@
     {
       "name": "Rydoo",
       "url": "https://www.rydoo.com",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Expense management through conversation.",
       "use_case": "Submitting an expense report, checking reimbursement status, categorizing a receipt.",
@@ -6477,7 +6477,7 @@
     {
       "name": "Sequence",
       "url": "https://www.sequencehq.com",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Billing, invoicing, and revenue data tools.",
       "use_case": "Chasing overdue invoices, reporting invoiced revenue by period, auditing product pricing setup.",
@@ -6531,7 +6531,7 @@
     {
       "name": "Spendflo",
       "url": "https://www.spendflo.com",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "AI-native procurement platform.",
       "use_case": "Tracking SaaS spend across vendors, flagging renewal risk before deadlines, benchmarking vendor pricing during negotiations.",
@@ -6540,7 +6540,7 @@
     {
       "name": "Spendify",
       "url": "https://spendify.ca",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Track spending, manage budgets, and analyze finances.",
       "use_case": "Monitoring monthly spending against budget categories, generating an expense report, flagging unusual transactions.",
@@ -6585,7 +6585,7 @@
     {
       "name": "Suralink",
       "url": "https://www.suralink.com",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Request-to-review automation platform accounting and audit firms use to manage client document collection and engagement workflows.",
       "use_case": "Query outstanding items, client activity, and request status for an active audit engagement.",
@@ -6594,7 +6594,7 @@
     {
       "name": "Switch",
       "url": "https://switch-soft.com",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Spanish-language ERP covering sales, accounts receivable, and inventory.",
       "use_case": "Checking overdue receivables, reviewing monthly sales against inventory levels, reconciling invoices issued through the ERP.",
@@ -6621,7 +6621,7 @@
     {
       "name": "The Tie Fundraising and M&A",
       "url": "https://www.thetie.io",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "The Tie provides institutional-grade data on crypto fundraising rounds and mergers and acquisitions, queryable through natural language.",
       "use_case": "Look up recent funding rounds and M&A deals in a specific crypto sector to benchmark deal valuations.",
@@ -6630,7 +6630,7 @@
     {
       "name": "Theia Insights",
       "url": "https://www.theiainsights.com",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "Dynamic industry classification and thematic investment data for asset managers, index providers, and banks.",
       "use_case": "Identify which public companies have meaningful revenue exposure to a specific investment theme, such as grid infrastructure.",
@@ -6693,7 +6693,7 @@
     {
       "name": "Twelve Data",
       "url": "https://twelvedata.com",
-      "marker": "C",
+      "marker": null,
       "category": "Finance and Trading",
       "description": "Real-time prices, 100+ technical indicators, and fundamentals for stocks, forex, crypto, and ETFs — ask in plain English, no API knowledge needed.",
       "use_case": "Checking a stock's RSI before a trade, comparing fundamentals of two ETFs, watching a crypto price move in real time.",
@@ -6864,7 +6864,7 @@
     {
       "name": "マネーフォワード クラウド会計",
       "url": "https://biz.moneyforward.com/accounting",
-      "marker": null,
+      "marker": "C",
       "category": "Finance and Trading",
       "description": "事業者情報・勘定科目・仕訳・取引先・部門などの会計データを取得したり、仕訳や取引先の作成・更新をすることが可能です。",
       "use_case": "先月の特定の取引先への仕訳を確認する、部門ごとの試算表を比較する、四半期末に貸借対照表を自然言語で確認する。",
@@ -6929,7 +6929,7 @@
     {
       "name": "Givebutter",
       "url": "https://givebutter.com",
-      "marker": "C",
+      "marker": null,
       "category": "Government and Nonprofit",
       "description": "Manage your fundraising.",
       "use_case": "Checking how close a campaign is to its goal, thanking donors after a fundraising event, tracking daily donations during a matching-gift drive."
@@ -6945,7 +6945,7 @@
     {
       "name": "GovQuery",
       "url": "https://govquery.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Government and Nonprofit",
       "description": "Search US government reports and oversight recommendations.",
       "use_case": "Researching GAO audit findings on a federal program, finding open Inspector General recommendations, pulling agency press releases on a topic."
@@ -6977,7 +6977,7 @@
     {
       "name": "JP Bid",
       "url": "https://jp-bid.com",
-      "marker": null,
+      "marker": "C",
       "category": "Government and Nonprofit",
       "description": "Japan government procurement bid search and analysis.",
       "use_case": "Finding open procurement bids in an industry, analyzing a bid's requirements before proposing, tracking upcoming tenders."
@@ -7025,7 +7025,7 @@
     {
       "name": "Policy Doctor",
       "url": "https://policydoctor.com",
-      "marker": null,
+      "marker": "C",
       "category": "Government and Nonprofit",
       "description": "Regulatory monitoring, analysis, and public affairs intelligence.",
       "use_case": "Tracking a bill's progress through committee, monitoring an agency's rulemaking docket, briefing on an emerging policy risk."
@@ -7089,7 +7089,7 @@
     {
       "name": "Amass Connector",
       "url": "https://amass.tech",
-      "marker": "C",
+      "marker": null,
       "category": "Healthcare and Life Sciences",
       "description": "Unifies life sciences intelligence across publications, trials, drugs, genes, regulatory approvals, and patents in one cross-linked connector.",
       "use_case": "Researching a drug's regulatory approval history, cross-referencing a target across publications and patents, tracking competitor pipeline trials."
@@ -7105,7 +7105,7 @@
     {
       "name": "Assuric",
       "url": "https://www.assuric.com",
-      "marker": null,
+      "marker": "C",
       "category": "Healthcare and Life Sciences",
       "description": "Digital health compliance platform that manages clinical safety hazard logs and regulatory frameworks such as DCB0129, DTAC, and ISO 14971.",
       "use_case": "Check the status of an open clinical safety hazard log entry ahead of a compliance review meeting."
@@ -7137,7 +7137,7 @@
     {
       "name": "bioRxiv",
       "url": "https://www.biorxiv.org",
-      "marker": null,
+      "marker": "A",
       "category": "Healthcare and Life Sciences",
       "description": "Access bioRxiv and medRxiv preprint data.",
       "use_case": "Preprint search for biology and medicine, catching research 6-12 months before peer review."
@@ -7153,7 +7153,7 @@
     {
       "name": "ChEMBL",
       "url": "https://www.ebi.ac.uk/chembl",
-      "marker": null,
+      "marker": "A",
       "category": "Healthcare and Life Sciences",
       "description": "Access ChEMBL drug compound data.",
       "use_case": "Drug discovery research, compound activity data, target-drug relationships."
@@ -7161,7 +7161,7 @@
     {
       "name": "Clinical Trials",
       "url": "https://clinicaltrials.gov",
-      "marker": null,
+      "marker": "A",
       "category": "Healthcare and Life Sciences",
       "description": "Access ClinicalTrials.gov data.",
       "use_case": "Finding active trials, checking eligibility criteria, tracking trial results, identifying recruiting studies."
@@ -7177,7 +7177,7 @@
     {
       "name": "CMS Coverage",
       "url": "https://www.cms.gov/medicare-coverage-database",
-      "marker": null,
+      "marker": "A",
       "category": "Healthcare and Life Sciences",
       "description": "Access the CMS Coverage Database.",
       "use_case": "Checking Medicare coverage determinations, prior authorization requirements, coverage policy lookups."
@@ -7185,7 +7185,7 @@
     {
       "name": "Consensus",
       "url": "https://consensus.app",
-      "marker": null,
+      "marker": "C",
       "category": "Healthcare and Life Sciences",
       "description": "Explore scientific research with AI synthesis.",
       "use_case": "Evidence-based research across 200M+ papers, systematic literature review, finding consensus across studies."
@@ -7217,7 +7217,7 @@
     {
       "name": "DappleOS",
       "url": "https://dappleos.com",
-      "marker": null,
+      "marker": "C",
       "category": "Healthcare and Life Sciences",
       "description": "Cosmetic medicine practice management across clinical, operational, and commercial workflows.",
       "use_case": "Managing patient intake for an aesthetics clinic, scheduling treatments, handling billing for cosmetic procedures."
@@ -7265,7 +7265,7 @@
     {
       "name": "Elfcare",
       "url": "https://elf.care",
-      "marker": "C",
+      "marker": null,
       "category": "Healthcare and Life Sciences",
       "description": "Explore your Elfcare test results.",
       "use_case": "Checking whether a specific marker is in range, comparing this test result to the last one, understanding what a flagged result means."
@@ -7305,7 +7305,7 @@
     {
       "name": "ICD-10 Codes",
       "url": "https://www.cms.gov/medicare/coding-billing/icd-10-codes",
-      "marker": null,
+      "marker": "A",
       "category": "Healthcare and Life Sciences",
       "description": "Access ICD-10-CM and ICD-10-PCS code sets.",
       "use_case": "Clinical coding, diagnostic classification, billing code lookup, health informatics."
@@ -7353,7 +7353,7 @@
     {
       "name": "NPI Registry",
       "url": "https://npiregistry.cms.hhs.gov",
-      "marker": null,
+      "marker": "A",
       "category": "Healthcare and Life Sciences",
       "description": "US National Provider Identifier lookup.",
       "use_case": "Provider verification, referral workflows, healthcare directory lookups, credentialing."
@@ -7393,7 +7393,7 @@
     {
       "name": "PubMed",
       "url": "https://pubmed.ncbi.nlm.nih.gov",
-      "marker": null,
+      "marker": "A",
       "category": "Healthcare and Life Sciences",
       "description": "Search biomedical literature.",
       "use_case": "Medical literature search, finding clinical evidence, systematic reviews, accessing abstracts and full-text articles via NCBI."
@@ -7489,7 +7489,7 @@
     {
       "name": "Virtual Fly Brain",
       "url": "https://virtualflybrain.org",
-      "marker": null,
+      "marker": "C",
       "category": "Healthcare and Life Sciences",
       "description": "Drosophila anatomy, neurons, connectomics, genes, and transcriptomics.",
       "use_case": "Exploring fly neural circuits, querying connectome data, researching gene expression."
@@ -7497,7 +7497,7 @@
     {
       "name": "Aquent Job Search",
       "url": "https://aquent.com",
-      "marker": null,
+      "marker": "C",
       "category": "Jobs",
       "description": "Aquent is a creative and marketing staffing agency whose job search connector surfaces active postings on aquent.com.",
       "use_case": "Search open creative or marketing contract roles currently listed on Aquent."
@@ -7601,7 +7601,7 @@
     {
       "name": "Recooty",
       "url": "https://recooty.com",
-      "marker": null,
+      "marker": "C",
       "category": "Jobs",
       "description": "AI-powered hiring platform.",
       "use_case": "Posting a job opening, screening applicant resumes, tracking candidates through a pipeline."
@@ -7649,7 +7649,7 @@
     {
       "name": "Tenzo AI",
       "url": "https://tenzo.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Jobs",
       "description": "Query Tenzo candidates, jobs, and AI screening calls.",
       "use_case": "Pulling a summary of a candidate's screening interview, comparing finalists for an open role, auditing screening transcripts for compliance review."
@@ -7665,7 +7665,7 @@
     {
       "name": "Upwork",
       "url": "https://www.upwork.com",
-      "marker": null,
+      "marker": "C",
       "category": "Jobs",
       "description": "Freelance talent marketplace.",
       "use_case": "Finding and hiring freelancers, managing contracts, sourcing talent for projects."
@@ -7873,7 +7873,7 @@
     {
       "name": "HeyCounsel",
       "url": "https://www.heycounsel.com",
-      "marker": null,
+      "marker": "C",
       "category": "Legal",
       "description": "Lawyer network, work opportunities, templates, and benchmarks.",
       "use_case": "Finding contract work through a lawyer network, benchmarking billing rates against peers, accessing legal document templates."
@@ -7897,7 +7897,7 @@
     {
       "name": "JUDY",
       "url": "https://judy.legal",
-      "marker": null,
+      "marker": "C",
       "category": "Legal",
       "description": "AI-powered legal research platform covering case law and legislation for Ghana, Nigeria, and Kenya.",
       "use_case": "Search African case law and statutes and get cited case summaries while drafting a legal memo."
@@ -7905,7 +7905,7 @@
     {
       "name": "Juridata",
       "url": "https://juridata.ma",
-      "marker": null,
+      "marker": "C",
       "category": "Legal",
       "description": "Sourced Moroccan law, built to scale across Africa.",
       "use_case": "Researching a Moroccan statute, finding case law for a court proceeding, comparing legal frameworks across African jurisdictions."
@@ -7969,7 +7969,7 @@
     {
       "name": "LawVu",
       "url": "https://lawvu.com",
-      "marker": "C",
+      "marker": null,
       "category": "Legal",
       "description": "Operating system for in-house legal teams.",
       "use_case": "Keeping track of an in-house legal team's day-to-day work in one place."
@@ -8017,7 +8017,7 @@
     {
       "name": "Lightbringer",
       "url": "https://lightbringer.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Legal",
       "description": "AI patent and invention management platform for searching a patent portfolio, drafting inventions, and collaborating on patent reviews.",
       "use_case": "Draft and validate a new invention disclosure before submitting it for patent review."
@@ -8081,7 +8081,7 @@
     {
       "name": "SeedLegals",
       "url": "https://seedlegals.com",
-      "marker": null,
+      "marker": "C",
       "category": "Legal",
       "description": "Legal and fundraising platform for startups.",
       "use_case": "Drafting funding round documents, managing a cap table, handling equity paperwork."
@@ -8113,7 +8113,7 @@
     {
       "name": "TaxGraph",
       "url": "https://tax-graph.com",
-      "marker": null,
+      "marker": "C",
       "category": "Legal",
       "description": "German knowledge-graph service that structures German tax law and delivers sourced answers to AI systems via MCP.",
       "use_case": "Ask a structured question about German tax law and get an answer linked to its primary legal source."
@@ -8129,7 +8129,7 @@
     {
       "name": "Trellis",
       "url": "https://trellis.law",
-      "marker": null,
+      "marker": "C",
       "category": "Legal",
       "description": "Claude for trial court litigators.",
       "use_case": "State trial-court data search, judge analytics, motion outcomes, and litigant history across U.S. trial courts."
@@ -8137,7 +8137,7 @@
     {
       "name": "Trifolia",
       "url": "https://trifolia.cl",
-      "marker": null,
+      "marker": "C",
       "category": "Legal",
       "description": "AI-powered Chilean legal research tool that provides case law and statute search with citations.",
       "use_case": "Research Chilean case law and statutes with citation support for a legal brief."
@@ -8161,7 +8161,7 @@
     {
       "name": "XLSCOUT ClaimChart LLM",
       "url": "https://xlscout.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Legal",
       "description": "XLSCOUT's ClaimChart LLM uses AI to generate patent claim charts and evidence-of-use analysis for infringement review.",
       "use_case": "Map a competitor's product features against the claims of an issued patent to assess potential infringement."
@@ -8177,7 +8177,7 @@
     {
       "name": "Aisle Wedding",
       "url": "https://aislewedding.com",
-      "marker": null,
+      "marker": "C",
       "category": "Lifestyle and Local",
       "description": "AI-assisted destination wedding planning.",
       "use_case": "Building a destination wedding itinerary, comparing venues and vendors, coordinating guest travel logistics."
@@ -8201,7 +8201,7 @@
     {
       "name": "BrokerIA Imoveis",
       "url": "https://brokeria.com.br",
-      "marker": null,
+      "marker": "C",
       "category": "Lifestyle and Local",
       "description": "A Brazilian real estate platform that combines property listings, CRM, and WhatsApp lead automation for brokers and agencies.",
       "use_case": "Searching available properties by city and price range and simulating mortgage financing for a buyer."
@@ -8233,7 +8233,7 @@
     {
       "name": "CommuteHub",
       "url": "https://commutehub.com",
-      "marker": null,
+      "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Commute and parking management platform by RideAmigos that logs trips, tracks stats, and manages transportation demand programs.",
       "use_case": "Log a commute trip and review your recent transportation activity without leaving Claude."
@@ -8249,7 +8249,7 @@
     {
       "name": "CourtsApp",
       "url": "https://courtsapp.com",
-      "marker": null,
+      "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Book tennis, pickleball, and racquet courts.",
       "use_case": "Finding open court time nearby, booking recurring sessions, coordinating games."
@@ -8257,7 +8257,7 @@
     {
       "name": "Dillr",
       "url": "https://dillr.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Lifestyle and Local",
       "description": "AI meal-planning app that builds weekly menus, recipes, and automatic shopping lists for a household.",
       "use_case": "Ask for a week of dinner recipes that fit family allergies and generate the matching grocery list."
@@ -8321,7 +8321,7 @@
     {
       "name": "eYantra Corporate Gifting",
       "url": "https://eyantra.com",
-      "marker": null,
+      "marker": "C",
       "category": "Lifestyle and Local",
       "description": "eYantra is an India-based B2B platform for branded merchandise and corporate gift hampers.",
       "use_case": "Source and price a bulk corporate gift box for an employee onboarding kit in India."
@@ -8329,7 +8329,7 @@
     {
       "name": "Figaro Immobilier",
       "url": "https://immobilier.lefigaro.fr",
-      "marker": null,
+      "marker": "C",
       "category": "Lifestyle and Local",
       "description": "French real estate listings search.",
       "use_case": "Searching listings in a French city, comparing rental prices in a neighborhood, tracking new listings."
@@ -8337,7 +8337,7 @@
     {
       "name": "Fresha",
       "url": "https://www.fresha.com",
-      "marker": null,
+      "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Find and book beauty, grooming, and wellness appointments.",
       "use_case": "Booking a haircut, finding a nearby spa, scheduling a massage."
@@ -8361,7 +8361,7 @@
     {
       "name": "Honeydew",
       "url": "https://honeydewcook.com",
-      "marker": null,
+      "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Search a recipe library and turn it into grocery lists and meal plans.",
       "use_case": "Building a weekly meal plan from saved recipes, generating a grocery list, finding a recipe by ingredient."
@@ -8441,7 +8441,7 @@
     {
       "name": "Peepz",
       "url": "https://peepz.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Foster healthy relationships in your groups.",
       "use_case": "Coordinating get-togethers with a friend circle, staying on top of group birthdays and check-ins, reducing the friction of staying connected."
@@ -8457,7 +8457,7 @@
     {
       "name": "Promocodes.com",
       "url": "https://www.promocodes.com",
-      "marker": null,
+      "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Finds promo codes, coupons, and deals.",
       "use_case": "Finding a discount code before checkout, comparing deals across retailers, tracking coupon expiration."
@@ -8489,7 +8489,7 @@
     {
       "name": "Shipt",
       "url": "https://www.shipt.com",
-      "marker": "C",
+      "marker": null,
       "category": "Lifestyle and Local",
       "description": "Groceries and more, delivered same-day from your favorite local stores.",
       "use_case": "Getting groceries delivered before guests arrive tonight, restocking diapers same-day from a nearby store."
@@ -8497,7 +8497,7 @@
     {
       "name": "Shop",
       "url": "https://shop.app",
-      "marker": null,
+      "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Shopify's consumer shopping app across favorite brands.",
       "use_case": "Tracking a package delivery, browsing products from favorite brands, managing saved payment info."
@@ -8513,7 +8513,7 @@
     {
       "name": "Spot2",
       "url": "https://spot2.mx",
-      "marker": null,
+      "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Search and explore commercial real estate in México.",
       "use_case": "Finding office or warehouse space in a Mexican city, comparing industrial property listings, researching commercial lease terms by region."
@@ -8537,7 +8537,7 @@
     {
       "name": "Sweat & Tonic",
       "url": "https://sweatandtonic.com",
-      "marker": null,
+      "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Knowledge connector for Sweat and Tonic, a Toronto boutique fitness studio, covering class schedules, pricing, instructors, and booking.",
       "use_case": "Look up class times and instructors at Sweat and Tonic before booking a session."
@@ -8553,7 +8553,7 @@
     {
       "name": "Tarteel",
       "url": "https://tarteel.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Quran search, tafsir, translations, and recitations.",
       "use_case": "Searching verses, comparing translations, studying tafsir, finding recitations."
@@ -8585,7 +8585,7 @@
     {
       "name": "wer kennt den BESTEN",
       "url": "https://www.werkenntdenbesten.de",
-      "marker": null,
+      "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Find and compare local services in Germany.",
       "use_case": "Searching local service providers, comparing reviews, finding tradespeople."
@@ -8601,7 +8601,7 @@
     {
       "name": "다나와 가격비교",
       "url": "https://www.danawa.com",
-      "marker": null,
+      "marker": "C",
       "category": "Lifestyle and Local",
       "description": "여러 쇼핑몰, 다양한 상품의 가격과 스펙을 한 번에 비교하고 구매만 결정하세요.",
       "use_case": "노트북을 사기 전에 여러 쇼핑몰의 가격과 스펙을 한 번에 비교하기, 특정 상품의 최저가를 확인하기."
@@ -8627,7 +8627,7 @@
     {
       "name": "Abency",
       "url": "https://abency.com",
-      "marker": "C",
+      "marker": null,
       "category": "Marketing and Sales",
       "description": "Gestiona todas las marcas de tu agencia desde Claude.",
       "use_case": "Revisando el estado de las campañas de una marca antes de una reunión con el cliente, comparando el rendimiento de dos marcas dentro de la cartera de la agencia.",
@@ -8816,7 +8816,7 @@
     {
       "name": "Attribution MCP",
       "url": "https://www.attributionapp.com",
-      "marker": null,
+      "marker": "C",
       "category": "Marketing and Sales",
       "description": "Attribution's MCP server gives Claude read access to marketing attribution data, including channel performance, conversion paths, and multi-touch ROAS and CAC metrics.",
       "use_case": "Ask which marketing channels drove the most profit last month and trace the answer back to the underlying spend and revenue data.",
@@ -8933,7 +8933,7 @@
     {
       "name": "Caretta",
       "url": "https://www.caretta.so",
-      "marker": null,
+      "marker": "C",
       "category": "Marketing and Sales",
       "description": "Realtime AI assistant that helps sales reps answer technical product questions during live sales calls.",
       "use_case": "Surface product documentation and past call context to prepare for an upcoming technical sales call.",
@@ -8951,7 +8951,7 @@
     {
       "name": "Cello",
       "url": "https://cello.so",
-      "marker": null,
+      "marker": "C",
       "category": "Marketing and Sales",
       "description": "Platform for building and managing user referral and partner growth programs.",
       "use_case": "Launch and monitor a referral or partner program for a SaaS product's growth team.",
@@ -8960,7 +8960,7 @@
     {
       "name": "Channel3 Shopping",
       "url": "https://trychannel3.com",
-      "marker": null,
+      "marker": "C",
       "category": "Marketing and Sales",
       "description": "Product search across the internet.",
       "use_case": "Finding and comparing products across merchants, searching for an item by description, retrieving product offers for a shopping agent.",
@@ -9185,7 +9185,7 @@
     {
       "name": "folk",
       "url": "https://www.folk.app",
-      "marker": null,
+      "marker": "C",
       "category": "Marketing and Sales",
       "description": "Search, create, and update a folk CRM.",
       "use_case": "Looking up a contact before a meeting, logging a new lead from an email thread, updating a deal's stage after a call.",
@@ -9356,7 +9356,7 @@
     {
       "name": "HilltopAds",
       "url": "https://hilltopads.com",
-      "marker": null,
+      "marker": "C",
       "category": "Marketing and Sales",
       "description": "Check HilltopAds campaigns, stats, and balances.",
       "use_case": "Monitoring ad campaign performance, checking account balance, reviewing traffic statistics.",
@@ -9401,7 +9401,7 @@
     {
       "name": "HypeAgent by HypeAuditor",
       "url": "https://hypeagent.io",
-      "marker": null,
+      "marker": "C",
       "category": "Marketing and Sales",
       "description": "HypeAgent is a conversational AI tool built on HypeAuditor's influencer analytics data for finding creators, auditing accounts, and analyzing campaign performance.",
       "use_case": "Search for influencers matching a campaign brief and compare their audience quality and estimated rates side by side.",
@@ -9563,7 +9563,7 @@
     {
       "name": "Leadsquared",
       "url": "https://www.leadsquared.com",
-      "marker": null,
+      "marker": "C",
       "category": "Marketing and Sales",
       "description": "Access to LeadSquared CRM.",
       "use_case": "Querying leads and opportunities, updating CRM records, automating sales follow-up tasks.",
@@ -9617,7 +9617,7 @@
     {
       "name": "LoyaltyLion",
       "url": "https://loyaltylion.com",
-      "marker": null,
+      "marker": "C",
       "category": "Marketing and Sales",
       "description": "Loyalty program management.",
       "use_case": "Managing loyalty point rules, reviewing reward redemptions, analyzing program performance.",
@@ -9635,7 +9635,7 @@
     {
       "name": "magnews",
       "url": "https://www.magnews.com",
-      "marker": null,
+      "marker": "C",
       "category": "Marketing and Sales",
       "description": "Email marketing analytics and automation.",
       "use_case": "Analyzing email campaign performance, automating marketing workflows, segmenting subscriber lists.",
@@ -9716,7 +9716,7 @@
     {
       "name": "MMM Labs",
       "url": "https://mmmlabs.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Marketing and Sales",
       "description": "Runs marketing mix modeling on uploaded advertising and sales data, letting teams compare multiple open-source and proprietary MMM engines side by side.",
       "use_case": "Upload multi-channel ad spend and sales data to compare Robyn, Meridian, and PyMC model outputs and estimate channel ROI.",
@@ -9734,7 +9734,7 @@
     {
       "name": "Mojo — Pocket Capture",
       "url": "https://mojosystems.io/pocket-capture",
-      "marker": "C",
+      "marker": null,
       "category": "Marketing and Sales",
       "description": "Talk to your leads, funnel, and capture setup.",
       "use_case": "Asking how many leads came through the funnel this week and where the capture setup might be losing them.",
@@ -9788,7 +9788,7 @@
     {
       "name": "Nexoya",
       "url": "https://www.nexoya.com",
-      "marker": null,
+      "marker": "C",
       "category": "Marketing and Sales",
       "description": "Query cross-channel attribution, budget optimizations, and campaign performance.",
       "use_case": "Comparing channel attribution, getting recommended budget shifts, reviewing campaign KPI trends.",
@@ -9869,7 +9869,7 @@
     {
       "name": "OpenFunnel Agent Primitives",
       "url": "https://openfunnel.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Marketing and Sales",
       "description": "Durable and benchmarked primitives for in-house GTM engineering.",
       "use_case": "Building a custom lead-scoring agent, benchmarking a GTM automation before shipping, assembling reusable sales-ops components.",
@@ -10103,7 +10103,7 @@
     {
       "name": "Realize MCP",
       "url": "https://ads.realizeperformance.com",
-      "marker": null,
+      "marker": "C",
       "category": "Marketing and Sales",
       "description": "Create, manage, and analyze Realize (Taboola) advertising campaigns.",
       "use_case": "Launching a native ad campaign, monitoring campaign performance, adjusting targeting and budget.",
@@ -10193,7 +10193,7 @@
     {
       "name": "SaaSify - Cloud Marketplaces GTM Platform",
       "url": "https://saasify.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Marketing and Sales",
       "description": "Cloud-marketplace revenue, subscriptions, deals, and pricing across AWS, Microsoft, and Google Cloud.",
       "use_case": "Tracking marketplace deal pipeline, analyzing co-sell revenue, managing marketplace pricing.",
@@ -10256,7 +10256,7 @@
     {
       "name": "Sociality.io",
       "url": "https://sociality.io",
-      "marker": null,
+      "marker": "C",
       "category": "Marketing and Sales",
       "description": "Analyze social media performance, competitor activity, and post-level results.",
       "use_case": "Benchmarking competitor campaigns, tracking engagement trends across platforms, compiling performance reports.",
@@ -10364,7 +10364,7 @@
     {
       "name": "Syncly Social",
       "url": "https://syncly.app/social",
-      "marker": null,
+      "marker": "C",
       "category": "Marketing and Sales",
       "description": "AI social listening platform that tracks brand mentions and sentiment across text and video content on platforms like TikTok, Instagram Reels, and YouTube Shorts.",
       "use_case": "Monitor how a brand is discussed across social video platforms and surface untagged mentions from creators.",
@@ -10463,7 +10463,7 @@
     {
       "name": "Valuecase App",
       "url": "https://www.valuecase.com",
-      "marker": "C",
+      "marker": null,
       "category": "Marketing and Sales",
       "description": "Search, create and update Valuecase spaces.",
       "use_case": "Creating a space for a new deal, searching for one from last month, updating it before a client call.",
@@ -10517,7 +10517,7 @@
     {
       "name": "VybeOS",
       "url": "https://vybeos.co",
-      "marker": null,
+      "marker": "C",
       "category": "Marketing and Sales",
       "description": "Creative operating system that generates on-brand marketing campaigns and content and tracks their performance across brand and campaign workspaces.",
       "use_case": "Generate a batch of on-brand social ad creative for a new campaign and track how it performs.",
@@ -10535,7 +10535,7 @@
     {
       "name": "Watching That",
       "url": "https://watchingthat.com",
-      "marker": null,
+      "marker": "C",
       "category": "Marketing and Sales",
       "description": "Ad stack data covering yield insights, revenue performance, and delivery issues.",
       "use_case": "Monitoring video ad revenue, troubleshooting fill-rate issues, tracking yield performance.",
@@ -10697,7 +10697,7 @@
     {
       "name": "Yogi",
       "url": "https://www.meetyogi.com",
-      "marker": null,
+      "marker": "C",
       "category": "Marketing and Sales",
       "description": "AI-powered consumer insights platform that analyzes product reviews, support tickets, and social feedback for CPG brands.",
       "use_case": "Ask which product attributes are driving negative sentiment in recent customer reviews.",
@@ -10842,7 +10842,7 @@
     {
       "name": "Kastra",
       "url": "https://kastra.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Observability and Monitoring",
       "description": "Execution-governance and audit-trail layer for Claude Code actions.",
       "use_case": "Reviewing an agent's action history, auditing automated changes before they ship, enforcing authorization policy on agent execution."
@@ -10850,7 +10850,7 @@
     {
       "name": "Lightrun",
       "url": "https://lightrun.com",
-      "marker": null,
+      "marker": "C",
       "category": "Observability and Monitoring",
       "description": "Connect AI assistants to live production runtime data including snapshots, call stacks, and metrics.",
       "use_case": "Debugging a production issue with a live snapshot, inspecting a call stack without redeploying, pulling runtime metrics into a session."
@@ -10858,7 +10858,7 @@
     {
       "name": "LogRocket",
       "url": "https://logrocket.com",
-      "marker": null,
+      "marker": "C",
       "category": "Observability and Monitoring",
       "description": "A session replay and product analytics platform that lets Claude query LogRocket sessions, metrics, and issues.",
       "use_case": "Investigating a user-reported checkout bug by watching the relevant session replay and identifying the root cause."
@@ -10914,7 +10914,7 @@
     {
       "name": "Steadybit",
       "url": "https://steadybit.com",
-      "marker": "C",
+      "marker": null,
       "category": "Observability and Monitoring",
       "description": "Find reliability risks in your systems: design, run, and analyze chaos experiments.",
       "use_case": "Designing a chaos experiment for a checkout service before Black Friday, analyzing the results for a new failure mode."
@@ -10930,7 +10930,7 @@
     {
       "name": "Tsuga",
       "url": "https://www.tsuga.com",
-      "marker": null,
+      "marker": "C",
       "category": "Observability and Monitoring",
       "description": "Query telemetry and manage assets.",
       "use_case": "Investigating production incidents, searching logs and traces, monitoring infrastructure assets."
@@ -11002,7 +11002,7 @@
     {
       "name": "Basic Memory Cloud",
       "url": "https://basicmemory.com",
-      "marker": null,
+      "marker": "C",
       "category": "Productivity",
       "description": "Shared knowledge base for people, AI tools, and teams, structured as a living graph of plain Markdown.",
       "use_case": "Maintaining a team knowledge base, syncing notes across AI tools, building a searchable markdown graph."
@@ -11010,7 +11010,7 @@
     {
       "name": "Blinq",
       "url": "https://blinq.me",
-      "marker": null,
+      "marker": "C",
       "category": "Productivity",
       "description": "Digital contacts and business-card app.",
       "use_case": "Creating a digital business card, capturing contact details at events, following up with new contacts."
@@ -11050,7 +11050,7 @@
     {
       "name": "CloudMindMaps",
       "url": "https://www.cloudmindmaps.com",
-      "marker": null,
+      "marker": "C",
       "category": "Productivity",
       "description": "AI mind map generator that turns notes, docs, and ideas into shareable mind maps, compatible with .mm files.",
       "use_case": "Converting meeting notes into a mind map, turning a document outline into a visual map, sharing a mind map with collaborators."
@@ -11058,7 +11058,7 @@
     {
       "name": "Cloverleaf",
       "url": "https://cloverleaf.me",
-      "marker": "C",
+      "marker": null,
       "category": "Productivity",
       "description": "Bring Cloverleaf's personality insights into Claude to understand how you and your colleagues work together, and get coaching grounded in real assessment data, not generic advice.",
       "use_case": "Comparing a work style assessment against a teammate's before a project kickoff, pulling coaching advice grounded in the data before a tough conversation."
@@ -11114,7 +11114,7 @@
     {
       "name": "Dex Personal CRM",
       "url": "https://getdex.com",
-      "marker": null,
+      "marker": "C",
       "category": "Productivity",
       "description": "Manage Dex personal CRM contacts.",
       "use_case": "Logging a conversation with a contact, setting a follow-up reminder, reviewing relationship history."
@@ -11138,7 +11138,7 @@
     {
       "name": "estonian",
       "url": "https://github.com/silly-geese/estonian-mcp",
-      "marker": null,
+      "marker": "C",
       "category": "Productivity",
       "description": "Offline Estonian-language toolkit exposing spell-check, morphology, synonym, and style-checking tools so an AI agent writes more accurate Estonian.",
       "use_case": "Proofread and spell-check an Estonian-language email draft before sending it."
@@ -11218,7 +11218,7 @@
     {
       "name": "iknow.dev",
       "url": "https://iknow.dev",
-      "marker": null,
+      "marker": "C",
       "category": "Productivity",
       "description": "Knowledge management platform agents can read and write via MCP.",
       "use_case": "Logging accumulated expertise to a shared knowledge base, retrieving documented know-how for a task, building a searchable knowledge library."
@@ -11242,7 +11242,7 @@
     {
       "name": "Lace Labs",
       "url": "https://inlace.co",
-      "marker": null,
+      "marker": "C",
       "category": "Productivity",
       "description": "Team knowledge layer shared across agents.",
       "use_case": "Briefing an agent on team context and past decisions, tracing agent output back to source work, sharing a knowledge graph across workflows."
@@ -11282,7 +11282,7 @@
     {
       "name": "Memoket",
       "url": "https://memoket.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Productivity",
       "description": "Read-only access to your own meeting recordings, transcripts, and summaries.",
       "use_case": "Querying a past meeting transcript, retrieving action items from a recorded call, summarizing a week of calls."
@@ -11290,7 +11290,7 @@
     {
       "name": "Microsoft 365",
       "url": "https://www.microsoft.com/microsoft-365",
-      "marker": null,
+      "marker": "A",
       "category": "Productivity",
       "description": "SharePoint, OneDrive, Outlook, and Teams access.",
       "use_case": "Enterprise document search, email and calendar workflows, Teams chat context, SharePoint knowledge mining."
@@ -11322,7 +11322,7 @@
     {
       "name": "Ninout",
       "url": "https://www.ninout.ai",
-      "marker": "C",
+      "marker": null,
       "category": "Productivity",
       "description": "Design, publish, and analyze forms entirely in chat.",
       "use_case": "Building a feedback form after an event, publishing it the same day, checking the response breakdown a week later."
@@ -11386,7 +11386,7 @@
     {
       "name": "ProductNow",
       "url": "https://productnow.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Productivity",
       "description": "Turns prototype feedback into traceable product decisions.",
       "use_case": "Triaging user feedback on a prototype, tracing decisions back to source feedback, keeping a team aligned on rationale."
@@ -11394,7 +11394,7 @@
     {
       "name": "prox",
       "url": "https://useprox.com",
-      "marker": null,
+      "marker": "C",
       "category": "Productivity",
       "description": "Search, read, and edit industrial product knowledge.",
       "use_case": "Manufacturing and engineering knowledge management, product-documentation search and editing."
@@ -11450,7 +11450,7 @@
     {
       "name": "Spacebring",
       "url": "https://www.spacebring.com",
-      "marker": null,
+      "marker": "C",
       "category": "Productivity",
       "description": "Coworking space management software that handles member billing, bookings, and access control.",
       "use_case": "Check today's room bookings and outstanding member invoices for a coworking location."
@@ -11458,7 +11458,7 @@
     {
       "name": "SpeakApp",
       "url": "https://speakapp.com",
-      "marker": null,
+      "marker": "C",
       "category": "Productivity",
       "description": "AI transcripts and summaries for meetings, voice notes, and lectures.",
       "use_case": "Transcribing and summarizing a team meeting, converting a lecture recording into study notes, logging voice memos into searchable text."
@@ -11514,7 +11514,7 @@
     {
       "name": "Tactiq",
       "url": "https://tactiq.io",
-      "marker": "C",
+      "marker": null,
       "category": "Productivity",
       "description": "Search, summarise & find answers in meetings.",
       "use_case": "Searching a meeting for when a deadline was mentioned, summarizing a call for someone who missed it."
@@ -11522,7 +11522,7 @@
     {
       "name": "Tally",
       "url": "https://tally.so",
-      "marker": "C",
+      "marker": null,
       "category": "Productivity",
       "description": "Create beautiful forms.",
       "use_case": "Building a quick RSVP form for an event happening next week."
@@ -11586,7 +11586,7 @@
     {
       "name": "Trint",
       "url": "https://trint.com",
-      "marker": null,
+      "marker": "C",
       "category": "Productivity",
       "description": "Brings Trint transcripts and files into the chat.",
       "use_case": "Pulling meeting transcripts into a workflow, searching recorded content, repurposing transcript text."
@@ -11618,7 +11618,7 @@
     {
       "name": "Vibe AI",
       "url": "https://vibe.us/vibe-ai",
-      "marker": "C",
+      "marker": null,
       "category": "Productivity",
       "description": "Find meeting notes and memory.",
       "use_case": "Looking up what was discussed in a meeting from a few weeks back."
@@ -11634,7 +11634,7 @@
     {
       "name": "Voicenotes",
       "url": "https://voicenotes.com",
-      "marker": null,
+      "marker": "C",
       "category": "Productivity",
       "description": "Search and chat with Voicenotes.",
       "use_case": "Querying transcribed voice memos, turning spoken ideas into structured notes."
@@ -11690,7 +11690,7 @@
     {
       "name": "Zsper",
       "url": "https://zsper.com",
-      "marker": null,
+      "marker": "C",
       "category": "Productivity",
       "description": "AI writing tool with memory of the author's style.",
       "use_case": "Drafting content in your own voice, maintaining writing context across sessions, personalizing AI-assisted writing."
@@ -11746,7 +11746,7 @@
     {
       "name": "Astravue App",
       "url": "https://astravue.com",
-      "marker": "C",
+      "marker": null,
       "category": "Project Management",
       "description": "Manage projects, tasks, and team workload in one place.",
       "use_case": "Checking whether a teammate is overloaded before assigning a new task, reviewing project status across the team."
@@ -11818,7 +11818,7 @@
     {
       "name": "Elixion",
       "url": "https://elixion.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Project Management",
       "description": "AI-native engineering workspace that combines project management boards, issues, and sprints with AI agents that work alongside engineers.",
       "use_case": "Create, update, and track engineering issues and sprint boards without leaving a chat conversation."
@@ -11834,7 +11834,7 @@
     {
       "name": "Hardline",
       "url": "https://www.hardlineapp.com",
-      "marker": null,
+      "marker": "C",
       "category": "Project Management",
       "description": "Transcribes construction phone calls and site-walk voice notes into RFIs, daily logs, meeting notes, and punch lists, synced to Procore, Fieldwire, and Autodesk.",
       "use_case": "Search past jobsite calls and walkthrough notes to confirm what a subcontractor committed to during a site visit."
@@ -11850,7 +11850,7 @@
     {
       "name": "KANNA",
       "url": "https://lp.kanna4u.com",
-      "marker": null,
+      "marker": "C",
       "category": "Project Management",
       "description": "様々なデータに接続し、Claude経由でデータを登録・編集したり、分析したりすることができるようになります。",
       "use_case": "先月の売上データを登録する、顧客リストを編集する、月次レポート用にデータを分析する。"
@@ -12058,7 +12058,7 @@
     {
       "name": "Strety",
       "url": "https://strety.com",
-      "marker": null,
+      "marker": "C",
       "category": "Project Management",
       "description": "Brings EOS Rocks, Issues, Scorecard, To-dos, and Level 10 meetings into Claude.",
       "use_case": "Prepping for a weekly leadership meeting, reviewing quarterly Rocks progress, tracking open Issues and To-dos across a team."
@@ -12138,7 +12138,7 @@
     {
       "name": "Atomscale",
       "url": "https://www.atomscale.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Research and Academic",
       "description": "Search, analyze, and build insights from materials science and engineering data.",
       "use_case": "Extracting information from synthesis and characterization data, analyzing materials-processing datasets, accelerating materials research."
@@ -12178,7 +12178,7 @@
     {
       "name": "GLG",
       "url": "https://glg.com",
-      "marker": "C",
+      "marker": null,
       "category": "Research and Academic",
       "description": "Expert intelligence, instantly in your workflow.",
       "use_case": "Getting an expert's perspective on an unfamiliar market before a meeting, pulling in expert intelligence mid-conversation."
@@ -12194,7 +12194,7 @@
     {
       "name": "HaitiDocs",
       "url": "https://www.haitidocs.org",
-      "marker": null,
+      "marker": "C",
       "category": "Research and Academic",
       "description": "Haiti documents, data, and maps supporting research and policy development.",
       "use_case": "Researching historical documents for an academic paper, pulling maps and data for a policy brief, supporting development-sector research."
@@ -12258,7 +12258,7 @@
     {
       "name": "Remesh",
       "url": "https://www.remesh.ai",
-      "marker": "C",
+      "marker": null,
       "category": "Research and Academic",
       "description": "Design studies, recruit audiences, launch conversations with real people at scale, and explore results without leaving your workflow.",
       "use_case": "Recruiting a specific audience segment for a new study, launching a conversation to test messaging before a campaign, reviewing what respondents said across a completed study."
@@ -12314,7 +12314,7 @@
     {
       "name": "Statista",
       "url": "https://www.statista.com",
-      "marker": null,
+      "marker": "C",
       "category": "Research and Academic",
       "description": "Market and consumer data platform aggregating statistics and reports from tens of thousands of sources.",
       "use_case": "Pull sourced statistics on a market or industry topic for a research brief or report."
@@ -12354,7 +12354,7 @@
     {
       "name": "カーリル for AI",
       "url": "https://calil.jp/ai",
-      "marker": null,
+      "marker": "C",
       "category": "Research and Academic",
       "description": "日本全国約7,400館の図書館蔵書をAIに統合する.",
       "use_case": "特定の本が近くの図書館にあるか調べる、複数の図書館の蔵書を横断して検索する。"
@@ -12410,7 +12410,7 @@
     {
       "name": "Apiiro Guardian",
       "url": "https://apiiro.com",
-      "marker": null,
+      "marker": "C",
       "category": "Security",
       "description": "Application security risk context and developer guardrails.",
       "use_case": "Querying code-to-runtime risk, surfacing AppSec findings, remediating security issues before code ships."
@@ -12418,7 +12418,7 @@
     {
       "name": "BigID",
       "url": "https://bigid.com",
-      "marker": null,
+      "marker": "C",
       "category": "Security",
       "description": "Explore, manage, and act on organizational data.",
       "use_case": "Discovering sensitive data across systems, managing privacy compliance, acting on data governance policy."
@@ -12538,7 +12538,7 @@
     {
       "name": "Is It Legit by M8ven",
       "url": "https://m8ven.ai",
-      "marker": null,
+      "marker": "C",
       "category": "Security",
       "description": "Checks whether a brand or company is legitimate.",
       "use_case": "Verifying an unfamiliar online store before purchasing, checking a vendor's legitimacy before a transfer, screening a business before signing a contract."
@@ -12690,7 +12690,7 @@
     {
       "name": "Robtex Network Intelligence",
       "url": "https://robtex.com",
-      "marker": null,
+      "marker": "C",
       "category": "Security",
       "description": "DNS, IP, domain reputation, and network intelligence.",
       "use_case": "Looking up DNS records, checking an IP's reputation, investigating a network for security research."
@@ -12698,7 +12698,7 @@
     {
       "name": "Safeguard",
       "url": "https://safeguard.sh",
-      "marker": null,
+      "marker": "C",
       "category": "Security",
       "description": "& Self-heal your Software Supply Chain.",
       "use_case": "Automatically self-healing a broken dependency in a software supply chain, letting a supply chain issue repair itself without manual intervention."
@@ -12706,7 +12706,7 @@
     {
       "name": "Scorechain",
       "url": "https://www.scorechain.com",
-      "marker": null,
+      "marker": "C",
       "category": "Security",
       "description": "Blockchain AML tooling.",
       "use_case": "Screening a crypto wallet for AML risk, tracing transaction flows, generating a compliance report."
@@ -12842,7 +12842,7 @@
     {
       "name": "Conductor MCP",
       "url": "https://www.conductor.com",
-      "marker": "C",
+      "marker": null,
       "category": "SEO and Web",
       "description": "Analyze your brand presence and sentiment in AI.",
       "use_case": "Checking whether AI-generated answers mention a brand favorably, tracking a shift in brand sentiment after a product recall."
@@ -12858,7 +12858,7 @@
     {
       "name": "Evarist",
       "url": "https://evarist.ai",
-      "marker": null,
+      "marker": "C",
       "category": "SEO and Web",
       "description": "AI-native website traffic analytics.",
       "use_case": "Asking why traffic dropped, finding top referral sources, identifying pages with high bounce rates."
@@ -12922,7 +12922,7 @@
     {
       "name": "Lnk.Bio",
       "url": "https://lnk.bio",
-      "marker": null,
+      "marker": "C",
       "category": "SEO and Web",
       "description": "Add, edit, and style Lnk.Bio links, blocks, and pages.",
       "use_case": "Building a link-in-bio page, updating link blocks, restyling a bio page."
@@ -12946,7 +12946,7 @@
     {
       "name": "Moz Local",
       "url": "https://moz.com/products/local",
-      "marker": null,
+      "marker": "C",
       "category": "SEO and Web",
       "description": "Manages and monitors business listing accuracy and local search visibility across directories.",
       "use_case": "Check listing health and local search performance for a business across multiple directory networks."
@@ -12986,7 +12986,7 @@
     {
       "name": "Promptwatch",
       "url": "https://promptwatch.com",
-      "marker": null,
+      "marker": "C",
       "category": "SEO and Web",
       "description": "Tracks how often and how favorably a brand appears in AI search engine results and provides tools to improve that visibility.",
       "use_case": "Check which competitors are being recommended instead of your brand across ChatGPT and Gemini responses."
@@ -13050,7 +13050,7 @@
     {
       "name": "ラッコキーワード",
       "url": "https://rakkokeyword.com",
-      "marker": null,
+      "marker": "C",
       "category": "SEO and Web",
       "description": "日本語検索に強く、サジェスト取得、月間検索数・SEO難易度、検索順位チェック、競合サイト分析、サイトの獲得キーワード・推定流入の調査に対応。",
       "use_case": "特定のキーワードの月間検索数とSEO難易度を確認する、競合サイトがどのキーワードで流入を得ているか分析する、検索順位の変動をチェックする。"
@@ -13074,7 +13074,7 @@
     {
       "name": "Eventfrog",
       "url": "https://eventfrog.ch",
-      "marker": null,
+      "marker": "C",
       "category": "Ticketing and Events",
       "description": "Swiss event discovery and ticketing platform for concerts, festivals, and local events.",
       "use_case": "Find events happening nearby and buy tickets directly."
@@ -13218,7 +13218,7 @@
     {
       "name": "aloha.fyi",
       "url": "https://aloha.fyi",
-      "marker": null,
+      "marker": "C",
       "category": "Travel",
       "description": "Hawaii travel guide and direct-booking site for tours, activities, food, events, and weather.",
       "use_case": "Book a Hawaii tour or activity directly and check local weather before a trip."
@@ -13242,7 +13242,7 @@
     {
       "name": "Bed-and-Breakfast.it",
       "url": "https://www.bed-and-breakfast.it",
-      "marker": null,
+      "marker": "C",
       "category": "Travel",
       "description": "Commission-free booking platform for B&Bs, guest houses, and vacation homes across Italy.",
       "use_case": "Find and book a verified B&B in Tuscany without paying a booking commission."
@@ -13370,7 +13370,7 @@
     {
       "name": "GuruWalk – Tours & Activities",
       "url": "https://www.guruwalk.com",
-      "marker": null,
+      "marker": "C",
       "category": "Travel",
       "description": "Free walking tours and activities in 200+ cities.",
       "use_case": "Finding a free walking tour in a city, booking a local guide for a day trip, discovering activities while traveling."
@@ -13378,7 +13378,7 @@
     {
       "name": "Hit The Road Rentals",
       "url": "https://hittheroad.rentals",
-      "marker": null,
+      "marker": "C",
       "category": "Travel",
       "description": "Search and comparison platform for campervan, motorhome, and RV hire from rental companies worldwide.",
       "use_case": "Search and compare motorhome rental options across multiple countries for an upcoming road trip."
@@ -13394,7 +13394,7 @@
     {
       "name": "komoot",
       "url": "https://www.komoot.com",
-      "marker": null,
+      "marker": "C",
       "category": "Travel",
       "description": "Discover outdoor routes and highlights.",
       "use_case": "Planning hikes and bike tours, finding community-recommended highlights along a route."
@@ -13466,7 +13466,7 @@
     {
       "name": "Perk",
       "url": "https://www.perk.com",
-      "marker": null,
+      "marker": "C",
       "category": "Travel",
       "description": "Corporate travel and spend management platform that combines trip booking, expense automation, and invoice processing in one system.",
       "use_case": "Pull a report on last quarter's company travel spend by department and flag bookings that breached travel policy."
@@ -13482,7 +13482,7 @@
     {
       "name": "Ryanair",
       "url": "https://www.ryanair.com",
-      "marker": null,
+      "marker": "C",
       "category": "Travel",
       "description": "Explore Ryanair routes and find cheap flights.",
       "use_case": "Low-cost route discovery across Europe, fare comparison with date flexibility."
@@ -13506,7 +13506,7 @@
     {
       "name": "Telgani",
       "url": "https://www.telgani.com",
-      "marker": null,
+      "marker": "C",
       "category": "Travel",
       "description": "Car rental across Saudi Arabia.",
       "use_case": "Booking a rental car for a trip to Riyadh, comparing rental rates across Saudi cities, extending a reservation."
@@ -13530,7 +13530,7 @@
     {
       "name": "Traveler.md",
       "url": "https://traveler.md",
-      "marker": null,
+      "marker": "C",
       "category": "Travel",
       "description": "Portable travel memory covering preferences and trips.",
       "use_case": "Recalling seat and airline preferences when booking, pulling up an upcoming itinerary, carrying travel history between planning tools."
