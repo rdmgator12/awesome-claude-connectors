@@ -966,7 +966,7 @@
       "marker": null,
       "category": "Cloud and Infrastructure",
       "description": "Databases, auth, and storage.",
-      "use_case": "Postgres-backed backend, real-time subscriptions, auth, file storage for modern apps."
+      "use_case": "PostgreSQL-backed backend, real-time subscriptions, auth, file storage for modern apps."
     },
     {
       "name": "Torii",
@@ -15161,7 +15161,7 @@
       "url": "https://neon.com",
       "marker": null,
       "category": "Cloud and Infrastructure",
-      "description": "Manages Neon Postgres projects, running SQL, diffing schemas, applying migrations on temporary branches, provisioning auth and object storage, and querying logs.",
+      "description": "Manages Neon PostgreSQL projects, running SQL, diffing schemas, applying migrations on temporary branches, provisioning auth and object storage, and querying logs.",
       "use_case": "Testing a migration on a copy-on-write branch before committing it, tracing a slow query from serverless function logs, provisioning a database for a prototype."
     },
     {
@@ -16480,8 +16480,8 @@
       "url": "https://www.prisma.io",
       "marker": "C",
       "category": "Development Tools",
-      "description": "Manages Prisma Postgres databases, connection strings, backups, schemas, SQL queries and Object Storage in a selected workspace, and searches Prisma documentation.",
-      "use_case": "Provisioning a Postgres database for a prototype, running a query to confirm a migration landed, finding the docs page for a schema directive."
+      "description": "Manages Prisma PostgreSQL databases, connection strings, backups, schemas, SQL queries and Object Storage in a selected workspace, and searches Prisma documentation.",
+      "use_case": "Provisioning a PostgreSQL database for a prototype, running a query to confirm a migration landed, finding the docs page for a schema directive."
     },
     {
       "name": "fastwrite",
@@ -16717,8 +16717,8 @@
       "url": "https://mcpmyadmin.com",
       "marker": "C",
       "category": "Data and Analytics",
-      "description": "Queries 40 databases and warehouses — Postgres, MySQL, Oracle, MongoDB, Snowflake, BigQuery and more — in plain English, returning a chart and the SQL behind it.",
-      "use_case": "Charting last quarter's signups from a production Postgres replica, checking the generated SQL before trusting a figure, comparing order counts across two warehouses.",
+      "description": "Queries 40 databases and warehouses — PostgreSQL, MySQL, Oracle, MongoDB, Snowflake, BigQuery and more — in plain English, returning a chart and the SQL behind it.",
+      "use_case": "Charting last quarter's signups from a production PostgreSQL replica, checking the generated SQL before trusting a figure, comparing order counts across two warehouses.",
       "subcategory": "Databases and Warehouses"
     },
     {
@@ -18511,7 +18511,7 @@
       "marker": "C",
       "category": "Cloud and Infrastructure",
       "description": "Checks SimpleBackups health across databases, servers, and SaaS apps, diagnoses failed runs from console output, and triggers runs, schedule changes, or restores.",
-      "use_case": "Finding which backups failed in the last week, reading the console output behind a failed Postgres run, preparing a restore for a specific date."
+      "use_case": "Finding which backups failed in the last week, reading the console output behind a failed PostgreSQL run, preparing a restore for a specific date."
     },
     {
       "name": "EduInsights",
@@ -20012,7 +20012,7 @@
       "url": "https://contextflo.com",
       "marker": "C",
       "category": "Data and Analytics",
-      "description": "Queries Postgres, Snowflake, BigQuery, Redshift, MySQL, ClickHouse, and Databricks through a managed context layer with access controls and query visibility.",
+      "description": "Queries PostgreSQL, Snowflake, BigQuery, Redshift, MySQL, ClickHouse, and Databricks through a managed context layer with access controls and query visibility.",
       "use_case": "Asking for last quarter's active accounts in plain language, checking which definition a metric uses, reviewing which queries a teammate ran.",
       "subcategory": "Databases and Warehouses"
     },
@@ -20401,7 +20401,7 @@
       "url": "https://www.artie.com",
       "marker": "C",
       "category": "Data and Analytics",
-      "description": "Creates and runs change-data-capture pipelines from Postgres, MySQL, MongoDB, and other databases into cloud warehouses, handling table selection, backfills, and schema changes.",
+      "description": "Creates and runs change-data-capture pipelines from PostgreSQL, MySQL, MongoDB, and other databases into cloud warehouses, handling table selection, backfills, and schema changes.",
       "use_case": "Replicating three production tables into Snowflake, backfilling six months of orders, pausing a staging pipeline during a database upgrade.",
       "subcategory": "Data Engineering and Pipelines"
     },
@@ -21497,7 +21497,7 @@
     {
       "name": "Adside — Meta Ads, Google Ads & LinkedIn Ads reporting for agencies",
       "catalog_description": "Ad performance, brand kits and competitor intelligence for Meta Ads, Google Ads and LinkedIn Ads — built for agencies managing many clients.",
-      "why_held": "feed carries only a profile/org or asset page (https://app.adside.ai/logo_512.png), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (app.adside.ai/logo_512.png), not a product page (2026-09-14)"
     },
     {
       "name": "Agent Grid",
@@ -21507,22 +21507,22 @@
     {
       "name": "AI Dispatcher by FieldCamp",
       "catalog_description": "AI dispatch and scheduling for field-service teams — view your jobs, technicians and board, run AI dispatch, and accept assignments, right from Claude.",
-      "why_held": "shares vendor URL https://fieldcamp.ai with \"FieldCamp\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
+      "why_held": "shares vendor URL fieldcamp.ai with \"FieldCamp\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
     },
     {
       "name": "Airmail",
       "catalog_description": "Manage emails, calendars, contacts, and more from Claude using Airmail's MCP server.",
-      "why_held": "feed carries only a profile/org or asset page (https://github.com/Airmail), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (github.com/Airmail), not a product page (2026-09-14)"
     },
     {
       "name": "Commerce Layer Metrics",
       "catalog_description": "Commerce Layer Metrics MCP server",
-      "why_held": "feed carries only a profile/org or asset page (https://github.com/pviti), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (github.com/pviti), not a product page (2026-09-14)"
     },
     {
       "name": "Dango",
       "catalog_description": "Build beautiful presentations, in your own brand.",
-      "why_held": "vendor URL https://trydango.com returned HTTP 530 on 2026-09-14"
+      "why_held": "vendor URL trydango.com returned HTTP 530 on 2026-09-14"
     },
     {
       "name": "Decision Matrix",
@@ -21532,62 +21532,62 @@
     {
       "name": "Denodo MCP Connector",
       "catalog_description": "Connect Claude Desktop to a Denodo Virtual DataPort database via MCP",
-      "why_held": "feed carries only a profile/org or asset page (https://github.com/denodo), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (github.com/denodo), not a product page (2026-09-14)"
     },
     {
       "name": "doDomain",
       "catalog_description": "Connect customer domains from chat",
-      "why_held": "shares vendor URL https://devino.ca with \"BioFlow\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
+      "why_held": "shares vendor URL devino.ca with \"BioFlow\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
     },
     {
       "name": "droplinked",
       "catalog_description": "Discover and verify products across droplinked's KYB-attested merchant network. Read-only agentic-commerce discovery.",
-      "why_held": "feed carries only a profile/org or asset page (https://github.com/droplinked), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (github.com/droplinked), not a product page (2026-09-14)"
     },
     {
       "name": "Fieldy",
       "catalog_description": "Search and recall your Fieldy conversations directly in Claude.",
-      "why_held": "feed carries only a profile/org or asset page (https://www.linkedin.com/in/adomasv), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (linkedin.com/in/adomasv), not a product page (2026-09-14)"
     },
     {
       "name": "Firefox Control",
       "catalog_description": "Control Mozilla Firefox: tabs, history and web content (privacy aware)",
-      "why_held": "feed carries only a profile/org or asset page (https://github.com/eyalzh), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (github.com/eyalzh), not a product page (2026-09-14)"
     },
     {
       "name": "FlitIQ — FMCSA Carrier Intelligence",
       "catalog_description": "Look up U.S. motor carriers, check CSA safety scores, verify insurance, and save carriers to your FlitIQ pipeline — all inside Claude. Requires a FlitIQ Pro or",
-      "why_held": "feed carries only a profile/org or asset page (https://github.com/smartlink-basics), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (github.com/smartlink-basics), not a product page (2026-09-14)"
     },
     {
       "name": "GetItDone",
       "catalog_description": "Run your team's tasks and workspaces from chat",
-      "why_held": "shares vendor URL https://devino.ca with \"BioFlow\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
+      "why_held": "shares vendor URL devino.ca with \"BioFlow\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
     },
     {
       "name": "Hiver in Gmail",
       "catalog_description": "Find, manage, and analyze customer conversations",
-      "why_held": "shares vendor URL https://hiverhq.com with \"Hiver Omni\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
+      "why_held": "shares vendor URL hiverhq.com with \"Hiver Omni\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
     },
     {
       "name": "HtAG Spatial",
       "catalog_description": "HtAG Spatial gives Claude H3-indexed access to Australia’s property market, price/rent, socio-environmental and geography-concordance layers, so spatial questio",
-      "why_held": "shares vendor URL https://www.htag.com.au with \"HtAG Documentation\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
+      "why_held": "shares vendor URL htag.com.au with \"HtAG Documentation\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
     },
     {
       "name": "hvacbuilder.app",
       "catalog_description": "Design, solve and simulate HVAC systems with real physics",
-      "why_held": "feed carries only a profile/org or asset page (https://www.linkedin.com/in/myron-van-staden-452346106), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (linkedin.com/in/myron-van-staden-452346106), not a product page (2026-09-14)"
     },
     {
       "name": "Inbin Pulse",
       "catalog_description": "Is this flight price actually a deal? Grounded answers from observed fare history, not vibes.",
-      "why_held": "shares vendor URL https://inbin.dev with \"Inbin\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
+      "why_held": "shares vendor URL inbin.dev with \"Inbin\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
     },
     {
       "name": "Memco Shared Memory",
       "catalog_description": "Shared memory for all your agents",
-      "why_held": "shares vendor URL https://www.memco.ai with \"Memco Personal Memory\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
+      "why_held": "shares vendor URL memco.ai with \"Memco Personal Memory\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
     },
     {
       "name": "Mercado Libre Inmuebles",
@@ -21607,32 +21607,32 @@
     {
       "name": "miniOrange MCP for WordPress",
       "catalog_description": "Securely Manage Your WordPress from Claude",
-      "why_held": "shares vendor URL https://www.miniorange.com with \"miniOrange MCP for Magento\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
+      "why_held": "shares vendor URL miniorange.com with \"miniOrange MCP for Magento\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
     },
     {
       "name": "Minutes Conversation Memory",
       "catalog_description": "The private, owned conversation-memory layer for AI. Record, transcribe, and search every meeting, voice memo, and dictation entirely on your own machine — noth",
-      "why_held": "feed carries only a profile/org or asset page (https://github.com/silverstein), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (github.com/silverstein), not a product page (2026-09-14)"
     },
     {
       "name": "NeetoDesk",
       "catalog_description": "Triage tickets, draft replies, manage customers and agents, and pull support reports in your NeetoDesk workspace.",
-      "why_held": "shares vendor URL https://neeto.com with \"NeetoCal\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
+      "why_held": "shares vendor URL neeto.com with \"NeetoCal\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
     },
     {
       "name": "NeetoForm",
       "catalog_description": "Search your forms, read the answers people submitted, and manage who can access them in your NeetoForm workspace.",
-      "why_held": "shares vendor URL https://neeto.com with \"NeetoCal\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
+      "why_held": "shares vendor URL neeto.com with \"NeetoCal\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
     },
     {
       "name": "NeetoRecord",
       "catalog_description": "Connect your NeetoRecord workspace to search recordings by speech or title, read transcripts, capture video frames, and manage folders and sharing.",
-      "why_held": "vendor URL https://neeto.com/neetorecord returned HTTP 404 on 2026-09-14"
+      "why_held": "vendor URL neeto.com/neetorecord returned HTTP 404 on 2026-09-14"
     },
     {
       "name": "origami.publica.la",
       "catalog_description": "Origami is publica.la's publishing toolchain",
-      "why_held": "shares vendor URL https://publica.la with \"EbooksDepository\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
+      "why_held": "shares vendor URL publica.la with \"EbooksDepository\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
     },
     {
       "name": "Pasteapp",
@@ -21642,12 +21642,12 @@
     {
       "name": "PopHIVE Public Health Data",
       "catalog_description": "Access near real-time public health data from PopHIVE dashboards including immunizations, respiratory diseases, chronic conditions, hospital capacity, injury/ov",
-      "why_held": "feed carries only a profile/org or asset page (https://github.com/Cicatriiz), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (github.com/Cicatriiz), not a product page (2026-09-14)"
     },
     {
       "name": "Reddit MCP Buddy",
       "catalog_description": "Browse Reddit directly in Claude Desktop. Search posts, analyze users, explore communities - no API keys needed.",
-      "why_held": "feed carries only a profile/org or asset page (https://github.com/karanb192), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (github.com/karanb192), not a product page (2026-09-14)"
     },
     {
       "name": "SiD Corp MCP",
@@ -21657,7 +21657,7 @@
     {
       "name": "Sinch Build Docs",
       "catalog_description": "Search Sinch Build developer docs and API references.",
-      "why_held": "shares vendor URL https://sinch.com with \"Mailgun Docs MCP\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
+      "why_held": "shares vendor URL sinch.com with \"Mailgun Docs MCP\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
     },
     {
       "name": "Structured Reflection",
@@ -21667,27 +21667,27 @@
     {
       "name": "Things (AppleScript)",
       "catalog_description": "Claude Desktop Extension for Things, the award-winning personal task manager",
-      "why_held": "feed carries only a profile/org or asset page (https://github.com/mbmccormick), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (github.com/mbmccormick), not a product page (2026-09-14)"
     },
     {
       "name": "Uptimely",
       "catalog_description": "Monitor uptime, incidents, and on-call from AI",
-      "why_held": "shares vendor URL https://devino.ca with \"BioFlow\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
+      "why_held": "shares vendor URL devino.ca with \"BioFlow\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
     },
     {
       "name": "Vid Kraken",
       "catalog_description": "Cut audio or video clips from your own long-form videos by timestamp — podcasts, lectures, streams — and get a file ready for your editor.",
-      "why_held": "shares vendor URL https://omnivision.solutions with \"Transcript LOL\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
+      "why_held": "shares vendor URL omnivision.solutions with \"Transcript LOL\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
     },
     {
       "name": "Voxtell Phone",
       "catalog_description": "Your business phone system, answered from Claude",
-      "why_held": "shares vendor URL https://voxtell.com with \"Voxtell Chat\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
+      "why_held": "shares vendor URL voxtell.com with \"Voxtell Chat\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
     },
     {
       "name": "Website Auditor",
       "catalog_description": "AI visibility and site audits: see whether ChatGPT, Perplexity, Claude, and Gemini recommend a website.",
-      "why_held": "feed carries only a profile/org or asset page (https://github.com/SpikeyCoder), not a product page (2026-09-14)"
+      "why_held": "feed carries only a profile/org or asset page (github.com/SpikeyCoder), not a product page (2026-09-14)"
     }
   ]
 }
