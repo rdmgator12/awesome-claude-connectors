@@ -4,9 +4,9 @@
   <img src="media/banner.svg" alt="Awesome Claude Connectors" width="800">
 </p>
 
-> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 2,570 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 39 held pending vendor verification, organized by category with descriptions and use cases.
+> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 2,562 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 39 held pending vendor verification, organized by category with descriptions and use cases.
 
-**Last updated:** September 14, 2026 | **Connectors tracked:** 2,570 listed + 39 held | **Categories:** 30
+**Last updated:** September 14, 2026 | **Connectors tracked:** 2,562 listed + 39 held | **Categories:** 30
 
 Claude connectors are MCP (Model Context Protocol) servers that extend Claude with real-time access to external tools, data sources, and services. They work across Claude.ai, Claude Desktop, Claude Mobile, Claude Code, and Claude Cowork. Connectors in the **curated web directory** are vetted by Anthropic for security, reliability, and compatibility; the **in-app catalog** additionally surfaces community-built and local desktop-extension connectors that Anthropic makes available but does not itself build or vet. This list tracks the union of both surfaces — see CONTRIBUTING.md for the two-surface methodology.
 
@@ -214,13 +214,12 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Calendar and Scheduling
 
-17 connectors.
+16 connectors.
 
 - [Akiflow](https://akiflow.com) **`C`** - Plans tasks across multiple calendars from any AI assistant. *Use case: Unifying calendars from multiple accounts, blocking time for tasks, planning a daily schedule.*
 - [BusyCal](https://www.busymac.com/busycal) - Calendar management for macOS. *Use case: Managing complex schedules on Apple devices, syncing with multiple calendar providers.*
 - [Calendesk - Appointment scheduling software](https://calendesk.com) **`C`** - Check the calendar, book clients, and pull revenue reports from your Calendesk account. *Use case: Checking whether a Tuesday slot is open before confirming a client, booking a returning client into next week's schedule, pulling last month's revenue report before a planning meeting.*
 - [Calendly](https://calendly.com) - Event types and bookings. *Use case: Scheduling meetings, managing availability, automating appointment booking workflows.*
-- [Clockwise](https://www.getclockwise.com) - AI-powered calendar and time management. *Use case: Intelligent scheduling, focus-time protection, meeting coordination, calendar optimization.*
 - [Crisphive](https://crisphive.com) **`C`** - Match crews to jobs by location, skills, and availability - with sub-3-second cascade rescheduling. *Use case: Reassigning a crew when a job runs long and the next appointment is at risk, filling an open slot with the closest available technician who has the right skill, cascading a reschedule across the day's jobs after a no-show.*
 - [Fantastical](https://flexibits.com/fantastical) - Calendar management for Apple devices. *Use case: Natural language event creation, calendar views, Apple ecosystem calendar management.*
 - [Funlet](https://streamlineops.us) **`C`** - Creates group events from a plain-language description, polls for times, caps spots, collects RSVPs by text, sends reminders, and manages saved crews. *Use case: Polling a running club on three Friday options, capping a pickleball game at four players, nudging everyone who has not replied a day out.*
@@ -489,7 +488,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Data and Analytics
 
-255 connectors.
+254 connectors.
 
 ### Business Intelligence and Dashboards
 
@@ -513,7 +512,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [OWOX Data Marts](https://www.owox.com) **`C`** - Query your analyst-governed data marts for trusted answers — real metrics and joins, no hallucinated SQL — and schedule recurring reports, right inside Claude. *Use case: Asking for this month's revenue number and trusting the join behind it, scheduling a weekly report to land automatically instead of pulling it by hand.*
 - [Pigment](https://www.gopigment.com) - Analyze business planning data. *Use case: Financial planning, revenue forecasting, scenario modeling.*
 - [Pyplan](https://pyplan.com) **`C`** - Chat with your Pyplan planning and analytics applications. *Use case: Asking a planning application what happens to the forecast if a cost assumption changes, pulling a number out of an analytics model instead of opening it directly.*
-- [Qlik](https://www.qlik.com) - Data integration, quality, and AI-powered analytics platform. *Use case: Data integration, self-service analytics, interactive dashboards, business intelligence reporting.*
 - [Rill](https://www.rilldata.com) **`C`** - Business intelligence tool for building and exploring real-time operational dashboards and metrics. *Use case: Query and explore metrics defined in a Rill project without opening the Rill dashboard.*
 - [Sigma](https://sigmacomputing.com) - Natural-language data exploration on warehouse data. *Use case: Asking governed questions of cloud-warehouse data, generating explorable workbooks, deploying AI agents that respect column-level security.*
 - [Signara](https://getsignara.com) **`C`** - Verified KPIs and insights from your data, no AI guessing. *Use case: Checking this quarter's KPI number and trusting it wasn't estimated by a model, pulling a verified insight before it goes into a board deck.*
@@ -772,7 +770,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Design and Creative
 
-94 connectors.
+93 connectors.
 
 - [3DOptix optical design and simulations](https://www.3doptix.com) **`C`** - Design, simulate, and analyse optical systems with GPU-powered ray tracing, building setups from the 3DOptix catalog, running irradiance, PSF, and MTF analyses, and importing designs from Zemax or CAD. *Use case: Importing a lens design from Zemax to check its MTF curve, building an optical setup from the catalog to test a new configuration, running a PSF analysis before finalizing a design.*
 - [Adobe for creativity](https://developer.adobe.com/adobe-for-creativity/) - Photoshop, Lightroom, Illustrator, Firefly, Premiere, Express, InDesign, and Adobe Stock through Claude. *Use case: Edit photos and vectors, design from templates, resize video for social, license stock — all through natural language without app-switching.*
@@ -830,7 +828,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Mobbin](https://mobbin.com) - Find UI and UX design references. *Use case: Researching mobile app design patterns, benchmarking competitor onboarding flows, building a reference library for a redesign.*
 - [Montage](https://montage.app) **`C`** - Turn a video into a shareable clip without leaving your chat. *Use case: Turning a webinar recording into a short highlight clip, sharing it with a teammate right from the conversation.*
 - [North Noir](https://northnoir.com) **`C`** - Transcribes uploaded footage, plans timed motion graphics such as lower-thirds, stat cards, and callouts, and exports a composited video or standalone clip. *Use case: Adding lower-thirds to a recorded talk, previewing one stat card before final export, generating a standalone animated clip from a text prompt.*
-- [OpenArt Lite](https://openart.ai) **`C`** - Create with OpenArt, right inside Claude. *Use case: Creating a piece of content from a prompt without leaving the conversation.*
 - [OpenSTAAD MCP Server](https://www.bentley.com/software/staad-pro/) - Bentley STAAD.Pro structural analysis via the OpenSTAAD API. *Use case: Programmatic access to STAAD.Pro models, finite-element analysis automation, structural design integration with custom apps.*
 - [OpusClip](https://opus.pro) - Turns long videos or YouTube URLs into short clips with transcripts, reframing, captions, and censoring, then schedules or publishes them to connected social accounts. *Use case: Cutting a webinar recording into vertical clips, adding captions before review, queuing the best three for posting later in the week.*
 - [PosterMyWall](https://www.postermywall.com) **`C`** - Millions of free templates for any business or occasion. *Use case: Finding a template for a birthday flyer, browsing options for a restaurant's grand opening.*
@@ -871,11 +868,10 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Desktop Automation
 
-15 connectors.
+14 connectors.
 
 - [Android-MCP](https://github.com/CursorTouch/Android-MCP) - Control Android devices. *Use case: Android app testing, mobile automation workflows, device management.*
 - [api.agi.tech](https://theagi.company/blog/agi-mcp-for-every-app-on-your-phone) **`C`** - Gives an agent tap-and-type control of an Android phone's screen, working across any installed app without per-app integrations. *Use case: Running a recurring task in a phone app overnight, testing an Android build across screen sizes, driving an app that exposes no API.*
-- [Asteroid](https://asteroid.ai) - Builds and runs agentic, repeatable browser and computer-use workflows. *Use case: Automating portal workflows, running repeatable data-entry tasks, scaling browser-based back-office work.*
 - [Brave (AppleScript)](https://github.com/TariqAlagha/brave-browser-control) - Controls Brave Browser tabs, windows, and navigation and reads page content through Brave's AppleScript API. *Use case: Opening a set of reference pages for a task, pulling the text of the current page into notes, closing tabs left from an earlier session.*
 - [Control Chrome](https://chromedevtools.github.io/devtools-protocol/) - Chrome tab and navigation control. *Use case: Browser automation, tab management, web scraping from Chrome.*
 - [Control your Mac](https://support.apple.com/guide/terminal/use-applescript-apd44b0e5b2-3b9b-46de-8bfc-4741be13ef5b) - Execute AppleScript to automate macOS. *Use case: System-level Mac automation, app control, file management via AppleScript.*
@@ -891,7 +887,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Development Tools
 
-119 connectors.
+117 connectors.
 
 - [3Min API](https://3minapi.com) **`C`** - Create a working REST API endpoint without writing backend code, then test it, search what comes in, and share access with partners — all from chat. *Use case: Spinning up an endpoint to collect signups for a landing page, checking which requests came in overnight, giving a partner access to the data.*
 - [accessibilitytracker.com](https://accessible.org) **`C`** - Reads an Accessibility Tracker workspace of projects, issue backlogs, scans, reports, and VPAT records, and where permitted creates issues, comments, and scan jobs. *Use case: Triaging a fresh scan into a remediation plan, checking which pages regressed since the last run, drafting VPAT remarks for human review.*
@@ -932,8 +928,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [GameAnalytics Documentation](https://www.gameanalytics.com) **`C`** - Searches GameAnalytics documentation covering the Unity, Unreal, iOS and Android SDKs and the analytics API. *Use case: Finding the initialization call for the Unity SDK, checking an event schema before instrumenting a level, comparing iOS and Android setup steps.*
 - [GitBook MCP](https://www.gitbook.com) **`C`** - Create, edit, and manage your GitBook documentation directly from your AI agent. *Use case: Updating an API reference page after a release, restructuring a docs site's navigation, publishing edits from a conversation.*
 - [GitHits](https://githits.com) **`C`** - Searches and reads source files, documentation, versions, licenses, dependencies, vulnerabilities, and changelogs across an index of open-source packages and repositories. *Use case: Reading the actual source of a function in the installed version, checking a changelog before an upgrade, finding real usage examples of an API.*
-- [GitHub MCP](https://github.com/github/github-mcp-server) - The official GitHub MCP server. *Use case: Repo and issue management, PR workflows, code search, CI/CD automation on GitHub.*
-- [GitLab](https://about.gitlab.com) - DevSecOps platform for the entire software lifecycle. *Use case: Source code management, CI/CD pipelines, merge requests, issue tracking, security scanning.*
 - [GraphOS MCP Tools](https://www.apollographql.com) - Apollo GraphQL documentation and best practices. *Use case: GraphQL schema design guidance, Apollo Connectors specification lookup, agentic GraphQL development.*
 - [GrowthBook](https://www.growthbook.io) - Feature flags and experiments. *Use case: A/B testing, gradual rollouts, experiment analysis.*
 - [Harness](https://www.harness.io) - Build, ship, and secure apps on the Harness Platform. *Use case: End-to-end software delivery spanning CI, CD, feature flags, IaC, cloud cost, chaos engineering, and security testing in a single workspace.*
@@ -1491,7 +1485,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Healthcare and Life Sciences
 
-62 connectors.
+61 connectors.
 
 - [10x Genomics Cloud](https://www.10xgenomics.com) - Access the 10x Genomics platform. *Use case: Single-cell genomics, spatial transcriptomics, chromatin accessibility analysis.*
 - [AdisInsight](https://adisinsight.springer.com) - Drug, clinical trial, and pharma pipeline intelligence. *Use case: Drug development tracking, competitive pipeline analysis, licensing opportunity identification.*
@@ -1501,7 +1495,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Aniva](https://anivahealth.com) **`C`** - Your biomarkers, biological age, and action plan. *Use case: Checking whether a biomarker improved since the last panel, comparing biological age against chronological age, reviewing the next step on an action plan.*
 - [Assuric](https://www.assuric.com) **`C`** - Digital health compliance platform that manages clinical safety hazard logs and regulatory frameworks such as DCB0129, DTAC, and ISO 14971. *Use case: Check the status of an open clinical safety hazard log entry ahead of a compliance review meeting.*
 - [Benchling](https://www.benchling.com) - R&D data and notebooks. *Use case: Lab notebook management, experiment tracking, biological sequence design.*
-- [Biomni Lab](https://biomni.phylo.bio) - Integrated biology environment for AI-native research. *Use case: Agentic biology workflows, computational research, AI-native lab automation.*
 - [BioRender](https://www.biorender.com) - Scientific templates and icons. *Use case: Creating publication-quality scientific figures, graphical abstracts, pathway diagrams.*
 - [bioRxiv](https://www.biorxiv.org) **`A`** - Access bioRxiv and medRxiv preprint data. *Use case: Preprint search for biology and medicine, catching research 6-12 months before peer review.*
 - [Boltz API](https://boltz.bio) - Predict molecular structures and binding interactions. *Use case: Protein structure prediction, binding-affinity screening, binder design for drug discovery.*
@@ -1688,7 +1681,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Lifestyle and Local
 
-96 connectors.
+95 connectors.
 
 - [$nipp](https://www.snipp.com) **`C`** - Surfaces shopping offers, rebates, and rewards across grocery, household, fashion, pet, electronics, and beverage categories. *Use case: Finding current rebates on household staples, checking which grocery offers are worth stacking this week, looking up rewards on a pet-food purchase.*
 - [AC - Artificial Conscience®](https://edenly.ai) **`C`** - Returns optional Christian moral guidance on questions of conduct, relationships, integrity, faith, and life decisions as background context for Claude. *Use case: Weighing a workplace honesty dilemma against Christian teaching, thinking through a strained family relationship, considering a major life decision with faith context.*
@@ -1715,7 +1708,6 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Domino's India](https://www.dominos.co.in) - Discover, customise, and order your favourite Domino's meals—all without leaving the conversation. *Use case: Building a custom pizza order for a Friday night, reordering a usual meal during a work break, checking out without leaving the chat.*
 - [Domus](https://getdomus.app) **`C`** - Reads and updates a Domus home record: appliances and equipment, warranties, documents, maintenance schedules, and air filter changes across multiple properties. *Use case: Looking up which filter a furnace takes, logging a repair right after finishing it, flagging warranties that lapse next month.*
 - [Donde Onde Where](https://www.donde-onde-where.com) **`C`** - Editorial index of independent restaurants and bars in the UK, Portugal, and Spain, with neighbourhood rankings, momentum scores, and venue verdicts. *Use case: Finding which Lisbon neighbourhood is gaining attention now, pulling the editorial verdict on a bar before booking, listing venues recently added in Madrid.*
-- [DoorDash](https://www.doordash.com) - Food, grocery, and retail delivery. *Use case: Same-day food and grocery delivery, order tracking, restaurant discovery, local errands.*
 - [drawnames](https://www.drawnames.com) **`C`** - Organize your Secret Santa. *Use case: Drawing names for an office gift exchange, setting a spending limit, sending out assignments without spoiling who has whom.*
 - [ecoExperten Energieausweis](https://ecoexperten.com) **`C`** - Order official German energy performance certificates (Energieausweis) directly from chat — €59, delivered in 1–2 business days. *Use case: Getting an Energieausweis before listing an apartment for rent, ordering the certificate ahead of a home sale closing.*
 - [Epicure](https://epicure.kaikaku.ai) **`C`** - Computational flavour intelligence for culinary agents. *Use case: Checking which unusual ingredient pairs well with roasted beets for a new menu item, generating flavor-pairing options for a dessert course.*

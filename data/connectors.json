@@ -625,14 +625,6 @@
       "use_case": "Scheduling meetings, managing availability, automating appointment booking workflows."
     },
     {
-      "name": "Clockwise",
-      "url": "https://www.getclockwise.com",
-      "marker": null,
-      "category": "Calendar and Scheduling",
-      "description": "AI-powered calendar and time management.",
-      "use_case": "Intelligent scheduling, focus-time protection, meeting coordination, calendar optimization."
-    },
-    {
       "name": "Crisphive",
       "url": "https://crisphive.com",
       "marker": "C",
@@ -2704,15 +2696,6 @@
       "subcategory": "Business Intelligence and Dashboards"
     },
     {
-      "name": "Qlik",
-      "url": "https://www.qlik.com",
-      "marker": null,
-      "category": "Data and Analytics",
-      "description": "Data integration, quality, and AI-powered analytics platform.",
-      "use_case": "Data integration, self-service analytics, interactive dashboards, business intelligence reporting.",
-      "subcategory": "Business Intelligence and Dashboards"
-    },
-    {
       "name": "Qmutator",
       "url": "https://qmutator.com",
       "marker": "C",
@@ -3505,14 +3488,6 @@
       "use_case": "Turning a webinar recording into a short highlight clip, sharing it with a teammate right from the conversation."
     },
     {
-      "name": "OpenArt Lite",
-      "url": "https://openart.ai",
-      "marker": "C",
-      "category": "Design and Creative",
-      "description": "Create with OpenArt, right inside Claude.",
-      "use_case": "Creating a piece of content from a prompt without leaving the conversation."
-    },
-    {
       "name": "OpenSTAAD MCP Server",
       "url": "https://www.bentley.com/software/staad-pro/",
       "marker": null,
@@ -3711,14 +3686,6 @@
       "category": "Desktop Automation",
       "description": "Control Android devices.",
       "use_case": "Android app testing, mobile automation workflows, device management."
-    },
-    {
-      "name": "Asteroid",
-      "url": "https://asteroid.ai",
-      "marker": null,
-      "category": "Desktop Automation",
-      "description": "Builds and runs agentic, repeatable browser and computer-use workflows.",
-      "use_case": "Automating portal workflows, running repeatable data-entry tasks, scaling browser-based back-office work."
     },
     {
       "name": "Control Chrome",
@@ -3991,22 +3958,6 @@
       "category": "Development Tools",
       "description": "Create, edit, and manage your GitBook documentation directly from your AI agent.",
       "use_case": "Updating an API reference page after a release, restructuring a docs site's navigation, publishing edits from a conversation."
-    },
-    {
-      "name": "GitHub MCP",
-      "url": "https://github.com/github/github-mcp-server",
-      "marker": null,
-      "category": "Development Tools",
-      "description": "The official GitHub MCP server.",
-      "use_case": "Repo and issue management, PR workflows, code search, CI/CD automation on GitHub."
-    },
-    {
-      "name": "GitLab",
-      "url": "https://about.gitlab.com",
-      "marker": null,
-      "category": "Development Tools",
-      "description": "DevSecOps platform for the entire software lifecycle.",
-      "use_case": "Source code management, CI/CD pipelines, merge requests, issue tracking, security scanning."
     },
     {
       "name": "GraphOS MCP Tools",
@@ -7119,14 +7070,6 @@
       "use_case": "Lab notebook management, experiment tracking, biological sequence design."
     },
     {
-      "name": "Biomni Lab",
-      "url": "https://biomni.phylo.bio",
-      "marker": null,
-      "category": "Healthcare and Life Sciences",
-      "description": "Integrated biology environment for AI-native research.",
-      "use_case": "Agentic biology workflows, computational research, AI-native lab automation."
-    },
-    {
       "name": "BioRender",
       "url": "https://www.biorender.com",
       "marker": null,
@@ -8269,14 +8212,6 @@
       "category": "Lifestyle and Local",
       "description": "Discover, customise, and order your favourite Domino's meals—all without leaving the conversation.",
       "use_case": "Building a custom pizza order for a Friday night, reordering a usual meal during a work break, checking out without leaving the chat."
-    },
-    {
-      "name": "DoorDash",
-      "url": "https://www.doordash.com",
-      "marker": null,
-      "category": "Lifestyle and Local",
-      "description": "Food, grocery, and retail delivery.",
-      "use_case": "Same-day food and grocery delivery, order tracking, restaurant discovery, local errands."
     },
     {
       "name": "drawnames",
