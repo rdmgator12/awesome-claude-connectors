@@ -4,9 +4,9 @@
   <img src="media/banner.svg" alt="Awesome Claude Connectors" width="800">
 </p>
 
-> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 1,628 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 71 held pending vendor verification, organized by category with descriptions and use cases.
+> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 1,629 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 71 held pending vendor verification, organized by category with descriptions and use cases.
 
-**Last updated:** August 10, 2026 | **Connectors tracked:** 1,628 listed + 71 held | **Categories:** 30
+**Last updated:** August 10, 2026 | **Connectors tracked:** 1,629 listed + 71 held | **Categories:** 30
 
 Claude connectors are MCP (Model Context Protocol) servers that extend Claude with real-time access to external tools, data sources, and services. They work across Claude.ai, Claude Desktop, Claude Mobile, Claude Code, and Claude Cowork. Connectors in the **curated web directory** are vetted by Anthropic for security, reliability, and compatibility; the **in-app catalog** additionally surfaces community-built and local desktop-extension connectors that Anthropic makes available but does not itself build or vet. This list tracks the union of both surfaces — see CONTRIBUTING.md for the two-surface methodology.
 
@@ -535,7 +535,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Design and Creative
 
-61 connectors.
+62 connectors.
 
 - [3DOptix optical design and simulations](https://www.3doptix.com) **`C`** - Design, simulate, and analyse optical systems with GPU-powered ray tracing, building setups from the 3DOptix catalog, running irradiance, PSF, and MTF analyses, and importing designs from Zemax or CAD. *Use case: Importing a lens design from Zemax to check its MTF curve, building an optical setup from the catalog to test a new configuration, running a PSF analysis before finalizing a design.*
 - [Adobe for creativity](https://developer.adobe.com/adobe-for-creativity/) - Photoshop, Lightroom, Illustrator, Firefly, Premiere, Express, InDesign, and Adobe Stock through Claude. *Use case: Edit photos and vectors, design from templates, resize video for social, license stock — all through natural language without app-switching.*
@@ -546,6 +546,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Beautiful.ai](https://www.beautiful.ai) **`C`** - Turn ideas into presentations. *Use case: Generating slide decks from prompts with design-automated layouts, updating decks conversationally.*
 - [Blender](https://www.blender.org) - Natural language interface to Blender's Python API and docs. *Use case: 3D modeling automation, scene scripting, animation workflows controlled by natural language.*
 - [Brandfetch](https://brandfetch.com) - Brand asset lookup that keeps generated output on-brand. *Use case: Pulling a company's logo and brand colors, applying brand guidelines to generated content, looking up brand assets for a domain.*
+- [Brixa Studio](https://brixastudio.com) **`C`** - Turn a Figma, Canva, or Claude Design file into a reusable template with variable slots that an assistant fills by chat while the layout stays fixed. *Use case: Producing a hotel's weekly Instagram posts from one brand template, changing the prices on a menu without touching its layout, generating a second location's price list in the same design.*
 - [Canva](https://www.canva.com) - Create, autofill, and export designs. *Use case: Quick graphics, social media posts, presentation slides, brand-consistent visual content.*
 - [Canvs.io](https://canvs.io) **`C`** - Sketch and draw with AI on the Infinite canvas. *Use case: Sketching out a rough layout idea with AI help on an infinite canvas instead of a fixed-size page.*
 - [Charts by Szum](https://szum.io) **`C`** - Szum is a chart rendering API and design system that turns JSON data into publication-ready SVG or PNG charts. *Use case: Generate polished, on-brand charts from raw data directly inside a Claude conversation.*

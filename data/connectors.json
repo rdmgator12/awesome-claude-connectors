@@ -13664,6 +13664,14 @@
       "category": "AI and ML",
       "description": "Hosted persistent memory for AI agents with one key across Claude Code, Cursor, VS Code, and ChatGPT.",
       "use_case": "Carrying a decision made in a Claude Code session into a Cursor session the next day, recalling a preference stored weeks earlier before drafting a reply, marking a remembered fact as wrong so it fades."
+    },
+    {
+      "name": "Brixa Studio",
+      "url": "https://brixastudio.com",
+      "marker": "C",
+      "category": "Design and Creative",
+      "description": "Turn a Figma, Canva, or Claude Design file into a reusable template with variable slots that an assistant fills by chat while the layout stays fixed.",
+      "use_case": "Producing a hotel's weekly Instagram posts from one brand template, changing the prices on a menu without touching its layout, generating a second location's price list in the same design."
     }
   ],
   "held": [
