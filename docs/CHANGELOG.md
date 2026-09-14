@@ -2,6 +2,21 @@
 
 Counting convention: **listed** = entries in category sections; **held** = rows in Held for Verification; **tracked** = listed + held. Sweep deltas are stated as the net change in listed entries; gross additions are called out separately where they differ (renames and variant merges make a naive name-diff overcount).
 
+## 2026-09-14 — first feed-era sweep (1,629 → 2,562 listed; held 71 → 39)
+
+The first sweep applied from the Friday feed-diff report ([#16](https://github.com/rdmgator12/awesome-claude-connectors/issues/16)), rebuilt against the live directory feed on the day: **2,645 servers** (anthropic 9 · partner 794 · community 1,842). The web sitemap doubled between 9/7 and 9/11 (405 → 806 slugs), all partner/anthropic tier — still no community entries on the web surface.
+
+Count derivation:
+
+- 1,629 listed at sweep open (1,627 on 9/7 + GoodBarber #15 + Brixa Studio #14, both merged 9/14)
+- + 941 adds from 985 feed candidates: − 2 already listed by exact name (ラッコキーワード, 다나와 가격비교), − 4 naming-drift variants of listed entries (Streamline, PDF Tools, Paytm Payment Gateway, Milan Metro Status), − 6 sharing a listed entry's URL (Jotform Apps, four Windsor.ai variants), − 32 → Held
+- − 8 delisted under the two-surface rule: Asteroid, Biomni Lab, Clockwise, DoorDash, GitHub MCP, GitLab, OpenArt Lite, Qlik (absent from the feed under any name or domain, from the sitemap, and their `claude.com/connectors/<slug>` pages 404 or redirect)
+- = **2,562 listed + 39 held** (held: 71 − 62 graduated on their feed URLs + 30 new rows; 2 rows re-held with a fresh reason)
+
+Held reasons this sweep: 14 feed URLs that are a profile/org or asset page rather than a product page, 15 entries sharing a vendor URL with another new entry (lint rejects duplicate links), 2 dead vendor URLs (Dango, NeetoRecord), 1 with no vendor URL (Pasteapp). 15 entries kept on their declared URL though unreachable from the sweep machine (noted UNVERIFIED in the sweep report).
+
+Also this sweep: 250 provenance markers synced to the feed's verified tier (exact-name matches only: 202 gained `C`, 40 lost it on partner tier, 8 gained `A`); `feed_diff.py` tokenizer fix so names with no ASCII letters match themselves; 356 adds in the three subcategorized sections carry subcategories. Not applied, for review next sweep: 175 vendor-URL drift items, 94 non-exact name matches, 38 sitemap-only slugs. Snap Stack: [The one-person supply chain](stacks/2026-09-14-one-person-supply-chain.md).
+
 ## 2026-08-10 — catalog-doubling catch-up sweep (841 → 1,625 listed; held 19 → 72)
 
 The largest sweep in the list's history. The in-app catalog measured **1,691 unique entries** — the first untruncated export (snapshot: [docs/catalog-snapshots/in-app-2026-08-10](catalog-snapshots/in-app-2026-08-10/)) — while the curated web directory sat unchanged at 405 slugs. Likely accelerant: the [MCP 2026-07-28 spec revision](https://modelcontextprotocol.io/specification/2026-07-28/changelog) moved the protocol to a stateless request/response core, letting a connector run as a serverless request handler. Of the 847 catalog additions, **281 carry the catalog's `New` badge**; the remainder were live earlier but invisible below the 2026-07-23 export's truncation point.

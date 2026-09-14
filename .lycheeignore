@@ -12,5 +12,5 @@ https://www.alice.co.il/.*
 https://inlace.co/.*
 # minutes.me — 200 to browser AND checker user agents from a residential network 2026-09-06; TLS handshake fails only from the
 # GitHub runner. NOTE: absent from the 2026-09-06 directory feed and the web sitemap → removal candidate once the feed's
-# coverage is validated against the 2026-08-10 export at the next sweep.
+# coverage is validated against the directory feed on 2026-09-14 (scripts/feed_diff.py).
 https://minutes.me/.*

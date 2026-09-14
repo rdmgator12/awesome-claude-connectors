@@ -402,7 +402,7 @@ def build_report(servers, meta, slugs, data, cap, roster_names=None, today=None)
     lines += table(("name", "listed url", "feed author url"), url_rows, cap)
     lines += [f"## 6. Marker disagrees with the feed tier — {len(marker_rows)}", ""]
     lines += [
-        "community → `C`, anthropic → `A`, partner → null. Pre-2026-08-10 entries never had badge backfill.",
+        "community → `C`, anthropic → `A`, partner → null. Markers were synced to the feed tier on 2026-09-14 for exact-name matches; loose and domain matches are left for review.",
         "",
     ]
     lines += table(("name", "feed tier", "listed marker", "expected"), marker_rows, cap)

@@ -35,7 +35,7 @@ Tested a connector and have real-world notes? Open an issue or PR with one parag
 - One PR per change unless closely related.
 - Keep descriptions concise -- one sentence for the description, one sentence for the use case.
 - The use case is one sentence containing a concrete task or 2--3 comma-separated task fragments a user would actually perform in Claude (e.g. "Comparing carrier rates for a 40-lb package, buying a return label, checking where an order stalled in transit."). It must NOT restate the description -- it adds scenario information the description lacks. No vendor voice ("your"/"our"), no marketing adjectives, and every capability it implies must be stated in the description.
-- Provenance markers: **`A`** only for entries whose canonical URL is Anthropic-owned (anthropic.com / github.com/anthropics) or whose catalog name self-identifies as Anthropic-built; **`C`** for entries carrying the in-app catalog's Community badge, applied from dated catalog captures (see docs/catalog-snapshots/).
+- Provenance markers: **`A`** only for entries whose canonical URL is Anthropic-owned (anthropic.com / github.com/anthropics) or whose catalog name self-identifies as Anthropic-built; **`C`** for entries carrying the in-app catalog's Community badge, applied from the directory feed's `verified_tier` at each sweep (`python3 scripts/feed_diff.py`; dated captures in docs/catalog-snapshots/).
 - Don't add connectors that aren't in the official Anthropic directory. This list tracks the official directory, not all MCP servers (see [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) for that).
 - Alphabetical order within categories is enforced by the generator -- add entries anywhere in `data/connectors.json`.
 

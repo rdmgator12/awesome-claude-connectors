@@ -12,20 +12,20 @@ Claude connectors are MCP (Model Context Protocol) servers that extend Claude wi
 
 For more information, see the [Connectors Documentation](https://claude.com/docs/connectors/directory), [Submission Guidelines](https://claude.com/docs/connectors/building/submission), and [MCP Protocol Specification](https://modelcontextprotocol.io).
 
-Connectors marked with **`A`** are built and maintained by Anthropic. Connectors marked with **`C`** carry the in-app catalog's Community badge — published in the catalog by Anthropic but built by third parties and not vetted the way web-directory entries are. `C` markers currently reflect the {{CAPTURE_DATE}} catalog capture; badge provenance for entries added before that capture is being backfilled sweep by sweep.
+Connectors marked with **`A`** are built and maintained by Anthropic. Connectors marked with **`C`** carry the in-app catalog's Community badge — published in the catalog by Anthropic but built by third parties and not vetted the way web-directory entries are. `C` markers currently reflect the {{CAPTURE_DATE}} catalog capture, taken from the directory feed's verified tier (community → `C`, partner → none) and re-synced every sweep.
 
 This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 > This is an independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Anthropic PBC. "Claude" and related marks are the property of Anthropic PBC. Each connector is the property of its respective owner.
 
 > [!TIP]
-> ### Connector Snap Stack — August 10, 2026
+> ### Connector Snap Stack — September 14, 2026
 >
-> New format: instead of a single Connector of the Week, each sweep features a persona and a small stack of connectors that click together. Past stacks are archived in [docs/stacks](docs/stacks/); sweep-by-sweep history now lives in the [changelog](docs/CHANGELOG.md).
+> Each sweep features a persona and a small stack of connectors that click together. Past stacks are archived in [docs/stacks](docs/stacks/); sweep-by-sweep history lives in the [changelog](docs/CHANGELOG.md).
 >
-> **The solo Shopify operator** — Metorik *(new)* · Intelligems *(new)* · AfterShip Post-Purchase *(new)* · Meta Ads by Windsor.ai *(new)* · running in **Claude Cowork**
+> **The one-person supply chain** — Terminal49 *(new)* · Stord *(new)* · LetMeShip Next *(new)* · PostCo *(new)* · running in **Claude Desktop**
 >
-> Monday morning, one Cowork conversation: pull last week's real profit from Metorik (sales minus costs, not vanity revenue), read which price test won in Intelligems, ask AfterShip where returns are eating margin, then put Meta Ads spend next to it all and ask the question none of the four dashboards can answer alone — which campaign looks great on ROAS but ships the most returns. Four connectors that each know one corner of the store, with Claude holding the whole picture. Composed, not yet field-tested — if you run it against a live store, send a Field Report (see CONTRIBUTING).
+> Tuesday, one Desktop conversation: ask Terminal49 which inbound containers are still sitting at the port and pull the event history behind the one that slipped, check Stord for stock at the facility about to run the promotion and which retailer missed on-time-in-full last week, price the pallet to Spain in LetMeShip with duties estimated before committing, then rank PostCo's return reasons by SKU and ask the question none of the four dashboards can answer alone — is the SKU we're about to reorder the one customers keep sending back. Four connectors that each see one leg of the chain, with Claude holding the whole route. Composed, not yet field-tested — if you run it against a live operation, send a Field Report (see CONTRIBUTING).
 
 ---
 
