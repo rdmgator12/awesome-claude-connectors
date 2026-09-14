@@ -41,6 +41,14 @@
   ],
   "connectors": [
     {
+      "name": "GoodBarber",
+      "url": "https://www.goodbarber.com",
+      "marker": "C",
+      "category": "CMS and Web Building",
+      "description": "Operate a no-code mobile and web app's shop, content, push notifications, customers, and analytics through an AI agent.",
+      "use_case": "Adding a product with size variants to a collection, scheduling a launch push notification, pulling membership and order stats for the week."
+    },
+    {
       "name": "Agensi",
       "url": "https://www.agensi.io",
       "marker": "C",
@@ -13656,6 +13664,14 @@
       "category": "AI and ML",
       "description": "Hosted persistent memory for AI agents with one key across Claude Code, Cursor, VS Code, and ChatGPT.",
       "use_case": "Carrying a decision made in a Claude Code session into a Cursor session the next day, recalling a preference stored weeks earlier before drafting a reply, marking a remembered fact as wrong so it fades."
+    },
+    {
+      "name": "Brixa Studio",
+      "url": "https://brixastudio.com",
+      "marker": "C",
+      "category": "Design and Creative",
+      "description": "Turn a Figma, Canva, or Claude Design file into a reusable template with variable slots that an assistant fills by chat while the layout stays fixed.",
+      "use_case": "Producing a hotel's weekly Instagram posts from one brand template, changing the prices on a menu without touching its layout, generating a second location's price list in the same design."
     }
   ],
   "held": [
