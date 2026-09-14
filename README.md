@@ -4,9 +4,9 @@
   <img src="media/banner.svg" alt="Awesome Claude Connectors" width="800">
 </p>
 
-> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 1,627 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 71 held pending vendor verification, organized by category with descriptions and use cases.
+> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 1,628 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 71 held pending vendor verification, organized by category with descriptions and use cases.
 
-**Last updated:** August 10, 2026 | **Connectors tracked:** 1,627 listed + 71 held | **Categories:** 30
+**Last updated:** August 10, 2026 | **Connectors tracked:** 1,628 listed + 71 held | **Categories:** 30
 
 Claude connectors are MCP (Model Context Protocol) servers that extend Claude with real-time access to external tools, data sources, and services. They work across Claude.ai, Claude Desktop, Claude Mobile, Claude Code, and Claude Cowork. Connectors in the **curated web directory** are vetted by Anthropic for security, reliability, and compatibility; the **in-app catalog** additionally surfaces community-built and local desktop-extension connectors that Anthropic makes available but does not itself build or vet. This list tracks the union of both surfaces — see CONTRIBUTING.md for the two-surface methodology.
 
@@ -236,7 +236,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## CMS and Web Building
 
-31 connectors.
+32 connectors.
 
 - [Adobe Experience Manager](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html) - Enterprise content and digital asset management. *Use case: Large-scale web content management, digital asset workflows, omnichannel experience delivery for enterprises.*
 - [Agility CMS](https://agilitycms.com) **`C`** - Model content, author pages, publish updates, and manage media across multiple Agility CMS instances through natural language. *Use case: Adding a new content model field before a marketing team builds a landing page, publishing an update across two CMS instances at once, swapping out an image in a media library without opening a separate dashboard.*
@@ -244,6 +244,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 - [Builder.io CMS](https://www.builder.io/headless-cms) **`C`** - Create, edit, and manage content in Builder.io CMS directly from Claude. *Use case: Drafting a new landing page section and publishing it without opening a separate editor, fixing a typo in a live page's copy, checking which content blocks changed since last week.*
 - [Deplixo](https://deplixo.com) - Build and deploy web apps to a live URL in seconds. *Use case: Spinning up a prototype app, deploying a landing page, sharing a working demo.*
 - [Domhaul](https://domhaul.com) - An AI domain name search tool that generates brandable name ideas and checks live availability across TLDs. *Use case: Describing a new project and getting a list of available, brandable domain names to register.*
+- [GoodBarber](https://www.goodbarber.com) **`C`** - Operate a no-code mobile and web app's shop, content, push notifications, customers, and analytics through an AI agent. *Use case: Adding a product with size variants to a collection, scheduling a launch push notification, pulling membership and order stats for the week.*
 - [GrapesJS Studio](https://grapesjs.com) **`C`** - Create beautiful websites and emails with AI. *Use case: Building a landing page for a product launch, drafting a promotional email to match a website's look, adjusting a page layout after seeing how it renders on mobile.*
 - [HTMLvault](https://htmlvault.com) **`C`** - Turn AI-generated HTML into a trackable, shareable link. *Use case: Sharing a generated report as a link instead of pasting raw HTML into an email, sending a client a page to review and seeing when they open it, turning a one-off page into a link that can be checked later.*
 - [inblog](https://inblog.ai) **`C`** - Draft, preview, publish, and measure posts on your inblog blog without leaving the chat. *Use case: Drafting a blog post from a rough outline and previewing how it'll look before publishing, checking how last week's post is performing, fixing a typo in a published post without opening a separate editor.*

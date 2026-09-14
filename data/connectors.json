@@ -41,6 +41,14 @@
   ],
   "connectors": [
     {
+      "name": "GoodBarber",
+      "url": "https://www.goodbarber.com",
+      "marker": "C",
+      "category": "CMS and Web Building",
+      "description": "Operate a no-code mobile and web app's shop, content, push notifications, customers, and analytics through an AI agent.",
+      "use_case": "Adding a product with size variants to a collection, scheduling a launch push notification, pulling membership and order stats for the week."
+    },
+    {
       "name": "Agensi",
       "url": "https://www.agensi.io",
       "marker": "C",
