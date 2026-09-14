@@ -121,8 +121,13 @@ def clean(value):
 
 def _tokenize(text):
     text = APOSTROPHES.sub("", clean(text).lower())
-    text = re.sub(r"[^a-z0-9]+", " ", text)
-    return [t for t in text.split() if t]
+    tokens = [t for t in re.sub(r"[^a-z0-9]+", " ", text).split() if t]
+    if tokens:
+        return tokens
+    # A name with no ASCII letters or digits (CJK, Cyrillic, ...) used to tokenize to
+    # nothing and never match itself: a false add AND a false removal every run.
+    whole = re.sub(r"\s+", "", text)
+    return [whole] if whole else []
 
 
 def token_variants(name):
