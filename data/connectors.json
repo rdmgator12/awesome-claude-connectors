@@ -16714,7 +16714,7 @@
     },
     {
       "name": "mcpMyAdmin",
-      "url": "https://mcpmyadmin.com",
+      "url": "https://www.mcpmyadmin.com",
       "marker": "C",
       "category": "Data and Analytics",
       "description": "Queries 40 databases and warehouses — PostgreSQL, MySQL, Oracle, MongoDB, Snowflake, BigQuery and more — in plain English, returning a chart and the SQL behind it.",
@@ -18146,7 +18146,7 @@
     },
     {
       "name": "BirdSift",
-      "url": "https://www.birsift.com",
+      "url": "https://birdsift.com",
       "marker": "C",
       "category": "Marketing and Sales",
       "description": "Local business lead search over Google Places with website-quality flags, saved leads, CSV export, credit balance checks, and grounded cold outreach drafts.",
