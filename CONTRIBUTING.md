@@ -6,15 +6,15 @@ This list tracks every connector in Anthropic's official Connectors Directory. C
 
 ## How This Repo Works (Data-First)
 
-`data/connectors.json` is the source of truth. `README.md` is generated from it -- don't hand-edit the README; CI rejects any README that doesn't match the data (`generated-in-sync` job).
+`data/connectors.json` is the source of truth. `README.md` (the front page and category index) and `categories/<category>.md` (one page per category, holding the entries) are generated from it -- don't hand-edit either; CI rejects any generated file that doesn't match the data (`generated-in-sync` job). The entries moved to per-category pages in September 2026 because GitHub stops rendering a markdown file at about 512 KB; the generator now fails any page over 500,000 bytes.
 
 To add or change an entry:
 
 1. Edit `data/connectors.json` (add the entry object anywhere -- sorting is automatic).
 2. Run `python3 scripts/generate_readme.py` (stdlib only, no dependencies).
-3. Commit `data/connectors.json` and `README.md` together.
+3. Commit `data/connectors.json`, `README.md` and `categories/` together.
 
-The generator validates the data before writing: duplicate names (case-insensitive), duplicate URLs, unknown categories, entry format, and terminal punctuation all fail loud with the offending entry named. `python3 scripts/generate_readme.py --check` runs the exact check CI runs.
+The generator validates the data before writing: duplicate names (case-insensitive), duplicate URLs, unknown categories, entry format, and terminal punctuation all fail loud with the offending entry named. `python3 scripts/generate_readme.py --check` runs the exact check CI runs; `scripts/lint_category_pages.sh` runs awesome-lint's entry rules over every category page, as CI does.
 
 ## What You Can Contribute
 
@@ -47,12 +47,12 @@ This list is updated weekly to stay in sync with the official directory. If you 
 
 Anthropic's catalog lives on two surfaces that don't fully overlap, and this list tracks the **union** of both:
 
-- **Web directory** (claude.com/connectors) -- a curated subset, enumerable from `claude.com/sitemap.xml`. Exclude locale-prefixed duplicates when counting.
+- **Web directory** (claude.com/marketplace/connectors, formerly claude.com/connectors) -- a curated subset, enumerable from `claude.com/sitemap.xml`. Exclude locale-prefixed duplicates when counting.
 - **In-app catalog** (claude.ai -> Settings -> Connectors) -- the full set, including Community connectors and local desktop extensions that never appear on the web listing. Enumerable since September 2026 through Anthropic's directory feed (`api.anthropic.com/api/directory/servers`, one JSON call, tier + vendor URL per entry); `python3 scripts/feed_diff.py` diffs it and the sitemap against the data and the `feed-diff` workflow files that report as an issue every Friday. The feed's coverage against the app view is still being validated -- treat feed-absence as one surface, not both.
 
 **Removal rule: only remove an entry when it is absent from _both_ surfaces.** Absence from one surface alone is expected and is not evidence of delisting. A removal batch was cancelled in July 2026 for exactly this reason, and three entries were removed in July 2026 only after failing the two-surface test.
 
-Before removing, confirm the slug rather than trusting a 404 -- a wrong slug guess looks identical to a delisting. GitHub MCP (`/connectors/github`), Cortellis (`/connectors/cortellis-regulatory`), and Computer by DevRev (`/connectors/devrev`) have each been mistaken for removals this way.
+Before removing, confirm the slug rather than trusting a 404 -- a wrong slug guess looks identical to a delisting. GitHub MCP (`/connectors/github`), Cortellis (`/connectors/cortellis-regulatory`), and Computer by DevRev (`/connectors/devrev`) have each been mistaken for removals this way. The directory moved under `/marketplace/connectors/` in September 2026 (old paths redirect); `feed_diff.py` accepts both and fails loud if the sitemap yields no connector slugs at all.
 
 ### Naming
 

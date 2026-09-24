@@ -18,7 +18,8 @@ two-surface test. Stdlib only. Exit 0 on a completed report, 2 on a fetch error.
 
 The two surfaces:
   feed     https://api.anthropic.com/api/directory/servers  (in-app catalog, all tiers)
-  sitemap  https://claude.com/sitemap.xml -> /connectors/<slug>  (curated web directory)
+  sitemap  https://claude.com/sitemap.xml -> /marketplace/connectors/<slug>  (curated web directory;
+           /connectors/<slug> before September 2026)
 """
 
 import argparse
@@ -67,9 +68,13 @@ NOISE_TOKENS = {
     "and",
 }
 
-LOCALE_PREFIX = re.compile(r"claude\.com/[a-z]{2}(-[A-Za-z]+)?/connectors/")
+# The web directory moved from /connectors/<slug> to /marketplace/connectors/<slug>
+# (old paths 308-redirect, seen 2026-09-24); both forms are accepted.
+LOCALE_PREFIX = re.compile(
+    r"claude\.com/[a-z]{2}(-[A-Za-z]+)?/(?:marketplace/)?connectors/"
+)
 SITEMAP_LOC = re.compile(
-    r"<loc>(https://claude\.com/(?:[a-z]{2}(?:-[A-Za-z]+)?/)?connectors/([^<]+))</loc>"
+    r"<loc>(https://claude\.com/(?:[a-z]{2}(?:-[A-Za-z]+)?/)?(?:marketplace/)?connectors/([^<]+))</loc>"
 )
 APOSTROPHES = re.compile(r"[’'`]")
 
@@ -109,6 +114,12 @@ def load_sitemap_slugs(path=None):
         if LOCALE_PREFIX.search(full):
             continue
         slugs.add(slug.strip("/"))
+    if not slugs:
+        # Zero slugs means the URL pattern moved, not that the directory emptied;
+        # an empty set would turn every web-only entry into a removal candidate.
+        raise ValueError(
+            "sitemap yielded 0 connector slugs; check SITEMAP_LOC against the live sitemap"
+        )
     return slugs
 
 
@@ -500,7 +511,7 @@ def write_snapshot(servers, meta, today):
         "`servers.tsv` is one row per server: name, tier, type, visibility, added_at (date), author name/URL, slug, "
         "directory URL, documentation URL, one-liner. The raw JSON (~6 MB) is not committed; re-run the script to regenerate.\n\n"
         "This feed is the in-app surface for the two-surface test (CONTRIBUTING.md): an entry absent here AND absent "
-        "from the claude.com/connectors sitemap is a removal candidate.\n",
+        "from the claude.com/marketplace/connectors sitemap is a removal candidate.\n",
         encoding="utf-8",
     )
     return out_dir

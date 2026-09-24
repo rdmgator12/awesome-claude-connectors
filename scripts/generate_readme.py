@@ -1,9 +1,14 @@
 #!/usr/bin/env python3
-"""Emit README.md from data/connectors.json — the single source of truth.
+"""Emit README.md and categories/<slug>.md from data/connectors.json — the single source of truth.
 
 Usage:
-    python3 scripts/generate_readme.py          # regenerate README.md
-    python3 scripts/generate_readme.py --check  # verify README.md matches the data (CI)
+    python3 scripts/generate_readme.py          # regenerate README.md + category pages
+    python3 scripts/generate_readme.py --check  # verify every generated file matches the data (CI)
+
+README.md is the front page (intro, Snap Stack, category index, held table); each
+category's entries live on their own page because GitHub stops rendering a
+markdown file at ~512 KB (the single-file README hit 764 KB on 2026-09-14 and
+went dark from mid-Marketing and Sales onward).
 
 Render switches live in data/connectors.json meta.render, never CLI flags, so the
 flagless CI --check is deterministic against versioned input. Content is emitted
@@ -23,10 +28,15 @@ REPO = Path(__file__).resolve().parent.parent
 DATA = REPO / "data" / "connectors.json"
 TEMPLATE = REPO / "README.template.md"
 README = REPO / "README.md"
+CATEGORIES_DIR = REPO / "categories"
+
+# GitHub truncates rendering at ~512 KB; fail well before it.
+RENDER_CEILING = 500_000
 
 TERMINAL = (".", "。", "!")
+INDEX_SECTION = "Categories"
 TAIL_SECTIONS = ("Held for Verification", "Related")
-STRUCTURAL_TOKENS = {"{{TOC}}", "{{CATEGORY_SECTIONS}}", "{{HELD_TABLE}}"}
+STRUCTURAL_TOKENS = {"{{TOC}}", "{{CATEGORY_INDEX}}", "{{HELD_TABLE}}"}
 SIMPLE_TOKENS = {
     "{{LISTED}}",
     "{{HELD}}",
@@ -40,6 +50,7 @@ ENTRY_KEYS = {"name", "url", "marker", "category", "description", "use_case"}
 OPTIONAL_ENTRY_KEYS = {"subcategory"}
 HELD_KEYS = {"name", "catalog_description", "why_held"}
 HELD_HEADER = ("Connector", "Catalog description", "Why held")
+INDEX_HEADER = ("Category", "Connectors")
 
 
 def slugify(title):
@@ -62,64 +73,88 @@ def render_entry(entry):
     )
 
 
-def render_toc(data, by_cat):
-    out = []
-    for cat in data["categories"]:
-        out.append(f"- [{cat}](#{slugify(cat)})")
-        if data["meta"]["render"]["subcategory_headings"]:
-            subs = sorted(
-                {e["subcategory"] for e in by_cat[cat] if e.get("subcategory")},
-                key=str.lower,
-            )
-            out.extend(f"  - [{s}](#{slugify(s)})" for s in subs)
-    out.extend(f"- [{t}](#{slugify(t)})" for t in TAIL_SECTIONS)
-    return "\n".join(out)
+def category_path(cat):
+    return f"categories/{slugify(cat)}.md"
 
 
-def render_sections(data, by_cat):
-    render = data["meta"]["render"]
-    blocks = []
-    for cat in data["categories"]:
-        entries = sorted(by_cat[cat], key=lambda e: e["name"].lower())
-        lines = [f"## {cat}", ""]
-        if render["category_counts"]:
-            n = len(entries)
-            lines += [f"{n:,} connector{'s' if n != 1 else ''}.", ""]
-        if render["subcategory_headings"] and any(
-            e.get("subcategory") for e in entries
-        ):
-            lines += [render_entry(e) for e in entries if not e.get("subcategory")]
-            subs = sorted(
-                {e["subcategory"] for e in entries if e.get("subcategory")},
-                key=str.lower,
-            )
-            for sub in subs:
-                if lines[-1] != "":
-                    lines.append("")
-                lines += [f"### {sub}", ""]
-                lines += [
-                    render_entry(e) for e in entries if e.get("subcategory") == sub
-                ]
-        else:
-            lines += [render_entry(e) for e in entries]
-        blocks.append("\n".join(lines))
-    return "\n\n".join(blocks)
+def connector_count(n):
+    return f"{n:,} connector{'s' if n != 1 else ''}"
 
 
-def render_held_table(rows):
-    rows = sorted(rows, key=lambda r: r["name"].lower())
-    keys = ("name", "catalog_description", "why_held")
+def render_toc():
+    return "\n".join(
+        f"- [{t}](#{slugify(t)})" for t in (INDEX_SECTION,) + TAIL_SECTIONS
+    )
+
+
+def render_index(data, by_cat):
+    # a table, not a list: awesome-lint's list-item rule rejects relative links
+    return render_table(
+        INDEX_HEADER,
+        [
+            (f"[{cat}]({category_path(cat)})", f"{len(by_cat[cat]):,}")
+            for cat in data["categories"]
+        ],
+    )
+
+
+def page_subcategories(data, entries):
+    if not data["meta"]["render"]["subcategory_headings"]:
+        return []
+    return sorted(
+        {e["subcategory"] for e in entries if e.get("subcategory")}, key=str.lower
+    )
+
+
+def render_category_page(data, cat, entries):
+    entries = sorted(entries, key=lambda e: e["name"].lower())
+    header = [f"[All categories](../README.md#{slugify(INDEX_SECTION)})"]
+    if data["meta"]["render"]["category_counts"]:
+        header.append(connector_count(len(entries)))
+    header.append(f"Last updated {data['meta']['last_updated']}")
+    lines = [
+        "<!-- Generated from data/connectors.json by scripts/generate_readme.py. Edit the data, not this file. -->",
+        "",
+        f"# {cat}",
+        "",
+        " · ".join(header),
+        "",
+        "Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's "
+        "Community badge (third-party built, not vetted like web-directory entries). "
+        "Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).",
+        "",
+    ]
+    subs = page_subcategories(data, entries)
+    if subs:
+        # one line, not a list: awesome-lint's list-item rule rejects anchor links
+        lines += [" · ".join(f"[{s}](#{slugify(s)})" for s in subs), ""]
+        for sub in subs:
+            lines += [f"## {sub}", ""]
+            lines += [render_entry(e) for e in entries if e.get("subcategory") == sub]
+            lines.append("")
+    else:
+        lines += [render_entry(e) for e in entries] + [""]
+    return "\n".join(lines)
+
+
+def render_table(header, rows):
+    # pipes aligned and delimiter padded, or awesome-lint fails
+    # table-pipe-alignment / table-cell-padding
     widths = [
-        max(len(HELD_HEADER[i]), max(len(r[keys[i]]) for r in rows)) for i in range(3)
+        max(len(header[i]), max(len(r[i]) for r in rows)) for i in range(len(header))
     ]
 
     def line(cells):
         return "| " + " | ".join(c.ljust(w) for c, w in zip(cells, widths)) + " |"
 
     sep = "| " + " | ".join("-" * w for w in widths) + " |"
-    return "\n".join(
-        [line(HELD_HEADER), sep] + [line(tuple(r[k] for k in keys)) for r in rows]
-    )
+    return "\n".join([line(header), sep] + [line(r) for r in rows])
+
+
+def render_held_table(rows):
+    rows = sorted(rows, key=lambda r: r["name"].lower())
+    keys = ("name", "catalog_description", "why_held")
+    return render_table(HELD_HEADER, [tuple(r[k] for k in keys) for r in rows])
 
 
 def suppressed_markers(connectors):
@@ -316,15 +351,32 @@ def validate(data, template):
 
     walk(data, "data")
 
-    titles = list(cats) + list(TAIL_SECTIONS) + ["Contents"]
-    if subheadings_on:
-        titles += sorted(subcategories)
-    slugs = {}
-    for t in titles:
-        slugs.setdefault(slugify(t), []).append(t)
-    for slug, group in slugs.items():
+    # anchors are per file now: the README's own headings, then each category page's
+    pages = {"README.md": ["Contents", INDEX_SECTION] + list(TAIL_SECTIONS)}
+    for c in cats:
+        subs = set()
+        if subheadings_on and isinstance(data["connectors"], list):
+            subs = {
+                e["subcategory"]
+                for e in data["connectors"]
+                if isinstance(e, dict)
+                and e.get("category") == c
+                and isinstance(e.get("subcategory"), str)
+            }
+        pages[category_path(c)] = [c] + sorted(subs)
+    for page, titles in pages.items():
+        slugs = {}
+        for t in titles:
+            slugs.setdefault(slugify(t), []).append(t)
+        for slug, group in slugs.items():
+            if len(group) > 1:
+                add(f"headings collide on GitHub anchor #{slug} in {page}: {group}")
+    paths = {}
+    for c in cats:
+        paths.setdefault(category_path(c), []).append(c)
+    for path, group in paths.items():
         if len(group) > 1:
-            add(f"headings collide on GitHub anchor #{slug}: {group}")
+            add(f"categories collide on page {path}: {group}")
 
     tokens = Counter(re.findall(r"\{\{[^}]*\}\}", template))
     for t in tokens:
@@ -371,8 +423,8 @@ def main():
         "{{LISTED}}": f"{len(data['connectors']):,}",
         "{{HELD}}": f"{len(data['held']):,}",
         "{{NCAT}}": str(len(data["categories"])),
-        "{{TOC}}": render_toc(data, by_cat),
-        "{{CATEGORY_SECTIONS}}": render_sections(data, by_cat),
+        "{{TOC}}": render_toc(),
+        "{{CATEGORY_INDEX}}": render_index(data, by_cat),
         "{{HELD_TABLE}}": render_held_table(data["held"]),
     }
     out = template
@@ -381,21 +433,63 @@ def main():
     leftover = re.findall(r"\{\{[^}]*\}\}", out)
     if leftover:
         sys.exit(f"UNFILLED placeholders: {sorted(set(leftover))}")
-    out_bytes = out.encode("utf-8")
 
+    outputs = {README: out.encode("utf-8")}
+    for cat in data["categories"]:
+        outputs[REPO / category_path(cat)] = render_category_page(
+            data, cat, by_cat[cat]
+        ).encode("utf-8")
+
+    oversize = [
+        f"{p.relative_to(REPO)} ({len(b):,} bytes)"
+        for p, b in outputs.items()
+        if len(b) > RENDER_CEILING
+    ]
+    if oversize:
+        sys.exit(
+            f"OVER THE RENDER CEILING ({RENDER_CEILING:,} bytes; GitHub stops rendering at ~512 KB): "
+            + ", ".join(oversize)
+        )
+    stray = sorted(
+        str(p.relative_to(REPO))
+        for p in (CATEGORIES_DIR.glob("*.md") if CATEGORIES_DIR.exists() else [])
+        if p not in outputs
+    )
+
+    largest = max(outputs.items(), key=lambda kv: len(kv[1]))
     summary = (
         f"{len(data['connectors']):,} listed + {len(data['held'])} held | "
-        f"{len(data['categories'])} categories | {len(out_bytes):,} bytes"
+        f"{len(data['categories'])} categories | {len(outputs)} files, "
+        f"README {len(outputs[README]):,} bytes, largest {largest[0].relative_to(REPO)} "
+        f"{len(largest[1]):,} bytes"
     )
     if "--check" in sys.argv:
-        if not README.exists() or README.read_bytes() != out_bytes:
+        stale = [
+            str(p.relative_to(REPO))
+            for p, b in outputs.items()
+            if not p.exists() or p.read_bytes() != b
+        ]
+        if stale or stray:
+            if stale:
+                print(f"OUT OF DATE: {', '.join(stale)}", file=sys.stderr)
+            if stray:
+                print(
+                    f"NOT GENERATED from the data (delete them): {', '.join(stray)}",
+                    file=sys.stderr,
+                )
             sys.exit(
-                "OUT OF DATE — edit data/connectors.json, then run: python3 scripts/generate_readme.py"
+                "edit data/connectors.json, then run: python3 scripts/generate_readme.py"
             )
-        print(f"README.md matches data/connectors.json — {summary}")
+        print(f"generated files match data/connectors.json — {summary}")
     else:
-        README.write_bytes(out_bytes)
-        print(f"wrote README.md — {summary}")
+        CATEGORIES_DIR.mkdir(exist_ok=True)
+        for p, b in outputs.items():
+            p.write_bytes(b)
+        print(f"wrote {len(outputs)} files — {summary}")
+        if stray:
+            sys.exit(
+                f"NOT GENERATED from the data (delete them, then re-run --check): {', '.join(stray)}"
+            )
     sup = suppressed_markers(data["connectors"])
     if sup:
         print(

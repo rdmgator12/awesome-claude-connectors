@@ -16,6 +16,8 @@ jobs:
         with:
           node-version: 24
       - run: npx awesome-lint@2.3.0
+      - name: awesome-lint entry rules on every category page
+        run: bash scripts/lint_category_pages.sh
 
   generated-in-sync:
     runs-on: ubuntu-latest
