@@ -24,3 +24,6 @@ https://www.adobe.com/.*
 # on 2026-09-21, and resets curl/lychee from a residential network too; an Exa crawl the same day returned the real
 # homepage ("The project tracker Claude runs for you"). Intermittent bot armor, not dead.
 https://elixion.ai/.*
+# valossa.com — 401 Unauthorized to lychee from the GitHub runner on 2026-09-07 (#13) and 2026-09-25 (#22); an Exa crawl
+# on 2026-09-25 returned the real page ("Video AI Assistant ... | Valossa"). Auth-walls bots, not dead.
+https://valossa.com/.*
