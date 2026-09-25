@@ -20,3 +20,7 @@ https://www.getyourguide.com/.*
 # www.adobe.com — resets curl/lychee on both HTTP/1.1 and HTTP/2 (INTERNAL_ERROR) from a residential network on
 # 2026-09-25; a second fetch channel (Exa crawl) the same day returned the real homepage. Same class as business.adobe.com.
 https://www.adobe.com/.*
+# elixion.ai — reset the connection (os error 104) from the GitHub runner on 2026-09-25 (issue #20) after passing there
+# on 2026-09-21, and resets curl/lychee from a residential network too; an Exa crawl the same day returned the real
+# homepage ("The project tracker Claude runs for you"). Intermittent bot armor, not dead.
+https://elixion.ai/.*

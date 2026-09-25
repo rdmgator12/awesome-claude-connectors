@@ -21,7 +21,7 @@ jobs:
           args: >-
             --no-progress
             --accept 200,201,202,204,206,301,302,303,307,308,403,405,429,999
-            --timeout 20
+            --timeout 30
             --max-retries 2
             --user-agent "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 Chrome/126.0 Safari/537.36"
             README.md
