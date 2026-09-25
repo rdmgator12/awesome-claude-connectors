@@ -2,7 +2,7 @@
 
 # Project Management
 
-[All categories](../README.md#categories) · 104 connectors · Last updated September 25, 2026
+[All categories](../README.md#categories) · 105 connectors · Last updated September 25, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -107,6 +107,7 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [WorkflowMAX](https://workflowmax.com) **`C`** - Connect Claude to WorkflowMAX to manage jobs, quotes, invoices, timesheets and clients – turning your practice management data into instant answers and actions, without leaving the conversation. *Use case: Sending a quote to a client, logging hours on a timesheet, checking which invoices are still unpaid.*
 - [Wrike](https://www.wrike.com) - Work and project management. *Use case: Managing tasks and projects, updating work items, moving work forward across teams.*
 - [Yamdu](https://yamdu.com) **`C`** - Provides read-only access to Yamdu film and TV production data: script breakdowns, shooting schedules, call sheets, cast and crew, budgets, and time cards. *Use case: Checking which scenes a location is booked for, pulling tomorrow's call times, summarizing how a budget scenario tracks against logged time cards.*
+- [YAPL](https://yapl.app) **`C`** - Local-first project planning with work breakdown structures, critical-path Gantt schedules, Kanban boards, resource booking and earned-value reporting. *Use case: Rescheduling tasks after a delay, booking a resource for next month, pulling an earned-value report for a project review.*
 - [YouTrack](https://www.jetbrains.com) - Finds, summarizes, creates, and updates YouTrack issues, manages assignees, links, tags, and comments, logs time, and searches knowledge base articles. *Use case: Summarizing open issues in a sprint, reassigning a blocked ticket and adding a comment, logging time against yesterday's work.*
 - [Zentrik](https://zentrik.ai) **`C`** - Turn user needs into prioritized, traceable product work. *Use case: Checking which opportunities trace back to a specific customer complaint, prioritizing an initiative based on repeated signals from the team.*
 - [Zoho Projects](https://www.zoho.com/projects) - Task and project automation. *Use case: Project management within the Zoho ecosystem, Gantt charts, time tracking.*

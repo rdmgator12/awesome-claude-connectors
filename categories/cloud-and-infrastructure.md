@@ -2,7 +2,7 @@
 
 # Cloud and Infrastructure
 
-[All categories](../README.md#categories) · 70 connectors · Last updated September 25, 2026
+[All categories](../README.md#categories) · 72 connectors · Last updated September 25, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -49,6 +49,7 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [MotherDuck](https://motherduck.com) - DuckDB in the cloud. *Use case: Serverless analytical queries, local-first data analysis that scales to cloud.*
 - [Neon](https://neon.com) - Manages Neon PostgreSQL projects, running SQL, diffing schemas, applying migrations on temporary branches, provisioning auth and object storage, and querying logs. *Use case: Testing a migration on a copy-on-write branch before committing it, tracing a slow query from serverless function logs, provisioning a database for a prototype.*
 - [Netlify](https://www.netlify.com) - Create, deploy, and manage websites. *Use case: Static site deployment, serverless functions, CI/CD for web projects.*
+- [NGP Cloud](https://ngpcloud.in) **`C`** - Manages game servers, VPS and web hosting accounts on NGP Cloud, including status, restarts, backups, billing and support tickets. *Use case: Restarting a game server after a crash, checking resource use on a VPS, opening a support ticket about a billing question.*
 - [Notehub](https://blues.com/notehub) **`C`** - Ask your connected products anything. *Use case: Asking whether a connected sensor reported a value out of range overnight, checking the last time a connected device checked in, comparing readings from two connected products side by side.*
 - [OneLens](https://www.astuto.ai) **`C`** - Cloud cost and FinOps analytics. *Use case: Finding Kubernetes cost overruns, allocating cloud spend by team, root-cause analysis on a cost anomaly.*
 - [optimo](https://optimoiot.it) **`C`** - Reads industrial asset trees, variables, latest values, raw and aggregated time series, and maintenance logs from an IoT monitoring platform. *Use case: Checking a machine's average power draw over the past week, reading the latest value from a plant sensor, reviewing maintenance logs for a line.*
@@ -57,6 +58,7 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [PlanetScale](https://planetscale.com) - Managed PostgreSQL and MySQL. *Use case: Database branching, schema management, serverless database operations.*
 - [Porkbun](https://porkbun.com) - Registers, renews, and transfers domains and manages DNS, DNSSEC, SSL bundles, nameservers, URL forwarding, static hosting, and webhooks through the Porkbun API. *Use case: Pointing a newly registered domain at existing nameservers, adding a DNS record for a staging site, rehearsing a renewal flow against a sandbox key.*
 - [Pressable MCP](https://pressable.com) **`C`** - Manages Pressable WordPress hosting: checking site health, pulling logs, running WP-CLI commands, and controlling the sites in an account. *Use case: Checking why a client site slowed this morning, clearing a cache with WP-CLI, pulling error logs after a failed plugin update.*
+- [Produfy](https://produfy.co) **`C`** - Deploys apps built in Claude to an always-on server with a database, HTTPS and a shareable link, without setting up hosting. *Use case: Putting a prototype online for a client demo, adding a MySQL database to a small web app, sharing a live link to something built in a chat.*
 - [QuickNode](https://www.quicknode.com) - High-performance Blockchain RPC infrastructure across 80+ chains. *Use case: Web3 endpoint provisioning, onchain data streaming, Blockchain app scaling, multi-chain development.*
 - [Railway](https://railway.app) - Cloud platform for deploying, managing, and debugging applications and infrastructure. *Use case: Check deployment logs and service health for a running app without leaving the conversation.*
 - [Remote.It](https://remote.it) **`C`** - Reports device inventory and online status across sites, lists the services each machine exposes, and reviews connection sessions and bandwidth. *Use case: Finding offline devices by site, checking what services an edge device runs, reviewing a gateway's data usage this month.*

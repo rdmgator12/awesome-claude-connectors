@@ -2,7 +2,7 @@
 
 # Observability and Monitoring
 
-[All categories](../README.md#categories) · 34 connectors · Last updated September 25, 2026
+[All categories](../README.md#categories) · 35 connectors · Last updated September 25, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -24,6 +24,7 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [Lightrun](https://lightrun.com) **`C`** - Connect AI assistants to live production runtime data including snapshots, call stacks, and metrics. *Use case: Debugging a production issue with a live snapshot, inspecting a call stack without redeploying, pulling runtime metrics into a session.*
 - [LogRocket](https://logrocket.com) **`C`** - A session replay and product analytics platform that lets Claude query LogRocket sessions, metrics, and issues. *Use case: Investigating a user-reported checkout bug by watching the relevant session replay and identifying the root cause.*
 - [MCP Instana Server](https://www.ibm.com/products/instana) - Observability platform. *Use case: Auto-instrumented application monitoring, infrastructure visibility.*
+- [MonoDuty](https://monoduty.com) **`C`** - Reviews active alerts, monitoring coverage and on-call readiness, and drafts instrumentation proposals for administrator review. *Use case: Listing open alerts during an incident, finding services with no on-call coverage, drafting a monitoring proposal for a new service.*
 - [ohdear.app](https://ohdear.app) **`C`** - Reports Oh Dear uptime, certificate expiry, broken links, DNS changes, cron check-ins, and Lighthouse trends, and manages monitors, maintenance windows, and alert routing. *Use case: Scheduling a maintenance window before a deploy, checking which certificate expires next, posting an incident update to a status page.*
 - [OpenReplay MCP](https://openreplay.com) - Session replay and product analytics. *Use case: Reviewing user session replays, debugging frontend issues, analyzing product-usage charts.*
 - [openstatus](https://openstatus.dev) **`C`** - Checks uptime monitor health, latency, and response logs, and creates status reports and maintenance windows on status pages. *Use case: Checking which regions failed during an outage, posting an incident update to the public status page, scheduling a maintenance window.*

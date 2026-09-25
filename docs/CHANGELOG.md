@@ -2,6 +2,27 @@
 
 Counting convention: **listed** = entries in category sections; **held** = rows in Held for Verification; **tracked** = listed + held. Sweep deltas are stated as the net change in listed entries; gross additions are called out separately where they differ (renames and variant merges make a naive name-diff overcount).
 
+## 2026-09-25 — third feed-era sweep, from feed-diff #21 (2,980 → 3,044 listed; held 29 → 26)
+
+Worked from the Friday feed-diff report ([#21](https://github.com/rdmgator12/awesome-claude-connectors/issues/21)) and rebuilt against the live directory feed at sweep time: **3,153 servers** (anthropic 9 · partner 831 · community 2,313). The report was filed at 3,140; 11 more candidates landed before the sweep ran.
+
+Count derivation:
+
+- 2,980 listed at sweep open (after the 9/25 link fixes)
+- + 58 adds from 72 feed entries not on the list: − 11 known non-adds (five Windsor.ai variants, Bigin by Zoho CRM and Jotform Apps share a listed entry's URL; PDF Tools, Streamline Icons, Illustrations, Emojis and PopHIVE Public Health Data are naming drift of listed entries; Paytm Payment Gateway, as before) − 3 → Held
+- + 6 graduated from Held on verified product pages: 1Stay, Community Pulse, Dango, Denodo MCP Connector, droplinked, Pasteapp
+- = **3,044 listed + 26 held** (held: 29 − 6 graduated + 3 new)
+
+Links Connect is back: delisted on 9/24 under the two-surface rule, it has reappeared in the feed and returns with its 9/24 text. Six feed vendor URLs pointed at a developer, a parent company or an agency rather than the product, and were replaced with the product's own page after a content check (Iminify, HELEN by ELIKA, comethru, Pics.io, FALCON Verify, EDINET DB). Every vendor URL was content-checked through a second fetch channel, not the sweep machine's network.
+
+Held this sweep: Virtualna Pisarna - By REWORQ (the feed URL is the agency's homepage and no product page exists), pensieve-notes (the feed URL is the developer's personal site), Capi Agent (shares its URL with Capi Agent for Merchants, whose product that page is). Still held: Aster Share (HTTP 402 on every page) and CSME Developer Build Compliance and Content Filter (its domain has no DNS record).
+
+Markers: 3 synced to the feed tier (Expensify, Spara and Ubersuggest lose `C` on partner tier). The other marker rows in the report either already agree on an exact-name match or have a name the feed carries at two tiers; PDF Viewer, Word and PowerPoint keep `A`.
+
+Not applied, for review: 190 vendor-URL drift items, 139 non-exact name matches, 45 sitemap slugs matching no list name, 31 web-only entries. The one removal candidate, Streamline: Icons, Illustrations and Elements, is the listed name of the product the feed calls Streamline Icons, Illustrations, Emojis, so it is not a removal.
+
+Also on 9/25: link checks #20 and #22 closed with no link rot (elixion.ai and valossa.com ignored as bot-armored; lychee timeout 20 s → 30 s).
+
 ## 2026-09-24 — per-category pages, and the second feed-era sweep (2,562 → 2,982 listed; held 39 → 27)
 
 **The README went dark past 512 KB.** The 9/14 sweep took the single-file README to 764,327 bytes; GitHub stops rendering a markdown file at about 512 KB, so the page cut off mid-entry inside Marketing and Sales and roughly 800 entries — Observability through Travel, plus the Held table and Related — were invisible on GitHub for ten days. Entries now live on one generated page per category under `categories/`; the README is the front page and category index. The generator fails any page over 500,000 bytes, and a new CI step runs awesome-lint's entry rules over every category page.

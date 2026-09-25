@@ -2,10 +2,11 @@
 
 # Travel
 
-[All categories](../README.md#categories) · 91 connectors · Last updated September 25, 2026
+[All categories](../README.md#categories) · 92 connectors · Last updated September 25, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
+- [1Stay](https://1stay.ai) **`C`** - Searches and books hotels worldwide with live rates, loyalty-eligible rates and the hotel's own confirmation number. *Use case: Finding a hotel near a conference venue, comparing cancellation policies, booking a room that earns loyalty points.*
 - [Airbnb Search & Listings](https://www.openbnb.org) - Searches Airbnb listings by location, dates, guest count, and price range, and returns property details including amenities, policies, and location highlights. *Use case: Narrowing listings for a family trip by price and guest count, comparing amenities across two rentals, checking a property's policies before deciding.*
 - [Airfield Directory](https://airfield.directory) - Searches 40,000+ airfields worldwide with METAR/TAF weather, crosswind analysis, landing fees, fuel prices, webcams, and community pilot reports for flight planning. *Use case: Checking crosswind against a destination runway before departure, comparing landing fees along a planned route, reading pilot notes about transport from a small field.*
 - [AirHelp flight compensation checker](https://www.airhelp.com) **`C`** - Get up to €600 for a delayed or cancelled flight. *Use case: Checking eligibility for a flight that landed three hours late, filing a claim after a cancelled connecting flight to Lisbon.*

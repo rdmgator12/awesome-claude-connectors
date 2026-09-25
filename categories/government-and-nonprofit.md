@@ -2,12 +2,13 @@
 
 # Government and Nonprofit
 
-[All categories](../README.md#categories) · 43 connectors · Last updated September 25, 2026
+[All categories](../README.md#categories) · 44 connectors · Last updated September 25, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 - [1102tools for eCFR](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/ecfr-mcp) **`C`** - Searches the Code of Federal Regulations, retrieves FAR and DFARS text, inspects regulatory structure, and compares historical versions through read-only tools. *Use case: Pulling the current text of a FAR clause, comparing a DFARS section against an earlier version, browsing the structure of a regulation part.*
 - [1102tools for Federal Register](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/federal-register-mcp) **`C`** - Searches Federal Register proposed rules, final rules, notices, and presidential documents, finds open comment periods, and traces FAR or DFARS case history. *Use case: Finding proposed rules with open comment periods, tracing the history of a FAR case, checking public inspection documents before publication.*
+- [1102tools for GSA CALC+](https://1102tools.com) **`C`** - Searches awarded GSA MAS labor ceiling rates, compares labor categories, browses vendor rate cards and explores SIN benchmarks. *Use case: Checking ceiling rates for a senior developer category, comparing a vendor's rate card with its peers, benchmarking rates for a SIN.*
 - [1102tools for USAspending](https://github.com/1102tools-dev/federal-contracting-mcps/tree/main/servers/usaspending-gov-mcp) **`C`** - Explores publicly reported federal awards, recipients, agencies, subawards, IDVs, federal accounts, and spending trends through read-only tools. *Use case: Researching an incumbent contractor's award history, comparing agency spending trends across fiscal years, tracing subawards under a prime contract.*
 - [ActivityInfo.org](https://bedatadriven.com) **`C`** - Reads and analyzes monitoring and evaluation databases, listing forms and fields, retrieving records, building reports, and recoding data. *Use case: Pulling records from a program monitoring form, building a report across several databases, recoding free-text answers into categories.*
 - [Benevity](https://www.benevity.com) - Nonprofit discovery and corporate giving platform. *Use case: Corporate social responsibility programs, donation matching, nonprofit vetting.*

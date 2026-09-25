@@ -2,7 +2,7 @@
 
 # Entertainment
 
-[All categories](../README.md#categories) · 30 connectors · Last updated September 25, 2026
+[All categories](../README.md#categories) · 32 connectors · Last updated September 25, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -25,7 +25,9 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [HANKOOKILBO MCP](https://www.hankookilbo.com) - 한국일보의 주요 뉴스, 섹션별 기사, 기사 검색, 운세 정보 메타데이터를 제공하는 MCP 서버입니다. *Use case: 오늘의 경제 섹션 기사를 확인하기, 특정 키워드로 지난주 기사를 검색하기, 이번 달 운세 정보를 확인하기.*
 - [KinElo](https://www.kinelo.app) **`C`** - Searches movies, reads bookmarks and ratings from a KinElo account, recommends what to watch next, and browses global rankings. *Use case: Getting a recommendation based on past ratings, bookmarking a film to watch later, marking last night's movie as watched.*
 - [Melon](https://www.melon.com) - Music charts and data. *Use case: Music industry analytics, charting data, trend tracking.*
+- [NoveLand](https://novel-land.com) **`C`** - Reads and edits the novels your NoveLand account can edit, along with their characters, terms and worldbuilding. *Use case: Drafting the next episode of a serial, checking a character's details for consistency, updating a worldbuilding glossary.*
 - [Play Sheet Music](https://github.com/modelcontextprotocol/ext-apps/tree/main/examples/sheet-music-server) - Generate and play sheet music. *Use case: Music composition, MIDI playback, music theory exploration.*
+- [PodcastsToText](https://podcaststotext.com) **`C`** - Turns Spotify, Apple Podcasts, YouTube or TikTok links into transcripts, show notes, chapters, translations and social posts. *Use case: Getting a transcript of an interview episode, drafting show notes and chapters for a new upload, asking what a guest said about a topic.*
 - [Quilty](https://quilty.app) **`C`** - Read-only access to completed Quilty screenplay analyses, returning coverage sections, diagnostic scores with pillar breakdowns, script metadata, and semantic scene search. *Use case: Pulling the score breakdown for a finished draft, reading one coverage section at a time, finding the scenes where a subplot surfaces.*
 - [SceneF](https://scenef.com) **`C`** - Reports verified movie showtimes across San Francisco theaters, including screening format, discount nights, and a freshness stamp on each answer. *Use case: Checking what screens on 70mm tonight, finding a discounted showing near a neighborhood, planning a double feature around a dinner reservation.*
 - [Show Picker Club](https://showpicker.club) **`C`** - Reads and updates TV and movie watch lists, adds shows by title, rates and reorders them, and looks up cast, seasons, and streaming services. *Use case: Moving a finished show to Loved, adding a new series to Next Up, checking where a movie streams.*

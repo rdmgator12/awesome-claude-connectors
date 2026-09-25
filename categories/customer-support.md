@@ -2,7 +2,7 @@
 
 # Customer Support
 
-[All categories](../README.md#categories) · 55 connectors · Last updated September 25, 2026
+[All categories](../README.md#categories) · 56 connectors · Last updated September 25, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -61,3 +61,4 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [Zentesimal](https://zentesimal.com) **`C`** - Builds, tunes, and monitors AI workers for customer support and success teams, and surfaces voice-of-customer insights. *Use case: Tuning a worker that resolves tier-1 tickets, flagging stuck onboarding accounts, reviewing voice-of-customer themes.*
 - [ZMAXINC](https://www.zmaxinc.com) **`C`** - Contact center outsourcing. *Use case: Requesting contact center outsourcing support for a seasonal call volume spike.*
 - [Zoho Desk](https://www.zoho.com/desk) - Helpdesk and support ticket automation. *Use case: Ticket routing, SLA management, customer support analytics, knowledge base integration.*
+- [zonka feedback](https://www.zonkafeedback.com) **`C`** - Analyzes survey responses, reviews and customer feedback, including NPS, CES, CSAT and sentiment. *Use case: Summarizing this quarter's NPS comments, finding the top complaint themes, comparing CSAT across locations.*

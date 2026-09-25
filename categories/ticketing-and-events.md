@@ -2,7 +2,7 @@
 
 # Ticketing and Events
 
-[All categories](../README.md#categories) · 28 connectors · Last updated September 25, 2026
+[All categories](../README.md#categories) · 29 connectors · Last updated September 25, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -10,6 +10,7 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [AgendaForge](https://agendaforge.app) **`C`** - Event management CRM for conferences covering agendas, schedule conflicts, CFP review, speakers, sponsors, registrations, and email, with organizer approval on every write. *Use case: Finding unreviewed CFP submissions on a theme, proposing sessions for a gap on day two, queuing speaker confirmations for an organizer to approve.*
 - [api.ewebinar.com](https://ewebinar.com) **`C`** - Builds automated webinar drafts from a template and video, including scheduling, registration pages, notifications, and interactions, and reads webinar analytics. *Use case: Turning a recorded demo into a scheduled webinar, reviewing registrations and attendance by session type, finding where viewers drop off.*
 - [Checkin](https://www.checkinevent.com) **`C`** - Access your event and attendee data from Checkin. *Use case: Checking how many attendees checked in to a specific event, pulling attendee contact info after an event wraps.*
+- [comethru](https://www.comethru.events) **`C`** - Creates and runs events in your comethru workspace, from drafts, tickets and registration to guests, communications and venues. *Use case: Drafting a new event with ticket tiers, updating the guest list, sending a reminder to registered attendees.*
 - [CoverCount Staff](https://www.covercount.io) **`C`** - Checks availability, creates and updates hospitality reservations and table assignments, summarizes event sessions, and sends operational SMS to guests. *Use case: Moving a large party to a bigger table, getting tonight's cover count and celebrations, texting a guest about a seating change.*
 - [Eventfrog](https://eventfrog.ch) **`C`** - Swiss event discovery and ticketing platform for concerts, festivals, and local events. *Use case: Find events happening nearby and buy tickets directly.*
 - [Eventrise](https://eventrise.com) **`C`** - Is a ticketing platform for independent venues and event organizers, sell tickets, manage events, seating, and check-in, with an AI-native copilot and open API to help organizers sell more. *Use case: Checking how many seats are left for an upcoming show at an independent venue, checking a ticket holder in at the door, reviewing ticket sales for an event this week.*

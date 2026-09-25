@@ -1,7 +1,7 @@
 {
   "meta": {
     "last_updated": "September 25, 2026",
-    "capture_date": "2026-09-24",
+    "capture_date": "2026-09-25",
     "render": {
       "category_counts": true,
       "subcategory_headings": true
@@ -5483,7 +5483,7 @@
     {
       "name": "Expensify",
       "url": "https://www.expensify.com",
-      "marker": "C",
+      "marker": null,
       "category": "Finance and Trading",
       "description": "Search and analyze your Expensify data.",
       "use_case": "Looking up a specific expense from last quarter, comparing spending across two months, summarizing costs by category.",
@@ -12961,7 +12961,7 @@
     {
       "name": "Ubersuggest",
       "url": "https://neilpatel.com/ubersuggest",
-      "marker": "C",
+      "marker": null,
       "category": "SEO and Web",
       "description": "Keyword research, competitor analysis, backlinks, site audits and AI search visibility — powered by Ubersuggest.",
       "use_case": "Checking a competitor's backlink profile before a pitch, running a site audit ahead of a redesign, tracking how a page performs in AI search visibility."
@@ -24324,7 +24324,7 @@
     {
       "name": "Spara",
       "url": "https://www.spara.com",
-      "marker": "C",
+      "marker": null,
       "category": "Marketing and Sales",
       "description": "Builds go-to-market AI agents that engage and qualify buyers across chat, phone, email, and text.",
       "use_case": "Qualifying inbound website visitors, reactivating dormant leads, following up with event attendees.",
@@ -25009,6 +25009,550 @@
       "description": "Reads customer reviews, review statistics, shop status, and sales from Korean delivery platforms across a franchise's stores, read-only.",
       "use_case": "Finding complaints at one store last month, spotting stores with falling ratings, tracking weekly sales across platforms.",
       "subcategory": "People and Customer Insights"
+    },
+    {
+      "name": "Produfy",
+      "url": "https://produfy.co",
+      "marker": "C",
+      "category": "Cloud and Infrastructure",
+      "description": "Deploys apps built in Claude to an always-on server with a database, HTTPS and a shareable link, without setting up hosting.",
+      "use_case": "Putting a prototype online for a client demo, adding a MySQL database to a small web app, sharing a live link to something built in a chat."
+    },
+    {
+      "name": "PodcastsToText",
+      "url": "https://podcaststotext.com",
+      "marker": "C",
+      "category": "Entertainment",
+      "description": "Turns Spotify, Apple Podcasts, YouTube or TikTok links into transcripts, show notes, chapters, translations and social posts.",
+      "use_case": "Getting a transcript of an interview episode, drafting show notes and chapters for a new upload, asking what a guest said about a topic."
+    },
+    {
+      "name": "OpenTrack",
+      "url": "https://opentrack.co",
+      "marker": "C",
+      "category": "Automation and Integration",
+      "description": "Tracks ocean containers and master bills of lading across carriers, terminals and rail, with ETAs, last free days and webhooks.",
+      "use_case": "Checking whether a container has cleared the terminal, finding shipments close to their last free day, setting up a webhook for arrival updates."
+    },
+    {
+      "name": "NGP Cloud",
+      "url": "https://ngpcloud.in",
+      "marker": "C",
+      "category": "Cloud and Infrastructure",
+      "description": "Manages game servers, VPS and web hosting accounts on NGP Cloud, including status, restarts, backups, billing and support tickets.",
+      "use_case": "Restarting a game server after a crash, checking resource use on a VPS, opening a support ticket about a billing question."
+    },
+    {
+      "name": "Nansen",
+      "url": "https://www.nansen.ai",
+      "marker": "C",
+      "category": "Finance and Trading",
+      "description": "Read-only onchain analytics for tokens, wallets and Smart Money flows across 30+ chains.",
+      "use_case": "Seeing what Smart Money wallets bought this week, profiling a wallet before a trade, checking how concentrated a token's holders are.",
+      "subcategory": "Crypto and Web3"
+    },
+    {
+      "name": "MonoDuty",
+      "url": "https://monoduty.com",
+      "marker": "C",
+      "category": "Observability and Monitoring",
+      "description": "Reviews active alerts, monitoring coverage and on-call readiness, and drafts instrumentation proposals for administrator review.",
+      "use_case": "Listing open alerts during an incident, finding services with no on-call coverage, drafting a monitoring proposal for a new service."
+    },
+    {
+      "name": "Meet Alto",
+      "url": "https://meetalto.ai",
+      "marker": "C",
+      "category": "Marketing and Sales",
+      "description": "Builds comment-to-DM campaigns and AI agents that turn Instagram comments and messages into leads, bookings and sales.",
+      "use_case": "Setting up a comment-to-DM campaign for a product launch, reviewing leads captured from social replies, adjusting an agent's reply rules.",
+      "subcategory": "Social Media and Influencer Marketing"
+    },
+    {
+      "name": "mabl",
+      "url": "https://www.mabl.com",
+      "marker": "C",
+      "category": "Development Tools",
+      "description": "Authors, runs and maintains automated end-to-end test suites and analyzes failures for you and your coding agents.",
+      "use_case": "Writing an end-to-end test for a new checkout flow, triaging why last night's run failed, updating tests after a UI change."
+    },
+    {
+      "name": "JupiterFetch",
+      "url": "https://jupiterfetch.com",
+      "marker": "C",
+      "category": "Marketing and Sales",
+      "description": "Returns a company's logos, colors, fonts, images and social links from its domain.",
+      "use_case": "Building a pitch deck in a prospect's brand colors, pulling a client's logo files for a proposal, checking a company's social links.",
+      "subcategory": "Brand Management and Content Creation"
+    },
+    {
+      "name": "Intellist",
+      "url": "https://intellist.app",
+      "marker": "C",
+      "category": "Productivity",
+      "description": "Reads and updates your Intellist lists and NFC-tagged home inventory, including lists shared with family.",
+      "use_case": "Finding which box the holiday lights are in, adding items to a shared shopping list, checking things off a packing list."
+    },
+    {
+      "name": "Iminify",
+      "url": "https://www.iminify.com",
+      "marker": "C",
+      "category": "Design and Creative",
+      "description": "Compresses, converts and resizes images, and scans a web page to optimize every image it loads.",
+      "use_case": "Converting product photos to WebP under 1600 pixels wide, finding oversized images on a pricing page, shrinking a batch of screenshots."
+    },
+    {
+      "name": "HELEN by ELIKA",
+      "url": "https://www.elikarealestate.com/helen",
+      "marker": "C",
+      "category": "Lifestyle and Local",
+      "description": "Creates filtered NYC home-search links, researches buildings and surfaces buyer resources from ELIKA Real Estate.",
+      "use_case": "Building a search for two-bedrooms in Brooklyn within a budget, reading up on a building before a viewing, finding a buyer's guide to closing costs."
+    },
+    {
+      "name": "granter",
+      "url": "https://granter.biz",
+      "marker": "C",
+      "category": "Finance and Trading",
+      "description": "Finance and accounting workspace for Korean businesses that classifies bank, corporate card and Hometax transactions by accounting category.",
+      "use_case": "Reviewing this month's spending by accounting category, finding unmatched tax invoices, summarizing card expenses before closing the books.",
+      "subcategory": "Accounting Payroll and Financial Planning"
+    },
+    {
+      "name": "GEXStream",
+      "url": "https://gexstream.com",
+      "marker": "C",
+      "category": "Finance and Trading",
+      "description": "Read-only options analytics for 650+ US tickers, including Greek exposures, options flow, implied volatility and open interest.",
+      "use_case": "Finding where SPY's zero-gamma level sits today, comparing implied volatility across tickers, reviewing unusual options flow.",
+      "subcategory": "Market Data and Investment Research"
+    },
+    {
+      "name": "Fountain",
+      "url": "https://fountain.fm",
+      "marker": "C",
+      "category": "Marketing and Sales",
+      "description": "Podcast growth tools for finding clip moments, preparing social posts, managing and scheduling episodes, and reviewing performance.",
+      "use_case": "Finding the best clip moments in a new episode, scheduling an episode and its social posts, emailing a monthly performance report.",
+      "subcategory": "Brand Management and Content Creation"
+    },
+    {
+      "name": "Firmary",
+      "url": "https://firmary.app",
+      "marker": "C",
+      "category": "Finance and Trading",
+      "description": "Practice management for accounting firms, covering clients, documents, billing and deadlines within your firm's access rules.",
+      "use_case": "Listing clients who still owe documents for tax season, checking unbilled work, reviewing deadlines due this week.",
+      "subcategory": "Accounting Payroll and Financial Planning"
+    },
+    {
+      "name": "Fidence",
+      "url": "https://fidence-ai.com",
+      "marker": "C",
+      "category": "AI and ML",
+      "description": "Trains custom predictive models on your company's data, scores every record and pushes the scores back to your tools.",
+      "use_case": "Building a churn model from CRM data, scoring open leads by likelihood to close, sending predictions back to a spreadsheet."
+    },
+    {
+      "name": "EquityRT Connect MCP",
+      "url": "https://equityrt.com",
+      "marker": "C",
+      "category": "Finance and Trading",
+      "description": "Read-only access to prices, financial statements, ratios, estimates, funds, bonds and macroeconomic data in your EquityRT Connect account.",
+      "use_case": "Pulling five years of a company's income statements, comparing valuation ratios across peers, checking analyst estimates before earnings.",
+      "subcategory": "Market Data and Investment Research"
+    },
+    {
+      "name": "eGrow",
+      "url": "https://egrow.com",
+      "marker": "C",
+      "category": "Marketing and Sales",
+      "description": "Works with orders, customers, products, order pipelines and analytics in your eGrow e-commerce CRM.",
+      "use_case": "Finding an order by the customer's phone number, moving orders through the confirmation pipeline, reviewing this week's sales analytics.",
+      "subcategory": "Ecommerce and Marketplace Selling"
+    },
+    {
+      "name": "Cosmos Video Agent",
+      "url": "https://www.meetcosmos.com",
+      "marker": "C",
+      "category": "Design and Creative",
+      "description": "Searches your team's Cosmos video library by topic and points to the exact moment that matches.",
+      "use_case": "Finding past projects to show a prospect, locating the moment a client mentions a product, sharing a clip link with a colleague."
+    },
+    {
+      "name": "comethru",
+      "url": "https://www.comethru.events",
+      "marker": "C",
+      "category": "Ticketing and Events",
+      "description": "Creates and runs events in your comethru workspace, from drafts, tickets and registration to guests, communications and venues.",
+      "use_case": "Drafting a new event with ticket tiers, updating the guest list, sending a reminder to registered attendees."
+    },
+    {
+      "name": "CitySignal",
+      "url": "https://citysignalatl.com",
+      "marker": "C",
+      "category": "Lifestyle and Local",
+      "description": "Live Atlanta signals from official feeds such as Georgia 511, the National Weather Service, MARTA and Georgia Power, with optional personal routes and errands.",
+      "use_case": "Checking incidents on a commute route, seeing whether MARTA is delayed, getting a brief of outages near home."
+    },
+    {
+      "name": "Capi Agent for Merchants",
+      "url": "https://capiagent.com",
+      "marker": "C",
+      "category": "Marketing and Sales",
+      "description": "Reports a Capi store's sales, customer service and AI sales agent setup from the store's own figures.",
+      "use_case": "Asking why sales dropped today, reviewing low customer service ratings, adjusting the AI sales agent's setup.",
+      "subcategory": "Ecommerce and Marketplace Selling"
+    },
+    {
+      "name": "Capacity",
+      "url": "https://capacity.so",
+      "marker": "C",
+      "category": "CMS and Web Building",
+      "description": "Builds and hosts real web apps from a conversation, with a live preview URL and a saved version for every change.",
+      "use_case": "Building an internal tool from a description, reverting an app to an earlier version, sharing a live preview with a teammate."
+    },
+    {
+      "name": "Adlane",
+      "url": "https://adlane.app",
+      "marker": "C",
+      "category": "Marketing and Sales",
+      "description": "Read-only review of connected Google and Meta ad accounts, campaign configuration and performance across date ranges.",
+      "use_case": "Comparing last month's Google and Meta campaign results, checking a campaign's settings, spotting accounts with rising costs.",
+      "subcategory": "Advertising and Paid Media"
+    },
+    {
+      "name": "YAPL",
+      "url": "https://yapl.app",
+      "marker": "C",
+      "category": "Project Management",
+      "description": "Local-first project planning with work breakdown structures, critical-path Gantt schedules, Kanban boards, resource booking and earned-value reporting.",
+      "use_case": "Rescheduling tasks after a delay, booking a resource for next month, pulling an earned-value report for a project review."
+    },
+    {
+      "name": "Swat.io",
+      "url": "https://swat.io",
+      "marker": "C",
+      "category": "Marketing and Sales",
+      "description": "Reviews workspaces, channels, posts and drafts, creates suggested posts and retrieves Insights reports.",
+      "use_case": "Drafting next week's posts for review, checking which channels a campaign runs on, pulling an Insights report for a client.",
+      "subcategory": "Social Media and Influencer Marketing"
+    },
+    {
+      "name": "PathToShip",
+      "url": "https://pathtoship.com",
+      "marker": "C",
+      "category": "Development Tools",
+      "description": "Reviews the GitHub repository behind an AI-built app and reports what would break at launch across security, infrastructure and scalability.",
+      "use_case": "Checking a Lovable app before launch, finding exposed secrets in a vibe-coded repo, getting a production-readiness score."
+    },
+    {
+      "name": "Markaestro",
+      "url": "https://markaestro.com",
+      "marker": "C",
+      "category": "Marketing and Sales",
+      "description": "Plans, schedules, publishes and measures brand posts on Facebook, Instagram, TikTok, Threads, Pinterest, LinkedIn and X.",
+      "use_case": "Drafting a week of posts for a brand, scheduling a launch across seven platforms, reviewing how last month's posts performed.",
+      "subcategory": "Social Media and Influencer Marketing"
+    },
+    {
+      "name": "BYQ Supply",
+      "url": "https://www.byq.supply",
+      "marker": "C",
+      "category": "Design and Creative",
+      "description": "Finds hand-crafted website sections, wireframes, motion effects and design systems and builds them into your project.",
+      "use_case": "Finding a pricing section for a landing page, adding a motion effect to a hero block, starting a site from a design system."
+    },
+    {
+      "name": "Arcopolis",
+      "url": "https://arcologylabs.com",
+      "marker": "C",
+      "category": "AI and ML",
+      "description": "Reads Arcology Labs' persistent city of AI agents, whose residents post, reply, follow each other and remember.",
+      "use_case": "Browsing what agents posted today, following a resident's relationships over time, reading a thread between two agents."
+    },
+    {
+      "name": "APIANT",
+      "url": "https://apiant.ai",
+      "marker": "C",
+      "category": "Automation and Integration",
+      "description": "Builds integrations on the APIANT platform from a plain-English request, tests every scenario before it ships and keeps them running.",
+      "use_case": "Syncing closed HubSpot deals to QuickBooks and Slack, testing a new integration against edge cases, fixing a failing automation."
+    },
+    {
+      "name": "AlphaBridge MCP for WordPress",
+      "url": "https://alphabridge-mcp.com",
+      "marker": "C",
+      "category": "CMS and Web Building",
+      "description": "Runs a self-hosted WordPress site from Claude, including posts, pages, media and comments, with no WordPress.com plan needed.",
+      "use_case": "Publishing a blog post to your own WordPress site, updating a page's content, moderating new comments."
+    },
+    {
+      "name": "FRED",
+      "url": "https://fred.stlouisfed.org",
+      "marker": "C",
+      "category": "Data and Analytics",
+      "description": "Searches, analyzes and charts hundreds of thousands of economic time series from the Federal Reserve Bank of St. Louis.",
+      "use_case": "Charting the unemployment rate against CPI, pulling the latest GDP release, comparing interest rates over ten years.",
+      "subcategory": "Company and Market Intelligence"
+    },
+    {
+      "name": "ListDrop",
+      "url": "https://www.listdrop.co",
+      "marker": "C",
+      "category": "Productivity",
+      "description": "Saves list-shaped answers as lists you can keep, share and fork.",
+      "use_case": "Saving a trip itinerary as a list, sharing a reading list with friends, forking someone's packing list."
+    },
+    {
+      "name": "K3X",
+      "url": "https://k3x.ai",
+      "marker": "C",
+      "category": "Marketing and Sales",
+      "description": "AI-native CRM for small sales teams, with company, person and deal lookups and pipeline updates without opening the CRM.",
+      "use_case": "Looking up a deal by the contact's email, moving a deal to the next stage, finding new leads that match an ideal customer.",
+      "subcategory": "CRM and Pipeline Management"
+    },
+    {
+      "name": "Zernio",
+      "url": "https://zernio.com",
+      "marker": "C",
+      "category": "Marketing and Sales",
+      "description": "Creates, schedules and publishes posts across connected social channels and retrieves analytics.",
+      "use_case": "Scheduling a post to several platforms at once, reviewing this week's top-performing posts, drafting content for a campaign.",
+      "subcategory": "Social Media and Influencer Marketing"
+    },
+    {
+      "name": "MoveMate: Gym Workout Tracker",
+      "url": "https://movemate.app",
+      "marker": "C",
+      "category": "Lifestyle and Local",
+      "description": "Reads and writes your MoveMate strength-training log, including completed sets, PRs, progression and your next session.",
+      "use_case": "Reviewing last month's squat progression, diagnosing a bench press plateau, scheduling tomorrow's session in the app."
+    },
+    {
+      "name": "Kruncher",
+      "url": "https://kruncher.ai",
+      "marker": "C",
+      "category": "Finance and Trading",
+      "description": "Brings a Kruncher investment workspace into chat, with company research, AI due-diligence reports, deal-flow pipeline and investor documents.",
+      "use_case": "Generating a due-diligence report on a startup, reviewing the deal pipeline, finding warm introductions through the relationship graph.",
+      "subcategory": "Private Markets Real Estate and Deal Intelligence"
+    },
+    {
+      "name": "Insurely",
+      "url": "https://insurely.com",
+      "marker": "C",
+      "category": "Finance and Trading",
+      "description": "Starts consented data-sharing requests and retrieves users' shared financial data for personalized wealth management.",
+      "use_case": "Requesting a client's pension and savings data, reviewing previously shared holdings, preparing a wealth overview from consented data.",
+      "subcategory": "Trading Brokerage and Wealth Management"
+    },
+    {
+      "name": "Finology Software: Federal Student Loan Engine",
+      "url": "https://finology.tech",
+      "marker": "C",
+      "category": "Finance and Trading",
+      "description": "Read-only federal student loan math for financial advisors, comparing repayment plans under the rules in effect since July 1, 2026.",
+      "use_case": "Comparing every repayment plan for a client, estimating a RAP payment, weighing filing jointly versus separately.",
+      "subcategory": "Personal Finance and Consumer Tax"
+    },
+    {
+      "name": "CIMS",
+      "url": "https://getcims.com",
+      "marker": "C",
+      "category": "Marketing and Sales",
+      "description": "Discovers and analyzes creators, organizes creator collections and manages influencer campaign briefs, participants and reporting.",
+      "use_case": "Finding creators with a matching audience, comparing creators' performance data, pulling a campaign report.",
+      "subcategory": "Social Media and Influencer Marketing"
+    },
+    {
+      "name": "Birch Production",
+      "url": "https://bir.ch",
+      "marker": "C",
+      "category": "Marketing and Sales",
+      "description": "Audits, debugs and manages ad automation rules for Meta, Google, TikTok and Snapchat Ads in plain language.",
+      "use_case": "Finding why a pause rule didn't fire, reviewing the rules guarding CPA, creating a rule that scales winning ad sets.",
+      "subcategory": "Advertising and Paid Media"
+    },
+    {
+      "name": "Simma",
+      "url": "https://getsimma.com",
+      "marker": "C",
+      "category": "Lifestyle and Local",
+      "description": "Turns swim, run and cycling data from Garmin into coaching, with form, training status and lap-level pace and stroke detail.",
+      "use_case": "Asking why this week's runs felt harder, reviewing stroke detail from a swim session, checking training status before a race."
+    },
+    {
+      "name": "Pics.io",
+      "url": "https://pics.io",
+      "marker": "C",
+      "category": "Design and Creative",
+      "description": "Read-only search of your Pics.io digital asset library, so answers come from the approved files your team ships.",
+      "use_case": "Finding the approved product photo for a campaign, checking the latest version of a logo, browsing assets by collection."
+    },
+    {
+      "name": "Mesh for Claude",
+      "url": "https://me.sh",
+      "marker": "C",
+      "category": "Marketing and Sales",
+      "description": "Searches and updates your personal and professional contacts, with notes, reminders and a lightweight CRM.",
+      "use_case": "Finding who you know at a company, saving a note after a meeting, setting a reminder to follow up with a contact.",
+      "subcategory": "CRM and Pipeline Management"
+    },
+    {
+      "name": "FALCON Verify",
+      "url": "https://1-i.ai/falcon",
+      "marker": "C",
+      "category": "AI and ML",
+      "description": "Checks claim by claim whether an AI answer is supported by the documents, figures or records it was written from.",
+      "use_case": "Verifying a summary against the contract it came from, checking a report's figures against the source data, flagging unsupported claims before sharing."
+    },
+    {
+      "name": "zonka feedback",
+      "url": "https://www.zonkafeedback.com",
+      "marker": "C",
+      "category": "Customer Support",
+      "description": "Analyzes survey responses, reviews and customer feedback, including NPS, CES, CSAT and sentiment.",
+      "use_case": "Summarizing this quarter's NPS comments, finding the top complaint themes, comparing CSAT across locations."
+    },
+    {
+      "name": "1102tools for GSA CALC+",
+      "url": "https://1102tools.com",
+      "marker": "C",
+      "category": "Government and Nonprofit",
+      "description": "Searches awarded GSA MAS labor ceiling rates, compares labor categories, browses vendor rate cards and explores SIN benchmarks.",
+      "use_case": "Checking ceiling rates for a senior developer category, comparing a vendor's rate card with its peers, benchmarking rates for a SIN."
+    },
+    {
+      "name": "FinDrive",
+      "url": "https://findrive.com.br",
+      "marker": "C",
+      "category": "Finance and Trading",
+      "description": "Read-only FinDrive income statements, cash flow and budget versus actual for Brazilian small and medium-sized businesses.",
+      "use_case": "Checking this month's cash flow, comparing budget with actual spending, asking the company knowledge base about a policy.",
+      "subcategory": "Accounting Payroll and Financial Planning"
+    },
+    {
+      "name": "BOSRAI",
+      "url": "https://bosr.ai",
+      "marker": "C",
+      "category": "Marketing and Sales",
+      "description": "Reads your BOSRAI sales pipeline, results, buying signals and prospect replies, and builds outreach sequences.",
+      "use_case": "Reviewing this week's prospect replies, checking which accounts show buying signals, drafting a new outreach sequence.",
+      "subcategory": "Sales Prospecting and Engagement"
+    },
+    {
+      "name": "NoveLand",
+      "url": "https://novel-land.com",
+      "marker": "C",
+      "category": "Entertainment",
+      "description": "Reads and edits the novels your NoveLand account can edit, along with their characters, terms and worldbuilding.",
+      "use_case": "Drafting the next episode of a serial, checking a character's details for consistency, updating a worldbuilding glossary."
+    },
+    {
+      "name": "Breezing",
+      "url": "https://breezing.io",
+      "marker": null,
+      "category": "Finance and Trading",
+      "description": "Crypto accounting that imports 70+ blockchains and exchanges, computes cost basis and books journals to Xero, QuickBooks or Bexio.",
+      "use_case": "Reconciling a wallet's transactions for month end, computing realized gains for a tax filing, posting crypto journals to Xero.",
+      "subcategory": "Accounting Payroll and Financial Planning"
+    },
+    {
+      "name": "stub",
+      "url": "https://stub.africa",
+      "marker": null,
+      "category": "Finance and Trading",
+      "description": "AI-native accounting for small businesses, with invoices, quotes, customer statements and payments available to Claude.",
+      "use_case": "Creating an invoice for a client, checking overdue bills, sending a customer statement.",
+      "subcategory": "Accounting Payroll and Financial Planning"
+    },
+    {
+      "name": "Coinversa Pulse",
+      "url": "https://coinversa.ai",
+      "marker": null,
+      "category": "Finance and Trading",
+      "description": "Read-only Hyperliquid intelligence covering wallet cohorts, trade history with PnL attribution, position lifecycles and live risk.",
+      "use_case": "Profiling a wallet's trading behavior, reviewing liquidation risk across open positions, finding cohorts that are buying.",
+      "subcategory": "Crypto and Web3"
+    },
+    {
+      "name": "DittoDub",
+      "url": "https://dittodub.com",
+      "marker": "C",
+      "category": "Design and Creative",
+      "description": "Manages multilingual video dubbing projects, including transcript and dubbing status, usage and completed downloads.",
+      "use_case": "Checking which videos have finished dubbing, downloading Spanish captions for an upload, submitting an English transcript for a new video."
+    },
+    {
+      "name": "EDINET DB — Japanese Listed Company Data",
+      "url": "https://edinetdb.jp",
+      "marker": "C",
+      "category": "Finance and Trading",
+      "description": "Structured financial and disclosure data for about 3,800 Japanese listed companies, taken from EDINET filings via XBRL.",
+      "use_case": "Screening Japanese companies by ROE and equity ratio, comparing peers in an industry, reading a company's latest securities report.",
+      "subcategory": "Market Data and Investment Research"
+    },
+    {
+      "name": "Links Connect",
+      "url": "https://www.thelinks.ai/home",
+      "marker": null,
+      "category": "Finance and Trading",
+      "description": "Bridges operational and financial systems so finance teams can query live business data for analysis, reporting, and workflows.",
+      "use_case": "Pulling current revenue figures ahead of a board update, checking an operational metric against booked results, assembling a monthly reporting pack.",
+      "subcategory": "Accounting Payroll and Financial Planning"
+    },
+    {
+      "name": "1Stay",
+      "url": "https://1stay.ai",
+      "marker": "C",
+      "category": "Travel",
+      "description": "Searches and books hotels worldwide with live rates, loyalty-eligible rates and the hotel's own confirmation number.",
+      "use_case": "Finding a hotel near a conference venue, comparing cancellation policies, booking a room that earns loyalty points."
+    },
+    {
+      "name": "Community Pulse",
+      "url": "https://communitypulse.datandashboards.com",
+      "marker": "C",
+      "category": "Data and Analytics",
+      "description": "Sourced New Zealand regional statistics from Data n Dashboards, answered in plain English.",
+      "use_case": "Checking how many people work in manufacturing in the Waikato region, comparing regional population growth, pulling figures for a council report.",
+      "subcategory": "Geospatial and Industry Data"
+    },
+    {
+      "name": "Dango",
+      "url": "https://trydango.com",
+      "marker": "C",
+      "category": "Design and Creative",
+      "description": "Builds on-brand presentation decks from a chat, using a brand kit read from your website.",
+      "use_case": "Turning meeting notes into a branded deck, creating a pitch deck in a client's colors, updating slides after feedback."
+    },
+    {
+      "name": "Denodo MCP Connector",
+      "url": "https://community.denodo.com/docs/html/document/denodoconnects/latest/en/Denodo%20MCP%20Server%20-%20User%20Manual",
+      "marker": null,
+      "category": "Data and Analytics",
+      "description": "Connects Claude Desktop to a running Denodo MCP Server for querying Denodo Virtual DataPort databases.",
+      "use_case": "Querying a virtual view that spans several data sources, exploring a Denodo database's schema, running a reporting query.",
+      "subcategory": "Databases and Warehouses"
+    },
+    {
+      "name": "droplinked",
+      "url": "https://github.com/droplinked/droplinked-mcp-extension",
+      "marker": null,
+      "category": "Marketing and Sales",
+      "description": "Read-only discovery and verification of products across droplinked's KYB-attested merchant network.",
+      "use_case": "Finding products from verified merchants, checking a merchant's attestation before buying, comparing products across the network.",
+      "subcategory": "Ecommerce and Marketplace Selling"
+    },
+    {
+      "name": "Pasteapp",
+      "url": "https://pasteapp.io/mcp",
+      "marker": null,
+      "category": "Productivity",
+      "description": "Local bridge that gives Claude and other AI tools access to your Paste clipboard history and pinboards on a Mac.",
+      "use_case": "Finding a link you copied last week, pulling a saved snippet from a pinboard, reusing text copied on another device."
     }
   ],
   "held": [
@@ -25023,29 +25567,14 @@
       "why_held": "shares vendor URL fieldcamp.ai with \"FieldCamp\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
     },
     {
-      "name": "Dango",
-      "catalog_description": "Build beautiful presentations, in your own brand.",
-      "why_held": "vendor site still returns an origin error (Cloudflare 530), as on 2026-09-14 (2026-09-24)"
-    },
-    {
       "name": "Decision Matrix",
       "catalog_description": "Decision Matrix helps Claude run structured, criteria‑based evaluations so teams can make and defend complex decisions with confidence.",
       "why_held": "generic term; search returns the decision-matrix method, not a vendor product page."
     },
     {
-      "name": "Denodo MCP Connector",
-      "catalog_description": "Connect Claude Desktop to a Denodo Virtual DataPort database via MCP",
-      "why_held": "feed URL is a GitHub profile/org page, not a product page (2026-09-24)"
-    },
-    {
       "name": "doDomain",
       "catalog_description": "Connect customer domains from chat",
       "why_held": "shares vendor URL devino.ca with \"BioFlow\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
-    },
-    {
-      "name": "droplinked",
-      "catalog_description": "Discover and verify products across droplinked's KYB-attested merchant network. Read-only agentic-commerce discovery.",
-      "why_held": "feed URL is a GitHub profile/org page, not a product page (2026-09-24)"
     },
     {
       "name": "GetItDone",
@@ -25098,11 +25627,6 @@
       "why_held": "shares vendor URL publica.la with \"EbooksDepository\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
     },
     {
-      "name": "Pasteapp",
-      "catalog_description": "Local MCP server bridge for Paste — give Claude Desktop, Claude Code, Cursor, Codex, and other AI tools access to your Mac clipboard history and pinboards.",
-      "why_held": "the feed carries no vendor URL (2026-09-24)"
-    },
-    {
       "name": "SiD Corp MCP",
       "catalog_description": "An product from SiD Corp to connect with MCP",
       "why_held": "vendor-level match only; unrelated same-named firm exists — downgraded at merge."
@@ -25133,19 +25657,9 @@
       "why_held": "shares vendor URL voxtell.com with \"Voxtell Chat\" (list lint rejects duplicate links); needs its own product page (2026-09-14)"
     },
     {
-      "name": "Community Pulse",
-      "catalog_description": "Ask a question, get New Zealand's real numbers — Community Pulse by Data n Dashboards",
-      "why_held": "vendor site returns a server error (2026-09-24)"
-    },
-    {
       "name": "CSME Developer Build Compliance and Content Filter",
       "catalog_description": "Check what you build against the law before it ships.",
       "why_held": "the feed URL is a misspelled, unregistered domain and the product has no page of its own apart from the one CSME Content Creator uses (2026-09-24)"
-    },
-    {
-      "name": "1Stay",
-      "catalog_description": "Live worldwide hotel search, loyalty points eligible rates. Book with secure checkout, get the hotel's own confirmation number, pay at the hotel.",
-      "why_held": "the feed's vendor page (Stayker) never names 1Stay, so the vendor match is unconfirmed (2026-09-24)"
     },
     {
       "name": "TopCounsel by The L Suite",
@@ -25156,6 +25670,21 @@
       "name": "Aster Share",
       "catalog_description": "Create in Claude. Publish with Aster.",
       "why_held": "the vendor site returns a hosting error on every page (deployment disabled, HTTP 402) (2026-09-25)"
+    },
+    {
+      "name": "Virtualna Pisarna - By REWORQ",
+      "catalog_description": "Your virtual office in one place",
+      "why_held": "the feed URL is REWORQ's agency homepage, which never names the product, and no product page was found (2026-09-25)"
+    },
+    {
+      "name": "pensieve-notes",
+      "catalog_description": "Save notes, search them and set reminders from Claude",
+      "why_held": "the feed URL is the developer's personal site; a same-named notes app exists but is not confirmed as this connector's (2026-09-25)"
+    },
+    {
+      "name": "Capi Agent",
+      "catalog_description": "Find products from independent online stores in Saudi Arabia, the Gulf and Türkiye",
+      "why_held": "shares its vendor URL with Capi Agent for Merchants, whose product that page is; no page for the shopping connector was found (2026-09-25)"
     }
   ]
 }
