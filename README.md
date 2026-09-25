@@ -4,9 +4,9 @@
   <img src="media/banner.svg" alt="Awesome Claude Connectors" width="800">
 </p>
 
-> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 2,982 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 27 held pending vendor verification, organized by category with descriptions and use cases.
+> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 2,980 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 29 held pending vendor verification, organized by category with descriptions and use cases.
 
-**Last updated:** September 24, 2026 | **Connectors tracked:** 2,982 listed + 27 held | **Categories:** 30
+**Last updated:** September 25, 2026 | **Connectors tracked:** 2,980 listed + 29 held | **Categories:** 30
 
 Claude connectors are MCP (Model Context Protocol) servers that extend Claude with real-time access to external tools, data sources, and services. They work across Claude.ai, Claude Desktop, Claude Mobile, Claude Code, and Claude Cowork. Connectors in the **curated web directory** are vetted by Anthropic for security, reliability, and compatibility; the **in-app catalog** additionally surfaces community-built and local desktop-extension connectors that Anthropic makes available but does not itself build or vet. This list tracks the union of both surfaces — see CONTRIBUTING.md for the two-surface methodology.
 
@@ -47,7 +47,7 @@ Each category has its own page; the list outgrew what GitHub will render as a si
 | [Automation and Integration](categories/automation-and-integration.md)     | 48         |
 | [Calendar and Scheduling](categories/calendar-and-scheduling.md)           | 21         |
 | [Cloud and Infrastructure](categories/cloud-and-infrastructure.md)         | 70         |
-| [CMS and Web Building](categories/cms-and-web-building.md)                 | 70         |
+| [CMS and Web Building](categories/cms-and-web-building.md)                 | 69         |
 | [Communication](categories/communication.md)                               | 77         |
 | [Customer Support](categories/customer-support.md)                         | 55         |
 | [Data and Analytics](categories/data-and-analytics.md)                     | 313        |
@@ -61,7 +61,7 @@ Each category has its own page; the list outgrew what GitHub will render as a si
 | [Government and Nonprofit](categories/government-and-nonprofit.md)         | 43         |
 | [Healthcare and Life Sciences](categories/healthcare-and-life-sciences.md) | 65         |
 | [Jobs](categories/jobs.md)                                                 | 38         |
-| [Legal](categories/legal.md)                                               | 106        |
+| [Legal](categories/legal.md)                                               | 105        |
 | [Lifestyle and Local](categories/lifestyle-and-local.md)                   | 122        |
 | [Marketing and Sales](categories/marketing-and-sales.md)                   | 503        |
 | [Observability and Monitoring](categories/observability-and-monitoring.md) | 34         |
@@ -83,6 +83,7 @@ Every link on the category pages has been checked against the live page — a UR
 | 1Stay                                              | Live worldwide hotel search, loyalty points eligible rates. Book with secure checkout, get the hotel's own confirmation number, pay at the hotel.                | the feed's vendor page (Stayker) never names 1Stay, so the vendor match is unconfirmed (2026-09-24)                                                |
 | Agent Grid                                         | Create, share, and evolve interactive artifacts with humans and AI agents.                                                                                       | agentgrid.sh exists but is a coding-agent canvas, not an interactive-artifact platform; no confident match.                                        |
 | AI Dispatcher by FieldCamp                         | AI dispatch and scheduling for field-service teams — view your jobs, technicians and board, run AI dispatch, and accept assignments, right from Claude.          | shares vendor URL fieldcamp.ai with "FieldCamp" (list lint rejects duplicate links); needs its own product page (2026-09-14)                       |
+| Aster Share                                        | Create in Claude. Publish with Aster.                                                                                                                            | the vendor site returns a hosting error on every page (deployment disabled, HTTP 402) (2026-09-25)                                                 |
 | Community Pulse                                    | Ask a question, get New Zealand's real numbers — Community Pulse by Data n Dashboards                                                                            | vendor site returns a server error (2026-09-24)                                                                                                    |
 | CSME Developer Build Compliance and Content Filter | Check what you build against the law before it ships.                                                                                                            | the feed URL is a misspelled, unregistered domain and the product has no page of its own apart from the one CSME Content Creator uses (2026-09-24) |
 | Dango                                              | Build beautiful presentations, in your own brand.                                                                                                                | vendor site still returns an origin error (Cloudflare 530), as on 2026-09-14 (2026-09-24)                                                          |
@@ -104,6 +105,7 @@ Every link on the category pages has been checked against the live page — a UR
 | SiD Corp MCP                                       | An product from SiD Corp to connect with MCP                                                                                                                     | vendor-level match only; unrelated same-named firm exists — downgraded at merge.                                                                   |
 | Sinch Build Docs                                   | Search Sinch Build developer docs and API references.                                                                                                            | shares vendor URL sinch.com with "Mailgun Docs MCP" (list lint rejects duplicate links); needs its own product page (2026-09-14)                   |
 | Structured Reflection                              | Structured Reflection helps Claude debug ideas and decisions by talking through them step by step, just like a classic developer rubber‑d…                       | generic name; no vendor page identified, only unrelated open-source reflection/rubber-duck MCPs.                                                   |
+| TopCounsel by The L Suite                          | Outside Counsel recommendations from Inhouse Counsel                                                                                                             | the product site says the app is not live yet, and the vendor's own site (The L Suite) never names TopCounsel (2026-09-25)                         |
 | Uptimely                                           | Monitor uptime, incidents, and on-call from AI                                                                                                                   | shares vendor URL devino.ca with "BioFlow" (list lint rejects duplicate links); needs its own product page (2026-09-14)                            |
 | Vid Kraken                                         | Cut audio or video clips from your own long-form videos by timestamp — podcasts, lectures, streams — and get a file ready for your editor.                       | shares vendor URL omnivision.solutions with "Transcript LOL" (list lint rejects duplicate links); needs its own product page (2026-09-14)          |
 | Voxtell Phone                                      | Your business phone system, answered from Claude                                                                                                                 | shares vendor URL voxtell.com with "Voxtell Chat" (list lint rejects duplicate links); needs its own product page (2026-09-14)                     |

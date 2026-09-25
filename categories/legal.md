@@ -2,7 +2,7 @@
 
 # Legal
 
-[All categories](../README.md#categories) · 106 connectors · Last updated September 24, 2026
+[All categories](../README.md#categories) · 105 connectors · Last updated September 25, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -100,7 +100,6 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [TaxGraph](https://tax-graph.com) **`C`** - German knowledge-graph service that structures German tax law and delivers sourced answers to AI systems via MCP. *Use case: Ask a structured question about German tax law and get an answer linked to its primary legal source.*
 - [TaxMCP](https://taxmcp.io) **`C`** - Searches the Internal Revenue Code, Treasury Regulations, IRS guidance, U.S. Tax Court opinions, and supported state statutes, returning source documents and citation activity. *Use case: Retrieving the exact code section behind a deduction question, following cross-references into a regulation, checking how often an opinion has been cited.*
 - [TM Jud](https://tmdigital.ag) **`C`** - Reads judicial recovery cases, timelines, monitored lawsuits, debtor records, and tasks, and creates tasks and case comments when write access is granted. *Use case: Checking the latest court updates on monitored lawsuits, reviewing a debtor's debts and located assets, creating a follow-up task on a case.*
-- [TopCounsel by The L Suite](https://topcounsel.ai) - Outside counsel recommendations from in-house counsel. *Use case: Vendor selection and warm-intro outside-counsel referrals sourced from in-house attorney peers.*
 - [Trellis](https://trellis.law) **`C`** - Claude for trial court litigators. *Use case: State trial-court data search, judge analytics, motion outcomes, and litigant history across U.S. trial courts.*
 - [TribuJus](https://www.tribujus.com.br) **`C`** - Runs semantic searches over Brazilian court decisions with case numbers and verification instructions, and computes case-law statistics. *Use case: Finding labor court precedents on a legal thesis, filtering decisions by court and panel, checking outcome statistics for a type of claim.*
 - [Trifolia](https://trifolia.cl) **`C`** - AI-powered Chilean legal research tool that provides case law and statute search with citations. *Use case: Research Chilean case law and statutes with citation support for a legal brief.*

@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "September 24, 2026",
+    "last_updated": "September 25, 2026",
     "capture_date": "2026-09-24",
     "render": {
       "category_counts": true,
@@ -8062,14 +8062,6 @@
       "use_case": "Ask a structured question about German tax law and get an answer linked to its primary legal source."
     },
     {
-      "name": "TopCounsel by The L Suite",
-      "url": "https://topcounsel.ai",
-      "marker": null,
-      "category": "Legal",
-      "description": "Outside counsel recommendations from in-house counsel.",
-      "use_case": "Vendor selection and warm-intro outside-counsel referrals sourced from in-house attorney peers."
-    },
-    {
       "name": "Trellis",
       "url": "https://trellis.law",
       "marker": "C",
@@ -13440,7 +13432,7 @@
     },
     {
       "name": "Telgani",
-      "url": "https://www.telgani.com",
+      "url": "https://www.telgani.com/en",
       "marker": "C",
       "category": "Travel",
       "description": "Car rental across Saudi Arabia.",
@@ -21292,14 +21284,6 @@
       "use_case": "Spinning up a post-purchase survey from a one-line brief, pulling responses into a summary of themes, comparing answers across two organizations."
     },
     {
-      "name": "Aster Share",
-      "url": "https://asterlabs.dev",
-      "marker": "C",
-      "category": "CMS and Web Building",
-      "description": "Publishes an HTML artifact as an encrypted web page that expires after 30 days, returning a public link and a private admin link.",
-      "use_case": "Turning a finished report into a link for a colleague, sharing a prototype page for review, deleting a published page once feedback lands."
-    },
-    {
       "name": "mailnix",
       "url": "https://mailnix.ch",
       "marker": "C",
@@ -25162,6 +25146,16 @@
       "name": "1Stay",
       "catalog_description": "Live worldwide hotel search, loyalty points eligible rates. Book with secure checkout, get the hotel's own confirmation number, pay at the hotel.",
       "why_held": "the feed's vendor page (Stayker) never names 1Stay, so the vendor match is unconfirmed (2026-09-24)"
+    },
+    {
+      "name": "TopCounsel by The L Suite",
+      "catalog_description": "Outside Counsel recommendations from Inhouse Counsel",
+      "why_held": "the product site says the app is not live yet, and the vendor's own site (The L Suite) never names TopCounsel (2026-09-25)"
+    },
+    {
+      "name": "Aster Share",
+      "catalog_description": "Create in Claude. Publish with Aster.",
+      "why_held": "the vendor site returns a hosting error on every page (deployment disabled, HTTP 402) (2026-09-25)"
     }
   ]
 }

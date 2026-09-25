@@ -10,10 +10,6 @@ https://www.uber.com/.*
 https://www.alice.co.il/.*
 # TLS refused to curl/lychee, content verified via a second fetch channel 2026-09-06 (docs.inlace.co also 200); site alive.
 https://inlace.co/.*
-# minutes.me — 200 to browser AND checker user agents from a residential network 2026-09-06; TLS handshake fails only from the
-# GitHub runner. NOTE: absent from the 2026-09-06 directory feed and the web sitemap → removal candidate once the feed's
-# coverage is validated against the directory feed on 2026-09-14 (scripts/feed_diff.py).
-https://minutes.me/.*
 # unsplash.com — lychee got 401 from the GitHub runner on 2026-09-15 (issue #17); a direct fetch the same day
 # returned 200 with real content. Bot-armored against the checker's TLS fingerprint, not dead.
 https://unsplash.com/.*
@@ -21,3 +17,6 @@ https://unsplash.com/.*
 # A direct fetch the same day returned 403, which this workflow already accepts; the break is the HTTP/2
 # negotiation, not the status. Site alive.
 https://www.getyourguide.com/.*
+# www.adobe.com — resets curl/lychee on both HTTP/1.1 and HTTP/2 (INTERNAL_ERROR) from a residential network on
+# 2026-09-25; a second fetch channel (Exa crawl) the same day returned the real homepage. Same class as business.adobe.com.
+https://www.adobe.com/.*

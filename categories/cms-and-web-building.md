@@ -2,13 +2,12 @@
 
 # CMS and Web Building
 
-[All categories](../README.md#categories) · 70 connectors · Last updated September 24, 2026
+[All categories](../README.md#categories) · 69 connectors · Last updated September 25, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
 - [Adobe Experience Manager](https://business.adobe.com/products/experience-manager/adobe-experience-manager.html) - Enterprise content and digital asset management. *Use case: Large-scale web content management, digital asset workflows, omnichannel experience delivery for enterprises.*
 - [Agility CMS](https://agilitycms.com) - Model content, author pages, publish updates, and manage media across multiple Agility CMS instances through natural language. *Use case: Adding a new content model field before a marketing team builds a landing page, publishing an update across two CMS instances at once, swapping out an image in a media library without opening a separate dashboard.*
-- [Aster Share](https://asterlabs.dev) **`C`** - Publishes an HTML artifact as an encrypted web page that expires after 30 days, returning a public link and a private admin link. *Use case: Turning a finished report into a link for a colleague, sharing a prototype page for review, deleting a published page once feedback lands.*
 - [Base.com](https://base.com) **`C`** - Provides read-only access to a Base store account: account details, orders, product listings, and inventory levels. *Use case: Checking which orders came in overnight, confirming stock on a product before a promotion, reviewing how a listing is configured.*
 - [Base44](https://base44.com) - Build and manage Base44 apps. *Use case: Low-code app development on the Base44 platform.*
 - [Beacons](https://beacons.ai) **`C`** - Updates Beacons link-in-bio pages, media kits, websites, products, smart replies, and emails, and reads analytics for those tools and connected social accounts. *Use case: Swapping the top link on a creator page, refreshing a media kit before a brand pitch, checking which posts drove the most profile visits.*

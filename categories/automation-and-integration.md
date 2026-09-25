@@ -2,7 +2,7 @@
 
 # Automation and Integration
 
-[All categories](../README.md#categories) · 48 connectors · Last updated September 24, 2026
+[All categories](../README.md#categories) · 48 connectors · Last updated September 25, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 

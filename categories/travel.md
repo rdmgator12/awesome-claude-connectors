@@ -2,7 +2,7 @@
 
 # Travel
 
-[All categories](../README.md#categories) · 91 connectors · Last updated September 24, 2026
+[All categories](../README.md#categories) · 91 connectors · Last updated September 25, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -74,7 +74,7 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [Super.com](https://www.super.com) - Compare hotels and find the lowest rate. *Use case: Hotel price comparison, discounted room discovery, budget travel planning.*
 - [swissrailways](https://www.swissrailways.com) **`C`** - Book Swiss Travel Pass, Swiss Travel Pass Flex or Swiss Half Fare Card directly in Claude — from product selection to secure payment link, all in one conversation. *Use case: Buying a Swiss Half Fare Card before a trip to Zurich, comparing the Swiss Travel Pass against the Flex option before purchasing, completing payment without leaving the chat.*
 - [Sóley — Iceland travel and direct booking](https://soley.travel) **`C`** - Reports live Icelandic conditions — weather, road closures, aurora and avalanche forecasts, flights, buses — and books directly with 3,500+ licensed local operators. *Use case: Checking road closures before a Ring Road drive, finding a licensed guesthouse in a small fjord, reserving a tour with the operator that runs it.*
-- [Telgani](https://www.telgani.com) **`C`** - Car rental across Saudi Arabia. *Use case: Booking a rental car for a trip to Riyadh, comparing rental rates across Saudi cities, extending a reservation.*
+- [Telgani](https://www.telgani.com/en) **`C`** - Car rental across Saudi Arabia. *Use case: Booking a rental car for a trip to Riyadh, comparing rental rates across Saudi cities, extending a reservation.*
 - [TiCATi](https://www.ticati.com) **`C`** - Finds luxury hotels and cruises by name or destination, checks live rates, availability, amenities, and sustainability details, and returns direct booking links. *Use case: Checking a specific hotel's rate for three nights in October, shortlisting sustainable properties in Bali, finding a cruise offering onboard credit.*
 - [Tineo](https://tineo.ai) - Creates trips, adds or edits flights, stays, activities, and other itinerary items, searches flights and hotels, and shares plans with fellow travelers. *Use case: Adding a hotel booking to a group trip, searching flights for a weekend away, reviewing the full itinerary before departure.*
 - [TomTom Maps](https://www.tomtom.com) - Interactive maps, routing, geocoding, and traffic. *Use case: Route planning, real-time traffic, geocoding, map visualization.*
