@@ -34,33 +34,24 @@ from pathlib import Path
 REPO = Path(__file__).resolve().parent.parent
 DATA = REPO / "data" / "connectors.json"
 
-MIN_LEN = 5  # below this, edit distance is meaningless
-MAX_DIST = 2  # a typo is one or two characters; more is a different brand
+MIN_LEN = 5        # below this, edit distance is meaningless
+MAX_DIST = 2       # a typo is one or two characters; more is a different brand
 
 # Pairs a human has opened and read. A near-miss that is NOT a typo belongs here
 # with the evidence, so the check fails only on something new. Verified 2026-09-15.
 VERIFIED = {
-    (
-        "Kinetik",
-        "kineto.app",
-    ): "site says 'Kinetik' and matches the listing; kinetik.com is Kinetik Holdings (NYSE: KNTK), a gas midstream operator",
-    (
-        "Attribution MCP",
-        "www.attributionapp.com",
-    ): "vendor brand is Attribution, domain adds 'app'; 'MCP' is the connector suffix, not part of the company name",
-    (
-        "BusyCal",
-        "www.busymac.com",
-    ): "BusyMac is the company, BusyCal the product; the path /busycal is the product page",
-    ("Pace AI", "www.pacehq.ai"): "vendor brand is Pace, domain adds 'hq'",
-    (
-        "Plan@Job",
-        "planajob.com",
-    ): "site title is 'Plan@Job | The AI CRM for contractors'; the domain spells the '@' as 'a'",
-    (
-        "NoveLand",
-        "novel-land.com",
-    ): "site title is 'トップページ | NoveLand' (a Japanese novel platform); the domain hyphenates the brand",
+    ("Kinetik", "kineto.app"):
+        "site says 'Kinetik' and matches the listing; kinetik.com is Kinetik Holdings (NYSE: KNTK), a gas midstream operator",
+    ("Attribution MCP", "www.attributionapp.com"):
+        "vendor brand is Attribution, domain adds 'app'; 'MCP' is the connector suffix, not part of the company name",
+    ("BusyCal", "www.busymac.com"):
+        "BusyMac is the company, BusyCal the product; the path /busycal is the product page",
+    ("Pace AI", "www.pacehq.ai"):
+        "vendor brand is Pace, domain adds 'hq'",
+    ("Plan@Job", "planajob.com"):
+        "site title is 'Plan@Job | The AI CRM for contractors'; the domain spells the '@' as 'a'",
+    ("NoveLand", "novel-land.com"):
+        "site title is 'トップページ | NoveLand' (a Japanese novel platform); the domain hyphenates the brand",
 }
 
 
@@ -95,7 +86,7 @@ def suspicious(name: str, host: str):
     if len(n) < MIN_LEN or len(r) < MIN_LEN:
         return None
     if n in r or r in n:
-        return None  # brand + suffix, not a misspelling
+        return None                      # brand + suffix, not a misspelling
     d = lev(n, r)
     return d if 0 < d <= MAX_DIST else None
 
@@ -106,12 +97,7 @@ def selftest() -> None:
         ("BirdSift", "www.birsift.com", 1, "the real typo, from issue #17"),
         ("Recall.ai", "recall.ai", None, "brand repeating its own TLD"),
         ("Datadog", "www.datadoghq.com", None, "brand + hq"),
-        (
-            "Kinetik",
-            "kineto.app",
-            2,
-            "genuine near-miss that is NOT a typo -- needs a human",
-        ),
+        ("Kinetik", "kineto.app", 2, "genuine near-miss that is NOT a typo -- needs a human"),
         ("Square", "squareup.com", None, "brand + up"),
     ]
     for name, host, want, why in cases:
@@ -125,9 +111,7 @@ def selftest() -> None:
 
 def main() -> int:
     ap = argparse.ArgumentParser(description=__doc__.split("\n\n")[0])
-    ap.add_argument(
-        "--selftest", action="store_true", help="run the detector self-test first"
-    )
+    ap.add_argument("--selftest", action="store_true", help="run the detector self-test first")
     ap.add_argument("--quiet", action="store_true", help="exit code only, no report")
     args = ap.parse_args()
 
@@ -135,11 +119,7 @@ def main() -> int:
         selftest()
 
     data = json.loads(DATA.read_text())
-    items = (
-        data
-        if isinstance(data, list)
-        else data.get("connectors", data.get("items", []))
-    )
+    items = data if isinstance(data, list) else data.get("connectors", data.get("items", []))
 
     hits = []
     for c in items:
@@ -156,10 +136,8 @@ def main() -> int:
     new_hits = [h for h in hits if h[3] is None]
 
     if not args.quiet:
-        print(
-            f"scanned {len(items)} listings -- typo-shaped pairs: {len(hits)} "
-            f"({len(new_hits)} unverified, {len(hits) - len(new_hits)} previously verified)"
-        )
+        print(f"scanned {len(items)} listings -- typo-shaped pairs: {len(hits)} "
+              f"({len(new_hits)} unverified, {len(hits) - len(new_hits)} previously verified)")
         for d, name, url, note in hits:
             if note is None:
                 print(f"  NEW    d={d}  {name:34s} {url}")
@@ -167,12 +145,8 @@ def main() -> int:
             if note is not None:
                 print(f"  ok     d={d}  {name:34s} {url}\n           verified: {note}")
         if new_hits:
-            print(
-                "\nEach hit needs a human to open the site and read it. A near-miss is not"
-            )
-            print(
-                "proof of a typo: Kinetik is correctly at kineto.app, and kinetik.com is an"
-            )
+            print("\nEach hit needs a human to open the site and read it. A near-miss is not")
+            print("proof of a typo: Kinetik is correctly at kineto.app, and kinetik.com is an")
             print("unrelated NYSE-listed pipeline company.")
     return 1 if new_hits else 0
 
