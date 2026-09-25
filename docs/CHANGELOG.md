@@ -2,6 +2,23 @@
 
 Counting convention: **listed** = entries in category sections; **held** = rows in Held for Verification; **tracked** = listed + held. Sweep deltas are stated as the net change in listed entries; gross additions are called out separately where they differ (renames and variant merges make a naive name-diff overcount).
 
+## 2026-09-24 — per-category pages, and the second feed-era sweep (2,562 → 2,982 listed; held 39 → 27)
+
+**The README went dark past 512 KB.** The 9/14 sweep took the single-file README to 764,327 bytes; GitHub stops rendering a markdown file at about 512 KB, so the page cut off mid-entry inside Marketing and Sales and roughly 800 entries — Observability through Travel, plus the Held table and Related — were invisible on GitHub for ten days. Entries now live on one generated page per category under `categories/`; the README is the front page and category index. The generator fails any page over 500,000 bytes, and a new CI step runs awesome-lint's entry rules over every category page.
+
+**The web directory moved.** claude.com now serves connector pages at `/marketplace/connectors/<slug>` (old `/connectors/` paths redirect). `feed_diff.py` matched zero sitemap slugs and would have reported 34 removal candidates, 32 of them web-only entries; it now accepts both paths (835 slugs) and fails loud on zero.
+
+Feed on the day: **3,088 servers** (anthropic 9 · partner 824 · community 2,255).
+
+Count derivation:
+
+- 2,562 listed at sweep open
+- + 421 adds from 444 feed entries not on the list: − 7 sharing a listed entry's URL (five Windsor.ai variants, Jotform Apps, Bigin by Zoho CRM) − 7 variants (Orgvue US/AP/EU and Clara Mexico/Colombia/Brazil each merged into one entry; PopHIVE Public Health Data, PDF Tools and Streamline Icons, Illustrations, Emojis are naming drift of listed entries) − 2 not added (Paytm Payment Gateway, per the 9/14 ruling; Minutes Conversation Memory, handled as a rename) − 7 → Held
+- − 1 delisted under the two-surface rule: Links Connect (absent from the feed under any name or domain, from the sitemap, and its marketplace slug 404s)
+- = **2,982 listed + 27 held** (held: 39 − 13 graduated − 2 folded into listed entries + 3 new; 4 re-held with a fresh reason)
+
+Also this sweep: "Minutes — Meeting Memory for AI" renamed to the catalog's "Minutes Conversation Memory" and moved from minutes.me (a parked domain) to its product site. Five feed vendor URLs pointed at a developer portfolio, a parent company, an agency or an unrelated firm rather than the product (TryMermaid, Deley, Embarko, Screens.icu, Mappenings) and were replaced with the product's own verified domain; twelve profile, LinkedIn or image-asset feed URLs were resolved through the feed's documentation link. 10 provenance markers synced to the feed tier (exact-name matches only); Consensus, Clarity AI and Trellis were left as they are because each matches two feed records with different tiers, and the Anthropic-built PDF Viewer, Word and PowerPoint keep `A` though the feed lists them as partner tier. Not applied, for review next sweep (feed diff re-run after the merge): 191 vendor-URL drift items, 136 non-exact name matches, 40 sitemap-only slugs, 5 `C` markers suggested by loose matches. The re-run's candidate adds are exactly the 11 known non-adds above, and its one removal candidate is the Streamline rename. Snap Stack: [The small-firm litigator's Monday](stacks/2026-09-24-small-firm-litigator.md).
+
 ## 2026-09-14 — first feed-era sweep (1,629 → 2,562 listed; held 71 → 39)
 
 The first sweep applied from the Friday feed-diff report ([#16](https://github.com/rdmgator12/awesome-claude-connectors/issues/16)), rebuilt against the live directory feed on the day: **2,645 servers** (anthropic 9 · partner 794 · community 1,842). The web sitemap doubled between 9/7 and 9/11 (405 → 806 slugs), all partner/anthropic tier — still no community entries on the web surface.

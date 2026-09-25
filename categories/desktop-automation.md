@@ -2,7 +2,7 @@
 
 # Desktop Automation
 
-[All categories](../README.md#categories) · 14 connectors · Last updated September 14, 2026
+[All categories](../README.md#categories) · 15 connectors · Last updated September 24, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -14,6 +14,7 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [Dash](https://kapeli.com/dash) - Search documentation in Dash. *Use case: Quick API reference lookups from the Dash documentation browser on macOS.*
 - [Desktop Commander](https://github.com/wonderwhy-er/DesktopCommanderMCP) - Local machine automation. *Use case: File system operations, process management, system-level tasks.*
 - [e2llm](https://insitu.im) **`C`** - Connects Claude to a real browser through an extension, reading pages as structured representations and acting through per-action permission grants. *Use case: Reading a dashboard behind a login and summarizing it, filling a form on a site already signed into, clicking through a multi-step flow in an open tab.*
+- [Firefox Control](https://github.com/eyalzh/browser-control-mcp) - Manages Firefox tabs, searches browsing history, and reads page text through a paired add-on with per-domain consent. *Use case: Closing duplicate tabs, finding a page visited last week, summarizing an open article.*
 - [MacOS-MCP](https://github.com/CursorTouch/MacOS-MCP) - Lightweight macOS desktop interaction. *Use case: Computer-use automation on macOS, app and window control, system-level Mac tasks.*
 - [Read and Send iMessages](https://claude.com/plugins/imessage) - Send and read Apple Messages. *Use case: Messaging automation, reading conversation history, sending quick replies from Claude.*
 - [Remote Desktop Commander](https://mcp.desktopcommander.app) **`C`** - Hosted MCP server that gives an AI client filesystem and terminal access to a paired computer over OAuth from anywhere. *Use case: Read a file on your home desktop and run a terminal command on it from your phone.*

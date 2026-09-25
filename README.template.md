@@ -19,13 +19,13 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 > This is an independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Anthropic PBC. "Claude" and related marks are the property of Anthropic PBC. Each connector is the property of its respective owner.
 
 > [!TIP]
-> ### Connector Snap Stack — September 14, 2026
+> ### Connector Snap Stack — September 24, 2026
 >
 > Each sweep features a persona and a small stack of connectors that click together. Past stacks are archived in [docs/stacks](docs/stacks/); sweep-by-sweep history lives in the [changelog](docs/CHANGELOG.md).
 >
-> **The one-person supply chain** — Terminal49 *(new)* · Stord *(new)* · LetMeShip Next *(new)* · PostCo *(new)* · running in **Claude Desktop**
+> **The small-firm litigator's Monday** — Case Status *(new)* · lawdiver.com *(new)* · PointOne *(new)* · CourtListener · running in **Claude Desktop**
 >
-> Tuesday, one Desktop conversation: ask Terminal49 which inbound containers are still sitting at the port and pull the event history behind the one that slipped, check Stord for stock at the facility about to run the promotion and which retailer missed on-time-in-full last week, price the pallet to Spain in LetMeShip with duties estimated before committing, then rank PostCo's return reasons by SKU and ask the question none of the four dashboards can answer alone — is the SKU we're about to reorder the one customers keep sending back. Four connectors that each see one leg of the chain, with Claude holding the whole route. Composed, not yet field-tested — if you run it against a live operation, send a Field Report (see CONTRIBUTING).
+> Monday, one Desktop conversation: ask Case Status which matters have overdue tasks and which clients are waiting on a reply, pull the opinion and docket behind the ruling a client is asking about from CourtListener, run the draft opposition's citations through lawdiver to confirm each case is still good law, send the client a plain-language update through Case Status, then log the morning to the right matters in PointOne with each entry checked against that client's billing guidelines before it goes out. Four connectors that each hold one piece of the practice — the client file, the public record, the citator, the timesheet — with Claude carrying the matter across all four. Composed, not yet field-tested — if you run it against a live practice, send a Field Report (see CONTRIBUTING).
 
 ---
 
