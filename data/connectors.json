@@ -41,6 +41,14 @@
   ],
   "connectors": [
     {
+      "name": "PlayDrop",
+      "url": "https://www.playdrop.ai",
+      "marker": "C",
+      "category": "Development Tools",
+      "description": "Publishes HTML5 browser games to PlayDrop with a public link that plays on phone or desktop, tests private versions, updates a game without changing its link, and uploads a Colyseus server for hosted multiplayer.",
+      "use_case": "Putting a game built in a Claude chat online for friends to play on their phones, shipping a fix after a player reports a bug, adding a server for online two-player matches."
+    },
+    {
       "name": "GoodBarber",
       "url": "https://www.goodbarber.com",
       "marker": "C",

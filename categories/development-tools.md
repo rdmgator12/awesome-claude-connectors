@@ -2,7 +2,7 @@
 
 # Development Tools
 
-[All categories](../README.md#categories) · 135 connectors · Last updated September 25, 2026
+[All categories](../README.md#categories) · 136 connectors · Last updated September 25, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -97,6 +97,7 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [Pega Blueprint](https://blueprint.pega.com) **`C`** - Application design built on enterprise best practices. *Use case: Drafting an enterprise app workflow from a description, generating a case-management design, accelerating a Pega app build.*
 - [pg-aiguide](https://www.postgresql.org/docs/) - PostgreSQL docs and skills. *Use case: PostgreSQL query help, configuration guidance, performance tuning.*
 - [Pi Dash](https://airepublic.com) **`C`** - Coordinates coding agents across connected development machines, turning project issues into assigned tasks with progress tracking, approvals, and tested results. *Use case: Assigning a backlog issue to an agent on a build machine, checking progress mid-run, reviewing test results before approving the change.*
+- [PlayDrop](https://www.playdrop.ai) **`C`** - Publishes HTML5 browser games to PlayDrop with a public link that plays on phone or desktop, tests private versions, updates a game without changing its link, and uploads a Colyseus server for hosted multiplayer. *Use case: Putting a game built in a Claude chat online for friends to play on their phones, shipping a fix after a player reports a bug, adding a server for online two-player matches.*
 - [Port IO](https://www.getport.io) - Developer portal context lake. *Use case: Internal developer platform management, service catalog, developer experience.*
 - [Postman](https://www.postman.com) - API context and collections. *Use case: API testing, documentation, sharing request collections across teams.*
 - [Prisma](https://www.prisma.io) **`C`** - Manages Prisma PostgreSQL databases, connection strings, backups, schemas, SQL queries and Object Storage in a selected workspace, and searches Prisma documentation. *Use case: Provisioning a PostgreSQL database for a prototype, running a query to confirm a migration landed, finding the docs page for a schema directive.*
