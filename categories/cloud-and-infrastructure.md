@@ -2,7 +2,7 @@
 
 # Cloud and Infrastructure
 
-[All categories](../README.md#categories) · 72 connectors · Last updated September 25, 2026
+[All categories](../README.md#categories) · 73 connectors · Last updated September 25, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -66,6 +66,7 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [Roar AI](https://www.roar-ai.com) **`C`** - Creates and scopes API keys, checks spend and budgets, inspects requests, and deploys apps from GitHub with databases, domains, logs, and rollbacks. *Use case: Deploying an app from a GitHub repo, checking API spend against budget, rolling back a bad release.*
 - [Servebolt](https://servebolt.com) **`C`** - Creates sites, deploys code, manages domains and cron jobs, flushes cache, and provisions SSL certificates on Servebolt infrastructure. *Use case: Spinning up a staging site for a client build, clearing cache after a deploy, issuing an SSL certificate for a newly pointed domain.*
 - [Setyl](https://setyl.com) **`C`** - Tracks IT assets, software licenses, usage, and spend, covering who holds what, where it sits, and when it changed. *Use case: Finding which laptops are assigned to a departing employee, spotting licenses nobody has used this quarter, reviewing software spend before a renewal.*
+- [Shipvela](https://shipvela.com) **`C`** - Publish supported websites with owner confirmation and inspect deployment status and build logs. *Use case: Preparing a small static portfolio for owner review, checking a failed build, retrieving the live HTTPS URL after publishing.*
 - [SimpleBackups](https://simplebackups.com) **`C`** - Checks SimpleBackups health across databases, servers, and SaaS apps, diagnoses failed runs from console output, and triggers runs, schedule changes, or restores. *Use case: Finding which backups failed in the last week, reading the console output behind a failed PostgreSQL run, preparing a restore for a specific date.*
 - [Simply.com public](https://www.simply.com) **`C`** - Check availability of domains. *Use case: Checking whether a specific .com domain is still available before registering it, comparing availability across a few name variations for a new project.*
 - [Sprites](https://fly.io/sprites) - Creates and manages Fly.io Sprites, hardware-isolated persistent Linux environments for running arbitrary code. *Use case: Spinning up an isolated environment for a scratch script, checking which sprites are still running, tearing one down after a test.*

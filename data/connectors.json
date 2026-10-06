@@ -25553,6 +25553,14 @@
       "category": "Productivity",
       "description": "Local bridge that gives Claude and other AI tools access to your Paste clipboard history and pinboards on a Mac.",
       "use_case": "Finding a link you copied last week, pulling a saved snippet from a pinboard, reusing text copied on another device."
+    },
+    {
+      "name": "Shipvela",
+      "url": "https://shipvela.com",
+      "marker": "C",
+      "category": "Cloud and Infrastructure",
+      "description": "Publish supported websites with owner confirmation and inspect deployment status and build logs.",
+      "use_case": "Preparing a small static portfolio for owner review, checking a failed build, retrieving the live HTTPS URL after publishing."
     }
   ],
   "held": [
