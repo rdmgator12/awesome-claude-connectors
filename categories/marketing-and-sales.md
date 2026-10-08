@@ -2,7 +2,7 @@
 
 # Marketing and Sales
 
-[All categories](../README.md#categories) · 518 connectors · Last updated September 25, 2026
+[All categories](../README.md#categories) · 519 connectors · Last updated September 25, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -518,6 +518,7 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [Postiz](https://postiz.com) **`C`** - Lists connected social channels, drafts and schedules posts across X, LinkedIn, Instagram, TikTok, Reddit, and others, and returns account analytics. *Use case: Queueing a launch post across four channels, checking which channels are still connected, reviewing engagement after a campaign week.*
 - [PostNitro](https://postnitro.ai) **`C`** - Creates social carousels and image posts, manages brand kits and connected social accounts, and schedules posts for publication. *Use case: Turning a product update into a five-slide carousel, applying a saved brand kit to the images, scheduling the post for Tuesday morning.*
 - [Postproxy](https://postproxy.dev) **`C`** - Publish, schedule, and manage social media across every connected account — plus comments, DMs, and analytics — without leaving Claude. *Use case: Scheduling the same announcement across every connected account, replying to a DM asking about a return policy, checking which post drove the most comments this week.*
+- [PostWire](https://postwire.io) **`C`** - Writes a separate post for each social network from one idea, publishes or schedules it to TikTok, Instagram, YouTube, LinkedIn, Facebook Pages, Bluesky, Mastodon, Telegram, and Discord, and lists or cancels queued posts. *Use case: Posting one product video to TikTok, Instagram Reels, and YouTube Shorts with a different caption on each, queuing a LinkedIn and Bluesky launch post for Friday morning, cancelling a post that is no longer needed.*
 - [Publora](https://publora.com) **`C`** - Drafts, schedules, and publishes posts with images or video to ten social networks, including LinkedIn, X, Instagram, TikTok, and Bluesky. *Use case: Scheduling a pricing announcement on LinkedIn and Bluesky, saving a post as a draft for review, checking which accounts are connected.*
 - [Rebbel](https://www.rebbel.io) **`C`** - AI marketing department — you approve every post. *Use case: Reviewing a post drafted by an AI marketing team before it goes out, approving or rejecting it.*
 - [Reepl](https://abhibavishi.com) **`C`** - Plans, drafts, schedules, publishes, and analyzes LinkedIn, X, and Reddit content, manages contacts and lists, and applies a trained voice profile. *Use case: Drafting a week of LinkedIn posts in a saved voice, checking which post drew the most engagement, building a carousel from a saved template.*

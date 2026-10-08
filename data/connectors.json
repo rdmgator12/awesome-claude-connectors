@@ -25553,6 +25553,15 @@
       "category": "Productivity",
       "description": "Local bridge that gives Claude and other AI tools access to your Paste clipboard history and pinboards on a Mac.",
       "use_case": "Finding a link you copied last week, pulling a saved snippet from a pinboard, reusing text copied on another device."
+    },
+    {
+      "name": "PostWire",
+      "url": "https://postwire.io",
+      "marker": "C",
+      "category": "Marketing and Sales",
+      "description": "Writes a separate post for each social network from one idea, publishes or schedules it to TikTok, Instagram, YouTube, LinkedIn, Facebook Pages, Bluesky, Mastodon, Telegram, and Discord, and lists or cancels queued posts.",
+      "use_case": "Posting one product video to TikTok, Instagram Reels, and YouTube Shorts with a different caption on each, queuing a LinkedIn and Bluesky launch post for Friday morning, cancelling a post that is no longer needed.",
+      "subcategory": "Social Media and Influencer Marketing"
     }
   ],
   "held": [
