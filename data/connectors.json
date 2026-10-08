@@ -24416,7 +24416,7 @@
     },
     {
       "name": "Superscout Platform",
-      "url": "https://new.superscout.co",
+      "url": "https://app.superscout.co",
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Reads and updates a venture scout's profile, personas, scouting settings, investment preferences, lists, follows, and private organization records.",
@@ -25529,14 +25529,6 @@
       "subcategory": "Geospatial and Industry Data"
     },
     {
-      "name": "Dango",
-      "url": "https://trydango.com",
-      "marker": "C",
-      "category": "Design and Creative",
-      "description": "Builds on-brand presentation decks from a chat, using a brand kit read from your website.",
-      "use_case": "Turning meeting notes into a branded deck, creating a pitch deck in a client's colors, updating slides after feedback."
-    },
-    {
       "name": "Denodo MCP Connector",
       "url": "https://community.denodo.com/docs/html/document/denodoconnects/latest/en/Denodo%20MCP%20Server%20-%20User%20Manual",
       "marker": null,
@@ -25718,6 +25710,11 @@
       "name": "Capi Agent",
       "catalog_description": "Find products from independent online stores in Saudi Arabia, the Gulf and Türkiye",
       "why_held": "shares its vendor URL with Capi Agent for Merchants, whose product that page is; no page for the shopping connector was found (2026-09-25)"
+    },
+    {
+      "name": "Dango",
+      "catalog_description": "Build beautiful presentations, in your own brand.",
+      "why_held": "vendor site and its docs page return Cloudflare 530 (origin unreachable) on every check since 2026-09-28; graduated 2026-09-25, re-held 2026-10-08 until the site is back."
     }
   ]
 }

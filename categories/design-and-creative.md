@@ -2,7 +2,7 @@
 
 # Design and Creative
 
-[All categories](../README.md#categories) · 107 connectors · Last updated September 25, 2026
+[All categories](../README.md#categories) · 106 connectors · Last updated September 25, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -34,7 +34,6 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [CoCanvas](https://cocanvas.studio) **`C`** - Reads CoCanvas design projects, rooms, selections, moodboards, tasks, products, vendors, clients, and purchase orders, and drafts moodboards, tasks, notes, and orders. *Use case: Checking the paint and product selections for a room, building a moodboard from current selections, drafting a purchase order for review.*
 - [Coret](https://coret.id) **`C`** - Creates and refines collaborative mind maps in a Coret workspace, coordinates Pad tasks, and maintains Book documents. *Use case: Turning a brainstorm into a structured mind map, adding a task on a shared pad, updating a workspace document after a meeting.*
 - [Cosmos Video Agent](https://www.meetcosmos.com) **`C`** - Searches your team's Cosmos video library by topic and points to the exact moment that matches. *Use case: Finding past projects to show a prospect, locating the moment a client mentions a product, sharing a clip link with a colleague.*
-- [Dango](https://trydango.com) **`C`** - Builds on-brand presentation decks from a chat, using a brand kit read from your website. *Use case: Turning meeting notes into a branded deck, creating a pitch deck in a client's colors, updating slides after feedback.*
 - [Descript](https://www.descript.com) - Import, edit, or create video with prompts. *Use case: Podcast and video editing through transcript editing, AI voice cloning, automated multi-cam editing, and script-driven video production.*
 - [DittoDub](https://dittodub.com) **`C`** - Manages multilingual video dubbing projects, including transcript and dubbing status, usage and completed downloads. *Use case: Checking which videos have finished dubbing, downloading Spanish captions for an upload, submitting an English transcript for a new video.*
 - [draw.io](https://www.drawio.com) **`C`** - Create diagrams in chat, edit them in draw.io. *Use case: Sketching a quick flowchart in chat, then opening it in draw.io to clean up the layout before sharing.*

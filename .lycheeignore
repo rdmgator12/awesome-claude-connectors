@@ -27,3 +27,7 @@ https://elixion.ai/.*
 # valossa.com — 401 Unauthorized to lychee from the GitHub runner on 2026-09-07 (#13) and 2026-09-25 (#22); an Exa crawl
 # on 2026-09-25 returned the real page ("Video AI Assistant ... | Valossa"). Auth-walls bots, not dead.
 https://valossa.com/.*
+# fred.stlouisfed.org — "HTTP/2 protocol error" to lychee from the GitHub runner on 2026-09-28 (#24) and 2026-10-05 (#29),
+# and curl gets no response from a residential network; an Exa crawl on 2026-10-08 returned the live FRED homepage.
+# Same class as getyourguide.com: the break is the HTTP/2 negotiation, not the site.
+https://fred.stlouisfed.org/.*
