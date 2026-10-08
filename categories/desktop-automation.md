@@ -2,7 +2,7 @@
 
 # Desktop Automation
 
-[All categories](../README.md#categories) · 15 connectors · Last updated September 25, 2026
+[All categories](../README.md#categories) · 16 connectors · Last updated October 8, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -19,5 +19,6 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [Read and Send iMessages](https://claude.com/plugins/imessage) - Send and read Apple Messages. *Use case: Messaging automation, reading conversation history, sending quick replies from Claude.*
 - [Remote Desktop Commander](https://mcp.desktopcommander.app) **`C`** - Hosted MCP server that gives an AI client filesystem and terminal access to a paired computer over OAuth from anywhere. *Use case: Read a file on your home desktop and run a terminal command on it from your phone.*
 - [Rooster Wake](https://roosterwake.com) **`C`** - Wakes registered computers over Wake-on-LAN, reports their power state, holds them awake or sleeps them, and starts headless Claude Code sessions. *Use case: Waking a dev machine from a phone, holding it awake through a long build, starting a coding session in a registered folder.*
+- [Still Dock](https://stilldock.com) **`C`** - Checks which Mac Dock locks are active and turns locks on or off for Dock size, position, hide and show behavior, contents, display setting and Cmd Q on connected Macs. *Use case: Locking the Dock after rearranging apps, unlocking the Dock position to move it to the left edge, checking which locks are on before a presentation.*
 - [Vybit Notifications](https://vybit.net) - Custom push notification routing and alert delivery. *Use case: Custom alert systems, notification routing, event-driven alerts.*
 - [Windows-MCP](https://github.com/CursorTouch/Windows-MCP) - Windows OS automation and system control. *Use case: Windows application automation, file management, system administration tasks.*

@@ -19,13 +19,13 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 > This is an independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Anthropic PBC. "Claude" and related marks are the property of Anthropic PBC. Each connector is the property of its respective owner.
 
 > [!TIP]
-> ### Connector Snap Stack — September 24, 2026
+> ### Connector Snap Stack — October 8, 2026
 >
 > Each sweep features a persona and a small stack of connectors that click together. Past stacks are archived in [docs/stacks](docs/stacks/); sweep-by-sweep history lives in the [changelog](docs/CHANGELOG.md).
 >
-> **The small-firm litigator's Monday** — Case Status *(new)* · lawdiver.com *(new)* · PointOne *(new)* · CourtListener · running in **Claude Desktop**
+> **The medical-bill and appeal night** — Med Bill Check *(new)* · Appeal My Claim *(new)* · Google Drive · Google Calendar · running in **Claude Desktop**
 >
-> Monday, one Desktop conversation: ask Case Status which matters have overdue tasks and which clients are waiting on a reply, pull the opinion and docket behind the ruling a client is asking about from CourtListener, run the draft opposition's citations through lawdiver to confirm each case is still good law, send the client a plain-language update through Case Status, then log the morning to the right matters in PointOne with each entry checked against that client's billing guidelines before it goes out. Four connectors that each hold one piece of the practice — the client file, the public record, the citator, the timesheet — with Claude carrying the matter across all four. Composed, not yet field-tested — if you run it against a live practice, send a Field Report (see CONTRIBUTING).
+> The person in the household who handles the medical paperwork, one Desktop conversation: pull the itemized ER bill and the insurer's Explanation of Benefits from the family folder in Google Drive, run each line of the bill through Med Bill Check against the Medicare rate for the state, decode the denial code on the EOB with Appeal My Claim and check the appeal deadline for that plan type, have Appeal My Claim draft the appeal letter and Med Bill Check draft a financial-assistance request to the hospital, then put the appeal deadline and a follow-up reminder on Google Calendar. Two new connectors that know the billing and appeal rules, two proven ones that hold the paperwork and the dates, with Claude carrying the case between them; both letters come out as drafts to review and send. Composed, not yet field-tested — if you run it against a live bill, send a Field Report (see CONTRIBUTING).
 
 ---
 

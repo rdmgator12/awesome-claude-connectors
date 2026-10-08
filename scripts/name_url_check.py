@@ -52,6 +52,12 @@ VERIFIED = {
         "site title is 'Plan@Job | The AI CRM for contractors'; the domain spells the '@' as 'a'",
     ("NoveLand", "novel-land.com"):
         "site title is 'トップページ | NoveLand' (a Japanese novel platform); the domain hyphenates the brand",
+    ("Better Angles", "beterangles.com"):
+        "site title is 'Better Angles · El CRM para infoproductores' (verified 2026-10-08); the vendor's domain drops a 't'",
+    ("C8 FX Hedge", "c8hedge.com"):
+        "site title is 'C8 Hedge — AI-Powered FX Hedging' (verified 2026-10-08); 'FX' is a descriptor, not part of the brand",
+    ("Sgewise", "segwise.ai"):
+        "the catalog spells the name 'Sgewise' (slug sgewise); the vendor is Segwise and the site is its product page (verified 2026-10-08)",
 }
 
 
