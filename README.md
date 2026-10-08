@@ -4,9 +4,9 @@
   <img src="media/banner.svg" alt="Awesome Claude Connectors" width="800">
 </p>
 
-> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 3,046 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 26 held pending vendor verification, organized by category with descriptions and use cases.
+> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 3,047 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 26 held pending vendor verification, organized by category with descriptions and use cases.
 
-**Last updated:** September 25, 2026 | **Connectors tracked:** 3,046 listed + 26 held | **Categories:** 30
+**Last updated:** September 25, 2026 | **Connectors tracked:** 3,047 listed + 26 held | **Categories:** 30
 
 Claude connectors are MCP (Model Context Protocol) servers that extend Claude with real-time access to external tools, data sources, and services. They work across Claude.ai, Claude Desktop, Claude Mobile, Claude Code, and Claude Cowork. Connectors in the **curated web directory** are vetted by Anthropic for security, reliability, and compatibility; the **in-app catalog** additionally surfaces community-built and local desktop-extension connectors that Anthropic makes available but does not itself build or vet. This list tracks the union of both surfaces — see CONTRIBUTING.md for the two-surface methodology.
 
@@ -65,7 +65,7 @@ Each category has its own page; the list outgrew what GitHub will render as a si
 | [Lifestyle and Local](categories/lifestyle-and-local.md)                   | 126        |
 | [Marketing and Sales](categories/marketing-and-sales.md)                   | 519        |
 | [Observability and Monitoring](categories/observability-and-monitoring.md) | 35         |
-| [Productivity](categories/productivity.md)                                 | 194        |
+| [Productivity](categories/productivity.md)                                 | 195        |
 | [Project Management](categories/project-management.md)                     | 105        |
 | [Research and Academic](categories/research-and-academic.md)               | 51         |
 | [SAP](categories/sap.md)                                                   | 4          |

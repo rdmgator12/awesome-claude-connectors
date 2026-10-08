@@ -25570,6 +25570,14 @@
       "description": "Writes a separate post for each social network from one idea, publishes or schedules it to TikTok, Instagram, YouTube, LinkedIn, Facebook Pages, Bluesky, Mastodon, Telegram, and Discord, and lists or cancels queued posts.",
       "use_case": "Posting one product video to TikTok, Instagram Reels, and YouTube Shorts with a different caption on each, queuing a LinkedIn and Bluesky launch post for Friday morning, cancelling a post that is no longer needed.",
       "subcategory": "Social Media and Influencer Marketing"
+    },
+    {
+      "name": "Aitho",
+      "url": "https://aitho.app",
+      "marker": "C",
+      "category": "Productivity",
+      "description": "Turn a slide deck into a talk to rehearse and deliver, with a voice-following script, slides that advance on spoken words, and private Q&A from the presenter's own material.",
+      "use_case": "Turning a pitch deck into a scripted talk, rehearsing a conference keynote with slides that advance on cue, practising answers to likely audience questions."
     }
   ],
   "held": [

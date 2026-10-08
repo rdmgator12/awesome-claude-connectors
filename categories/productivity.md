@@ -2,7 +2,7 @@
 
 # Productivity
 
-[All categories](../README.md#categories) · 194 connectors · Last updated September 25, 2026
+[All categories](../README.md#categories) · 195 connectors · Last updated September 25, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -11,6 +11,7 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [Agentwork](https://agentwork.com) **`C`** - Answers questions across a company's connected Slack, Google Workspace, Notion, Linear, GitHub, email, and CRM, citing the records each answer came from. *Use case: Finding who owns the billing service, checking what was promised a customer about data residency, tracing why an onboarding flow was replaced last year.*
 - [Airepoto](https://www.airepoto.com) **`C`** - Find, read, and summarize your Airepoto meetings. *Use case: Finding last Tuesday's meeting, summarizing what was decided, checking who was assigned a follow-up.*
 - [Airtable](https://www.airtable.com) - Structured data in Claude. *Use case: Database-spreadsheet hybrid, project tracking, content calendars, inventory management.*
+- [Aitho](https://aitho.app) **`C`** - Turn a slide deck into a talk to rehearse and deliver, with a voice-following script, slides that advance on spoken words, and private Q&A from the presenter's own material. *Use case: Turning a pitch deck into a scripted talk, rehearsing a conference keynote with slides that advance on cue, practising answers to likely audience questions.*
 - [Alt](https://altalt.io) **`C`** - Read-only access to Alt notes, returning note lists, full transcripts, and generated summaries from recorded lectures and meetings, paginated for long recordings. *Use case: Reviewing what a lecture covered before an exam, pulling action items out of last week's meeting, finding where in a two-hour recording a decision was made.*
 - [Anota](https://anota.cloud/en/) **`C`** - Builds and publishes online forms with 25+ field types, conditional logic, and templates, then collects submissions and sets up webhooks. *Use case: Creating a job application form from one sentence, adding logic that calculates a quote, pulling in new submissions.*
 - [AnyDB](https://www.anydb.com) **`C`** - Finds, creates, updates, and moves business records, searches them by meaning, handles files, and builds record types, views, reports, forms, and event-driven workflows. *Use case: Finding every supplier record that mentions a delay, adding a formula field to a record type, setting up a workflow that fires on a status change.*
