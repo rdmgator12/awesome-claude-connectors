@@ -25953,7 +25953,7 @@
     },
     {
       "name": "My Flohmarkt",
-      "url": "https://krola.de",
+      "url": "https://my-flohmarkt.de",
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Searches flea markets, yard sales, children's markets and antique markets in Germany by city, postal code, date range or radius, reads event details, and lists recently added or updated listings.",
@@ -26185,7 +26185,7 @@
     },
     {
       "name": "The Pantry Butler",
-      "url": "https://mymediamatters.com",
+      "url": "https://thepantrybutler.com",
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Suggests dinner recipes ranked by how many ingredients are already in the pantry, fridge and freezer, naming missing items, lists saved recipes with creator credit, and adds kitchen items or saves recipes from links.",
@@ -26260,7 +26260,7 @@
     },
     {
       "name": "Winegenie",
-      "url": "https://www.littlebluetribe.com",
+      "url": "https://winegenie.com",
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Searches UK merchant wine listings by taste, grape, region, dish, occasion or price, compares bottles, suggests alternatives and builds a case, showing taste profiles, drinking windows and the cheapest live price.",
@@ -26417,7 +26417,7 @@
     },
     {
       "name": "Kallax.io",
-      "url": "https://adequatesource.com",
+      "url": "https://kallax.io",
       "marker": "C",
       "category": "Entertainment",
       "description": "Searches a board game catalogue by player count, playtime, designer and complexity, looks through public user and community collections and wishlists, and finds nearby game events, cafés, clubs and stores.",
@@ -26449,7 +26449,7 @@
     },
     {
       "name": "Multi Mail",
-      "url": "https://lumman.co",
+      "url": "https://lumman.co/mcp",
       "marker": "C",
       "category": "Communication",
       "description": "Searches and reads mail across Outlook.com, Microsoft 365 and Gmail mailboxes at once, extracts text from PDF, Word, Excel and scanned attachments, drafts, replies, forwards and sends, and manages labels, filters and vacation replies.",
@@ -26834,7 +26834,7 @@
     },
     {
       "name": "TriDot",
-      "url": "https://www.predictive.fit",
+      "url": "https://tridot.com",
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Reads the triathlon training plan, completed sessions with sensor traces, training load, Dot scores, zones, races and race predictions, and lets coaches view assigned athletes, comment on sessions and add calendar notes.",
@@ -26987,7 +26987,7 @@
     },
     {
       "name": "Knighn",
-      "url": "https://ljk.dev",
+      "url": "https://knighn.com",
       "marker": "C",
       "category": "Design and Creative",
       "description": "Searches designs, screens, components, styles and templates in a Knighn account, runs scripts that create or edit code-based designs written as TSX with Tailwind for React or React Native projects, and screenshots frames when the Mac app runs.",
@@ -27037,7 +27037,7 @@
     },
     {
       "name": "Set Design",
-      "url": "https://adidot.com",
+      "url": "https://setdesign.app",
       "marker": "C",
       "category": "Design and Creative",
       "description": "Builds 3D device shots in an open Set browser window, placing phones, tablets, laptops and displays, putting images or video on screens, setting camera, lights, backdrop and motion presets, and exporting stills or video.",
@@ -27121,7 +27121,7 @@
     },
     {
       "name": "AnalyticsLog",
-      "url": "https://softweb.inf.br",
+      "url": "https://analyticslog.io",
       "marker": "C",
       "category": "Data and Analytics",
       "description": "Queries a Brazilian carrier's monthly billing totals, per-client billing and logistics details, and documents available for transfer between branch units on the AnalyticsLog logistics platform, all read-only.",
@@ -27233,7 +27233,7 @@
     },
     {
       "name": "AttentionWatch",
-      "url": "https://montorox.com",
+      "url": "https://attentionwatch.com",
       "marker": "C",
       "category": "AI and ML",
       "description": "Searches a public directory of AI products, explores its categories, finds related tools, lists recent launches and a product's launch history, and shows organic trending activity from the past 24 hours.",
@@ -27241,7 +27241,7 @@
     },
     {
       "name": "Auto-Immo",
-      "url": "https://iviu.ai/about/",
+      "url": "https://auto-immo.com",
       "marker": "C",
       "category": "Data and Analytics",
       "description": "Reads room-by-room measurements, photos, floor plans, thermal images, voice notes and priced quotes from surveyed properties, plus Belgian EPC class and flood-risk data for an address, all read-only.",
@@ -27461,7 +27461,7 @@
     },
     {
       "name": "ConstruChain Vision",
-      "url": "https://www.construchain.com.br",
+      "url": "https://docs.construchainglobal.com",
       "marker": "C",
       "category": "Data and Analytics",
       "description": "Lists processed BIM models in a ConstruChain Vision workspace, inspects their property schemas, runs bounded read-only analytical queries on Autodesk-linked or native IFC models, and publishes dashboards on request.",
@@ -27809,7 +27809,7 @@
     },
     {
       "name": "InfiniteWatch MCP",
-      "url": "https://app.infinitewatch.ai",
+      "url": "https://infinitewatch.ai",
       "marker": null,
       "category": "Customer Support",
       "description": "Analyzes customer interactions from voice calls, text conversations and web sessions to surface top issues, trends, channel comparisons, operational risks and agent performance, with supporting examples and interaction summaries.",
@@ -27878,7 +27878,7 @@
     },
     {
       "name": "Kommuneoversikt",
-      "url": "https://www.svartalfheim.no",
+      "url": "https://kommuneoversikt.no",
       "marker": "C",
       "category": "Government and Nonprofit",
       "description": "Searches public key figures for Norway's 357 municipalities, covering property tax and municipal fees, population, schools, elections and finances, and returns up to ten matching pages with excerpts.",
@@ -28088,7 +28088,7 @@
     },
     {
       "name": "Nexatron",
-      "url": "https://dotsolved.ai",
+      "url": "https://nexatron.io",
       "marker": "C",
       "category": "Data and Analytics",
       "description": "Answers business questions across connected enterprise data sources, queries and compares metrics against approved definitions, explains how metrics are calculated, and runs dry-runs or approved actions within workspace permissions.",
@@ -28155,7 +28155,7 @@
     },
     {
       "name": "OpenAlex",
-      "url": "https://ourresearch.org",
+      "url": "https://openalex.org",
       "marker": "C",
       "category": "Research and Academic",
       "description": "Searches more than 250 million scholarly works, authors and institutions with keyword or semantic queries filtered by year, type or open-access status and ranked by citation count, traces citations, checks bibliographies for fabricated references, and profiles research output by institution, funder or topic.",
@@ -28256,7 +28256,7 @@
     },
     {
       "name": "publicdata.au",
-      "url": "https://nationaldigital.com.au",
+      "url": "https://publicdata.au",
       "marker": "C",
       "category": "Government and Nonprofit",
       "description": "Searches, filters, counts and sums Australian government open datasets republished as versioned files, compares releases row by row, searches government portals, and votes for unserved datasets to build next.",
@@ -28306,7 +28306,7 @@
     },
     {
       "name": "Rental Market Data",
-      "url": "https://hermanchan.ai",
+      "url": "https://hermanchan.ai/connectors/rental-market-data/",
       "marker": "C",
       "category": "Data and Analytics",
       "description": "Screens US build-to-rent and multifamily sites with nearby permitted supply, asking and net-effective rent comps, ring demographics and jobs, and ZIP-versus-metro home values, citing every source.",
@@ -28440,7 +28440,7 @@
     },
     {
       "name": "Solo Cloud",
-      "url": "https://rogii.com",
+      "url": "https://solo.cloud",
       "marker": "C",
       "category": "Data and Analytics",
       "description": "Reads and edits Solo Cloud well data, including trajectories, logs, mudlogs, formation tops, geosteering interpretations, completions and production curves, and pulls real-time drilling traces, rig activity and map context.",
@@ -28594,7 +28594,7 @@
     },
     {
       "name": "The Economist - Graphs",
-      "url": "https://www.economist.com",
+      "url": "https://mcp-app.economist.com/docs/connector",
       "marker": null,
       "category": "Government and Nonprofit",
       "description": "Retrieves and charts data from The Economist's Trump approval tracker, covering national and state popularity and issues such as the economy, health care and immigration, broken down by age, education, race and sex.",
@@ -28654,7 +28654,7 @@
     },
     {
       "name": "Track Evolution",
-      "url": "https://speedshift.io",
+      "url": "https://trackevolution.app",
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Reads a track-day driver's logbook, including lap times, sector splits, theoretical fastest laps, telemetry analysis by corner, setup sheets, garage and consumable wear, and visible leaderboards, without changing anything.",
@@ -28671,7 +28671,7 @@
     },
     {
       "name": "TunisiAPI",
-      "url": "https://azyzex.github.io/AzyzPortfolio/",
+      "url": "https://github.com/azyzex/tunisia-data-mcp",
       "marker": "C",
       "category": "Government and Nonprofit",
       "description": "Looks up Tunisian official statistics from the INS portal and the national open data portal, covering population, prices, jobs and health by governorate, with time series, regional rankings, census tables, projections and dataset file previews.",
@@ -29146,7 +29146,7 @@
     },
     {
       "name": "Everframe",
-      "url": "https://scriptx.com",
+      "url": "https://everframe.dev",
       "marker": "C",
       "category": "Development Tools",
       "description": "Reads Everframe bug reports, error groups and tickets from web, mobile and TV apps, including annotated screenshots, console logs, network requests, breadcrumbs and device context, and resolves pasted dashboard links, with read-only access.",
@@ -29282,7 +29282,7 @@
     },
     {
       "name": "IceShore",
-      "url": "https://www.launchers.co.jp",
+      "url": "https://iceshore.ai",
       "marker": "C",
       "category": "Development Tools",
       "description": "Stores system architecture descriptions and business use cases drafted from design documents and infrastructure code such as CloudFormation or Terraform, generates architecture diagrams, keeps notes, and serves them back so Claude can explain a change's business impact.",
@@ -29637,7 +29637,7 @@
     },
     {
       "name": "Release Desk",
-      "url": "https://appliedfrontier.ai",
+      "url": "https://mcp-apps-muller.netlify.app/release-desk/",
       "marker": "C",
       "category": "AI and ML",
       "description": "Returns dated summaries with source links of what Anthropic shipped, changed or retired, covering model launches and retirements, Claude app features, Claude Code releases, API and Agent SDK changes, connectors, plans and pricing.",
@@ -29733,7 +29733,7 @@
     },
     {
       "name": "STMA",
-      "url": "https://www.matteai.com",
+      "url": "https://stma.ai",
       "marker": "C",
       "category": "Development Tools",
       "description": "Shows what connected coding agents are working on, assigns work and hands it off between agents and machines at the exact Git commit, reads workspace rules, compares machine environments, and searches past solved issues and team knowledge.",
@@ -29797,7 +29797,7 @@
     },
     {
       "name": "TurboStack",
-      "url": "https://www.hosted-power.com",
+      "url": "https://turbostack.app",
       "marker": "C",
       "category": "Cloud and Infrastructure",
       "description": "Lists TurboStack hosts and configuration, reviews health issues and Threat Center findings, reads service, load, memory and disk monitoring, follows deploy status, and publishes a host's saved configuration.",
@@ -29869,7 +29869,7 @@
     },
     {
       "name": "WebMCP Evaluator",
-      "url": "https://www.sunbusinessgroup.com",
+      "url": "https://webmcp-eval.com",
       "marker": null,
       "category": "SEO and Web",
       "description": "Evaluates a public HTTPS page for agent readiness, reporting page intent, registered WebMCP tools, recommended tools and a do-not-expose list, with paid evaluations drawn from a prepaid credit wallet.",
@@ -30190,14 +30190,6 @@
       "use_case": "Reviewing VFR weather minimums for Class E airspace, practicing weight and balance questions before the written test, finding which PHAK chapter covers carburetor icing."
     },
     {
-      "name": "Prativedan",
-      "url": "https://pitam.com.np",
-      "marker": "C",
-      "category": "Education",
-      "description": "Lists university report formats, starts internship or project reports, fills sections from notes, adds numbered figures, checks missing parts, and builds a formatted Word document with cover page and table of contents.",
-      "use_case": "Drafting an internship report in a course's prescribed format, adding a system diagram as a numbered figure, checking what is still missing before submission."
-    },
-    {
       "name": "Rotate Pilot",
       "url": "https://rotatepilot.com",
       "marker": "C",
@@ -30386,7 +30378,7 @@
     },
     {
       "name": "BankBridge",
-      "url": "https://greatwork.company",
+      "url": "https://bankbridge.money",
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Fetches live, read-only data from connected US bank, credit card and brokerage accounts, including balances, transactions, spending summaries, recurring charges, monthly cashflow and investment holdings with gain or loss.",
@@ -30583,7 +30575,7 @@
     },
     {
       "name": "CryptoETF",
-      "url": "https://zerosix.studio",
+      "url": "https://cryptoetf.today",
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Reports daily net flows for US spot crypto ETFs across thirteen assets, with up to 30 days of history per asset, weekly flow analytics, a 0 to 100 CEFI sentiment index and spot prices.",
@@ -30672,7 +30664,7 @@
     },
     {
       "name": "Docurier",
-      "url": "https://finodata.com",
+      "url": "https://docurier.com",
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Lists and opens received e-invoices and credit notes, validates and sends UBL or CII e-invoices over the Peppol network, checks whether a recipient can receive a document type, and searches the Peppol Directory.",
@@ -30929,7 +30921,7 @@
     },
     {
       "name": "InvoiceIQ",
-      "url": "https://analytos.ai",
+      "url": "https://invoiceiq.analytos.ai",
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Lists and opens supplier invoices with extracted headers and GL-coded lines, explains coding decisions, checks 2-way and 3-way match reports, uploads PDFs for processing, answers spend questions, and posts confirmed vendor bills to NetSuite or another ERP.",
@@ -30974,7 +30966,7 @@
     },
     {
       "name": "Keni",
-      "url": "https://www.seria.moe",
+      "url": "https://keni-api.seria.moe/docs",
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Creates, updates and deletes transactions, including grouped and batch entries, plus wallets, categories, tags, budgets and recurring rules in the Keni personal finance tracker, and reports spending summaries, category breakdowns and monthly trends with currency conversion.",
@@ -31658,7 +31650,7 @@
     },
     {
       "name": "Epidemiakartta",
-      "url": "https://www.kuviogroup.fi",
+      "url": "https://epidemiakartta.fi",
       "marker": "C",
       "category": "Healthcare and Life Sciences",
       "description": "Reports Finland's current infectious disease situation from official THL data, including epidemic levels, four-week trends, primary care visits, hospital care, wastewater monitoring and influenza vaccination coverage, nationally and for all 23 wellbeing services counties.",
@@ -31786,7 +31778,7 @@
     },
     {
       "name": "Seqout",
-      "url": "https://saketlab.org",
+      "url": "https://seqout.org",
       "marker": "C",
       "category": "Healthcare and Life Sciences",
       "description": "Searches sequencing datasets across GEO, SRA, ENA, DRA, GEA, GSA and ArrayExpress, converts accessions, returns harmonized sample and publication metadata with read-derived details like bacterial or viral content, sex and species, and generates download scripts.",
@@ -31962,7 +31954,7 @@
     },
     {
       "name": "eudr",
-      "url": "https://vortx.ai",
+      "url": "https://eudr.dev",
       "marker": "C",
       "category": "Legal",
       "description": "Checks production plots against the EUDR 2020 forest cut-off using JRC and Hansen forest-loss data, issues signed deforestation assessments, requests supplier evidence, and prepares Annex II Due Diligence Statements for commodities like cocoa, coffee and soya.",
@@ -32090,7 +32082,7 @@
     },
     {
       "name": "Lexnus",
-      "url": "https://preciselycontracts.com",
+      "url": "https://lexnus.com",
       "marker": "C",
       "category": "Legal",
       "description": "Searches approved clause libraries and playbook rules, assembles contracts from controlled language, analyses agreements against playbooks with a deterministic policy engine, saves versions, lists obligations, and sends contracts for signature with reminders.",
@@ -32585,7 +32577,7 @@
     },
     {
       "name": "themeparkie.com",
-      "url": "https://broddin.be",
+      "url": "https://themeparkie.com",
       "marker": "C",
       "category": "Travel",
       "description": "Lists theme parks in Belgium, France, Germany, Denmark and the Netherlands and returns current ride waiting times along with each ride's waiting-time history.",
@@ -32715,7 +32707,7 @@
     },
     {
       "name": "Family Box",
-      "url": "https://www.salzundschmalz.at",
+      "url": "https://www.salzundschmalz.at/family-box/claude",
       "marker": "C",
       "category": "Productivity",
       "description": "Adds, checks off and reviews items on a shared household shopping list sorted by store, manages packing and free-form lists from templates, and saves and updates ideas, with no ability to delete.",
@@ -32911,7 +32903,7 @@
     },
     {
       "name": "Align",
-      "url": "https://bnashsandbox.com",
+      "url": "https://align.bnashsandbox.com",
       "marker": "C",
       "category": "Productivity",
       "description": "Reads tasks, notes, projects, goals, habits and a simple money log from an Align planner, creates or updates tasks, writes notes, marks tasks done, and updates projects.",
@@ -32927,7 +32919,7 @@
     },
     {
       "name": "AlloChristian",
-      "url": "https://www.zenibiz.com",
+      "url": "https://www.allochristian.com",
       "marker": "C",
       "category": "CMS and Web Building",
       "description": "Creates and edits hosted small-business websites in French, Dutch or English, restyles them, schedules and rolls back changes, reads contact-form messages, and reports cookie-less visitor statistics.",
@@ -32944,7 +32936,7 @@
     },
     {
       "name": "amtstools.de",
-      "url": "https://rotman.dev",
+      "url": "https://amtstools.de",
       "marker": "C",
       "category": "Government and Nonprofit",
       "description": "Searches and reads the German documentation of open-source Amtstools software for public administration, currently Umsatzschätzung, which estimates a business's revenue from purchase invoices.",
@@ -32960,7 +32952,7 @@
     },
     {
       "name": "AnythingMCP",
-      "url": "https://helpcode.ai",
+      "url": "https://anythingmcp.com",
       "marker": null,
       "category": "Automation and Integration",
       "description": "Connects Claude to 180+ prebuilt business API connectors such as weclapp, DATEV, Etsy, Deutsche Bahn and VIES VAT validation, and generates tools from OpenAPI, WSDL, GraphQL, Postman or database connections.",
@@ -32992,7 +32984,7 @@
     },
     {
       "name": "app.reright.it",
-      "url": "https://interpt.co",
+      "url": "https://reright.it",
       "marker": "C",
       "category": "Development Tools",
       "description": "Submits agent-written commit messages, PR descriptions, emails and client messages for human editing and approval on a web page or push notification, then returns the approved text or a rejection.",
@@ -33017,7 +33009,7 @@
     },
     {
       "name": "AtmoScreen",
-      "url": "https://www.fragments-studio.com",
+      "url": "https://atmoscreen.com",
       "marker": "C",
       "category": "Marketing and Sales",
       "description": "Lists waiting-room and lobby screens and their status, reads and creates slide programmes with weather, messages, QR codes and quizzes, and assigns programmes to one or more screens.",
@@ -33086,7 +33078,7 @@
     },
     {
       "name": "Baalda",
-      "url": "https://benai.co",
+      "url": "https://baalda.com",
       "marker": "C",
       "category": "Productivity",
       "description": "Searches, reads and writes Markdown notes in a shared team vault, makes edits that preserve teammates' changes, organizes folders and files, and manages vault access.",
@@ -33161,7 +33153,7 @@
     },
     {
       "name": "Bizvizcards",
-      "url": "https://blueticksinnovations.com",
+      "url": "https://bizvizcards.com",
       "marker": "C",
       "category": "Marketing and Sales",
       "description": "Browses and creates captured leads, filters them by folder, opens lead details with custom form answers, adds notes, and sets and tracks follow-up reminders including overdue ones.",
@@ -33196,7 +33188,7 @@
     },
     {
       "name": "BriefGate",
-      "url": "https://sekera.dev",
+      "url": "https://briefgate.dev",
       "marker": "C",
       "category": "Documents and Files",
       "description": "Creates client intake requests for files, copy, choices and logins, emails a no-account portal link with scheduled reminders, reports which items are pending, and retrieves results or asks for revisions, with logins and revision requests on paid plans.",
@@ -33287,7 +33279,7 @@
     },
     {
       "name": "Carillon",
-      "url": "https://www.exostack.com",
+      "url": "https://carillon.dev",
       "marker": "C",
       "category": "Marketing and Sales",
       "description": "Configures app push credentials and API keys, debugs devices and tags, manages audiences, traces messages, and sends one-off or targeted push notification campaigns, including test sends.",
@@ -33378,7 +33370,7 @@
     },
     {
       "name": "CineFlo",
-      "url": "https://neonmedia.co",
+      "url": "https://cineflo.com",
       "marker": "C",
       "category": "Project Management",
       "description": "Reads and edits film production projects, including scenes, shot lists, script breakdowns, shooting schedules, call sheets, cast and crew, locations, moodboards, to-dos and budgets.",
@@ -33403,7 +33395,7 @@
     },
     {
       "name": "ClimateChangeJobs.com",
-      "url": "https://greenjobs.net",
+      "url": "https://climatechangejobs.com",
       "marker": "C",
       "category": "Jobs",
       "description": "Searches more than 25,000 climate, clean energy, sustainability and environmental job postings by keyword, category, employer or posting date, and retrieves full job descriptions and employer details.",
@@ -33752,7 +33744,7 @@
     },
     {
       "name": "Dive Kit",
-      "url": "https://ronnymajani.com",
+      "url": "https://divekit.app",
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Plans scuba dives with a Bühlmann ZH-L16C decompression engine for open circuit and CCR, and calculates gas mixes, blending, gas use, breathing rate and weighting, citing vetted references.",
@@ -33925,7 +33917,7 @@
     },
     {
       "name": "EstiMate",
-      "url": "https://a-vision.software",
+      "url": "https://estimate.pyes.software",
       "marker": "C",
       "category": "Project Management",
       "description": "Breaks a software brief into work packages, invites estimators to rate complexity independently, adds an AI estimator, compares ratings to propose final complexities, and calculates a project hour total from an anchor package.",
@@ -33959,7 +33951,7 @@
     },
     {
       "name": "europe-west1-heatpump-ai.cloudfunctions.net",
-      "url": "https://nordmindai.com",
+      "url": "https://heatpump.nordmindai.com",
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Looks up heat pump error codes and LED blink patterns and searches owner-manual sections for air-to-air and exhaust-air units from 12 brands, flagging faults that need a certified technician.",
@@ -34237,7 +34229,7 @@
     },
     {
       "name": "Genie Transcribe",
-      "url": "https://mavenvista.com",
+      "url": "https://genietranscribe.ai",
       "marker": "C",
       "category": "Productivity",
       "description": "Lists recent meeting recordings, fetches their full transcripts, and returns generated meeting minutes and summaries for review inside a conversation.",
@@ -34475,7 +34467,7 @@
     },
     {
       "name": "IANS",
-      "url": "https://www.iansresearch.com",
+      "url": "https://www.ians.com",
       "marker": "C",
       "category": "Security",
       "description": "Searches the IANS knowledge base of faculty-vetted research, peer benchmarks, anonymized expert call summaries and vendor intelligence for security policy, vendor risk and compliance work, with links back to sources.",
@@ -34491,7 +34483,7 @@
     },
     {
       "name": "IDC Quanta",
-      "url": "https://www.idc.com",
+      "url": "https://www.idc.com/developer/quanta/",
       "marker": "C",
       "category": "Data and Analytics",
       "description": "Retrieves entitled IDC research and datasets to answer market sizing, forecast and competitive positioning questions, and builds vendor scorecards and competitive briefs with every figure cited to the original IDC document.",
@@ -34533,7 +34525,7 @@
     },
     {
       "name": "Indonesian Holiday Calendar",
-      "url": "https://husniadil.com",
+      "url": "https://husniadil.com/calendar/mcp-server/",
       "marker": "C",
       "category": "Calendar and Scheduling",
       "description": "Checks Indonesian national holidays and cuti bersama from the official SKB 3 Menteri decrees, finds long weekends with their leave cost, and counts working days between dates.",
@@ -34662,7 +34654,7 @@
     },
     {
       "name": "Job Toast",
-      "url": "https://nichalasbarnes.com",
+      "url": "https://jobtoast.io",
       "marker": "C",
       "category": "Jobs",
       "description": "Logs job applications with salary range and work type, updates interview stages and dated notes, saves application questions and answers for reuse, and drafts cover letters from a work profile and job description.",
@@ -34760,7 +34752,7 @@
     },
     {
       "name": "Klussenbeheer",
-      "url": "https://samdesk.nl",
+      "url": "https://samdesk.nl/plugin/",
       "marker": "C",
       "category": "Project Management",
       "description": "Searches jobs and customers in authorized SamDesk organizations, reads job details, planning and team members, and after confirmation creates jobs, adds private notes, changes phases, schedules work and assigns team members.",
@@ -34809,7 +34801,7 @@
     },
     {
       "name": "Közlönyfigyelő",
-      "url": "https://creart.hu",
+      "url": "https://kzf.hu",
       "marker": "C",
       "category": "Legal",
       "description": "Fetches AI-generated Hungarian-language summaries of Magyar Közlöny issues, looks up issues by number or date, searches by keyword or tag, and lists provisions taking effect soon, with official source links.",
@@ -34874,7 +34866,7 @@
     },
     {
       "name": "Lifeable",
-      "url": "https://grandfieldmedia.com",
+      "url": "https://lifeable.co",
       "marker": "C",
       "category": "Productivity",
       "description": "Reads and adds Lifeable personal records, including tasks, reminders, bills, subscriptions, expenses, habits, medicines, appointments, goals, occasions, trips, owned things and saved links, with update and delete when permitted.",
@@ -34898,7 +34890,7 @@
     },
     {
       "name": "LinkyCal",
-      "url": "https://linkycal.com",
+      "url": "https://goodinbound.com",
       "marker": "C",
       "category": "Productivity",
       "description": "Builds multi-step forms, manages scheduling event types, availability and bookings, stores and enriches contacts in a lite CRM, runs workflows, and reports form and booking funnel analytics.",
@@ -35165,7 +35157,7 @@
     },
     {
       "name": "MemRa",
-      "url": "https://dostumamigo.com",
+      "url": "https://memra.dostumamigo.com",
       "marker": "C",
       "category": "Productivity",
       "description": "Searches a library of saved TikTok, Instagram and YouTube videos, opens a save with its summary and full transcript, lists categories, and answers questions across the saved collection, read-only.",
@@ -35190,7 +35182,7 @@
     },
     {
       "name": "MeuAccio",
-      "url": "https://www.palomamacetko.com.br",
+      "url": "https://www.meuaccio.com.br",
       "marker": "C",
       "category": "Productivity",
       "description": "Searches, saves and organizes bookmarks as visual cards in synced lists, saves up to 50 links at once with duplicate detection, reports broken-link status, and moves, archives, trashes and restores links.",
@@ -35247,7 +35239,7 @@
     },
     {
       "name": "Motir",
-      "url": "https://moooon.net",
+      "url": "https://motir.co",
       "marker": "C",
       "category": "Project Management",
       "description": "Searches and reads work items, lists items ready to start, updates status and comments, manages sprints and folders, links pull requests, and proposes plans for review in the Motir tracker.",
@@ -35533,7 +35525,7 @@
     },
     {
       "name": "PayPerFax",
-      "url": "https://ediblesites.com",
+      "url": "https://payperfax.com",
       "marker": "C",
       "category": "Communication",
       "description": "Prepares faxes from letters Claude writes or from uploaded documents, returns a review-and-payment link with the price before sending, checks delivery status, and lists supported formats and limits.",
@@ -35549,7 +35541,7 @@
     },
     {
       "name": "PDFKing",
-      "url": "https://hhgsoftech.com",
+      "url": "https://pdfking.app",
       "marker": "C",
       "category": "Documents and Files",
       "description": "Compresses PDFs uploaded through a handoff code at low, medium or high strength and returns a download link, without changing page count, order or text.",
@@ -35582,7 +35574,7 @@
     },
     {
       "name": "Piccola",
-      "url": "https://blanketbyte.com",
+      "url": "https://piccola.app",
       "marker": "C",
       "category": "Productivity",
       "description": "Manages routines and habit streaks, records logs, tracks budgets and expenses with receipt photos, edits and shares notes and shopping lists, and chats with shared connections in a personal organizer.",
@@ -35697,7 +35689,7 @@
     },
     {
       "name": "Plumbline",
-      "url": "https://tophatmonkey.com",
+      "url": "https://contractors.agentlookups.ai",
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Checks a contractor's license by number or business name against licensing-board records across US jurisdictions, returning the issuing board, snapshot date, license status and a link to the board's lookup.",
@@ -35805,7 +35797,7 @@
     },
     {
       "name": "Progantt",
-      "url": "https://miguelflores.net",
+      "url": "https://progantt.com",
       "marker": "C",
       "category": "Project Management",
       "description": "Plans and updates Gantt chart projects with tasks, phases, dependencies, milestones, tags and assigned people, reschedules dependent work, and shows resource load and what blocks a milestone.",
@@ -36096,7 +36088,7 @@
     },
     {
       "name": "Retro Game Gather",
-      "url": "https://arcstella.com",
+      "url": "https://retrogather.com",
       "marker": "C",
       "category": "Entertainment",
       "description": "Identifies retro games released in Japan by title, JAN barcode or model number, manages wishlists, libraries, collections and consoles, logs play sessions and clears, and reviews spending and play time.",
@@ -36282,7 +36274,7 @@
     },
     {
       "name": "Schedule Studio",
-      "url": "https://nplan.io",
+      "url": "https://mcp.schedule-studio.nplan.io",
       "marker": "C",
       "category": "Project Management",
       "description": "Generates construction schedules with work breakdown structures, sequencing, resources and critical paths, edits them in plain English, compares versions, and exports to Primavera P6, Microsoft Project or Asta PowerProject.",
@@ -36347,7 +36339,7 @@
     },
     {
       "name": "SeggWat",
-      "url": "https://haukejung.de",
+      "url": "https://seggwat.com",
       "marker": "C",
       "category": "Customer Support",
       "description": "Triages product feedback by status and type, emails resolution notes to submitters, reports helpful, star and NPS rating statistics, runs NPS, CSAT and CES surveys, and drafts and publishes changelog entries.",
@@ -36372,7 +36364,7 @@
     },
     {
       "name": "Send247",
-      "url": "https://clickdrop.co.uk",
+      "url": "https://send247.uk",
       "marker": "C",
       "category": "Automation and Integration",
       "description": "Gets UK delivery quotes from collection and delivery addresses, creates delivery requests with sender and recipient details, returns a payment link for checkout, and checks delivery status by reference.",
@@ -36380,7 +36372,7 @@
     },
     {
       "name": "Sensai",
-      "url": "https://atinargroup.com",
+      "url": "https://sensailab.ai",
       "marker": "C",
       "category": "Data and Analytics",
       "description": "Lists and reads the signed-in user's surveys and results, and drafts new surveys that stay paused until published, without access to respondent identities.",
@@ -36527,7 +36519,7 @@
     },
     {
       "name": "social.plus Agentry",
-      "url": "https://social.plus",
+      "url": "https://learn.social.plus/ai/agentry/overview",
       "marker": "C",
       "category": "Data and Analytics",
       "description": "Answers plain-language questions about an app's community members, content, activity and growth from a social.plus analytics warehouse covering roughly the last 90 days.",
@@ -36641,7 +36633,7 @@
     },
     {
       "name": "Stash",
-      "url": "https://graftedsoftware.com",
+      "url": "https://stash.graftedsoftware.com",
       "marker": "C",
       "category": "Productivity",
       "description": "Searches and opens notes in an iPhone AI notebook, saves new notes from a conversation for background summarization, updates or deletes notes, runs research reports, and answers questions drawn only from saved notes.",
@@ -36789,7 +36781,7 @@
     },
     {
       "name": "Sutra",
-      "url": "https://shivnathtathe.com",
+      "url": "https://github.com/shivnathtathe/sutra-mcp-integrations",
       "marker": "C",
       "category": "AI and ML",
       "description": "Retrieves user and project context, saves observations after explicit approval, searches memories and project clusters, loads and uploads reusable SKILL.md workflows, and exports the full memory dataset.",
@@ -36934,7 +36926,7 @@
     },
     {
       "name": "TecPass Communities",
-      "url": "https://tecpass.com",
+      "url": "https://www.tecpassapp.com",
       "marker": "C",
       "category": "Security",
       "description": "Reports read-only access activity for a managed community, including entries, exits and denied attempts by time, access point or opening method, remote-opening usage, visitors without exit, and access point configuration.",
@@ -36950,7 +36942,7 @@
     },
     {
       "name": "TempusLog",
-      "url": "https://mile.dev",
+      "url": "https://tempuslog.com",
       "marker": "C",
       "category": "Productivity",
       "description": "Logs time in plain words, starts and stops timers, summarizes time by project, week or team member, edits or moves entries, and creates projects and tasks.",
@@ -36982,7 +36974,7 @@
     },
     {
       "name": "theprotocol.it",
-      "url": "https://grupapracuj.pl",
+      "url": "https://theprotocol.it",
       "marker": "C",
       "category": "Jobs",
       "description": "Searches current IT job offers in Poland by technology, city, work mode, seniority, contract type, specialization, company and minimum salary, and shows full offer details with salary ranges and apply links.",
@@ -37081,7 +37073,7 @@
     },
     {
       "name": "Trakto",
-      "url": "https://firstpenny.io",
+      "url": "https://trakto.dev",
       "marker": "C",
       "category": "Project Management",
       "description": "Searches tickets and tasks, creates and updates work items, comments, assigns people, and lists linked pull requests across projects in permitted organizations.",
@@ -37089,7 +37081,7 @@
     },
     {
       "name": "TransformPipe",
-      "url": "https://raudar.dev",
+      "url": "https://transformpipe.com",
       "marker": "C",
       "category": "Documents and Files",
       "description": "Converts Markdown to sanitized HTML and HTML, CSV, TSV or JSON to Markdown, saves, searches, reads, summarizes and versions documents on an account, and shares them by link or named address.",
@@ -37106,7 +37098,7 @@
     },
     {
       "name": "Trupeo",
-      "url": "https://www.alk-innovations.com",
+      "url": "https://trupeo.com",
       "marker": "C",
       "category": "Communication",
       "description": "Searches and summarizes shared mailbox conversations, drafts, sends and forwards replies, assigns threads and marks them done, adds internal notes, files them into folders, labels or scopes, and manages members and shared signatures.",
@@ -37202,22 +37194,6 @@
       "use_case": "Scanning a newly published landing page for typos, checking a whole marketing site for leftover lorem ipsum, reviewing suggested fixes for a pricing page."
     },
     {
-      "name": "Very Simple Notes",
-      "url": "https://verysimplenotes.com",
-      "marker": "C",
-      "category": "Productivity",
-      "description": "Lists folders and notes, creates folders, reads, creates, edits, stars, moves and archives Markdown notes in Very Simple Notes, and attaches or reads files on a note such as photos and receipts.",
-      "use_case": "Adding forgotten items to a packing list written that morning, turning a meeting into a note with decisions and action items, saving a recipe into the Recipes folder."
-    },
-    {
-      "name": "Very Simple Projects",
-      "url": "https://verysimpleprojects.com",
-      "marker": "C",
-      "category": "Project Management",
-      "description": "Lists, reads and files numbered project tickets, comments in ticket threads, sets status and existing labels, stars tickets, and attaches or reads screenshots and logs in Very Simple Projects.",
-      "use_case": "Reading a bug ticket with an attached screenshot and reporting the fix in its thread, filing a ticket for an issue found mid-task, marking a change deployed once it is confirmed live."
-    },
-    {
       "name": "VibeMeASite",
       "url": "https://vibemeasite.com",
       "marker": "C",
@@ -37302,7 +37278,7 @@
     },
     {
       "name": "workspaceAlberta",
-      "url": "https://warreandvavasour.com",
+      "url": "https://elbowsupknivesout.warreandvavasour.com",
       "marker": "C",
       "category": "Government and Nonprofit",
       "description": "Searches open CanadaBuys and Alberta Purchasing Connection opportunities, checks deadlines, inspects source postings and compares tenders with a business profile, adding watchlists, bid/no-bid scorecards and tender document analysis on Pro.",
@@ -37418,7 +37394,7 @@
     },
     {
       "name": "Ad Platform Updates",
-      "url": "https://sumdigital.com",
+      "url": "https://mcp-apps-muller.netlify.app/ad-updates/",
       "marker": "C",
       "category": "Marketing and Sales",
       "description": "Returns dated summaries of Meta and Google Ads changes from platform announcements, trade press and practitioner reports, each with a source link and verification level, refreshed daily.",
@@ -37454,7 +37430,7 @@
     },
     {
       "name": "Anvil CRM",
-      "url": "https://twelvebit.io",
+      "url": "https://anvilcrm.com",
       "marker": "C",
       "category": "Marketing and Sales",
       "description": "Searches and updates companies, contacts, deals, leads and custom records in a B2B CRM, logs calls, meetings and tasks, moves records through pipeline stages, surfaces at-risk deals and overdue tasks, and saves deal pricing terms for forecasts.",
@@ -37585,7 +37561,7 @@
     },
     {
       "name": "channel",
-      "url": "https://askcuri.com",
+      "url": "https://askcuri.com/en/docs/claude",
       "marker": "C",
       "category": "Marketing and Sales",
       "description": "Reads topics, email campaigns, subscriber stats, posts, trend reports and creators in Curi’s channel workspace, and creates or edits drafts of topics, campaigns and posts without sending.",
@@ -37874,7 +37850,7 @@
     },
     {
       "name": "login.leadwin.it",
-      "url": "https://www.neverbeforeitalia.it",
+      "url": "https://leadwin.it",
       "marker": "C",
       "category": "Marketing and Sales",
       "description": "Searches LeadWin leads by stage, source, campaign, agent or inactivity, opens full records with notes and WhatsApp messages, reports conversion statistics, lists appointments and failed automation steps, and shows ad spend and cost per lead to admins.",
@@ -38088,7 +38064,7 @@
     },
     {
       "name": "PostPen",
-      "url": "https://www.sparxitsolutions.com",
+      "url": "https://postpen.ai",
       "marker": "C",
       "category": "Marketing and Sales",
       "description": "Saves drafts, attaches images, videos or PDF carousels, and schedules, unschedules or publishes posts to a LinkedIn profile or company pages through PostPen, listing drafts, scheduled and sent posts on a reviewable calendar.",
@@ -38687,7 +38663,7 @@
     },
     {
       "name": "GoVola",
-      "url": "https://www.vola.ro",
+      "url": "https://govola.com",
       "marker": null,
       "category": "Travel",
       "description": "Searches and compares flight offers across airlines by route and price, including multi-airline combinations, to find options that fit a schedule and budget.",
@@ -39369,6 +39345,11 @@
       "name": "Windowbox",
       "catalog_description": "Search and read Portland City Council meeting transcripts, with speaker names, agenda items, and links to the recording and the official record.",
       "why_held": "vendor URL is http-only, its domain has no address record, and a second fetch channel got an error (2026-10-08)"
+    },
+    {
+      "name": "Prativedan",
+      "catalog_description": "Write your academic report with Claude, in your university's format, and download it as a Word document.",
+      "why_held": "vendor URL is the developer's personal site, and the product's own Claude page and homepage return 404 (2026-10-08)"
     }
   ]
 }

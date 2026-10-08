@@ -2,7 +2,7 @@
 
 # Education
 
-[All categories](../README.md#categories) · 79 connectors · Last updated October 8, 2026
+[All categories](../README.md#categories) · 78 connectors · Last updated October 8, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -59,7 +59,6 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [PAVE](https://pavecfi.com) **`C`** - Reads flight-training records, including syllabus progress, schedules, bookings, aircraft status and squawks, pilot currency, weather and the FAR/AIM, within existing PAVE role permissions, read-only. *Use case: Checking what comes next in a private pilot syllabus, confirming whether the school's airplane is airworthy today, looking up when a flight review is due.*
 - [Pedagrade](https://pedagrade.com) **`C`** - Checks lessons, activities, quizzes and storyboards against saved learning objectives, flags alignment gaps with written fixes, tracks course progress, and runs full design reviews before launch. *Use case: Checking a quiz against a module's learning objectives, finding objectives taught but never practiced, running a full accessibility and alignment review before a course goes live.*
 - [PPL Free Ground School](https://pplfree.com) **`C`** - Answers FAA private-pilot knowledge test questions on regulations, airspace, weather and aerodynamics with 14 CFR and PHAK citations, links full lessons, and serves practice questions with explanations. *Use case: Reviewing VFR weather minimums for Class E airspace, practicing weight and balance questions before the written test, finding which PHAK chapter covers carburetor icing.*
-- [Prativedan](https://pitam.com.np) **`C`** - Lists university report formats, starts internship or project reports, fills sections from notes, adds numbered figures, checks missing parts, and builds a formatted Word document with cover page and table of contents. *Use case: Drafting an internship report in a course's prescribed format, adding a system diagram as a numbered figure, checking what is still missing before submission.*
 - [PresenterPrep](https://presenterprep.com) **`C`** - Records practice takes of a talk in the chat or app with an optional teleprompter, then returns feedback on pace, filler words, clarity and structure. *Use case: Rehearsing a five-minute investor pitch from a teleprompter script, cutting filler words from a conference talk, practicing answers before a panel interview.*
 - [ProSocial](https://www.scienceofpeople.com) **`C`** - Retrieves a connected member's ProSocial People Skills Index profile, covering seven trainable skill dimensions and a preferred coaching delivery style. *Use case: Tailoring feedback on a draft message to a measured communication style, preparing for a difficult conversation, deciding which skill dimension to practice next.*
 - [QuizHP](https://www.quizhp.com) **`C`** - Turns any topic into an interactive quiz mini-game. *Use case: Self-quizzing on a study topic, turning a document into a grounded quiz, generating question sets by difficulty.*

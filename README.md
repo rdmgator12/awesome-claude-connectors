@@ -4,9 +4,9 @@
   <img src="media/banner.svg" alt="Awesome Claude Connectors" width="800">
 </p>
 
-> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 4,678 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 42 held pending vendor verification, organized by category with descriptions and use cases.
+> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 4,675 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 43 held pending vendor verification, organized by category with descriptions and use cases.
 
-**Last updated:** October 8, 2026 | **Connectors tracked:** 4,678 listed + 42 held | **Categories:** 30
+**Last updated:** October 8, 2026 | **Connectors tracked:** 4,675 listed + 43 held | **Categories:** 30
 
 Claude connectors are MCP (Model Context Protocol) servers that extend Claude with real-time access to external tools, data sources, and services. They work across Claude.ai, Claude Desktop, Claude Mobile, Claude Code, and Claude Cowork. Connectors in the **curated web directory** are vetted by Anthropic for security, reliability, and compatibility; the **in-app catalog** additionally surfaces community-built and local desktop-extension connectors that Anthropic makes available but does not itself build or vet. This list tracks the union of both surfaces — see CONTRIBUTING.md for the two-surface methodology.
 
@@ -55,7 +55,7 @@ Each category has its own page; the list outgrew what GitHub will render as a si
 | [Desktop Automation](categories/desktop-automation.md)                     | 16         |
 | [Development Tools](categories/development-tools.md)                       | 206        |
 | [Documents and Files](categories/documents-and-files.md)                   | 110        |
-| [Education](categories/education.md)                                       | 79         |
+| [Education](categories/education.md)                                       | 78         |
 | [Entertainment](categories/entertainment.md)                               | 57         |
 | [Finance and Trading](categories/finance-and-trading.md)                   | 519        |
 | [Government and Nonprofit](categories/government-and-nonprofit.md)         | 66         |
@@ -65,8 +65,8 @@ Each category has its own page; the list outgrew what GitHub will render as a si
 | [Lifestyle and Local](categories/lifestyle-and-local.md)                   | 308        |
 | [Marketing and Sales](categories/marketing-and-sales.md)                   | 737        |
 | [Observability and Monitoring](categories/observability-and-monitoring.md) | 43         |
-| [Productivity](categories/productivity.md)                                 | 299        |
-| [Project Management](categories/project-management.md)                     | 163        |
+| [Productivity](categories/productivity.md)                                 | 298        |
+| [Project Management](categories/project-management.md)                     | 162        |
 | [Research and Academic](categories/research-and-academic.md)               | 67         |
 | [SAP](categories/sap.md)                                                   | 4          |
 | [Security](categories/security.md)                                         | 98         |
@@ -107,6 +107,7 @@ Every link on the category pages has been checked against the live page — a UR
 | miniOrange MCP for WordPress                       | Securely Manage Your WordPress from Claude                                                                                                                       | shares vendor URL miniorange.com with "miniOrange MCP for Magento" (list lint rejects duplicate links); needs its own product page (2026-09-14)                                 |
 | origami.publica.la                                 | Origami is publica.la's publishing toolchain                                                                                                                     | shares vendor URL publica.la with "EbooksDepository" (list lint rejects duplicate links); needs its own product page (2026-09-14)                                               |
 | pensieve-notes                                     | Save notes, search them and set reminders from Claude                                                                                                            | the feed URL is the developer's personal site; a same-named notes app exists but is not confirmed as this connector's (2026-09-25)                                              |
+| Prativedan                                         | Write your academic report with Claude, in your university's format, and download it as a Word document.                                                         | vendor URL is the developer's personal site, and the product's own Claude page and homepage return 404 (2026-10-08)                                                             |
 | Resume Examples & Templates - ResumeNext           | Browse resume examples by role and resume templates, each with a link that opens it in the ResumeNext editor as a starting point.                                | shares vendor URL resumenext.io with "ATS Resume Checker & Resume Builder - ResumeNext" (list lint rejects duplicate links); needs its own product page (2026-10-08)            |
 | Resume Skills & Keywords by Role - ResumeNext      | Get the skills and terms that recur for a role and see where a resume uses them: listed and shown, listed only, shown only, or not mentioned.                    | shares vendor URL resumenext.io with "ATS Resume Checker & Resume Builder - ResumeNext" (list lint rejects duplicate links); needs its own product page (2026-10-08)            |
 | Roraima holiday rentals                            | Find holiday rentals and smart devices on Roraima, get a price quote, and receive a link to book, or a booking prepared to check and pay on roraima.io.          | shares vendor URL roraima.io with "Roraima for hosts" (list lint rejects duplicate links); needs its own product page (2026-10-08)                                              |
