@@ -2,7 +2,7 @@
 
 # Marketing and Sales
 
-[All categories](../README.md#categories) · 737 connectors · Last updated October 8, 2026
+[All categories](../README.md#categories) · 738 connectors · Last updated October 8, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -130,6 +130,7 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [Productised](https://www.productised.ai) - Create assessments and lead magnets. *Use case: Building a lead-diagnostic quiz, generating a personalized readiness scorecard, producing a branded outcome report for a prospect.*
 - [QRFLOW.codes](https://qrflow.codes) **`C`** - Creates dynamic QR codes on a custom domain, re-points or pauses printed codes, and reports scan analytics by country. *Use case: Making a QR code for a restaurant menu, re-pointing a printed poster to a new page, comparing scan counts across codes.*
 - [qrforprint](https://qrforprint.com) **`C`** - Previews static QR codes for links, text, email, phone, SMS, WiFi and contact cards, creates dynamic link QR codes, changes their destinations after printing, and lists codes with scan counts. *Use case: Generating a WiFi code for cafe table cards, redirecting a printed flyer's code to a new landing page, checking how many scans a poster drew.*
+- [qrlia](https://qrlia.com) **`C`** - Creates, updates and deletes dynamic QR codes for links, vCards, Wi-Fi, menus, PDFs, lead forms and digital product passports, returns PNG or SVG images, organizes codes in folders, templates and designs, and reports scan analytics. *Use case: Making a Wi-Fi code for hotel room cards, pointing a printed menu code at a new PDF, comparing scan counts across a campaign's codes.*
 - [Quickesign](https://quickesign.net) **`C`** - Designs digital signage layouts such as menu boards and price lists, checks text fit and contrast with previews, uploads media, and assigns, schedules and refreshes content on linked screens. *Use case: Building a vertical salon price list for a window TV, scheduling lunch specials from 11 to 2, copying a menu board for a second location.*
 - [Quotient](https://www.getquotient.ai) **`C`** - Plans and executes marketing campaigns across email, social, blog, and events, producing briefs, tasks, timelines, and the deliverables themselves. *Use case: Building a feature-launch campaign from a one-line goal, drafting the social posts for each channel, scheduling a webinar's supporting email sequence.*
 - [Rebrandly](https://www.rebrandly.com) **`C`** - Create and manage branded short links on your own domain, then track how they perform, without leaving Claude. *Use case: Creating a branded short link for a new campaign on a company domain, checking how many clicks a link got last week.*

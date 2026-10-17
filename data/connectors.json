@@ -39133,6 +39133,15 @@
       "category": "Lifestyle and Local",
       "description": "Searches halal restaurants by city or coordinates with cuisine, dish and verification filters, returns details such as hours and HalalRank score, and finds mosques with women's facilities and daily prayer and jummah times.",
       "use_case": "Finding a fully halal burger spot near a Chicago hotel, checking the iqamah time for Friday jummah at a nearby mosque, confirming a restaurant's verification status before dinner."
+    },
+    {
+      "name": "qrlia",
+      "url": "https://qrlia.com",
+      "marker": "C",
+      "category": "Marketing and Sales",
+      "description": "Creates, updates and deletes dynamic QR codes for links, vCards, Wi-Fi, menus, PDFs, lead forms and digital product passports, returns PNG or SVG images, organizes codes in folders, templates and designs, and reports scan analytics.",
+      "use_case": "Making a Wi-Fi code for hotel room cards, pointing a printed menu code at a new PDF, comparing scan counts across a campaign's codes.",
+      "subcategory": "Brand Management and Content Creation"
     }
   ],
   "held": [
