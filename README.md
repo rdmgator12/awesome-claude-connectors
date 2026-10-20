@@ -137,6 +137,7 @@ Every link on the category pages has been checked against the live page — a UR
 - [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) - Model Context Protocol servers powering many of the connectors above.
 - [awesome-chatgpt-apps](https://github.com/rdmgator12/awesome-chatgpt-apps) - Companion list cataloging apps in the ChatGPT directory.
 - [awesome-llm-apps](https://github.com/Shubhamsaboo/awesome-llm-apps) - LLM-powered applications across providers.
+- [awesome-ai-agents](https://github.com/ianwieds/awesome-ai-agents) - AI agent frameworks, coding agents, browser agents and platforms.
 
 ---
 
