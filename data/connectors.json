@@ -53253,6 +53253,15 @@
       "description": "Computes Social Security claiming estimates, returning full retirement age, benefits by claiming age from 62 to 70 and breakeven age, and lets licensed advisors list clients, pull stored claiming analyses and re-run them on records on file.",
       "use_case": "Estimating benefits at 62, 67 and 70 for a client born in 1962, pulling a married client's survivor analysis, refreshing an analysis before a review meeting.",
       "subcategory": "Accounting Payroll and Financial Planning"
+    },
+    {
+      "name": "Hanging Context",
+      "url": "https://hangingcontext.com",
+      "marker": "C",
+      "category": "Data and Analytics",
+      "subcategory": "Company and Market Intelligence",
+      "description": "Searches and reads news stories written for AI agents across AI, finance, science, health, sports and government, refreshed every 12 hours, with every paragraph citing its sources and no sign-in required.",
+      "use_case": "Summarizing what central banks said this week with links to the speeches, following new AI stories since the last check, tracing a claim in a story back to the original filing."
     }
   ],
   "held": [
