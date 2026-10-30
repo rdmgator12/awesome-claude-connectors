@@ -93,7 +93,7 @@ def fetch(url, timeout=60):
         return resp.read().decode("utf-8", "replace")
 
 
-def load_feed(path=None):
+def load_feed(path=None, retry=True):
     raw = Path(path).read_text(encoding="utf-8") if path else fetch(FEED_URL)
     data = json.loads(raw)
     servers = data.get("servers") if isinstance(data, dict) else data
@@ -115,6 +115,10 @@ def load_feed(path=None):
         cursor = page.get("next_cursor")
     meta["next_cursor"] = cursor
     if meta["total"] is not None and len(servers) != meta["total"]:
+        # The catalog can change between page fetches (2026-10-23: 7097 servers
+        # against total=7087), so a live mismatch gets one full refetch.
+        if retry and not path:
+            return load_feed(path, retry=False)
         raise ValueError(
             f"feed returned {len(servers)} servers against total={meta['total']}"
             + (
