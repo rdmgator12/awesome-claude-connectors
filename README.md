@@ -4,9 +4,9 @@
   <img src="media/banner.svg" alt="Awesome Claude Connectors" width="800">
 </p>
 
-> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 8,045 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 57 held pending vendor verification, organized by category with descriptions and use cases.
+> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 8,046 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 57 held pending vendor verification, organized by category with descriptions and use cases.
 
-**Last updated:** October 30, 2026 | **Connectors tracked:** 8,045 listed + 57 held | **Categories:** 30
+**Last updated:** October 30, 2026 | **Connectors tracked:** 8,046 listed + 57 held | **Categories:** 30
 
 Claude connectors are MCP (Model Context Protocol) servers that extend Claude with real-time access to external tools, data sources, and services. They work across Claude.ai, Claude Desktop, Claude Mobile, Claude Code, and Claude Cowork. Connectors in the **curated web directory** are vetted by Anthropic for security, reliability, and compatibility; the **in-app catalog** additionally surfaces community-built and local desktop-extension connectors that Anthropic makes available but does not itself build or vet. This list tracks the union of both surfaces — see CONTRIBUTING.md for the two-surface methodology.
 
@@ -61,7 +61,7 @@ Each category has its own page; the list outgrew what GitHub will render as a si
 | [Government and Nonprofit](categories/government-and-nonprofit.md)         | 104        |
 | [Healthcare and Life Sciences](categories/healthcare-and-life-sciences.md) | 153        |
 | [Jobs](categories/jobs.md)                                                 | 157        |
-| [Legal](categories/legal.md)                                               | 331        |
+| [Legal](categories/legal.md)                                               | 332        |
 | [Lifestyle and Local](categories/lifestyle-and-local.md)                   | 640        |
 | [Marketing and Sales](categories/marketing-and-sales.md)                   | 1,204      |
 | [Observability and Monitoring](categories/observability-and-monitoring.md) | 84         |

@@ -2,7 +2,7 @@
 
 Counting convention: **listed** = entries in category sections; **held** = rows in Held for Verification; **tracked** = listed + held. Sweep deltas are stated as the net change in listed entries; gross additions are called out separately where they differ (renames and variant merges make a naive name-diff overcount).
 
-## 2026-10-30 — sixth feed-era sweep (6,368 → 8,045 listed; held 51 → 57)
+## 2026-10-30 — sixth feed-era sweep (6,368 → 8,046 listed; held 51 → 57)
 
 **The 10/23 feed-diff run failed instead of filing a report.** The directory feed grew while `feed_diff.py` was paging through it (7,097 servers returned against a reported `total` of 7,087), and the count check added on 10/19 failed loud as designed, so no issue was filed that week. `load_feed()` now refetches the whole feed once when the paged count disagrees with `total` and still fails if the second fetch disagrees; offline files still fail on the first mismatch. This sweep was built against the full feed captured at sweep time: **8,292 servers** (anthropic 10, community 7,251, partner 1,031) and a **1,045-slug** web sitemap.
 
@@ -11,9 +11,9 @@ Count derivation:
 - 6,368 listed + 51 held at sweep open
 - + 2 contributor PRs, landed with the contributor as commit author: Hanging Context (#38), TraderWAI Charts (#40) = 6,370. A third, #41, re-pointed alexandria. to alexandria.place (no count change)
 - − 1 two-surface removal: Ryanair (absent from all 8,292 feed servers and the sitemap; its slug page `/marketplace/connectors/ryanair` returns 404) = 6,369
-- + 1,674 adds from 1,683 candidates: 1,717 feed entries match nothing on the list, − 18 that match held rows, − 14 in the known non-add set, − 2 known same-vendor siblings that share a listed entry's URL (Jotform App Builder, D&B Digital Audiences); 8 of the 1,683 → Held, and 1 withheld (a compliance-audit connector whose catalog name trips this repository's pre-commit PHI check; verified and written, it lands once that is resolved)
+- + 1,675 adds from 1,683 candidates: 1,717 feed entries match nothing on the list, − 18 that match held rows, − 14 in the known non-add set, − 2 known same-vendor siblings that share a listed entry's URL (Jotform App Builder, D&B Digital Audiences); 8 of the 1,683 → Held
 - + 2 graduated from Held: DealFinder (now at gocottontail.com) and The 07:00 Brief (now at 0700.io), each with its own page
-- = **8,045 listed + 57 held**
+- = **8,046 listed + 57 held**
 
 **Vendor URLs.** Every candidate URL was fetched and checked under the strict rule (the page's title, site name or heading must carry a distinctive part of the *product's* own name). 1,426 matched on the feed's declared URL. 182 more were confirmed on the product's own page, found from the feed's documentation link or MCP host. The last 75 (bot walls, sites unreachable from the sweep machine, developer or agency homepages) went through a second fetch channel: 60 kept, 14 re-pointed, 1 held. Candidates sharing a vendor URL with each other or with a listed entry (30) were checked for a page of their own: 16 re-pointed to one, 7 kept, 7 held. Eleven were resolved by hand after reading the pages. A post-merge audit of the new links found none to an MCP directory or a social profile; the two on a big-platform domain are the vendor's own product page (Claude Academy on Anthropic's academy.claude.com, LinkedIn Hiring Pro on LinkedIn's business site). Two repository links were moved to the products' own sites (Bugasura → bugasura.io, Panderr → panderr.com).
 
@@ -30,6 +30,8 @@ Fixes beyond the adds: link check #39 — 235 of its 248 errors were TLS handsha
 Page size: the Marketing and Sales page is now 477,644 bytes against the generator's 500,000-byte cap, about 56 entries of headroom; it needs splitting before the next sweep adds to it.
 
 Not applied, for review: 599 vendor-URL drift items, 279 non-exact name matches, 68 sitemap slugs matching no list name, 33 web-only entries, 30 marker rows. The post-sweep diff's candidate adds are the known non-adds plus Very Simple Notes, Very Simple Projects, Jotform App Builder and D&B Digital Audiences; its removal candidates are PageHub, Bansaj and Streamline, as before. Snap Stack: [The back-room gig night](stacks/2026-10-30-back-room-gig-night.md).
+
+One verified add landed in a follow-up commit: its catalog name begins with a clinical title and tripped the maintainer's pre-commit PHI check until an exact-string exception was added for it. Two other entries were reworded to clear the same check.
 
 ## 2026-10-19 — fifth feed-era sweep (4,675 → 6,368 listed; held 43 → 51)
 

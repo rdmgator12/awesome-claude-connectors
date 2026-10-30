@@ -67277,6 +67277,14 @@
       "category": "Lifestyle and Local",
       "description": "Finds current offers for a named product across online sellers, ranked by total price including shipping where the seller shows it, new condition by default and used or refurbished on request, and turns a pasted product link into a trackable link when the seller runs an affiliate program.",
       "use_case": "Finding the cheapest seller for a specific robot vacuum, checking whether a refurbished TV costs less than a new one, getting a direct link to buy a pair of running shoes."
+    },
+    {
+      "name": "Doctor Compliance",
+      "url": "https://doctorcompliance.com",
+      "marker": "C",
+      "category": "Legal",
+      "description": "Lets Doctor Compliance partners find and register customers, preview and submit audit quote requests for websites and apps, follow quotes and delivered compliance reports with findings and per-asset details, and review projects, contracts, notifications, team, finance summary and token balance.",
+      "use_case": "Requesting a font-licensing audit quote for a customer's website, reviewing findings from a delivered report, checking the remaining token balance."
     }
   ],
   "held": [
