@@ -19,13 +19,13 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 > This is an independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Anthropic PBC. "Claude" and related marks are the property of Anthropic PBC. Each connector is the property of its respective owner.
 
 > [!TIP]
-> ### Connector Snap Stack — October 19, 2026
+> ### Connector Snap Stack — October 30, 2026
 >
 > Each sweep features a persona and a small stack of connectors that click together. Past stacks are archived in [docs/stacks](docs/stacks/); sweep-by-sweep history lives in the [changelog](docs/CHANGELOG.md).
 >
-> **The kitchen-table bills night** — Lower My Bill *(new)* · Zeno Household *(new)* · Gmail · Google Calendar · running in **Claude Desktop**
+> **The back-room gig night** — TBC Events *(new)* · GigXchange *(new)* · Google Calendar · Gmail · running in **Claude Desktop**
 >
-> A US household working through its recurring bills, one Desktop conversation: find the latest internet, mobile and insurance bills in Gmail, get Lower My Bill's provider-specific call script for each and its reminder to call before a promotional rate ends, check in Zeno Household whether the savings change next month's cash-flow forecast and leave a budget note for a partner, then put the call reminders on Google Calendar. Two new connectors that know the negotiation playbook and the household's numbers, two proven ones that hold the bills and the dates; the calls themselves stay with the person. Composed, not yet field-tested — if you run it against a live set of bills, send a Field Report (see CONTRIBUTING).
+> A UK pub putting on a monthly Friday gig in its back room, one Desktop conversation: check TBC Events for what else is on in town that Friday so the night doesn't clash, search GigXchange for performers free that date, read their press kits and check the GX Index for what a pub gig typically pays, then make a booking offer from the pub's member account where offers are enabled; put the night and the load-in time on Google Calendar and draft the regulars' newsletter in Gmail. Two new connectors that know the local listings and the grassroots circuit, two proven ones that hold the date and the mailing list; the fee conversation and the sound check stay with the people. Composed, not yet field-tested — if you run it against a live booking, send a Field Report (see CONTRIBUTING).
 
 ---
 

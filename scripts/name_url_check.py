@@ -70,6 +70,8 @@ VERIFIED = {
         "site title is 'LinkDrop - Trackable PDF share links for AI agents'; the domain drops the vowels (verified 2026-10-19)",
     ("StrategyX", "www.strategyexe.com"):
         "site title is 'Home | Strategy Execution Software | StrategyX'; the domain spells out 'execution' (verified 2026-10-19)",
+    ("LeadBot AI", "leadbotapp.com"):
+        "site title is 'LeadBot AI — Chatbot that books appointments'; the domain adds 'app' and 'AI' is a descriptor (verified 2026-10-30)",
 }
 
 
