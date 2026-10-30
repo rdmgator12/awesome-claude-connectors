@@ -4,9 +4,9 @@
   <img src="media/banner.svg" alt="Awesome Claude Connectors" width="800">
 </p>
 
-> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 6,369 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 51 held pending vendor verification, organized by category with descriptions and use cases.
+> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 6,370 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 51 held pending vendor verification, organized by category with descriptions and use cases.
 
-**Last updated:** October 19, 2026 | **Connectors tracked:** 6,369 listed + 51 held | **Categories:** 30
+**Last updated:** October 19, 2026 | **Connectors tracked:** 6,370 listed + 51 held | **Categories:** 30
 
 Claude connectors are MCP (Model Context Protocol) servers that extend Claude with real-time access to external tools, data sources, and services. They work across Claude.ai, Claude Desktop, Claude Mobile, Claude Code, and Claude Cowork. Connectors in the **curated web directory** are vetted by Anthropic for security, reliability, and compatibility; the **in-app catalog** additionally surfaces community-built and local desktop-extension connectors that Anthropic makes available but does not itself build or vet. This list tracks the union of both surfaces — see CONTRIBUTING.md for the two-surface methodology.
 
@@ -57,7 +57,7 @@ Each category has its own page; the list outgrew what GitHub will render as a si
 | [Documents and Files](categories/documents-and-files.md)                   | 153        |
 | [Education](categories/education.md)                                       | 118        |
 | [Entertainment](categories/entertainment.md)                               | 81         |
-| [Finance and Trading](categories/finance-and-trading.md)                   | 721        |
+| [Finance and Trading](categories/finance-and-trading.md)                   | 722        |
 | [Government and Nonprofit](categories/government-and-nonprofit.md)         | 88         |
 | [Healthcare and Life Sciences](categories/healthcare-and-life-sciences.md) | 124        |
 | [Jobs](categories/jobs.md)                                                 | 121        |

@@ -53262,6 +53262,15 @@
       "subcategory": "Company and Market Intelligence",
       "description": "Searches and reads news stories written for AI agents across AI, finance, science, health, sports and government, refreshed every 12 hours, with every paragraph citing its sources and no sign-in required.",
       "use_case": "Summarizing what central banks said this week with links to the speeches, following new AI stories since the last check, tracing a claim in a story back to the original filing."
+    },
+    {
+      "name": "TraderWAI Charts",
+      "url": "https://traderwai.com",
+      "marker": "C",
+      "category": "Finance and Trading",
+      "description": "Read-only market charts for forex, gold, indices, oil, futures and crypto: candlestick chart images from 1 minute to monthly, exact OHLC candles and quotes, charts marked with Claude's analysis, and backtests of rule-based strategies on 1-minute history.",
+      "use_case": "Marking support and resistance on the gold H1 chart, backtesting an Asian-session breakout on GBP/USD over the last week, checking the latest Nasdaq price before planning a trade.",
+      "subcategory": "Market Data and Investment Research"
     }
   ],
   "held": [
