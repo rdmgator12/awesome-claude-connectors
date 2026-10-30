@@ -118,7 +118,14 @@ def load_feed(path=None, retry=True):
         # The catalog can change between page fetches (2026-10-23: 7097 servers
         # against total=7087), so a live mismatch gets one full refetch.
         if retry and not path:
-            return load_feed(path, retry=False)
+            first = f"{len(servers)} servers against total={meta['total']}"
+            print(
+                f"feed_diff: paged fetch returned {first}; refetching once",
+                file=sys.stderr,
+            )
+            servers, meta = load_feed(path, retry=False)
+            meta["refetched_after"] = first
+            return servers, meta
         raise ValueError(
             f"feed returned {len(servers)} servers against total={meta['total']}"
             + (
@@ -307,7 +314,12 @@ def build_report(servers, meta, slugs, data, cap, roster_names=None, today=None)
         "",
         f"- Feed: **{len(servers)}** servers (total={meta.get('total')}, next_cursor={meta.get('next_cursor')}, "
         f"stale_feeds={meta.get('stale_feeds')}); by tier: "
-        + ", ".join(f"{k} {v}" for k, v in sorted(tiers.items())),
+        + ", ".join(f"{k} {v}" for k, v in sorted(tiers.items()))
+        + (
+            f"; refetched once after the first pass returned {meta['refetched_after']}"
+            if meta.get("refetched_after")
+            else ""
+        ),
         f"- Web sitemap: **{len(slugs)}** connector slugs",
         f"- List: **{len(listed)}** listed + **{len(held)}** held",
         f"- Feed entries matched to listed entries: **{len(matched)}** "
