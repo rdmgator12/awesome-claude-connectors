@@ -6,7 +6,7 @@
 
 > A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 8,046 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 57 held pending vendor verification, organized by category with descriptions and use cases.
 
-**Last updated:** October 30, 2026 | **Connectors tracked:** 8,046 listed + 57 held | **Categories:** 30
+**Last updated:** October 30, 2026 | **Connectors tracked:** 8,046 listed + 57 held | **Categories:** 31
 
 Claude connectors are MCP (Model Context Protocol) servers that extend Claude with real-time access to external tools, data sources, and services. They work across Claude.ai, Claude Desktop, Claude Mobile, Claude Code, and Claude Cowork. Connectors in the **curated web directory** are vetted by Anthropic for security, reliability, and compatibility; the **in-app catalog** additionally surfaces community-built and local desktop-extension connectors that Anthropic makes available but does not itself build or vet. This list tracks the union of both surfaces — see CONTRIBUTING.md for the two-surface methodology.
 
@@ -41,38 +41,39 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 Each category has its own page; the list outgrew what GitHub will render as a single file.
 
-| Category                                                                   | Connectors |
-| -------------------------------------------------------------------------- | ---------- |
-| [AI and ML](categories/ai-and-ml.md)                                       | 153        |
-| [Automation and Integration](categories/automation-and-integration.md)     | 82         |
-| [Calendar and Scheduling](categories/calendar-and-scheduling.md)           | 70         |
-| [Cloud and Infrastructure](categories/cloud-and-infrastructure.md)         | 157        |
-| [CMS and Web Building](categories/cms-and-web-building.md)                 | 169        |
-| [Communication](categories/communication.md)                               | 189        |
-| [Customer Support](categories/customer-support.md)                         | 141        |
-| [Data and Analytics](categories/data-and-analytics.md)                     | 735        |
-| [Design and Creative](categories/design-and-creative.md)                   | 275        |
-| [Desktop Automation](categories/desktop-automation.md)                     | 16         |
-| [Development Tools](categories/development-tools.md)                       | 332        |
-| [Documents and Files](categories/documents-and-files.md)                   | 180        |
-| [Education](categories/education.md)                                       | 162        |
-| [Entertainment](categories/entertainment.md)                               | 118        |
-| [Finance and Trading](categories/finance-and-trading.md)                   | 939        |
-| [Government and Nonprofit](categories/government-and-nonprofit.md)         | 104        |
-| [Healthcare and Life Sciences](categories/healthcare-and-life-sciences.md) | 153        |
-| [Jobs](categories/jobs.md)                                                 | 157        |
-| [Legal](categories/legal.md)                                               | 332        |
-| [Lifestyle and Local](categories/lifestyle-and-local.md)                   | 640        |
-| [Marketing and Sales](categories/marketing-and-sales.md)                   | 1,204      |
-| [Observability and Monitoring](categories/observability-and-monitoring.md) | 84         |
-| [Productivity](categories/productivity.md)                                 | 568        |
-| [Project Management](categories/project-management.md)                     | 254        |
-| [Research and Academic](categories/research-and-academic.md)               | 104        |
-| [SAP](categories/sap.md)                                                   | 4          |
-| [Security](categories/security.md)                                         | 166        |
-| [SEO and Web](categories/seo-and-web.md)                                   | 175        |
-| [Ticketing and Events](categories/ticketing-and-events.md)                 | 86         |
-| [Travel](categories/travel.md)                                             | 297        |
+| Category                                                                                     | Connectors |
+| -------------------------------------------------------------------------------------------- | ---------- |
+| [AI and ML](categories/ai-and-ml.md)                                                         | 153        |
+| [Automation and Integration](categories/automation-and-integration.md)                       | 82         |
+| [Calendar and Scheduling](categories/calendar-and-scheduling.md)                             | 70         |
+| [Cloud and Infrastructure](categories/cloud-and-infrastructure.md)                           | 157        |
+| [CMS and Web Building](categories/cms-and-web-building.md)                                   | 169        |
+| [Communication](categories/communication.md)                                                 | 189        |
+| [Customer Support](categories/customer-support.md)                                           | 141        |
+| [Data and Analytics](categories/data-and-analytics.md)                                       | 735        |
+| [Design and Creative](categories/design-and-creative.md)                                     | 275        |
+| [Desktop Automation](categories/desktop-automation.md)                                       | 16         |
+| [Development Tools](categories/development-tools.md)                                         | 332        |
+| [Documents and Files](categories/documents-and-files.md)                                     | 180        |
+| [Education](categories/education.md)                                                         | 162        |
+| [Entertainment](categories/entertainment.md)                                                 | 118        |
+| [Finance and Trading](categories/finance-and-trading.md)                                     | 939        |
+| [Government and Nonprofit](categories/government-and-nonprofit.md)                           | 104        |
+| [Healthcare and Life Sciences](categories/healthcare-and-life-sciences.md)                   | 153        |
+| [Jobs](categories/jobs.md)                                                                   | 157        |
+| [Legal](categories/legal.md)                                                                 | 332        |
+| [Lifestyle and Local](categories/lifestyle-and-local.md)                                     | 640        |
+| [Marketing and Sales](categories/marketing-and-sales.md)                                     | 962        |
+| [Observability and Monitoring](categories/observability-and-monitoring.md)                   | 84         |
+| [Productivity](categories/productivity.md)                                                   | 568        |
+| [Project Management](categories/project-management.md)                                       | 254        |
+| [Research and Academic](categories/research-and-academic.md)                                 | 104        |
+| [SAP](categories/sap.md)                                                                     | 4          |
+| [Security](categories/security.md)                                                           | 166        |
+| [SEO and Web](categories/seo-and-web.md)                                                     | 175        |
+| [Social Media and Influencer Marketing](categories/social-media-and-influencer-marketing.md) | 242        |
+| [Ticketing and Events](categories/ticketing-and-events.md)                                   | 86         |
+| [Travel](categories/travel.md)                                                               | 297        |
 
 ## Held for Verification
 

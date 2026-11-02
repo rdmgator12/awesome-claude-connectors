@@ -2,6 +2,12 @@
 
 Counting convention: **listed** = entries in category sections; **held** = rows in Held for Verification; **tracked** = listed + held. Sweep deltas are stated as the net change in listed entries; gross additions are called out separately where they differ (renames and variant merges make a naive name-diff overcount).
 
+## 2026-11-02 — Social Media and Influencer Marketing gets its own page (8,046 listed; held 57; 30 → 31 categories)
+
+**Marketing and Sales split.** The page had reached 477,644 bytes against the generator's 500,000-byte render ceiling, with 54 candidate adds already queued in #42. Its largest subsection, Social Media and Influencer Marketing (242 entries, about 103 KB), is now its own category at `categories/social-media-and-influencer-marketing.md`; the entries are unchanged and drop only the subcategory field, which would have repeated the page title. Marketing and Sales keeps its other eight subsections at 374,935 bytes. The largest page is now Finance and Trading at 378,666 bytes. Listed and held counts are unchanged.
+
+**Code of conduct.** Reports now go to a dedicated forwarding address instead of the maintainer's personal email.
+
 ## 2026-10-30 — sixth feed-era sweep (6,368 → 8,046 listed; held 51 → 57)
 
 **The 10/23 feed-diff run failed instead of filing a report.** The directory feed grew while `feed_diff.py` was paging through it (7,097 servers returned against a reported `total` of 7,087), and the count check added on 10/19 failed loud as designed, so no issue was filed that week. `load_feed()` now refetches the whole feed once when the paged count disagrees with `total` and still fails if the second fetch disagrees; offline files still fail on the first mismatch. This sweep was built against the full feed captured at sweep time: **8,292 servers** (anthropic 10, community 7,251, partner 1,031) and a **1,045-slug** web sitemap.
