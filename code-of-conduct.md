@@ -4,7 +4,7 @@ This project adopts the [Contributor Covenant, version 2.1](https://www.contribu
 
 ## Reporting
 
-Report concerns to the maintainer at rdmgator11@gmail.com. All reports will be reviewed and investigated promptly and fairly.
+Report concerns to the maintainer at coups.matins6v@icloud.com. All reports will be reviewed and investigated promptly and fairly.
 
 ## Enforcement
 
