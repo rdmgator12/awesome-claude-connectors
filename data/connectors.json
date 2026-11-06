@@ -55042,7 +55042,7 @@
       "url": "https://gscmagic.com",
       "marker": "C",
       "category": "SEO and Web",
-      "description": "Reads Google Search Console, Bing Webmaster Tools, Google Analytics 4, Google Tag Manager and Core Web Vitals data, runs server-side reports on traffic drops, quick wins, content decay, keyword cannibalization, CTR outliers and index health, inspects URLs, runs Lighthouse audits, manages Bing site settings, and on paid plans submits sitemaps to Google and Bing and URLs to Bing and IndexNow.",
+      "description": "Reads Google Search Console, Bing Webmaster Tools, Google Analytics 4 and Core Web Vitals data, runs server-side reports on traffic drops, quick wins, content decay, keyword cannibalization, CTR outliers and index health, inspects URLs, runs Lighthouse audits, manages Bing site settings, and on paid plans submits sitemaps to Google and Bing and URLs to Bing and IndexNow.",
       "use_case": "Finding pages that lost the most clicks in the last 28 days, listing queries ranking in positions 8 to 20, checking how much traffic ChatGPT referred last month."
     },
     {
