@@ -67044,6 +67044,14 @@
       "category": "Legal",
       "description": "Lets Doctor Compliance partners find and register customers, preview and submit audit quote requests for websites and apps, follow quotes and delivered compliance reports with findings and per-asset details, and review projects, contracts, notifications, team, finance summary and token balance.",
       "use_case": "Requesting a font-licensing audit quote for a customer's website, reviewing findings from a delivered report, checking the remaining token balance."
+    },
+    {
+      "name": "Droply",
+      "url": "https://droply.so",
+      "marker": "C",
+      "category": "CMS and Web Building",
+      "description": "Publish HTML pages, documents and files from Claude as shareable links, and update them without changing the link.",
+      "use_case": "Putting a landing page Claude just built online as spring-menu.droply.page, updating it after client feedback, adding a password to a report."
     }
   ],
   "held": [

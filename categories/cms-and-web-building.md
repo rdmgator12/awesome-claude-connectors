@@ -2,7 +2,7 @@
 
 # CMS and Web Building
 
-[All categories](../README.md#categories) · 169 connectors · Last updated October 30, 2026
+[All categories](../README.md#categories) · 170 connectors · Last updated October 30, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -47,6 +47,7 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [Dishplay](https://dishplay.io) **`C`** - Inspects restaurant digital signage screens and devices, reads playlists, schedules, media and dayparts, and updates content where the access key allows, using existing portal permissions. *Use case: Checking which playlist a drive-thru menu screen is showing right now, confirming a breakfast daypart switches at 11 a.m., swapping an expired promo image in a location's playlist.*
 - [Domhaul](https://domhaul.com) **`C`** - An AI domain name search tool that generates brandable name ideas and checks live availability across TLDs. *Use case: Describing a new project and getting a list of available, brandable domain names to register.*
 - [Drop2Run](https://dropto.run) **`C`** - Publishes pages, documents and file sets to live links, manages sites with passwords, pauses, rollbacks and deletion, invites reviewers and reads and replies to page comments. *Use case: Publishing a project report as a password-protected page, replying to a reviewer's comments after fixing them.*
+- [Droply](https://droply.so) **`C`** - Publish HTML pages, documents and files from Claude as shareable links, and update them without changing the link. *Use case: Putting a landing page Claude just built online as spring-menu.droply.page, updating it after client feedback, adding a password to a report.*
 - [Duckify](https://duckify.app) **`C`** - Builds and saves custom designs, page content and presets for an online shop or website on a builder for the German-speaking market, working from the shop's design brief, and creates categories, products, services and portfolio items, installs Google Fonts and uploads media. *Use case: Building a custom home page design from a written brief, adding three new products with photos, fixing a call-to-action section that does not render.*
 - [Ember](https://stablemodels.ai) **`C`** - Builds and customizes a small-business website from chat using ready-made designs, then publishes it to a hosted address or a new domain. *Use case: Launching a site for a local shop, changing a design to match a brand, buying and connecting a custom domain.*
 - [FireCMS](https://firecms.co) **`C`** - Browses, searches and edits Firestore documents through FireCMS, creates collections and properties, infers collection schemas from existing data, and manages team roles and project settings such as name, brand colors and locale. *Use case: Fixing a typo in a product document, inferring a schema for an orders collection created by an app, inviting an editor and setting their role.*

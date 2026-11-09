@@ -4,9 +4,9 @@
   <img src="media/banner.svg" alt="Awesome Claude Connectors" width="800">
 </p>
 
-> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 8,046 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 57 held pending vendor verification, organized by category with descriptions and use cases.
+> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 8,047 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 57 held pending vendor verification, organized by category with descriptions and use cases.
 
-**Last updated:** October 30, 2026 | **Connectors tracked:** 8,046 listed + 57 held | **Categories:** 31
+**Last updated:** October 30, 2026 | **Connectors tracked:** 8,047 listed + 57 held | **Categories:** 31
 
 Claude connectors are MCP (Model Context Protocol) servers that extend Claude with real-time access to external tools, data sources, and services. They work across Claude.ai, Claude Desktop, Claude Mobile, Claude Code, and Claude Cowork. Connectors in the **curated web directory** are vetted by Anthropic for security, reliability, and compatibility; the **in-app catalog** additionally surfaces community-built and local desktop-extension connectors that Anthropic makes available but does not itself build or vet. This list tracks the union of both surfaces — see CONTRIBUTING.md for the two-surface methodology.
 
@@ -47,7 +47,7 @@ Each category has its own page; the list outgrew what GitHub will render as a si
 | [Automation and Integration](categories/automation-and-integration.md)                       | 82         |
 | [Calendar and Scheduling](categories/calendar-and-scheduling.md)                             | 70         |
 | [Cloud and Infrastructure](categories/cloud-and-infrastructure.md)                           | 157        |
-| [CMS and Web Building](categories/cms-and-web-building.md)                                   | 169        |
+| [CMS and Web Building](categories/cms-and-web-building.md)                                   | 170        |
 | [Communication](categories/communication.md)                                                 | 189        |
 | [Customer Support](categories/customer-support.md)                                           | 141        |
 | [Data and Analytics](categories/data-and-analytics.md)                                       | 735        |
