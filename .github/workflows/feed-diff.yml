@@ -19,6 +19,8 @@ jobs:
       - uses: actions/setup-python@v6
         with:
           python-version: "3.13"
+      - name: Prove the matcher on planted cases before trusting its report
+        run: python3 scripts/feed_diff.py --selftest
       - name: Diff the directory feed and the web sitemap against data/connectors.json
         id: diff
         run: |

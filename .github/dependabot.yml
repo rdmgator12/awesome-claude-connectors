@@ -1,0 +1,11 @@
+# The two third-party actions are pinned to commit SHAs (feed-diff.yml, linkcheck.yml).
+# A pin nobody updates goes stale, so Dependabot proposes the bumps: one grouped PR a month.
+version: 2
+updates:
+  - package-ecosystem: github-actions
+    directory: /
+    schedule:
+      interval: monthly
+    groups:
+      actions:
+        patterns: ["*"]

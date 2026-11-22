@@ -21,6 +21,7 @@ before a description that does not start with an uppercase Latin letter.
 import json
 import re
 import sys
+import unicodedata
 from collections import Counter
 from pathlib import Path
 
@@ -51,6 +52,39 @@ OPTIONAL_ENTRY_KEYS = {"subcategory"}
 HELD_KEYS = {"name", "catalog_description", "why_held"}
 HELD_HEADER = ("Connector", "Catalog description", "Why held")
 INDEX_HEADER = ("Category", "Connectors")
+
+# Entry text is emitted verbatim into markdown, so anything that would render as a
+# link, an image or raw HTML is refused: a description is prose, and the entry's one
+# link is its vetted `url`. A bare "www." or a scheme autolinks on GitHub.
+UNSAFE_TEXT = ("<", ">", "`", "](", "http://", "https://", "www.")
+URL_HOST = re.compile(r"https://([^/?#]*)")
+
+
+def unsafe_chars(value):
+    """Control, zero-width, bidi-override, private-use and surrogate code points."""
+    return sorted(
+        {
+            f"U+{ord(c):04X}"
+            for c in value
+            if ord(c) < 32 or unicodedata.category(c) in ("Cf", "Co", "Cs")
+        }
+    )
+
+
+def url_problem(url):
+    """Why a link target is refused, or None. The host must read as what it is."""
+    host = URL_HOST.match(url).group(1)
+    if "@" in host:
+        return "carries userinfo before the host"
+    if ":" in host:
+        return "carries a port"
+    if not re.fullmatch(r"[a-z0-9.-]+", host):
+        return "host is not lowercase ASCII"
+    if "." not in host or re.fullmatch(r"[0-9.]+", host):
+        return "host is not a domain name"
+    if host.startswith("xn--") or ".xn--" in host:
+        return "host is punycode (an internationalized domain needs a deliberate exception here)"
+    return None
 
 
 def slugify(title):
@@ -241,6 +275,8 @@ def validate(data, template):
             add(f"{label}: url must start with https://")
         elif ")" in url or " " in url or "\n" in url or "\r" in url:
             add(f"{label}: url must not contain ')', spaces, or newlines")
+        elif url_problem(url):
+            add(f"{label}: url {url_problem(url)}: {url}")
         else:
             urls.setdefault(url, []).append(label)
         if e.get("marker") not in ("A", "C", None):
@@ -261,6 +297,11 @@ def validate(data, template):
                 add(
                     f"{label}: {field} must not contain '*' (breaks the italic wrapper)"
                 )
+            for token in UNSAFE_TEXT:
+                if token in v:
+                    add(
+                        f"{label}: {field} must not contain {token!r} (it would render as a link or markup)"
+                    )
             if not v.endswith(TERMINAL):
                 add(
                     f"{label}: {field} must end with one of {'/'.join(TERMINAL)}, got ...{v[-15:]!r}"
@@ -330,6 +371,12 @@ def validate(data, template):
                 add(f"held {hlabel}: {k} must be a non-empty stripped string")
             elif "|" in v or "\n" in v or "\r" in v:
                 add(f"held {hlabel}: {k} must not contain '|' or newlines")
+            else:
+                for token in UNSAFE_TEXT:
+                    if token in v:
+                        add(
+                            f"held {hlabel}: {k} must not contain {token!r} (it would render as a link or markup)"
+                        )
         if isinstance(h["name"], str) and h["name"]:
             held_names.setdefault(h["name"].lower(), []).append(h["name"])
     for low, group in _grouped_dict(held_names):
@@ -342,6 +389,10 @@ def validate(data, template):
         if isinstance(x, str):
             if "{{" in x or "}}" in x:
                 add(f"'{{{{' / '}}}}' not allowed in data ({path}): {x[:60]!r}")
+            if unsafe_chars(x):
+                add(
+                    f"control, zero-width or bidi character {unsafe_chars(x)} in data ({path}): {x[:60]!r}"
+                )
         elif isinstance(x, list):
             for i, v in enumerate(x):
                 walk(v, f"{path}[{i}]")

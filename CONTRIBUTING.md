@@ -14,7 +14,7 @@ To add or change an entry:
 2. Run `python3 scripts/generate_readme.py` (stdlib only, no dependencies).
 3. Commit `data/connectors.json`, `README.md` and `categories/` together.
 
-The generator validates the data before writing: duplicate names (case-insensitive), duplicate URLs, unknown categories, entry format, and terminal punctuation all fail loud with the offending entry named. `python3 scripts/generate_readme.py --check` runs the exact check CI runs; `scripts/lint_category_pages.sh` runs awesome-lint's entry rules over every category page, as CI does.
+The generator validates the data before writing: duplicate names (case-insensitive), duplicate URLs, unknown categories, entry format, and terminal punctuation all fail loud with the offending entry named. It also refuses anything in an entry's text that would render as a link or markup (a description is prose; the entry's one link is its `url`), hidden or bidirectional-control characters anywhere in the data, and a `url` whose host carries credentials, a port, an IP address or punycode. `python3 scripts/name_url_check.py` fails on a URL that looks like a misspelling of its entry's name until a person has opened the site and recorded what it says. See [SECURITY.md](SECURITY.md) for how to report a link that has gone bad. `python3 scripts/generate_readme.py --check` runs the exact check CI runs; `scripts/lint_category_pages.sh` runs awesome-lint's entry rules over every category page, as CI does.
 
 ## What You Can Contribute
 

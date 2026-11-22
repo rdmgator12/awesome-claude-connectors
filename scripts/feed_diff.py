@@ -289,8 +289,10 @@ def on_web(name, slugs, slug_keys, slug_loose):
 
 
 def md_cell(text, limit=None):
-    # A word joiner after "@" keeps feed-supplied text from @-mentioning GitHub users in the filed issue.
-    text = re.sub(r"(?<![/\w])@(?=\w)", "@\u2060", clean(text).replace("|", "\\|"))
+    # Feed-supplied text lands in a public issue. Backslash-escape what would render as a link, an
+    # image, code or HTML, and put a word joiner after "@" so it cannot @-mention GitHub users.
+    text = re.sub(r"([\\`\[\]<>])", r"\\\1", clean(text)).replace("|", "\\|")
+    text = re.sub(r"(?<![/\w])@(?=\w)", "@\u2060", text)
     if limit and len(text) > limit:
         text = text[: limit - 1] + "…"
     return text
