@@ -1,6 +1,6 @@
-# Connector Snap Stack — The back-room gig night
+# Splice — The back-room gig night
 
-*2026-10-30 · sixth stack*
+*2026-10-30 · sixth Splice*
 
 **[TBC Events](https://tbc.xyz)** *(new)* · **[GigXchange](https://gigxchange.app)** *(new)* · **[Google Calendar](https://calendar.google.com)** · **[Gmail](https://mail.google.com)** — running in **Claude Desktop**
 

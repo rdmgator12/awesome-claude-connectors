@@ -5,7 +5,7 @@ Usage:
     python3 scripts/generate_readme.py          # regenerate README.md + category pages
     python3 scripts/generate_readme.py --check  # verify every generated file matches the data (CI)
 
-README.md is the front page (intro, Snap Stack, category index, held table); each
+README.md is the front page (intro, Splice, category index, held table); each
 category's entries live on their own page because GitHub stops rendering a
 markdown file at ~512 KB (the single-file README hit 764 KB on 2026-09-14 and
 went dark from mid-Marketing and Sales onward).

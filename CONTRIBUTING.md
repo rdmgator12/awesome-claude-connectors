@@ -11,10 +11,10 @@ This list tracks every connector in Anthropic's official Connectors Directory. C
 To add or change an entry:
 
 1. Edit `data/connectors.json` (add the entry object anywhere -- sorting is automatic).
-2. Run `python3 scripts/generate_readme.py` (stdlib only, no dependencies).
-3. Commit `data/connectors.json`, `README.md` and `categories/` together.
+2. Run `python3 scripts/generate_readme.py` and `python3 scripts/export_site_data.py` (stdlib only, no dependencies).
+3. Commit `data/connectors.json`, `README.md`, `categories/` and `site-data/` together.
 
-The generator validates the data before writing: duplicate names (case-insensitive), duplicate URLs, unknown categories, entry format, and terminal punctuation all fail loud with the offending entry named. It also refuses anything in an entry's text that would render as a link or markup (a description is prose; the entry's one link is its `url`), hidden or bidirectional-control characters anywhere in the data, and a `url` whose host carries credentials, a port, an IP address or punycode. `python3 scripts/name_url_check.py` fails on a URL that looks like a misspelling of its entry's name until a person has opened the site and recorded what it says. See [SECURITY.md](SECURITY.md) for how to report a link that has gone bad. `python3 scripts/generate_readme.py --check` runs the exact check CI runs; `scripts/lint_category_pages.sh` runs awesome-lint's entry rules over every category page, as CI does.
+`site-data/` is the website's read-only feed: small JSON files (an index, a name search file, one file per category, the held rows) with a stable id per entry, derived from the same data; CI rejects it when stale, like the README. The generator validates the data before writing: duplicate names (case-insensitive), duplicate URLs, unknown categories, entry format, and terminal punctuation all fail loud with the offending entry named. It also refuses anything in an entry's text that would render as a link or markup (a description is prose; the entry's one link is its `url`), hidden or bidirectional-control characters anywhere in the data, and a `url` whose host carries credentials, a port, an IP address or punycode. `python3 scripts/name_url_check.py` fails on a URL that looks like a misspelling of its entry's name until a person has opened the site and recorded what it says. See [SECURITY.md](SECURITY.md) for how to report a link that has gone bad. `python3 scripts/generate_readme.py --check` runs the exact check CI runs; `scripts/lint_category_pages.sh` runs awesome-lint's entry rules over every category page, as CI does.
 
 ## What You Can Contribute
 
@@ -68,6 +68,6 @@ Catalog entries whose vendor URL cannot be confirmed are published in the README
 
 If you are the vendor of a held entry, or you know its canonical product page, open an issue or PR with the URL. The entry graduates to its category section once the page content confirms the product. Never point a held entry at a generic directory page as a placeholder -- shared placeholder links fail lint (`double-link`) and tell the reader nothing.
 
-### Connector Snap Stacks
+### Splices
 
-Each sweep features a Connector Snap Stack in the README tip: a persona plus a small stack of connectors that click together, run through Claude Cowork or Claude Code. Composition rule: at least one connector new to the list and at least one proven one (the 2026-08-10 debut used four new entries; that is the exception, not the pattern). Stacks are archived in docs/stacks/; sweep statistics live in docs/CHANGELOG.md. A stack write-up must not assert outcomes that have not been field-tested -- mark untested stacks as composed, and upgrade them when a Field Report comes in.
+Each sweep features a Splice in the README tip: a persona plus a small set of connectors joined for one job, run through Claude Cowork or Claude Code. Composition rule: at least one connector new to the list and at least one proven one (the 2026-08-10 debut used four new entries; that is the exception, not the pattern). Splices are archived in docs/stacks/ (the folder keeps its name from when they were called Connector Snap Stacks); sweep statistics live in docs/CHANGELOG.md. A Splice write-up must not assert outcomes that have not been field-tested -- mark untested Splices as composed, and upgrade them when a Field Report comes in.

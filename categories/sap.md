@@ -2,10 +2,13 @@
 
 # SAP
 
-[All categories](../README.md#categories) · 4 connectors · Last updated November 22, 2026
+[All categories](../README.md#categories) · 7 connectors · Last updated November 22, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
+- [CBS SAP AI](https://clockwork.in/clockworkai-sap-business-one-ai-solution/) **`C`** - Queries SAP Business One data on customers, orders, invoices, inventory and stock, and creates or updates sales orders, quotations, purchase orders, deliveries, goods receipts, invoices and payments. *Use case: Checking stock of an item across 3 warehouses, creating a sales order for a repeat customer, recording a supplier payment for last month's invoice.*
+- [fairyfly](https://fairyfly.io) **`C`** - Operates the user's open SAP GUI for Windows session, starting transactions, reading screens, tables and messages as structured data, opening value help, and filling and submitting forms with approval at the PC. *Use case: Starting a transaction to look up open purchase orders for a vendor, filling in a goods receipt form and approving the change at the PC.*
+- [mcpbizapps](https://mcpbizapps.com) **`C`** - Looks up SAP Business ByDesign customers, suppliers, sales orders and delivery status, receivables and payables aging, stock and project budgets, and prepares sales order changes that run after approval with an audit log. *Use case: Checking open receivables for a key customer over 60 days, changing the quantity on a sales order and sending it for approval.*
 - [SAP CAP MCP Server](https://cap.cloud.sap) - SAP Cloud Application Programming Model. *Use case: Building enterprise apps on SAP Business Technology Platform.*
 - [SAP Fiori MCP Server](https://www.sap.com/products/technology-platform/fiori.html) - Enterprise UX development for SAP applications. *Use case: SAP enterprise UX development, Fiori element configuration.*
 - [SAP MDK MCP Server](https://developers.sap.com/topics/mobile-development-kit.html) - SAP Mobile Development Kit. *Use case: Building SAP mobile apps, offline-capable enterprise mobile development.*

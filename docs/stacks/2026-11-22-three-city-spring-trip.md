@@ -1,6 +1,6 @@
-# Connector Snap Stack — The three-city spring trip
+# Splice — The three-city spring trip
 
-*2026-11-22 · seventh stack*
+*2026-11-22 · seventh Splice*
 
 **[Stopover](https://flystopover.com)** *(new)* · **[TravelCharika](https://travelcharika.com)** · **[Booking.com](https://www.booking.com)** · **[Google Calendar](https://calendar.google.com)** — running in **Claude**
 

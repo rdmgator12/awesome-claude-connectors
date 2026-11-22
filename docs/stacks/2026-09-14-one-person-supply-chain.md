@@ -1,6 +1,6 @@
-# Connector Snap Stack — The one-person supply chain
+# Splice — The one-person supply chain
 
-*2026-09-14 · second stack*
+*2026-09-14 · second Splice*
 
 **[Terminal49](https://terminal49.com)** *(new)* · **[Stord](https://www.stord.com)** *(new)* · **[LetMeShip Next](https://www.letmeship.com)** *(new)* · **[PostCo](https://postco.co)** *(new)* — running in **Claude Desktop**
 

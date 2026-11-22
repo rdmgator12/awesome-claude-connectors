@@ -1,6 +1,6 @@
-# Connector Snap Stack — The solo Shopify operator
+# Splice — The solo Shopify operator
 
-*2026-08-10 · debut stack*
+*2026-08-10 · debut Splice*
 
 **[Metorik](https://metorik.com)** *(new)* · **[Intelligems](https://www.intelligems.io)** *(new)* · **[AfterShip Post-Purchase](https://www.aftership.com)** *(new)* · **[Meta Ads by Windsor.ai](https://windsor.ai/connect/facebook-ads-mcp)** *(new)* — running in **Claude Cowork**
 

@@ -1,6 +1,6 @@
-# Connector Snap Stack — The kitchen-table bills night
+# Splice — The kitchen-table bills night
 
-*2026-10-19 · fifth stack*
+*2026-10-19 · fifth Splice*
 
 **[Lower My Bill](https://goodturn-mcp.pages.dev/lowermybill)** *(new)* · **[Zeno Household](https://zenonest.com)** *(new)* · **[Gmail](https://mail.google.com)** · **[Google Calendar](https://calendar.google.com)** — running in **Claude Desktop**
 
