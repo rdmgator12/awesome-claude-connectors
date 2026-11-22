@@ -299,7 +299,7 @@
     },
     {
       "name": "POMA Grill",
-      "url": "https://www.poma-ai.com/products/grill",
+      "url": "https://www.index4.ai",
       "marker": "C",
       "category": "AI and ML",
       "description": "Turn any file into AI-searchable context.",
@@ -371,7 +371,7 @@
     },
     {
       "name": "ToolUniverse",
-      "url": "https://tooluniverse.org",
+      "url": "https://zitniklab.hms.harvard.edu/ToolUniverse",
       "marker": null,
       "category": "AI and ML",
       "description": "Access 600+ scientific tools.",
@@ -795,7 +795,7 @@
     },
     {
       "name": "Givemeanode",
-      "url": "https://givemeanode.com",
+      "url": "https://autoresearch.sfcompute.com",
       "marker": "C",
       "category": "Cloud and Infrastructure",
       "description": "GPUs for your agent.",
@@ -6204,7 +6204,7 @@
     },
     {
       "name": "PuraFi Expenses",
-      "url": "https://www.purafi.ai",
+      "url": "https://www.expenseos.com/expenses-mcp",
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Turn receipts and drives into finished expense reports in chat — IRS-rate mileage, PDF/Excel/QuickBooks exports, one-click manager approval, and reimbursement tracking.",
@@ -6573,7 +6573,7 @@
     },
     {
       "name": "Theia Insights",
-      "url": "https://www.theiainsights.com",
+      "url": "https://www.onthos.com",
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Dynamic industry classification and thematic investment data for asset managers, index providers, and banks.",
@@ -7648,7 +7648,7 @@
     },
     {
       "name": "BIA Edge",
-      "url": "https://biaedge.com",
+      "url": "https://passimai.com",
       "marker": "C",
       "category": "Legal",
       "description": "U.S. immigration law research: 470,000+ BIA, AAO, and federal decisions, INA/CFR, USCIS policy, and case-validity checking.",
@@ -10235,7 +10235,7 @@
     },
     {
       "name": "Suger",
-      "url": "https://www.suger.io",
+      "url": "https://www.fours.com",
       "marker": "C",
       "category": "Marketing and Sales",
       "description": "Manage your AWS, Azure, and GCP Marketplace business from Claude — private offers, buyers, entitlements, usage-based billing, revenue reporting, and multi-cloud co-sell.",
@@ -11138,14 +11138,6 @@
       "category": "Productivity",
       "description": "Online form builder and submission management.",
       "use_case": "Custom form creation, collecting payments and registrations, routing submissions to downstream tools."
-    },
-    {
-      "name": "Lace Labs",
-      "url": "https://inlace.co",
-      "marker": "C",
-      "category": "Productivity",
-      "description": "Team knowledge layer shared across agents.",
-      "use_case": "Briefing an agent on team context and past decisions, tracing agent output back to source work, sharing a knowledge graph across workflows."
     },
     {
       "name": "Lattice",
@@ -12172,14 +12164,6 @@
       "use_case": "Finding papers that cite a specific ML result, searching for related work on a niche AI topic by meaning rather than exact keywords."
     },
     {
-      "name": "Scholar Gateway",
-      "url": "https://scholargateway.com",
-      "marker": null,
-      "category": "Research and Academic",
-      "description": "Scholarly research and citation discovery.",
-      "use_case": "Academic paper search, citation analysis, cross-disciplinary research that spans beyond biomedical literature."
-    },
-    {
       "name": "Scholar Sidekick",
       "url": "https://scholar-sidekick.com",
       "marker": null,
@@ -12757,7 +12741,7 @@
     },
     {
       "name": "Evarist",
-      "url": "https://evarist.ai",
+      "url": "https://shopiens.ai",
       "marker": "C",
       "category": "SEO and Web",
       "description": "AI-native website traffic analytics.",
@@ -16356,7 +16340,7 @@
     },
     {
       "name": "mcp.nerve.mattemena.com",
-      "url": "https://www.mattemena.com",
+      "url": "https://www.mattestudio.ai",
       "marker": "C",
       "category": "Marketing and Sales",
       "description": "Connects Meta, TikTok, Google, and Snapchat Ads plus GA4, Google Sheets, and HubSpot to analyze campaigns and create or update ads, audiences, and budgets.",
@@ -16603,7 +16587,7 @@
     },
     {
       "name": "Skimetric",
-      "url": "https://skimetric.eu",
+      "url": "https://skinow.co",
       "marker": "C",
       "category": "Travel",
       "description": "Provides verified snow forecasts, live lift status, snow history, travel times and trip costs for 1,577 European ski resorts, and plans full trips.",
@@ -16619,7 +16603,7 @@
     },
     {
       "name": "Scry",
-      "url": "https://exopriors.com",
+      "url": "https://scry.io",
       "marker": "C",
       "category": "SEO and Web",
       "description": "Runs SQL over a crawled corpus of forums, papers, code, prediction markets and the open web, returning every matching row rather than ranked links.",
@@ -16644,7 +16628,7 @@
     },
     {
       "name": "mcpMyAdmin",
-      "url": "https://www.mcpmyadmin.com",
+      "url": "https://orionbi.ai",
       "marker": "C",
       "category": "Data and Analytics",
       "description": "Queries 40 databases and warehouses — PostgreSQL, MySQL, Oracle, MongoDB, Snowflake, BigQuery and more — in plain English, returning a chart and the SQL behind it.",
@@ -16794,14 +16778,6 @@
       "category": "SEO and Web",
       "description": "Queries a BrightLocal account for local rank tracking on Google and Bing, review monitoring, citation audits and business listing accuracy across locations.",
       "use_case": "Seeing which keywords a branch gained or lost this week, reading new reviews left for one location, spotting citations with a wrong phone number."
-    },
-    {
-      "name": "RCO-A2A",
-      "url": "https://gsc-em.com",
-      "marker": "C",
-      "category": "Legal",
-      "description": "Resolves signed, machine-verifiable regulatory compliance records per GTIN and jurisdiction for commerce agents, and lets authorized issuers publish new records.",
-      "use_case": "Checking whether a product may be sold in a given market, pulling the issuer and verification link behind a compliance record, listing available rule sets."
     },
     {
       "name": "Minter.io",
@@ -18322,7 +18298,7 @@
     },
     {
       "name": "BauLedger",
-      "url": "https://in-reach.info",
+      "url": "https://bauledger.de",
       "marker": "C",
       "category": "Project Management",
       "description": "Read-only access to BauLedger construction-site records: site diary entries, defects, tasks, VOB deadlines, and logged working hours per project.",
@@ -20042,7 +20018,7 @@
     },
     {
       "name": "FeynmanLM",
-      "url": "https://feynmanlm.com",
+      "url": "https://foreverlm.com",
       "marker": "C",
       "category": "Education",
       "description": "Searches and reads a FeynmanLM library of papers, books, articles, podcasts, and course materials, runs Feynman-style reviews, and saves review transcripts.",
@@ -21110,7 +21086,7 @@
     },
     {
       "name": "FlagStat",
-      "url": "https://proxylink.co",
+      "url": "https://flagstat-mcp.vercel.app",
       "marker": "C",
       "category": "Entertainment",
       "description": "Answers questions about flag football scoring, stats, reports, rulesets, film review, exports, and season setup for leagues and programs.",
@@ -21435,7 +21411,7 @@
     },
     {
       "name": "Ace Website MCP",
-      "url": "https://ace-bl.tech",
+      "url": "https://tryacee.com",
       "marker": "C",
       "category": "Education",
       "description": "Browses the public catalog for a Mac study-assistant app, reads product and support pages, lists live prices, and creates Stripe-hosted checkout links.",
@@ -23667,7 +23643,7 @@
     },
     {
       "name": "OSO",
-      "url": "https://www.oso.xyz",
+      "url": "https://www.artio.so",
       "marker": "C",
       "category": "Data and Analytics",
       "description": "Connects Claude to an organization's centralized strategic data layer built over its existing warehouses, BI tools, and notebooks.",
@@ -25235,7 +25211,7 @@
     },
     {
       "name": "Insurely",
-      "url": "https://insurely.com",
+      "url": "https://anessa.co",
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Starts consented data-sharing requests and retrieves users' shared financial data for personalized wealth management.",
@@ -27382,7 +27358,7 @@
     },
     {
       "name": "Darak · دارك",
-      "url": "https://darak.app",
+      "url": "https://kite.sa/en",
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Searches deduplicated Saudi rental and sale listings from more than 13 property sites by budget, rooms, size and area, checks a listing's price against comparables, compares neighborhoods and rents, and finds rental yields and development projects.",
@@ -28275,7 +28251,7 @@
     },
     {
       "name": "SEO automation by Liftaven",
-      "url": "https://liftaven.com",
+      "url": "https://liftseo.app",
       "marker": "C",
       "category": "SEO and Web",
       "description": "Investigates search visibility and engagement through Google Search Console, Google Analytics 4 and Bing Webmaster Tools, reads site pages, compares periods, prepares website changes for human review, submits sitemaps, and reports on connected ad accounts.",
@@ -28686,15 +28662,6 @@
       "category": "Lifestyle and Local",
       "description": "Searches published homes for sale or rent and reads public property details and inspection schedules, and with a verified account shows the account's own listings, saved favourites and received enquiries, read-only.",
       "use_case": "Searching rentals and reading their upcoming inspection times, checking details on a saved favourite, reviewing enquiries received on a listed property."
-    },
-    {
-      "name": "ZonRival",
-      "url": "https://zonrival.com",
-      "marker": "C",
-      "category": "Marketing and Sales",
-      "description": "Pulls Amazon price, sales rank, rating and review history, audits listings, summarizes review complaints, shows organic and sponsored keyword rankings, compares listing text, reads Shopify catalogs, and emails daily competitor change digests.",
-      "use_case": "Checking whether a rival's sales rank climbed after a price cut, finding the top complaints on a competing blender, adding five competitor products to a daily watch list.",
-      "subcategory": "Ecommerce and Marketplace Selling"
     },
     {
       "name": "全国法人レーダー (Japan Corporate Number Search)",
@@ -30413,7 +30380,7 @@
     },
     {
       "name": "Central Banks Dataset",
-      "url": "https://insig.ai",
+      "url": "https://candessa.com",
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Searches a machine-readable dataset of central bank speeches, minutes, press releases and other documents in 37 languages, and lists the countries, institutions, regions, speakers and report types it covers.",
@@ -31063,7 +31030,7 @@
     },
     {
       "name": "MyTruv",
-      "url": "https://mytruv.com",
+      "url": "https://money.checkr.com",
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Analyzes spending by category or merchant, searches transactions, lists subscriptions and recurring bills, tracks balances and net worth, summarizes bank and payroll income, reads a credit snapshot, and edits transaction categories and merchant rules in MyTruv.",
@@ -31677,7 +31644,7 @@
     },
     {
       "name": "Wiley Scholar Gateway",
-      "url": "https://www.wiley.com",
+      "url": "https://www.wiley.com/en-us/research/products/wiley-scholar-gateway",
       "marker": null,
       "category": "Research and Academic",
       "description": "Searches full-text literature from Wiley journals and returns peer-reviewed sources with citations, DOI links and source metadata, and reports remaining usage limits.",
@@ -32838,14 +32805,6 @@
       "use_case": "Validating an EU VAT number, listing open weclapp quotations older than two weeks, turning an internal OpenAPI spec into callable tools."
     },
     {
-      "name": "api.pdfrender.dev",
-      "url": "https://pdfrender.dev",
-      "marker": "C",
-      "category": "Documents and Files",
-      "description": "Renders HTML and CSS into PDF with WeasyPrint, supporting page size, margins, headers, footers and page numbers, up to 2 MB of HTML and 50 pages per render.",
-      "use_case": "Turning an HTML invoice template into a paginated PDF, generating a report with running headers and page numbers, rendering a styled letter with embedded data-URI images."
-    },
-    {
       "name": "api.vibeotter.com",
       "url": "https://vibeotter.com",
       "marker": "C",
@@ -33662,7 +33621,7 @@
     },
     {
       "name": "Doers",
-      "url": "https://doers.sh",
+      "url": "https://docs.doers.sh",
       "marker": "C",
       "category": "Productivity",
       "description": "Captures tasks into projects and areas, suggests and saves a realistic daily plan, runs focus sessions, tracks habits, and manages calendar events, notes and journal entries alongside tasks.",
@@ -34941,7 +34900,7 @@
     },
     {
       "name": "mcp.ambernotes.app",
-      "url": "https://ambernotes.app",
+      "url": "https://pintonotes.com",
       "marker": "C",
       "category": "Productivity",
       "description": "Searches, reads, creates and edits Amber Notes notes and folders, appends under headings, ticks checklist items, logs rows in table trackers, opens attached files and restores earlier versions.",
@@ -36477,7 +36436,7 @@
     },
     {
       "name": "stageworks",
-      "url": "https://www.stageworks.ai",
+      "url": "https://ontheone.app",
       "marker": "C",
       "category": "Ticketing and Events",
       "description": "Lists and updates a band's gigs and booking requests, creates events with venue, fee, deposit and run sheet details, turns organiser messages into booking requests, places requests on hold, and adds timeline notes.",
@@ -39733,7 +39692,7 @@
     },
     {
       "name": "SolarScope",
-      "url": "https://solarscope.io",
+      "url": "https://acrelume.com",
       "marker": "C",
       "category": "Data and Analytics",
       "description": "Screens sites in the United States for solar development using solar resource, nearest transmission-line distance and voltage, and FEMA flood-zone status, ranks batches of up to 25 sites, saves sites to projects and creates PDF site reports.",
@@ -49212,7 +49171,7 @@
     },
     {
       "name": "Omniseal",
-      "url": "https://api.purecipher.com",
+      "url": "https://api.purecipher.com/fixtures/omniseal-claude-guide.html",
       "marker": "C",
       "category": "Security",
       "description": "Conceals a secret file inside a supported cover file, retrieves the hidden file with its private seed, verifies seal integrity, and produces a clean cover with the hidden payload removed, from HTTPS URLs or base64 input.",
@@ -49335,7 +49294,7 @@
     },
     {
       "name": "TradieBridge",
-      "url": "https://tradiebridge.com",
+      "url": "https://doovalacky.ai",
       "marker": "C",
       "category": "Data and Analytics",
       "description": "Answers questions from an Australian trade business's synced copy of its job management, accounting, payroll, rostering and fleet systems, including ready-made questions, searches, counts, totals and groupings, and opens records as their source sent them.",
@@ -50634,7 +50593,7 @@
     },
     {
       "name": "Framework",
-      "url": "https://app.newform.ai",
+      "url": "https://app.newform.com/plugins/framework/docs",
       "marker": "C",
       "category": "Marketing and Sales",
       "description": "Requests and explores a creative research Ad Atlas of public ad library data, covering formats, diversity, coverage and gaps, and reads account ad metrics and creative-test results for entitled organizations.",
@@ -50893,7 +50852,7 @@
     },
     {
       "name": "Tellen",
-      "url": "https://docs.tellen.app",
+      "url": "https://tellen.app",
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Lists, creates, edits, deletes and voids invoices in a Tellen electronic invoicing account for Ecuador, looks up customers, products and emission points, and submits invoices to the SRI for authorization.",
@@ -58558,7 +58517,7 @@
     },
     {
       "name": "NotaMCP",
-      "url": "https://notamcp.com.br",
+      "url": "https://notas.dev",
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Issues national electronic service invoices (NFS-e Nacional) through a preview-then-confirm flow, looks up, lists and cancels invoices, saves frequent service recipients and tax settings, shows the prepaid credit balance and generates payment links to buy more credits.",
@@ -67304,6 +67263,26 @@
       "name": "Tinta",
       "catalog_description": "Colour palettes, contrast checks and UI themes, computed — with an interactive palette lab in the chat.",
       "why_held": "vendor site returns 500 with its own error page in three weekly link checks and on a direct fetch (2026-11-22)"
+    },
+    {
+      "name": "Lace Labs",
+      "catalog_description": "Your team's knowledge, for every agent.",
+      "why_held": "vendor domain no longer resolves at its apex, its other host or its documentation host (2026-11-22)"
+    },
+    {
+      "name": "RCO-A2A",
+      "catalog_description": "Regulatory Compliance Objects for agentic commerce",
+      "why_held": "the vendor URL redirects to a differently named shopping-data product, the documentation host to a third product, and no page names this connector (2026-11-22)"
+    },
+    {
+      "name": "ZonRival",
+      "catalog_description": "Amazon and Shopify competitor research in Claude: price & rank history, keyword rankings, customer complaints, listing audits and daily competitor alerts.",
+      "why_held": "vendor domain redirects to a registrar's for-sale page (2026-11-22)"
+    },
+    {
+      "name": "pdfrender",
+      "catalog_description": "HTML and CSS to PDF API and MCP server. WeasyPrint with page headers, footers and page numbers, no headless browser. Hosted in Germany.",
+      "why_held": "vendor domain has no address record at its apex or its api host; the catalog now names the connector pdfrender (2026-11-22)"
     }
   ]
 }

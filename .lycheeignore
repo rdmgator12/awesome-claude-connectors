@@ -8,8 +8,6 @@ https://www.turkishairlines.com/.*
 https://www.uber.com/.*
 # Radware Bot Manager (returns nonstandard 247 to non-browsers); site alive.
 https://www.alice.co.il/.*
-# TLS refused to curl/lychee, content verified via a second fetch channel 2026-09-06 (docs.inlace.co also 200); site alive.
-https://inlace.co/.*
 # unsplash.com — lychee got 401 from the GitHub runner on 2026-09-15 (issue #17); a direct fetch the same day
 # returned 200 with real content. Bot-armored against the checker's TLS fingerprint, not dead.
 https://unsplash.com/.*
