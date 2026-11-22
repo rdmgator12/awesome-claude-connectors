@@ -53,10 +53,10 @@ Each category has its own page; the list outgrew what GitHub will render as a si
 | [Data and Analytics](categories/data-and-analytics.md)                                       | 735        |
 | [Design and Creative](categories/design-and-creative.md)                                     | 275        |
 | [Desktop Automation](categories/desktop-automation.md)                                       | 16         |
-| [Development Tools](categories/development-tools.md)                                         | 332        |
+| [Development Tools](categories/development-tools.md)                                         | 331        |
 | [Documents and Files](categories/documents-and-files.md)                                     | 180        |
 | [Education](categories/education.md)                                                         | 162        |
-| [Entertainment](categories/entertainment.md)                                                 | 118        |
+| [Entertainment](categories/entertainment.md)                                                 | 119        |
 | [Finance and Trading](categories/finance-and-trading.md)                                     | 939        |
 | [Government and Nonprofit](categories/government-and-nonprofit.md)                           | 104        |
 | [Healthcare and Life Sciences](categories/healthcare-and-life-sciences.md)                   | 153        |

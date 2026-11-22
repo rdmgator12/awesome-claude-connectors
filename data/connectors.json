@@ -45,7 +45,7 @@
       "name": "PlayDrop",
       "url": "https://www.playdrop.ai",
       "marker": "C",
-      "category": "Development Tools",
+      "category": "Entertainment",
       "description": "Publishes HTML5 browser games to PlayDrop with a public link that plays on phone or desktop, tests private versions, updates a game without changing its link, and uploads a Colyseus server for hosted multiplayer.",
       "use_case": "Putting a game built in a Claude chat online for friends to play on their phones, shipping a fix after a player reports a bug, adding a server for online two-player matches."
     },
@@ -3933,8 +3933,8 @@
       "url": "https://floot.com",
       "marker": null,
       "category": "Development Tools",
-      "description": "Builds full-stack web apps and native iPhone and Android apps from a Claude conversation, with a database, user logins, file storage, email and hosting included, and publishes them to a live URL or the app stores.",
-      "use_case": "Turning a booking-form idea into a published app with customer logins, adding a table for client records, submitting an iPhone version to the App Store without a Mac."
+      "description": "Builds full-stack web apps and iPhone and Android apps from a Claude conversation, with a database, user logins, file storage, email and hosting included, and publishes them to a live URL or the app stores.",
+      "use_case": "Turning a booking-form idea into a published app with customer logins, adding a table for client records, submitting an iPhone version to the App Store."
     },
     {
       "name": "Gainable",
@@ -67050,7 +67050,7 @@
       "url": "https://droply.so",
       "marker": "C",
       "category": "CMS and Web Building",
-      "description": "Publish HTML pages, documents and files from Claude as shareable links, and update them without changing the link.",
+      "description": "Publishes HTML pages, documents and files from Claude as shareable links, and updates them without changing the link.",
       "use_case": "Putting a landing page Claude just built online as spring-menu.droply.page, updating it after client feedback, adding a password to a report."
     },
     {
