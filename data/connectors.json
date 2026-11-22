@@ -69370,7 +69370,7 @@
       "marker": "C",
       "category": "Ecommerce and Marketplace Selling",
       "description": "Searches the ASPanel building materials catalog, opens product specifications and returns net and gross PLN prices for a requested quantity and sales unit, with the product page.",
-      "use_case": "Pricing 120 square metres of 100 mm PIR sandwich panels, comparing trapezoidal sheet thicknesses for a garage roof."
+      "use_case": "Pricing a roofing panel order for a requested quantity and sales unit, comparing two panels' specifications for a garage roof."
     },
     {
       "name": "AssemblyAI",
@@ -70915,7 +70915,7 @@
       "url": "https://botbarn.dev",
       "marker": "C",
       "category": "Cloud and Infrastructure",
-      "description": "Creates, uploads, deploys and runs Telegram bots on BotBarn, reads build and runtime logs, sets variables and versions, and starts, stops and restarts bots.",
+      "description": "Creates, uploads, deploys and runs Telegram bots on BotBarn, reads build and runtime logs, sets environment variables, Python version and update mode, and starts, stops and restarts bots.",
       "use_case": "Deploying a Python bot that posts daily weather to a group, reading logs to fix a startup error."
     },
     {
@@ -74132,7 +74132,7 @@
       "url": "https://datamcp.app",
       "marker": "C",
       "category": "Data and Analytics",
-      "description": "Explores authorized database schemas and schema changes, reads table details, runs bounded SQL queries within granted permissions, and lists pending column descriptions.",
+      "description": "Explores authorized database schemas and schema changes, reads table details, runs bounded SQL queries within granted permissions, and lists pending descriptions.",
       "use_case": "Querying monthly signups from a private PostgreSQL database, checking which tables changed since last week.",
       "subcategory": "Databases and Warehouses"
     },
@@ -74430,7 +74430,7 @@
       "marker": "C",
       "category": "Travel",
       "description": "Plans electric car trips in Brazil with charging stops and battery per leg using the car and consumption from a Partiu EV account, searches cars, places and chargers, and reports charger problems.",
-      "use_case": "Planning a Sao Paulo to Rio trip in a BYD Dolphin with 2 charging stops, reporting a broken charger in Resende."
+      "use_case": "Planning a Sao Paulo to Rio trip with the account's car and charging stops on the way, reporting a broken charger found along the route."
     },
     {
       "name": "DesignVille.cz",
@@ -74814,7 +74814,7 @@
       "marker": "C",
       "category": "Market Data and Investment Research",
       "description": "Searches about 2,100 Indian mutual funds on DiscoverMF for returns, risk figures, expense ratios and holdings, compares and ranks funds by category, and finds which funds hold a stock.",
-      "use_case": "Comparing two flexi cap funds over five years, finding which funds hold HDFC Bank."
+      "use_case": "Comparing two funds from the same category over five years, finding which funds hold a given company's shares and how their weights changed."
     },
     {
       "name": "DishDecoded",
@@ -76137,7 +76137,7 @@
       "marker": "C",
       "category": "Legal",
       "description": "Lists Epiq AI projects, accounts and document collections, searches documents for relevant excerpts and finds people and organizations in a matter, within the user's existing Epiq AI permissions.",
-      "use_case": "Finding emails that mention a supplier contract in a litigation collection, listing the key people named in a regulatory matter."
+      "use_case": "Finding documents that mention a supplier contract in a litigation collection, listing the key people named in a regulatory matter."
     },
     {
       "name": "epoc",
@@ -76480,7 +76480,7 @@
       "marker": "C",
       "category": "Security",
       "description": "Searches CVEs by text, vendor, product, package, ecosystem or version, reads details, references, affected-software evidence, CISA KEV and EPSS data, and checks source coverage and changes since a saved cursor.",
-      "use_case": "Checking whether OpenSSL 3.0.7 has known exploited CVEs, listing new CVEs for a Django package since last week's check."
+      "use_case": "Searching CISA KEV-listed CVEs that mention a vendor's product, listing CVEs changed since last week's saved cursor."
     },
     {
       "name": "PentestCompare",
@@ -77882,7 +77882,7 @@
       "url": "https://formkove.com",
       "marker": "C",
       "category": "Development Tools",
-      "description": "Creates Formkove forms with setup code for a site's framework, updates allowed origins and form settings, turns on AI tags and sentiment, checks submissions, and lists, searches and reads submissions and stats.",
+      "description": "Creates Formkove forms with setup code for a site's framework, updates allowed origins and form settings, turns on AI tags and sentiment, checks whether a page's submissions would be accepted, and lists, searches and reads submissions and stats.",
       "use_case": "Adding a contact form to an Astro site, listing last week's submissions tagged as sales leads."
     },
     {
@@ -79825,7 +79825,7 @@
       "marker": "C",
       "category": "Entertainment",
       "description": "Searches the Gridleak catalogue of real guitar amps, reads amp versions and builds, finds the matching model and presets on Quad Cortex, Axe-Fx, FM3, FM9 or Helix, compares amps and gives device notes.",
-      "use_case": "Finding the Helix model that matches a Marshall 2203, comparing it with a 2204."
+      "use_case": "Finding the Helix model that matches a 2203, comparing it with a 2204."
     },
     {
       "name": "Griply",
@@ -82655,7 +82655,7 @@
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Runs the Käufer-Blick-Check one question at a time, as a 5-question first look or the full set, and shows how a buyer would rate seven areas of a company, without a price or valuation.",
-      "use_case": "Seeing how owner dependence weighs on selling a 40-person plumbing firm, running the short check first.",
+      "use_case": "Running the 5-question first look for a 40-person plumbing firm, then the full check to see which areas could weigh on a sale.",
       "subcategory": "Private Markets Real Estate and Deal Intelligence"
     },
     {
@@ -97205,7 +97205,7 @@
       "marker": "C",
       "category": "Research and Academic",
       "description": "Searches WarStrikes conflict reports, events and signals by region, reads source-linked reports and returns daily briefings.",
-      "use_case": "Reading today's briefing on strikes in southern Lebanon, listing drone attacks reported in the last 24 hours."
+      "use_case": "Reading today's daily briefing, searching recent reports of strikes in one conflict region and opening their sources."
     },
     {
       "name": "Telma",
@@ -97824,10 +97824,10 @@
       "name": "Carrier Vetting Watch",
       "url": "https://carriers.tidybutton.com",
       "marker": "C",
-      "category": "Finance and Trading",
+      "category": "Data and Analytics",
       "description": "Checks US motor carriers and brokers against FMCSA authority, insurance and fleet data, searches carriers and watches saved carriers for changes.",
       "use_case": "Vetting a new carrier's authority and insurance before tendering a load.",
-      "subcategory": "Credit Risk Compliance and Insurance"
+      "subcategory": "Company and Market Intelligence"
     },
     {
       "name": "Certificate Maker",
@@ -98397,7 +98397,7 @@
       "marker": "C",
       "category": "Ticketing and Events",
       "description": "Searches local events by city, region or neighborhood, finds events near a place, and returns event, venue and town details from the TownSpot guide.",
-      "use_case": "Finding live music in Lisbon's Alfama this weekend, checking what's on near a Manchester venue tonight."
+      "use_case": "Finding what's on in a Lisbon neighbourhood, checking events near a Manchester venue."
     },
     {
       "name": "TPC Hosting free tools",
@@ -100195,7 +100195,7 @@
       "url": "https://vigilbase.com",
       "marker": "C",
       "category": "Security",
-      "description": "Grades a site's HTTP security headers and a domain's email authentication, searches Vigilbase docs, and reads and acts on Vigilbase One services, billing, monitoring and tickets.",
+      "description": "Grades a site's HTTP security headers and a domain's email authentication, searches Vigilbase docs, reads Vigilbase One services, billing, contracts, monitoring and tickets, and calls Vigilbase One API actions the role allows, such as adding monitoring targets.",
       "use_case": "Grading example-shop.com's DMARC setup, checking open support tickets for a client organization."
     },
     {
