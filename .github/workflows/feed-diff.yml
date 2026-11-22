@@ -13,10 +13,10 @@ jobs:
   diff:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v5
+      - uses: actions/checkout@v7
         with:
           persist-credentials: false
-      - uses: actions/setup-python@v6
+      - uses: actions/setup-python@v7
         with:
           python-version: "3.13"
       - name: Prove the matcher on planted cases before trusting its report
@@ -35,7 +35,7 @@ jobs:
             feed-diff-full.md
           retention-days: 90
       - name: Open the report as an issue
-        uses: peter-evans/create-issue-from-file@e8ef132d6df98ed982188e460ebb3b5d4ef3a9cd # v5.0.1
+        uses: peter-evans/create-issue-from-file@fca9117c27cdc29c6c4db3b86c48e4115a786710 # v6.0.0
         with:
           title: "Feed diff: ${{ steps.diff.outputs.date }}"
           content-filepath: ./feed-diff.md
