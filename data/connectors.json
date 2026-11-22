@@ -67052,6 +67052,14 @@
       "category": "CMS and Web Building",
       "description": "Publish HTML pages, documents and files from Claude as shareable links, and update them without changing the link.",
       "use_case": "Putting a landing page Claude just built online as spring-menu.droply.page, updating it after client feedback, adding a password to a report."
+    },
+    {
+      "name": "Stopover",
+      "url": "https://flystopover.com",
+      "marker": "C",
+      "category": "Travel",
+      "description": "Plans multi-city trips from a home airport, 2 to 7 cities and a date window, pricing every order of the cities and every departure day, and returns the cheapest route with the flight or train for each leg and links to book on the airline or booking site.",
+      "use_case": "Finding the cheapest order to visit Rome, Paris and Barcelona from Dallas within a two-week window, picking the departure day that costs least, getting a booking link for each leg."
     }
   ],
   "held": [
