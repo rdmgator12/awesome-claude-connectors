@@ -18,6 +18,8 @@ Layout (schema_version 1):
                                        (search by name here; full text lives in the category files)
     site-data/categories/<slug>.json   full entries of one category
     site-data/held.json                Held for Verification rows
+    site-data/editorial.json           featured picks and collections, from data/editorial.json
+    site-data/stacks.json              Connector Snap Stacks, parsed from docs/stacks/*.md
 
 Entry ids are slugs of the entry name ("Google Drive" -> "google-drive"). Names
 are unique case-insensitively, but slugging drops punctuation and accents, so two
@@ -39,6 +41,8 @@ from pathlib import Path
 
 REPO = Path(__file__).resolve().parent.parent
 DATA = REPO / "data" / "connectors.json"
+EDITORIAL = REPO / "data" / "editorial.json"
+STACKS = REPO / "docs" / "stacks"
 OUT = REPO / "site-data"
 SCHEMA_VERSION = 1
 # Names whose slug collides with another entry's: a person picks each id once.
@@ -67,6 +71,58 @@ def slug(text):
 
 def entry_id(name):
     return ID_OVERRIDES.get(name) or slug(name) or "entry"
+
+
+ORDINALS = {"debut": 1, "first": 1, "second": 2, "third": 3, "fourth": 4, "fifth": 5,
+            "sixth": 6, "seventh": 7, "eighth": 8, "ninth": 9, "tenth": 10}
+STACK_LINK = re.compile(r"\*\*\[([^\]]+)\]\((https://[^)]+)\)\*\*( \*\(new\)\*)?")
+
+
+def parse_stack(path, ids_by_name):
+    """One docs/stacks/*.md file -> a stack record. Fails loud on an unexpected shape."""
+    lines = path.read_text(encoding="utf-8").splitlines()
+    m = re.match(r"# Connector Snap Stack — (.+)$", lines[0])
+    meta = re.match(r"\*(\d{4}-\d{2}-\d{2}) · (\w+) stack\*$", lines[2])
+    if not (m and meta):
+        raise SystemExit(f"{path.name}: unexpected stack header")
+    combo = lines[4]
+    client = re.search(r"— running in \*\*([^*]+)\*\*\s*$", combo)
+    links = STACK_LINK.findall(combo)
+    if not (client and links):
+        raise SystemExit(f"{path.name}: unexpected connector line")
+    body = [l for l in lines[5:] if l.strip()]
+    status = body[-1].strip("*") if body and body[-1].startswith("*Status:") else None
+    prose = " ".join(l for l in body if not l.startswith("*Status:"))
+    return {
+        "slug": path.stem[11:],
+        "title": m.group(1),
+        "date": meta.group(1),
+        "number": ORDINALS.get(meta.group(2).lower()),
+        "client": client.group(1),
+        "connectors": [
+            {"name": n, "url": u, "new": bool(new), "id": ids_by_name.get(n.lower())}
+            for n, u, new in links
+        ],
+        "summary": prose,
+        "status": status,
+        "source": f"docs/stacks/{path.name}",
+    }
+
+
+def build_editorial(listed_ids):
+    if not EDITORIAL.exists():
+        return {"schema_version": SCHEMA_VERSION, "featured": [], "collections": []}
+    ed = json.loads(EDITORIAL.read_text(encoding="utf-8"))
+    ed.pop("_comment", None)
+    for f in ed["featured"]:
+        if f["id"] not in listed_ids:
+            raise SystemExit(f"editorial featured id {f['id']!r} is not a listed entry")
+    for c in ed["collections"]:
+        for sec in c["sections"]:
+            for i in sec["ids"]:
+                if i not in listed_ids:
+                    raise SystemExit(f"collection {c['slug']!r} id {i!r} is not a listed entry")
+    return {"schema_version": SCHEMA_VERSION, **ed}
 
 
 def build(data):
@@ -139,6 +195,12 @@ def build(data):
     held = sorted(data["held"], key=lambda h: h["name"].lower())
     files["search.json"] = {"schema_version": SCHEMA_VERSION, "connectors": search}
     files["held.json"] = {"schema_version": SCHEMA_VERSION, "count": len(held), "held": held}
+    listed_ids = {r["id"] for r in search}
+    files["editorial.json"] = build_editorial(listed_ids)
+    ids_by_name = {e["name"].lower(): entry_id(e["name"]) for e in data["connectors"]}
+    stacks = [parse_stack(p, ids_by_name) for p in sorted(STACKS.glob("*.md"))] if STACKS.exists() else []
+    stacks.sort(key=lambda s: s["date"], reverse=True)
+    files["stacks.json"] = {"schema_version": SCHEMA_VERSION, "count": len(stacks), "stacks": stacks}
     files["index.json"] = {
         "schema_version": SCHEMA_VERSION,
         "last_updated": data["meta"]["last_updated"],
@@ -147,7 +209,8 @@ def build(data):
         "held": len(held),
         "markers": MARKERS,
         "categories": index_cats,
-        "files": {"search": "search.json", "held": "held.json"},
+        "files": {"search": "search.json", "held": "held.json",
+                  "editorial": "editorial.json", "stacks": "stacks.json"},
     }
     return {
         p: json.dumps(v, ensure_ascii=False, separators=(",", ":")) + "\n"

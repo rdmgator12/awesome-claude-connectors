@@ -1,0 +1,26 @@
+{
+  "_comment": "Editorial picks for the website. Ids are site-data entry ids (see scripts/export_site_data.py); the export fails if an id is not a listed entry. Featured is an editorial choice, never paid placement.",
+  "featured": [
+    {
+      "id": "evidencemd",
+      "label": "Featured",
+      "since": "2026-11-22",
+      "note": "Cited, guideline-grounded answers to clinical questions, built for clinicians at the point of care."
+    }
+  ],
+  "collections": [
+    {
+      "slug": "personal-health",
+      "title": "Personal health",
+      "intro": "Connectors that work on your own health data: records and labs, wearables and sleep, glucose and nutrition, training and symptoms. Hand-picked from the index. Informational only, not medical advice.",
+      "since": "2026-11-22",
+      "sections": [
+        {"title": "Records and labs", "ids": ["healthex", "function", "athenahealth-beta", "health-data-avatar-hda", "anpheros-health"]},
+        {"title": "Wearables and sleep", "ids": ["gyroscope", "athletedata", "healthapi", "wristwise", "yopeak"]},
+        {"title": "Glucose and nutrition", "ids": ["levels", "sugar-sense", "alma", "ziva"]},
+        {"title": "Training", "ids": ["strava", "hevy"]},
+        {"title": "Symptoms and mood", "ids": ["chocho-journal", "bloomora"]}
+      ]
+    }
+  ]
+}
