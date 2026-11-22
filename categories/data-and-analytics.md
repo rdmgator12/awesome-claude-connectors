@@ -2,7 +2,7 @@
 
 # Data and Analytics
 
-[All categories](../README.md#categories) · 1,018 connectors · Last updated November 22, 2026
+[All categories](../README.md#categories) · 1,017 connectors · Last updated November 22, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -843,7 +843,6 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [TagLogger](https://taglogger.com) **`C`** - Reads Bluetooth tag data for tracked equipment, vehicles and shipments, including fleet summaries, latest positions, location history, geofences and geofence entry and exit events. *Use case: Locating a laser level right now, checking which vans were at a job site yesterday, finding when a trailer left the yard.*
 - [Talhão Digital MCP](https://talhao-digital-mcp.desenvolvimento-b93.workers.dev/ajuda) **`C`** - Reads Talhão Digital farm production management, activities, records and crop costs by harvest, farm, area and crop, and exports cost entries. *Use case: Listing overdue field activities this harvest, summarizing soybean cost per hectare by farm.*
 - [Talk2Geo](https://geo.nlp-tlp.org) **`C`** - Queries the NTLP Geo Data Platform of Western Australian geoscience data, such as tenure, drillholes, geochemistry and WAMEX reports, scores mineral prospectivity at a point, region or route, and runs read-only SQL. *Use case: Scoring gold prospectivity around Kalgoorlie, listing WAMEX reports within 10 km of a drill target.*
-- [Tariff Monitor: US Import Tariff Lookup](https://github.com/daleweaver1981/tariffmonitor-mcp) **`C`** - Looks up US HTS codes by product name or code prefix, estimates stacked import tariff rates for a code and origin country across MFN, Section 301 and Section 232 layers, and compares one code across up to eight origin countries. *Use case: Finding the HTS code for e-bikes, estimating annual duty on 500,000 dollars of laptops from China, comparing rates for the same code from Vietnam and Mexico.*
 - [Terminal49](https://terminal49.com) - Finds and monitors ocean shipments and containers, inspects routes and transport events, checks supported shipping lines, and creates new tracking requests. *Use case: Checking which containers are still waiting at a port, pulling the event history behind a delayed booking, adding a new bill of lading to tracking.*
 - [TerraByte](https://terrabyte.ai) **`C`** - Searches authoritative GIS layers with TerraByte, geocodes places and draws maps of features and recent satellite imagery. *Use case: Mapping flood zones around a warehouse site, finding hospitals within 10 km of a town.*
 - [TerraVault](https://terravaulthq.com) **`C`** - Reads cannabis license lists published by 17 US states and Washington, D.C. to look up licenses, find licensed stores and delivery services near a ZIP code or city, check products against California's recall list, and return state license counts, monthly reports, OCal-certified growers and a daily update. *Use case: Verifying a dispensary's license status before visiting, checking a package UID against California's recall list.*

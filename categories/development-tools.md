@@ -2,7 +2,7 @@
 
 # Development Tools
 
-[All categories](../README.md#categories) · 513 connectors · Last updated November 22, 2026
+[All categories](../README.md#categories) · 512 connectors · Last updated November 22, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -79,7 +79,6 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [BufferOverride](https://bufferoverride.com) **`C`** - Searches and reads BufferOverride questions and answers for developers and agents, where each answer records the version range it is valid for and how many actors verified it, read-only. *Use case: Finding a verified fix for a build error and the versions it is valid for, listing unanswered questions.*
 - [Bugasura](https://bugasura.io) **`C`** - Creates, assigns, comments on, updates and deletes bug reports with severity, environment details and attachments, writes test cases and reports results, plans sprints and test runs, hands test cases to API, browser and mobile agents, manages requirements, test data and a knowledge base, and generates AI test plans and cases from specs. *Use case: Logging a checkout crash with device details and a screenshot, linking login test cases to a sprint, generating test cases from an uploaded spec.*
 - [BugHerd](https://bugherd.com) **`C`** - Reads and triages pinned website feedback with screenshots, page URLs, element selectors, browser details, comments and history, creates and updates tasks including status, severity, assignees, tags and attachments in bulk, captures new pinned feedback, manages projects, sites, assets and members, and reports weekly activity. *Use case: Working through open feedback on a client project with its screenshots and element selectors, bulk-closing resolved tasks, summarizing what was completed for a client this week.*
-- [Build Me an App](https://build.flisk.si) **`C`** - Plans an app from a plain description, explaining its parts and the commands to run it locally with Flisk, and lists ready-made starter apps. *Use case: Planning a booking app for a dog groomer, listing the ready-made starter apps to pick one.*
 - [Buildfire](https://buildfire.com) **`C`** - Manage your Buildfire apps from Claude — users, analytics, push notifications, and more. *Use case: Checking how many new users signed up this week, sending a push notification about a flash sale, reviewing analytics before a product update.*
 - [Caffeine](https://caffeine.ai) **`C`** - Describe an app and Caffeine builds, deploys, and hosts it — no servers, no setup. *Use case: Natural-language app building on the Internet Computer, zero-infrastructure prototyping and hosting.*
 - [Calibro Test](https://calibrosoftware.com/test/) **`C`** - Creates, finds and updates Jira test cases with steps and expected results, links them to stories, organizes tests into folders, and shows which tests cover a story and how they last ran. *Use case: Writing tests for a checkout story that just shipped, finding tests that have never been run, moving regression tests into a release folder.*

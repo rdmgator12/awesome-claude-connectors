@@ -4,6 +4,7 @@
 Usage:
     python3 scripts/export_site_data.py           # write site-data/
     python3 scripts/export_site_data.py --check   # CI: fail if site-data/ is stale
+    python3 scripts/export_site_data.py --selftest  # CI: prove the id rule on known names
 
 Why a separate export: data/connectors.json is about 6 MB and shaped for the
 README generator. A browser wants small files it can fetch lazily and a
@@ -20,11 +21,12 @@ Layout (schema_version 1):
     site-data/held.json                Held for Verification rows
 
 Entry ids are slugs of the entry name ("Google Drive" -> "google-drive"). Names
-are unique case-insensitively, but slugging drops punctuation and accents, so two
-names can share a slug ("PDF Viewer" / "pdf-viewer", "Agora" / "Ágora"). Those
-get a hand-picked id in ID_OVERRIDES, and any new collision fails loud rather
-than being numbered, so an id never silently changes meaning. A renamed entry
-gets a new id.
+are unique case-insensitively, but slugging drops punctuation and Latin accents,
+so two names can share a slug ("PDF Viewer" / "pdf-viewer", "Agora" / "Ágora").
+Those get a hand-picked id in ID_OVERRIDES, and any new collision fails loud
+rather than being numbered, so an id never silently changes meaning. A renamed
+entry gets a new id. Names in other scripts keep their letters whole: kana keep
+their voiced marks and Hangul stays composed.
 
 Schema changes add fields and never repurpose one; a breaking change bumps
 schema_version. Fields planned, not yet in the data: auth (sign-in required or
@@ -57,10 +59,34 @@ MARKERS = {
 }
 
 
+# Marks a slug may drop without changing a letter: an accent left with no base
+# letter, emoji selectors and keycaps, and the optional pointing of Arabic and Hebrew.
+LOOSE_MARK = re.compile(
+    r"[\u0300-\u036f\u20d0-\u20ff\ufe00-\ufe0f"
+    r"\u0591-\u05c7\u0610-\u061a\u064b-\u065f\u0670\u06d6-\u06ed]"
+)
+
+
 def slug(text):
-    """ASCII slug; non-Latin names keep their letters (URLs allow them)."""
-    t = unicodedata.normalize("NFKD", text)
-    t = "".join(c for c in t if not unicodedata.combining(c)).lower()
+    """Slug of a name. Latin letters lose their accents; every other script keeps
+    its letters whole and NFC-composed (URLs allow them). A mark with no rule here
+    stops the export, so a name is never slugged into a different word."""
+    kept, latin = [], False
+    for c in unicodedata.normalize("NFKD", text):
+        if unicodedata.combining(c):
+            if latin:
+                continue
+        else:
+            latin = unicodedata.name(c, "").startswith("LATIN")
+        kept.append(c)
+    t = unicodedata.normalize("NFC", "".join(kept)).lower()
+    for c in t:
+        if unicodedata.category(c)[0] == "M" and not LOOSE_MARK.match(c):
+            raise SystemExit(
+                f"slug() has no rule for {unicodedata.name(c, hex(ord(c)))} in "
+                f"{text!r}: decide how that script slugs before the name gets an id"
+            )
+    t = "".join(c for c in t if unicodedata.category(c)[0] != "M")
     t = re.sub(r"[^\w]+", "-", t, flags=re.UNICODE).strip("-_")
     return re.sub(r"[-_]+", "-", t)
 
@@ -69,11 +95,45 @@ def entry_id(name):
     return ID_OVERRIDES.get(name) or slug(name) or "entry"
 
 
+def selftest():
+    """An id rule nobody has seen fail proves nothing. Break it on known names."""
+    cases = [
+        ("Café Über", "cafe-uber", "Latin accents fold"),
+        ("PDF Viewer", "pdf-viewer", "spaces and case"),
+        ("a_b -- c", "a-b-c", "punctuation runs collapse"),
+        ("O´Hoi", "o-hoi", "a spacing accent is punctuation"),
+        ("わだち", "わだち", "hiragana keeps its voiced mark"),
+        ("クラウド会計", "クラウド会計", "katakana keeps its voiced mark"),
+        ("ﾃﾞｰﾀ", "データ", "half-width kana compose"),
+        ("한글 Notes", "한글-notes", "Hangul stays composed"),
+        ("Йога", "йога", "Cyrillic keeps its breve"),
+        ("كِتَاب", "كتاب", "Arabic loses its optional pointing"),
+        ("سؤال", "سؤال", "Arabic keeps hamza on its letter"),
+    ]
+    for name, want, why in cases:
+        got = slug(name)
+        ok = got == want and got == unicodedata.normalize("NFC", got)
+        print(f"  {'ok ' if ok else 'FAIL'} {name!r} -> {got!r} want {want!r}   ({why})")
+        if not ok:
+            sys.exit("id self-test failed -- do not trust this export")
+    try:
+        slug("สวัสดี")
+    except SystemExit:
+        print("  ok  a mark with no rule stops the export")
+    else:
+        sys.exit("id self-test failed -- a mark with no rule must stop the export")
+    print("  self-test passed")
+
+
 def build(data):
     cats = data["categories"]
     cat_slugs = {c: slug(c) for c in cats}
     if len(set(cat_slugs.values())) != len(cats):
         raise SystemExit("category slugs collide")
+
+    stale = sorted(set(ID_OVERRIDES) - {e["name"] for e in data["connectors"]})
+    if stale:
+        raise SystemExit(f"ID_OVERRIDES names no listed entry: {stale}")
 
     ids = {}
     for e in data["connectors"]:
@@ -156,10 +216,13 @@ def build(data):
 
 
 def main():
+    if "--selftest" in sys.argv:
+        selftest()
+        return
     data = json.loads(DATA.read_text(encoding="utf-8"))
     want = build(data)
     have = {
-        str(p.relative_to(OUT)): p.read_text(encoding="utf-8")
+        p.relative_to(OUT).as_posix(): p.read_text(encoding="utf-8")
         for p in OUT.rglob("*.json")
     } if OUT.exists() else {}
     if "--check" in sys.argv:

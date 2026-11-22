@@ -2,7 +2,7 @@
 
 # Lifestyle and Local
 
-[All categories](../README.md#categories) · 1,038 connectors · Last updated November 22, 2026
+[All categories](../README.md#categories) · 1,037 connectors · Last updated November 22, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -413,7 +413,6 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [ievent](https://ievent.ro) **`C`** - Searches Romanian wedding and baptism venues and vendors by location, guest count, budget and category, reads full listing details and estimates event budgets. *Use case: Finding garden venues in Cluj for 150 guests under a per-person budget, shortlisting photographers in Bucharest, estimating a wedding budget.*
 - [IHCL Restaurant Reservations via AURA](https://www.ihcltata.com) **`C`** - AI assistant that books and manages restaurant reservations across IHCL hotels. *Use case: Finding a table for four at an IHCL hotel restaurant this weekend, checking an existing reservation, adjusting a booking time before a trip.*
 - [Imino](https://imino.be) **`C`** - Searches homes and rentals in Belgium by locality, counts listings and estate agencies, estimates property valuations, and manages favorites and saved searches for a signed-in account. *Use case: Finding houses for sale near Ghent, estimating an apartment's value before listing it, saving a search for rentals in Leuven.*
-- [Immolibero](https://immolibero.de) **`C`** - Searches current German rental, sale and lease listings for flats, houses, plots, parking and commercial space by city or postcode, radius, price, rooms, size and features, and explains how to submit a listing. *Use case: Finding two-room flats in Leipzig with a balcony under 800 euros warm rent, checking a listing's details before a viewing.*
 - [Immovlan](https://immovlan.be) **`C`** - Searches Belgian property adverts for sale or rent with prices, surfaces and energy labels, counts and maps matches, finds estate agencies, notaries and developers, contacts an advertiser and sets up e-mail alerts. *Use case: Finding three-bedroom houses for sale near Ghent, setting an alert for new matches.*
 - [imo360](https://www.imo360.ro) **`C`** - Researches the Romanian real estate market and manages agency leads, tasks, and property listings, including publishing listings, based on account role. *Use case: Checking price trends in a Bucharest neighborhood, updating a lead's follow-up task, publishing a new property listing.*
 - [iMoving](https://www.imoving.com) **`C`** - Gets binding prices from licensed US moving companies for a route, home size and date, shows the price range and mover details with reviews, and returns a link to book. *Use case: Pricing a two-bedroom move from Chicago to Denver on June 15, comparing reviews of the two cheapest movers.*

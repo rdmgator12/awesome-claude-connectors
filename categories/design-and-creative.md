@@ -2,7 +2,7 @@
 
 # Design and Creative
 
-[All categories](../README.md#categories) · 440 connectors · Last updated November 22, 2026
+[All categories](../README.md#categories) · 439 connectors · Last updated November 22, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -417,7 +417,6 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [Vertical Remix](https://nebulacafe.studio/docs/vertical-remix) **`C`** - Reframes a short video to 9:16, 1:1 or 4:5 by cropping the edges or padding with bars. *Use case: Cropping a landscape webinar clip to 9:16 for TikTok.*
 - [Vexlio](https://vexlio.com) **`C`** - Renders and edits Vexlio interactive flowcharts with click-to-open detail on each shape, validates diagrams and creates share links. *Use case: Building an employee onboarding flowchart with a checklist behind each step, sharing it with HR.*
 - [Vi3w](https://www.vi3w.net) **`C`** - Lists Vi3w web AR experiences, creates drafts from 3D models, publishes them with links and QR codes and reads view and tap statistics. *Use case: Publishing a floor AR view of a sofa model for a product page, checking views by country after a week.*
-- [Vid Kraken](https://vidkraken.com/docs/mcp) **`C`** - Cuts a time range from a long-form video URL into an MP3 or M4A audio file or an MP4 at 360p to 1080p, with video info, clip status and account usage checks. *Use case: Clipping a five-minute segment from a recorded lecture as 720p MP4, pulling podcast audio from a stream as M4A.*
 - [Video Crop](https://firemoon.studio/video-crop) **`C`** - Center-crops a short video to portrait, square or landscape while keeping its timing and audio. *Use case: Turning a landscape product clip into a 720x1280 Reel, making a square version for a feed post.*
 - [Video Look Lab](https://nebulacafe.studio/docs/video-look-lab) **`C`** - Applies a natural, warm, cool or monochrome colour preset to a short video with an optional exposure adjustment. *Use case: Giving a 20-second cafe clip a warm look and lifting exposure slightly before posting.*
 - [Video2Prompt](https://video2prompt.app) **`C`** - Analyzes a YouTube link or video file and returns a detailed AI video prompt with scenes, camera, motion, lighting, audio and on-screen text. *Use case: Turning a 15-second sneaker ad into a prompt for Veo, adapting it for Kling.*

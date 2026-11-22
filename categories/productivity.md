@@ -2,7 +2,7 @@
 
 # Productivity
 
-[All categories](../README.md#categories) · 971 connectors · Last updated November 22, 2026
+[All categories](../README.md#categories) · 970 connectors · Last updated November 22, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -593,7 +593,6 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [PowerExt](https://powerext.co) **`C`** - Works with PowerExt apps under one account, listing and completing shared Tandem groceries and routines, writing and searching Mind journal entries, watching Wander flight prices and running Scribe writing forms. *Use case: Adding milk and eggs to a shared Tandem grocery list, watching fares from Lisbon to Berlin for May, logging a journal entry about the week.*
 - [PRAXIS](https://praxis.filterpro.dev.br) **`C`** - Supplies organization rules, deliverable templates such as minutes, diagnostics, action plans and reports, and a catalog of 131 procedures for turning meeting transcripts and notes into decisions, tasks and next steps. *Use case: Turning a client meeting transcript into minutes with action items, drafting a status report for an accounting client, picking a ready-made procedure for a billing follow-up.*
 - [PrimeN](https://primen.alphabitcore.io) **`C`** - Saves notes and documents as versioned Works with full history, searches Works by title and text, opens earlier versions and their changes, and shows projects, shared items and anything awaiting a decision. *Use case: Saving a draft policy memo and updating it after edits, finding last week's meeting summary by keyword, reviewing how a document changed across versions.*
-- [Primitive Paper](https://primitivepaper.com) **`C`** - Finds, opens and edits Paper docs, sheets, slides, sites and forms, creates new items, reads sheet ranges and form responses, and previews larger changes that wait for approval. *Use case: Drafting a cafe budget sheet with formulas and setting up an RSVP form for a Saturday event.*
 - [Printago](https://printago.io) **`C`** - Checks 3D print farm status, controls printers, manages parts, SKUs, materials and orders, and queues print jobs in Printago. *Use case: Queuing today's Etsy orders across idle printers and checking which printers need their beds cleared.*
 - [PrintBot](https://getprintbot.com) **`C`** - Prints documents written in chat or PDFs from a link on a home or office printer through PrintBot, lists printers and their status, checks print jobs and gives setup help. *Use case: Printing a one-page grocery checklist on the kitchen printer, checking whether last night's PDF printed.*
 - [PRINTOOLS](https://www.printools.io) **`C`** - Manages quotes, jobs, decorations, customers, catalog, production, proofs, purchase orders, invoices, vendors and automations for print and decoration shops. *Use case: Creating a quote for 200 embroidered polos, checking the production status of a job, updating a proof.*

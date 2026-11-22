@@ -66480,15 +66480,6 @@
       "use_case": "Checking how much protein is left for the day after lunch, logging a chicken burrito eaten at dinner, lowering the daily calorie goal to 1,900."
     },
     {
-      "name": "Tariff Monitor: US Import Tariff Lookup",
-      "url": "https://github.com/daleweaver1981/tariffmonitor-mcp",
-      "marker": "C",
-      "category": "Data and Analytics",
-      "description": "Looks up US HTS codes by product name or code prefix, estimates stacked import tariff rates for a code and origin country across MFN, Section 301 and Section 232 layers, and compares one code across up to eight origin countries.",
-      "use_case": "Finding the HTS code for e-bikes, estimating annual duty on 500,000 dollars of laptops from China, comparing rates for the same code from Vietnam and Mexico.",
-      "subcategory": "Geospatial and Industry Data"
-    },
-    {
       "name": "1102tools for Acquisition.gov",
       "url": "https://1102tools.com/mcp/acquisition-gov",
       "marker": "C",
@@ -70070,14 +70061,6 @@
       "category": "Lifestyle and Local",
       "description": "Calculates BaZi Four Pillars charts with ten gods, hidden stems and luck cycles, and Zi Wei Dou Shu charts with the twelve palaces and stars, using true solar time from the birthplace, read-only.",
       "use_case": "Casting a BaZi chart for someone born 3 May 1992 at 7:30 in Taipei, comparing luck cycles, casting the matching Zi Wei chart."
-    },
-    {
-      "name": "Bazzly Reddit Research",
-      "url": "https://www.bazzly.ai",
-      "marker": "C",
-      "category": "Social Media and Influencer Marketing",
-      "description": "Summarizes which subreddits discuss a topic, how active they are and what people ask, finds recent threads by topic or conversation type, and profiles a subreddit's size and rules on promotion, read-only from a stored sample.",
-      "use_case": "Finding subreddits where people ask for project management tool alternatives, checking whether a community allows self-promotion."
     },
     {
       "name": "HQTUI BBS",
@@ -75637,14 +75620,6 @@
       "use_case": "Starting a stint before drafting a report with AI, ending it to see the time spent verifying."
     },
     {
-      "name": "egp-gprocurement.com",
-      "url": "https://egp-gprocurement.com",
-      "marker": "C",
-      "category": "Government and Nonprofit",
-      "description": "Searches public Thai government procurement projects by keyword, province, industry, budget and date, shows agencies, winners and bidders, looks up company bid history, and searches middle prices.",
-      "use_case": "Finding IT procurement projects in Bangkok over 1 million baht, checking a competitor's win history."
-    },
-    {
       "name": "FindLocal",
       "url": "https://findlocal.community",
       "marker": "C",
@@ -77646,14 +77621,6 @@
       "category": "SEO and Web",
       "description": "Checks whether AI search engines can find, read and cite a website, returning a score out of 100 with a fix for each problem.",
       "use_case": "Checking why a bakery's homepage is not cited in AI answers, getting a fix for each problem found."
-    },
-    {
-      "name": "Build Me an App",
-      "url": "https://build.flisk.si",
-      "marker": "C",
-      "category": "Development Tools",
-      "description": "Plans an app from a plain description, explaining its parts and the commands to run it locally with Flisk, and lists ready-made starter apps.",
-      "use_case": "Planning a booking app for a dog groomer, listing the ready-made starter apps to pick one."
     },
     {
       "name": "README Checker",
@@ -81338,14 +81305,6 @@
       "subcategory": "Private Markets Real Estate and Deal Intelligence"
     },
     {
-      "name": "Immolibero",
-      "url": "https://immolibero.de",
-      "marker": "C",
-      "category": "Lifestyle and Local",
-      "description": "Searches current German rental, sale and lease listings for flats, houses, plots, parking and commercial space by city or postcode, radius, price, rooms, size and features, and explains how to submit a listing.",
-      "use_case": "Finding two-room flats in Leipzig with a balcony under 800 euros warm rent, checking a listing's details before a viewing."
-    },
-    {
       "name": "Immovlan",
       "url": "https://immovlan.be",
       "marker": "C",
@@ -81827,14 +81786,6 @@
       "category": "Security",
       "description": "Reads IntelliGRC compliance data, including system boundaries and SSP coverage, controls and assessment objectives, evaluations, gaps, evidence coverage, SPRS score, assets and action plan projects.",
       "use_case": "Checking the SPRS score for a system boundary, listing controls with missing evidence."
-    },
-    {
-      "name": "Remote & Non-Bedside RN Jobs",
-      "url": "https://intelliresume.net",
-      "marker": "C",
-      "category": "Jobs",
-      "description": "Searches live US registered nurse jobs, covering remote, hybrid, non-bedside and home care roles direct from employer career sites, lists job categories and returns posting details and application links.",
-      "use_case": "Finding remote utilization review RN jobs in Texas, listing home health roles in New Jersey."
     },
     {
       "name": "Intentrax",
@@ -83104,14 +83055,6 @@
       "description": "Runs Google Analytics 4 and Search Console reports across many sites with one sign-in, including traffic drops, top pages and queries, AI assistant traffic, quick wins, URL inspection and sitemaps.",
       "use_case": "Finding which client sites lost traffic this week, listing page-two queries with high impressions.",
       "subcategory": "Product and Web Analytics"
-    },
-    {
-      "name": "Klaro Doctor Jobs Germany",
-      "url": "https://klaro.tools",
-      "marker": "C",
-      "category": "Jobs",
-      "description": "Searches doctor jobs at German hospitals by specialty, state, town or postcode, career level, hospital type, employer and contract, compares postings and suggests locations.",
-      "use_case": "Finding Assistenzarzt internal medicine jobs in Bavaria, comparing two Oberarzt posts in Hamburg."
     },
     {
       "name": "klarr",
@@ -90650,14 +90593,6 @@
       "use_case": "Finding the lowest price in dinars for a specific smartphone across Tunisian stores and checking its price history."
     },
     {
-      "name": "Primitive Paper",
-      "url": "https://primitivepaper.com",
-      "marker": "C",
-      "category": "Productivity",
-      "description": "Finds, opens and edits Paper docs, sheets, slides, sites and forms, creates new items, reads sheet ranges and form responses, and previews larger changes that wait for approval.",
-      "use_case": "Drafting a cafe budget sheet with formulas and setting up an RSVP form for a Saturday event."
-    },
-    {
       "name": "Print.App",
       "url": "https://print.app",
       "marker": "C",
@@ -92792,14 +92727,6 @@
       "category": "Cloud and Infrastructure",
       "description": "Manages Rivervo hosting, including applications, deployments, domains, websites, servers, mail domains and variables, and reads logs, metrics and database tables.",
       "use_case": "Finding why the last deployment failed from runtime logs and redeploying it."
-    },
-    {
-      "name": "Agentic SEO Check",
-      "url": "https://agentic-seo.org",
-      "marker": "C",
-      "category": "SEO and Web",
-      "description": "Audits a public page or crawls a site for SEO and AI answer engine issues, compares pages with competitors and lists rules, with a fix for each finding.",
-      "use_case": "Auditing a pricing page for missing canonical and meta description before launch."
     },
     {
       "name": "Rivo Finance",
@@ -102041,14 +101968,6 @@
       "use_case": "Checking whether coffee beans are cheaper at another Swiss shop, finding usual rent for a three-room flat in Zug."
     },
     {
-      "name": "TopCounsel by The L Suite",
-      "url": "https://topcounsel.ai",
-      "marker": null,
-      "category": "Legal",
-      "description": "Recommends outside counsel for a specific legal matter using rankings drawn from The L Suite's in-house counsel community, member sentiment and evidence of firm expertise.",
-      "use_case": "Finding employment litigation counsel in California for a mid-size tech company, shortlisting privacy firms peers rate highly."
-    },
-    {
       "name": "miniOrange MCP for WordPress",
       "url": "https://plugins.miniorange.com/connect-wordpress-with-claude-mcp-guide",
       "marker": "C",
@@ -102087,14 +102006,6 @@
       "category": "Productivity",
       "description": "Lists, creates, updates and completes TaskNinja tasks from Claude, with notes, statuses, categories and the people tasks are assigned to.",
       "use_case": "Checking what is overdue and due this week by priority, turning a brain dump into tasks, seeing what a teammate still owes."
-    },
-    {
-      "name": "Vid Kraken",
-      "url": "https://vidkraken.com/docs/mcp",
-      "marker": "C",
-      "category": "Design and Creative",
-      "description": "Cuts a time range from a long-form video URL into an MP3 or M4A audio file or an MP4 at 360p to 1080p, with video info, clip status and account usage checks.",
-      "use_case": "Clipping a five-minute segment from a recorded lecture as 720p MP4, pulling podcast audio from a stream as M4A."
     },
     {
       "name": "Inbin Pulse",
@@ -102827,6 +102738,41 @@
       "name": "Table12 Manager",
       "catalog_description": "For restaurant owners on Table12: see bookings and waiting requests, answer them, add and change bookings, close off tables and change opening hours by asking.",
       "why_held": "shares vendor URL table12.com with \"Table12\" (list lint rejects duplicate links); needs its own product page (2026-11-22)"
+    },
+    {
+      "name": "Vid Kraken",
+      "catalog_description": "Cut audio or video clips from your own long-form videos by timestamp — podcasts, lectures, streams — and get a file ready for your editor.",
+      "why_held": "has its own page now (vidkraken.com/docs/mcp), but the site root presents the product as a \"YouTube Video Download API\" while the catalog describes clipping your own videos; held on review (2026-11-22)"
+    },
+    {
+      "name": "TopCounsel by The L Suite",
+      "catalog_description": "Outside Counsel recommendations from Inhouse Counsel",
+      "why_held": "the sweep's vendor URL was on topcounsel.ai, a domain the catalog record does not link (it links lsuite.co and techgc.co); needs a direct read before listing (2026-11-22)"
+    },
+    {
+      "name": "Tariff Monitor: US Import Tariff Lookup",
+      "catalog_description": "Look up US HTS codes and estimate stacked import tariff rates (MFN, Section 301, Section 232) by origin country.",
+      "why_held": "the sweep's vendor URL was a GitHub repository under a personal account, which the catalog record does not link (it links 0xpi.com and adcreator-ai.com); needs a direct read before listing (2026-11-22)"
+    },
+    {
+      "name": "Build Me an App",
+      "catalog_description": "Describe an app in plain words and get a plan and the exact commands to run it on your own computer with Flisk.",
+      "why_held": "the sweep's vendor URL was on flisk.si, a domain the catalog record does not link (it links flisk.sh and the vendor's GitHub repository); needs a direct read before listing (2026-11-22)"
+    },
+    {
+      "name": "Immolibero",
+      "catalog_description": "Search current rental, purchase and lease listings in Germany - flats, houses, plots, parking and commercial space - by city, price, rooms, size and features.",
+      "why_held": "the sweep's vendor URL was on immolibero.de, a domain the catalog record does not link (it links immolibero.com); needs a direct read before listing (2026-11-22)"
+    },
+    {
+      "name": "Primitive Paper",
+      "catalog_description": "Find, write and edit your Paper docs, sheets, slides, sites and forms, with bigger changes waiting for your OK.",
+      "why_held": "the sweep's vendor URL was on primitivepaper.com, a domain the catalog record does not link (it links primitiveai.com.au); needs a direct read before listing (2026-11-22)"
+    },
+    {
+      "name": "Agentic SEO Check",
+      "catalog_description": "Audit any public page or site for SEO and for AI answer engines, and get every finding with the exact edit that fixes it.",
+      "why_held": "the sweep's vendor URL was on agentic-seo.org, a domain the catalog record does not link (it links rivi.software and the vendor's GitHub repository); needs a direct read before listing (2026-11-22)"
     }
   ]
 }

@@ -2,7 +2,7 @@
 
 # Legal
 
-[All categories](../README.md#categories) · 496 connectors · Last updated November 22, 2026
+[All categories](../README.md#categories) · 495 connectors · Last updated November 22, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -454,7 +454,6 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [TM Jud](https://tmdigital.ag) **`C`** - Reads judicial recovery cases, timelines, monitored lawsuits, debtor records, and tasks, and creates tasks and case comments when write access is granted. *Use case: Checking the latest court updates on monitored lawsuits, reviewing a debtor's debts and located assets, creating a follow-up task on a case.*
 - [Tolca](https://tolca.tonbot.ca) **`C`** - Checks Québec construction contractors against RBQ licence records, the RENA public-contract ban register and environmental penalties, returning a verdict with reasons and dated sources. *Use case: Vetting a roofing contractor before signing, confirming an RBQ licence covers plumbing work, checking whether a bidder is barred from public contracts.*
 - [Tomorro](https://www.tomorro.com) **`C`** - Searches and reads contracts, clauses and signed files, creates contracts from templates, uploads versions and attachments, manages counterparties and members and sends contracts for signature. *Use case: Finding contracts expiring next quarter, drafting an NDA from a template, sending a contract out for signature.*
-- [TopCounsel by The L Suite](https://topcounsel.ai) - Recommends outside counsel for a specific legal matter using rankings drawn from The L Suite's in-house counsel community, member sentiment and evidence of firm expertise. *Use case: Finding employment litigation counsel in California for a mid-size tech company, shortlisting privacy firms peers rate highly.*
 - [TradeMaker](https://trademaker.app) **`C`** - Searches the U.S. trademark register for exact and similar marks, suggests and explains USPTO classes, shows filing prices and government fees, and opens a prefilled trademark application for review on TradeMaker. *Use case: Checking whether a coffee-brand name conflicts with existing marks, picking the right classes for a clothing line, opening a prefilled trademark application.*
 - [TrademarkIQ](https://trademarkiq.com.br) **`C`** - Searches Brazil's INPI trademark database with phonetic matching, returns full records and logos, suggests Nice classes from a business description, analyzes conflict risk and viability, searches similar marks in the Americas, Europe, Portugal, the EU and the Madrid system, and reports RPI decisions, portfolio events, market indices, litigation and STJ rulings. *Use case: Checking whether a bakery brand name conflicts with existing marks in Brazil, picking Nice classes for a fintech startup, reviewing this week's RPI decisions on a client portfolio.*
 - [Trellis](https://trellis.law) **`C`** - Claude for trial court litigators. *Use case: State trial-court data search, judge analytics, motion outcomes, and litigant history across U.S. trial courts.*
