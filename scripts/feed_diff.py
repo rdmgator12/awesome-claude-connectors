@@ -10,6 +10,7 @@ Usage:
                                                           # coverage check: paste-export names missing from the feed
     python3 scripts/feed_diff.py --feed feed.json --sitemap sitemap.xml
                                                           # offline inputs (re-runs, tests)
+    python3 scripts/feed_diff.py --selftest               # prove the matcher on planted cases, then exit
 
 This is a LOOK, not an UPDATE. It reports what changed upstream; a person (or a
 sweep session) applies the changes under CONTRIBUTING.md: adds need a verified
@@ -218,6 +219,13 @@ def match_feed_to_list(servers, listed):
     how ∈ exact | loose | domain. Domain matches require a unique list entry on
     that domain — shared vendor domains (one company, several connectors) never
     match by domain alone.
+
+    Exact matches are claimed first, over the whole feed. A loose or domain match
+    is then refused when its list entry already has an exact match: that feed
+    record is a sibling product (Asana Command beside Asana, twenty GovBot
+    connectors beside the one listed), not the listed entry under another name.
+    Until 2026-11-22 these were matched in feed order and 294 siblings never
+    reached the candidate adds.
     """
     by_key = defaultdict(list)
     by_loose = defaultdict(list)
@@ -230,26 +238,37 @@ def match_feed_to_list(servers, listed):
         if entry.get("url"):
             by_domain[domain(entry["url"])].append(i)
 
-    matched, unmatched = {}, []
+    matched, pending = {}, []
     for j, server in enumerate(servers):
-        name = clean(server.get("name"))
-        hit = None
-        exact = [i for k in keys(name) for i in by_key.get(k, [])]
+        exact = [i for k in keys(clean(server.get("name"))) for i in by_key.get(k, [])]
         if exact:
-            hit = (exact[0], "exact")
+            matched[j] = (exact[0], "exact")
         else:
-            loose = sorted({i for k in loose_keys(name) for i in by_loose.get(k, [])})
-            if len(loose) == 1:
-                hit = (loose[0], "loose")
-            else:
-                dom = domain(author_url(server))
-                if dom and len(by_domain.get(dom, [])) == 1:
-                    hit = (by_domain[dom][0], "domain")
-        if hit:
+            pending.append(j)
+    has_exact = {i for i, _ in matched.values()}
+
+    unmatched = []
+    for j in pending:
+        server = servers[j]
+        hit = None
+        loose = sorted(
+            {
+                i
+                for k in loose_keys(clean(server.get("name")))
+                for i in by_loose.get(k, [])
+            }
+        )
+        if len(loose) == 1:
+            hit = (loose[0], "loose")
+        else:
+            dom = domain(author_url(server))
+            if dom and len(by_domain.get(dom, [])) == 1:
+                hit = (by_domain[dom][0], "domain")
+        if hit and hit[0] not in has_exact:
             matched[j] = hit
         else:
             unmatched.append(j)
-    return matched, unmatched
+    return matched, sorted(unmatched)
 
 
 def on_web(name, slugs, slug_keys, slug_loose):
@@ -553,6 +572,79 @@ def write_snapshot(servers, meta, today):
     return out_dir
 
 
+# ---------------------------------------------------------------- selftest
+
+
+def selftest():
+    """Planted cases for match_feed_to_list. A matcher nobody has seen fail proves nothing."""
+
+    def run(feed, listed):
+        servers = [{"name": n, "author": {"url": u}} for n, u in feed]
+        entries = [{"name": n, "url": u} for n, u in listed]
+        matched, unmatched = match_feed_to_list(servers, entries)
+        return (
+            {feed[j][0]: (listed[i][0], how) for j, (i, how) in matched.items()},
+            [feed[j][0] for j in unmatched],
+        )
+
+    asana = [("Asana", "https://asana.com")]
+    cases = [
+        (
+            "a sibling on the vendor's domain is a candidate add, not a match",
+            run(
+                [
+                    ("Asana", "https://asana.com/"),
+                    ("Asana Command", "https://asana.com/"),
+                ],
+                asana,
+            ),
+            ({"Asana": ("Asana", "exact")}, ["Asana Command"]),
+        ),
+        (
+            "the same, with the sibling first in the feed",
+            run(
+                [
+                    ("Asana Command", "https://asana.com/"),
+                    ("Asana", "https://asana.com/"),
+                ],
+                asana,
+            ),
+            ({"Asana": ("Asana", "exact")}, ["Asana Command"]),
+        ),
+        (
+            "a noise-token rename still matches loosely",
+            run([("Foo MCP", "https://foo.dev/")], [("Foo", "https://foo.example")]),
+            ({"Foo MCP": ("Foo", "loose")}, []),
+        ),
+        (
+            "a catalog rename on the same domain still matches by domain",
+            run(
+                [("Zebra Desk", "https://zebra.example/")],
+                [("Zebra Help", "https://zebra.example")],
+            ),
+            ({"Zebra Desk": ("Zebra Help", "domain")}, []),
+        ),
+        (
+            "a loose match is refused when the list entry has its exact match",
+            run(
+                [("MCP Memory", ""), ("#memory", "https://memory.example/")],
+                [("MCP Memory", "https://vendor.example/docs")],
+            ),
+            ({"MCP Memory": ("MCP Memory", "exact")}, ["#memory"]),
+        ),
+    ]
+    failed = 0
+    for why, got, want in cases:
+        ok = got == want
+        failed += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} {why}")
+        if not ok:
+            print(f"       want {want}\n       got  {got}")
+    if failed:
+        sys.exit("matcher self-test failed -- do not trust this run")
+    print("  self-test passed")
+
+
 # ---------------------------------------------------------------- main
 
 
@@ -578,7 +670,15 @@ def main():
         help="paste-export roster (one name per line) for the coverage check",
     )
     ap.add_argument("--today", help="override the report date (YYYY-MM-DD)")
+    ap.add_argument(
+        "--selftest",
+        action="store_true",
+        help="run the matcher on planted cases and exit",
+    )
     args = ap.parse_args()
+    if args.selftest:
+        selftest()
+        return 0
 
     today = args.today or dt.date.today().isoformat()
     try:
