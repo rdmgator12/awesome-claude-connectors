@@ -72,6 +72,25 @@ VERIFIED = {
         "site title is 'Home | Strategy Execution Software | StrategyX'; the domain spells out 'execution' (verified 2026-10-19)",
     ("LeadBot AI", "leadbotapp.com"):
         "site title is 'LeadBot AI — Chatbot that books appointments'; the domain adds 'app' and 'AI' is a descriptor (verified 2026-10-30)",
+    ("Bonussøk", "www.bonussok.no"):
+        "site title is 'Bonussøk – Finn ledige bonusbilletter med SAS EuroBonus'; the domain transliterates 'ø' (verified 2026-11-22)",
+    ("Drict", "drint.io"):
+        "product page drint.io/drict is titled 'Drict — label law check for 57 countries'; Drint is the vendor (verified 2026-11-22)",
+    ("Drisp", "drint.io"):
+        "product page drint.io/drisp is titled '... · Drisp'; Drint is the vendor (verified 2026-11-22)",
+    ("K-Sports Info", "ksportinfo.com"):
+        "site footer names EXAON Co., Ltd., the feed's author; the domain drops the 's' of 'Sports' (verified 2026-11-22)",
+    ("Khao Lak Ausflüge", "khao-lak-ausfluege.de"):
+        "site title names Khao Lak Ausflüge; the domain spells 'ü' as 'ue' (verified 2026-11-22)",
+    ("Control", "cntrl.site"):
+        "the feed's own author URL; the site brands itself Control and drops the vowels in its domain (verified 2026-11-22)",
+    ("Flash AI", "www.flash-app.dev"):
+        "site title is 'Flash ∞ AI™: One Workspace. Infinite Possibilities.'; the domain adds 'app' (verified 2026-11-22)",
+    ("Salapp", "sal-ai.vn"):
+        "site title is 'SAL - AI | ...'; the catalog name runs 'SAL' and 'app' together (verified 2026-11-22)",
+    ("Yuno MCP", "yunoapp.eu"):
+        "site title is 'Yuno ... Tickets, VIP Tables & Drinks for Nightlife'; the domain adds 'app' and 'MCP' is the connector suffix (verified 2026-11-22)",
+
 }
 
 
