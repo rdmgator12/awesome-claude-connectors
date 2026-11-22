@@ -21,7 +21,7 @@ Count derivation:
 
 **Security review of the repository.** The generator now refuses, on every commit and pull request, entry text that would render as a link or markup, hidden or bidirectional-control characters anywhere in the data, and a link whose host carries credentials, a port, an IP address or punycode; fifteen planted defects each fail and the live data passes. Catalog text is escaped before it lands in the Friday issue. `name_url_check.py` runs in CI. Both lint checkouts drop persisted credentials, Dependabot proposes bumps for the two SHA-pinned actions, and [SECURITY.md](../SECURITY.md) says what to report and what a listing does not vouch for.
 
-Not listed: PR #51 (No Stairs Please) is in neither the catalog feed nor the web sitemap.
+Not listed: PR #51 (No Stairs Please) is in neither the catalog feed nor the web sitemap. Snap Stack: [The three-city spring trip](stacks/2026-11-22-three-city-spring-trip.md). The README date moves to November 22; the catalog capture date stays October 30.
 
 ## 2026-11-02 — Social Media and Influencer Marketing gets its own page (8,046 listed; held 57; 30 → 31 categories)
 

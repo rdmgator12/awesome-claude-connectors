@@ -19,13 +19,13 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 > This is an independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Anthropic PBC. "Claude" and related marks are the property of Anthropic PBC. Each connector is the property of its respective owner.
 
 > [!TIP]
-> ### Connector Snap Stack — October 30, 2026
+> ### Connector Snap Stack — November 22, 2026
 >
 > Each sweep features a persona and a small stack of connectors that click together. Past stacks are archived in [docs/stacks](docs/stacks/); sweep-by-sweep history lives in the [changelog](docs/CHANGELOG.md).
 >
-> **The back-room gig night** — TBC Events *(new)* · GigXchange *(new)* · Google Calendar · Gmail · running in **Claude Desktop**
+> **The three-city spring trip** — Stopover *(new)* · TravelCharika · Booking.com · Google Calendar · running in **Claude**
 >
-> A UK pub putting on a monthly Friday gig in its back room, one Desktop conversation: check TBC Events for what else is on in town that Friday so the night doesn't clash, search GigXchange for performers free that date, read their press kits and check the GX Index for what a pub gig typically pays, then make a booking offer from the pub's member account where offers are enabled; put the night and the load-in time on Google Calendar and draft the regulars' newsletter in Gmail. Two new connectors that know the local listings and the grassroots circuit, two proven ones that hold the date and the mailing list; the fee conversation and the sound check stay with the people. Composed, not yet field-tested — if you run it against a live booking, send a Field Report (see CONTRIBUTING).
+> Two people with a fortnight in April and three cities on the list, one conversation: ask TravelCharika how each city scores in April, from ten years of measured climate, holidays, crowds and fares, and whether May would suit them better; give Stopover the home airport, the cities and the window so it prices every order of the cities and every departure day and returns the cheapest route, with the flight or train for each leg and a link to book it; look on Booking.com for somewhere to stay on the nights that route gives; put the legs on Google Calendar. One new connector that works out the order and the day to leave, three already on the list that say when to go and hold the beds and the dates; nothing here buys a ticket. Composed, not yet field-tested — if you run it against a real trip, send a Field Report (see CONTRIBUTING).
 
 ---
 
