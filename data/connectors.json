@@ -3933,8 +3933,8 @@
       "url": "https://floot.com",
       "marker": null,
       "category": "Development Tools",
-      "description": "Build and host full-stack apps using your own Claude subscription.",
-      "use_case": "Building a full-stack app for a side project, hosting it, and paying for compute through an existing subscription."
+      "description": "Builds full-stack web apps and native iPhone and Android apps from a Claude conversation, with a database, user logins, file storage, email and hosting included, and publishes them to a live URL or the app stores.",
+      "use_case": "Turning a booking-form idea into a published app with customer logins, adding a table for client records, submitting an iPhone version to the App Store without a Mac."
     },
     {
       "name": "Gainable",
