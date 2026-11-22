@@ -67060,6 +67060,14 @@
       "category": "Travel",
       "description": "Plans multi-city trips from a home airport, 2 to 7 cities and a date window, pricing every order of the cities and every departure day, and returns the cheapest route with the flight or train for each leg and links to book on the airline or booking site.",
       "use_case": "Finding the cheapest order to visit Rome, Paris and Barcelona from Dallas within a two-week window, picking the departure day that costs least, getting a booking link for each leg."
+    },
+    {
+      "name": "Viewlify",
+      "url": "https://viewlify.app",
+      "marker": "C",
+      "category": "Social Media and Influencer Marketing",
+      "description": "Finds the TikTok videos that beat their creator's usual views, by how much and why, and the videos, hashtags and sounds rising in each niche, from public TikTok data.",
+      "use_case": "Listing the skincare videos that got ten times their creator's usual views this month, checking which hashtags are rising in a fitness niche, picking a format to copy for the next video."
     }
   ],
   "held": [
