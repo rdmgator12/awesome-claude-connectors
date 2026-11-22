@@ -25,6 +25,10 @@ names can share a slug ("PDF Viewer" / "pdf-viewer", "Agora" / "Ágora"). Those
 get a hand-picked id in ID_OVERRIDES, and any new collision fails loud rather
 than being numbered, so an id never silently changes meaning. A renamed entry
 gets a new id.
+
+Schema changes add fields and never repurpose one; a breaking change bumps
+schema_version. Fields planned, not yet in the data: auth (sign-in required or
+not, from the feed) and per-tool permission flags (read-only, destructive).
 """
 
 import json
@@ -44,6 +48,9 @@ ID_OVERRIDES = {
     "Agora": "agora",
     "Ágora": "agora-red",
 }
+# marker -> tier. An unmarked entry is partner tier or predates feed-tier sync, so
+# it gets null rather than a guess.
+TIER = {"A": "anthropic", "C": "community"}
 MARKERS = {
     "A": "Built and maintained by Anthropic",
     "C": "Community badge in the in-app catalog: published by Anthropic, built by a third party",
@@ -92,6 +99,7 @@ def build(data):
                 "name": e["name"],
                 "url": e["url"],
                 "marker": e.get("marker"),
+                "tier": TIER.get(e.get("marker")),
                 "category": c,
                 "subcategory": e.get("subcategory"),
                 "description": e["description"],

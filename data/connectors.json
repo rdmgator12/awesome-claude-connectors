@@ -66964,7 +66964,7 @@
       "marker": "C",
       "category": "Research and Academic",
       "description": "Searches and resolves names in a versioned registry of causal mechanisms behind financial, economic and political crises, famines, epidemics and wars, returning each entry's definition, scope, boundary and test with version history and citations.",
-      "use_case": "Checking whether a 2023 regional bank failure fits the depositor-run mechanism, citing the registry's definition of a sovereign debt spiral in a policy brief."
+      "use_case": "Checking whether a 2023 regional bank failure fits the bank-run mechanism, citing the registry's definition of a sovereign debt crisis in a policy brief."
     },
     {
       "name": "AdFind.me",
@@ -67537,7 +67537,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Searches a public catalog of mostly Korean brand products, shows price and availability, and reads, searches and compares merchant-approved Context Cards for two to four products, linking back to product pages.",
-      "use_case": "Comparing three Korean sunscreens for oily skin, finding a manual pallet jack suited to long daily warehouse use."
+      "use_case": "Comparing three Korean sunscreens for oily skin, searching merchant Context Cards for a product suited to daily heavy use."
     },
     {
       "name": "Aeonzap",
@@ -67661,7 +67661,7 @@
       "marker": "C",
       "category": "SEO and Web",
       "description": "Checks a public store, product page, merchant feed, ACP feed or llms.txt for readability by AI shopping assistants, returning a 0 to 100 score with specific findings.",
-      "use_case": "Scoring a Shopify homepage before a product launch, checking why a product page hides its price from crawlers."
+      "use_case": "Scoring an online store's homepage before a product launch, checking why a product page hides its price from crawlers."
     },
     {
       "name": "Agentic UI",
@@ -67685,7 +67685,7 @@
       "marker": "C",
       "category": "Security",
       "description": "Reads compliance components, evidence coverage, audit campaigns, review events and ITSM tickets, requests, approvals and knowledge in ConformStack, and creates and updates remediation tasks, tickets, requests and approval decisions.",
-      "use_case": "Listing evidence gaps before an ISO 27001 audit, opening a ticket for an expired certificate, approving a laptop request."
+      "use_case": "Listing evidence gaps before an upcoming audit, opening a ticket for an expired certificate, approving a laptop request."
     },
     {
       "name": "NeuraKeep",
@@ -68237,7 +68237,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Searches a US directory of commercial truck service providers, including repair shops, mobile diesel mechanics, roadside tire service, heavy duty towing and truck washes, by town, interstate exit or ZIP code.",
-      "use_case": "Finding a mobile diesel mechanic near exit 142 on I-40, locating heavy duty towing within 30 miles of Amarillo."
+      "use_case": "Finding a mobile diesel mechanic near exit 142 on I-40, locating the nearest heavy duty towing to Amarillo."
     },
     {
       "name": "AllStrong",
@@ -68741,7 +68741,7 @@
       "marker": "C",
       "category": "Cloud and Infrastructure",
       "description": "Deploys apps from Git repositories or quickstarts on Blossom, manages environments, services, databases, caches, domains, variables, backups and jobs, and reads activity, logs and usage.",
-      "use_case": "Deploying a Rails app from a GitHub repo with a Postgres database, adding a custom domain, reading logs after a failed deploy."
+      "use_case": "Deploying a web app from a Git repository with a managed database, adding a custom domain, reading logs after a failed deploy."
     },
     {
       "name": "Clearparty",
@@ -68766,7 +68766,7 @@
       "marker": "C",
       "category": "Ecommerce and Marketplace Selling",
       "description": "Shows JoinMyOrder group purchase invitations and purchase orders, commits to or withdraws from a group order within the user's mandate, asks the owner for a decision and submits supplier reviews.",
-      "use_case": "Joining a group order for 200 office chairs within a 150-dollar unit limit, withdrawing a commitment when the deadline moves."
+      "use_case": "Joining a group order for 200 office chairs within a set price limit, withdrawing a commitment while the order is still open."
     },
     {
       "name": "May or Shall",
@@ -68891,7 +68891,7 @@
       "marker": "C",
       "category": "Research and Academic",
       "description": "Reads Apprised.news AI-written desk briefs and daily intelligence reports, pulls recent third-party headlines and searches the site, read-only.",
-      "use_case": "Reading today's daily report section on Eastern Europe, searching briefs that mention a shipping strike."
+      "use_case": "Reading today's Daily Intelligence Report, searching briefs that mention a shipping strike."
     },
     {
       "name": "AppsFlyer",
@@ -69316,7 +69316,7 @@
       "marker": "C",
       "category": "Marketing and Sales",
       "description": "Runs AYA snapshots, concept tests, focus groups, interviews, brand evaluations and image ad tests with digital twins built from real people, shows token cost first, and reads results and findings.",
-      "use_case": "Testing two taglines on 30-somethings in Manchester, running a focus group on a 12-pound price point after approving the token cost.",
+      "use_case": "Testing two taglines on a 30-something audience, running a focus group on a new price point after approving the token cost.",
       "subcategory": "Marketing Analytics and Consumer Insights"
     },
     {
@@ -69616,7 +69616,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Searches participating Aura hair salons, their services and live availability, and books, confirms, reschedules and cancels appointments against each salon's own calendar.",
-      "use_case": "Booking a cut and colour in Sydney on Saturday morning, moving an appointment to next Thursday, cancelling a booking."
+      "use_case": "Booking a cut and colour at a participating salon on Saturday morning, moving an appointment to next Thursday, cancelling a booking."
     },
     {
       "name": "Aurarios",
@@ -69657,7 +69657,7 @@
       "marker": "C",
       "category": "Ecommerce and Marketplace Selling",
       "description": "Searches brands and retailers in the authorized.by network, lists a brand's authorized retailers and a retailer's brands, and verifies whether a shop is authorized, with certificate links.",
-      "use_case": "Checking whether an online shop is authorized to sell Deuter backpacks, listing authorized retailers for a stove brand."
+      "use_case": "Checking whether an online shop is authorized to sell a backpack brand's products, listing authorized retailers for a stove brand."
     },
     {
       "name": "Auto.dev",
@@ -69820,7 +69820,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Returns the Qibla bearing, compass direction and distance to the Kaaba for a city or coordinates, and plays five-question Islamic knowledge quiz rounds in 14 languages with a source for every answer.",
-      "use_case": "Finding the Qibla direction from a hotel in Osaka, playing a quiz round on the prophets in Turkish."
+      "use_case": "Finding the Qibla direction from a hotel in Osaka, playing a quiz round on the prophets in one of the 14 supported languages."
     },
     {
       "name": "Cortex",
@@ -70036,7 +70036,7 @@
       "marker": "C",
       "category": "Legal",
       "description": "Checks which regulations and standards may apply to a planned AI agent with a status and reason for each, and which technology categories it needs with candidate catalog products, as a rules-based indication, read-only.",
-      "use_case": "Checking whether the EU AI Act applies to a claims triage agent at an insurer, listing technology categories for a customer support agent."
+      "use_case": "Checking which regulations may apply to a claims triage agent at an insurer, listing technology categories for a customer support agent."
     },
     {
       "name": "Batikko",
@@ -70297,7 +70297,7 @@
       "marker": "C",
       "category": "AI and ML",
       "description": "Searches and compares the Best AI Things directory of hand-reviewed AI tools by job and category, with pricing, platforms, API and MCP support, and finds alternatives to a named tool.",
-      "use_case": "Finding AI transcription tools with a public API, listing alternatives to a podcast editing tool under 20 dollars a month."
+      "use_case": "Finding AI transcription tools with a public API, listing free alternatives to a podcast editing tool."
     },
     {
       "name": "Best Bike Split",
@@ -70624,7 +70624,7 @@
       "marker": "C",
       "category": "Design and Creative",
       "description": "Inspects BlitzReels projects, media and transcripts, creates captioned clips from owned videos, edits timelines with text, transitions and audio, and exports finished videos.",
-      "use_case": "Cutting a one-hour podcast into ten captioned vertical clips, adding a title overlay, exporting for Reels."
+      "use_case": "Cutting a one-hour podcast into ten captioned vertical clips, adding a title overlay, exporting the finished videos."
     },
     {
       "name": "Block Scholes",
@@ -71717,7 +71717,7 @@
       "marker": "C",
       "category": "Government and Nonprofit",
       "description": "Searches open public tenders in the countries Carabela AI indexes by subject, country, budget, submission deadline and main CPV code, returning up to 10 results with published tender documents.",
-      "use_case": "Finding open cleaning services tenders in Spain above 200,000 euros closing next month."
+      "use_case": "Finding open cleaning services tenders in one indexed country with a budget above a set amount, closing next month."
     },
     {
       "name": "Carbone",
@@ -71929,7 +71929,7 @@
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Reads monthly income and expense totals from a My Budget Control account, prepares one paid or planned expense for separate confirmation on the MBC website, and checks its approval status.",
-      "use_case": "Checking how much was spent against the budget in October, preparing a 45 euro electricity bill for confirmation.",
+      "use_case": "Checking how much was spent against the budget in October, preparing an electricity bill expense for confirmation.",
       "subcategory": "Personal Finance and Consumer Tax"
     },
     {
@@ -72119,7 +72119,7 @@
       "marker": "C",
       "category": "Travel",
       "description": "Lists the cheapest current round-trip flight deals from 140+ airports and to a destination, compares each fare with the usual route price, searches airports and gives a deal alert signup link.",
-      "use_case": "Finding the cheapest flights out of Budapest this month, checking whether a 120 euro fare to Lisbon is really below normal."
+      "use_case": "Finding the cheapest flights out of Budapest right now, checking whether a fare to Lisbon is really below normal."
     },
     {
       "name": "CheckAnySite",
@@ -72218,7 +72218,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Builds a private dating profile with permitted preferences and availability in Pinku.chat, discovers mutual matches, exchanges messages with matches' agents, and brings back date proposals for the user to accept or decline.",
-      "use_case": "Setting Saturday afternoons as free time for coffee dates in Shibuya, reviewing a proposed one-hour cafe date with a new match."
+      "use_case": "Setting Saturday afternoons as free time for coffee dates in the city, reviewing a proposed one-hour cafe date with a new match."
     },
     {
       "name": "Besidka",
@@ -72457,7 +72457,7 @@
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Reports SaaS and AI-tool spend, upcoming renewals, cancel-by dates, seats and invoices in a SubCenter for Teams workspace, and adds, cancels or keeps tools, assigns seats, manages clients, people and bill-back reports.",
-      "use_case": "Listing renewals due in the next 30 days with cancel-by dates, assigning a Figma seat to a new designer, building a client bill-back report for October.",
+      "use_case": "Listing renewals due in the next 30 days with cancel-by dates, assigning a design tool seat to a new designer, building a client bill-back report for October.",
       "subcategory": "Business Banking and Spend Management"
     },
     {
@@ -72551,7 +72551,7 @@
       "marker": "C",
       "category": "Travel",
       "description": "Searches cruises on sale by region, port, cruise line, ship, dates, length, cabin type or price drop, prices them per person in euros for the party, and shows itineraries and details.",
-      "use_case": "Finding a 7-night Mediterranean cruise from Barcelona in December for two adults under 500 euros each."
+      "use_case": "Finding a 7-night Mediterranean cruise from Barcelona in December and pricing it per person for two adults."
     },
     {
       "name": "ClickNote",
@@ -72697,7 +72697,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Searches public reservation openings, events and places at restaurants, wineries and tasting rooms on CoverCount, and returns venue details and links to finish booking.",
-      "use_case": "Finding a table for 4 at a Napa winery on Saturday afternoon, browsing ticketed tasting events in the next 2 weeks."
+      "use_case": "Finding a table for 4 at a winery on Saturday afternoon, browsing ticketed tasting events in the next 2 weeks."
     },
     {
       "name": "CloudVikings",
@@ -73018,7 +73018,7 @@
       "marker": "C",
       "category": "Development Tools",
       "description": "Builds and edits apps and websites in Apper from plain-language requests, applying code patches, creating database components, edge functions and secrets, and reporting build status and previews.",
-      "use_case": "Building a booking app for a yoga studio with a class schedule table, adding a Stripe secret, fixing a broken signup form after preview."
+      "use_case": "Building a booking app for a yoga studio with a class schedule table, adding a payment API secret, fixing a broken signup form after preview."
     },
     {
       "name": "Compare the Cloud",
@@ -73360,7 +73360,7 @@
       "marker": "C",
       "category": "Cloud and Infrastructure",
       "description": "Searches live CoreHu GPU offers and availability by model and country, estimates job cost, and prepares, confirms, starts, stops and cancels pay-per-second rentals with approval.",
-      "use_case": "Finding an available H100 in Germany to serve Llama with vLLM, estimating the cost of a 6-hour training job."
+      "use_case": "Finding an available H100 in a chosen country to serve Llama with vLLM, estimating the cost of a 6-hour training job."
     },
     {
       "name": "Corium 21 Skin Tools",
@@ -73716,7 +73716,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Reads a Crown Quorum watch collection desk, listing watch records, finding records missing details, and previewing what a redacted sale packet would hold.",
-      "use_case": "Finding which watches lack service history, previewing the packet for a Rolex Submariner before a sale."
+      "use_case": "Finding which watches lack service history, previewing the packet for a dive watch before a sale."
     },
     {
       "name": "VELTRA CRUISE",
@@ -74774,7 +74774,7 @@
       "marker": "C",
       "category": "Productivity",
       "description": "Works out how many trucks a shipment needs and which trailers fit from a packing list or freight description in DimGenius, recalculates and lists shipments, and manages custom trailers.",
-      "use_case": "Planning trucks for 24 pallets of 48 by 40 inch freight, adding a custom 53 foot reefer trailer."
+      "use_case": "Planning trucks for 24 pallets from a customer's quote email, re-running the load as enclosed only, adding a custom stepdeck trailer."
     },
     {
       "name": "ProPost",
@@ -75107,7 +75107,7 @@
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Checks an individual's tax residence between two countries with DoubleTaxation's rules engine, using treaty tie-breaker questions, and compares employee tax burden across countries.",
-      "use_case": "Working out tax residence after 200 days in Poland with a home in Ukraine, comparing the tax burden on the same salary in two countries.",
+      "use_case": "Working out tax residence after 200 days in one country with a home in another, comparing the tax burden on the same salary in two countries.",
       "subcategory": "Personal Finance and Consumer Tax"
     },
     {
@@ -75238,7 +75238,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Plans a walkable night out of 2 to 4 validated bars, restaurants and nightclubs from DrinkedIn around a point, address or place, and returns guides.",
-      "use_case": "Planning a three-stop bar route near Union Square, San Francisco for Friday night."
+      "use_case": "Planning a three-stop bar route near a downtown square for Friday night."
     },
     {
       "name": "Drict",
@@ -75530,7 +75530,7 @@
       "marker": "C",
       "category": "Ticketing and Events",
       "description": "Finds live music, comedy and theatre events by place and date on Echolead, and shows venue, artist and festival details with links to official ticket sellers.",
-      "use_case": "Finding comedy shows in Dublin this weekend, checking when a band next plays in Toronto."
+      "use_case": "Finding comedy shows in a covered city this weekend, checking when a band next plays nearby."
     },
     {
       "name": "Eclat Institute",
@@ -76002,7 +76002,7 @@
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Searches Urban Network Capital Group's new-construction communities, phases and homes by price, bedrooms, size and availability, shows fees, deposit schedules and co-broke terms with record dates, and sends showing requests and messages to the UNCG sales team.",
-      "use_case": "Finding furnished two-bedroom units under 400,000 dollars for a client, requesting a Saturday showing of a unit in the newest phase.",
+      "use_case": "Finding furnished two-bedroom units under a set price for a client, requesting a Saturday showing of a unit in the newest phase.",
       "subcategory": "Private Markets Real Estate and Deal Intelligence"
     },
     {
@@ -76044,7 +76044,7 @@
       "marker": "C",
       "category": "Marketing and Sales",
       "description": "Reads and updates Google Business Profile location details, publishes posts and uploads photos, reads reviews and replies with approval, schedules content, researches keywords and keeps files in a Helena workspace.",
-      "use_case": "Replying to three new one-star reviews at a Denver dental clinic, posting a holiday-hours update for 24 December.",
+      "use_case": "Replying to three new one-star reviews at a dental clinic, posting a holiday-hours update for 24 December.",
       "subcategory": "Brand Management and Content Creation"
     },
     {
@@ -76218,7 +76218,7 @@
       "marker": "C",
       "category": "Travel",
       "description": "Browses city weekend itineraries by travel style, prices a Friday-to-Monday trip with flights, hotel and activities at three budget levels, compares cities, looks up return fares from a home airport and builds a booking checklist.",
-      "use_case": "Pricing a food-focused weekend in Lisbon from Dublin in March, finding the cheapest city for a nightlife weekend."
+      "use_case": "Pricing a food-focused weekend in a listed city from a home airport, finding the cheapest city for a nightlife weekend."
     },
     {
       "name": "Escudo Compara: VPN, password managers and antivirus",
@@ -76242,7 +76242,7 @@
       "marker": "C",
       "category": "Travel",
       "description": "Searches eSIM Genius travel eSIM plans for a destination or multi-country trip, filters by trip length and data, shows covered countries, networks, validity and price, checks phone eSIM support and lists destinations with lowest prices.",
-      "use_case": "Finding one plan that covers Vietnam, Cambodia and Thailand for three weeks, checking whether a Pixel 6a supports eSIM."
+      "use_case": "Finding one plan that covers Vietnam, Cambodia and Thailand for three weeks, checking whether a given phone model supports eSIM."
     },
     {
       "name": "eSky",
@@ -76275,7 +76275,7 @@
       "marker": "C",
       "category": "Market Data and Investment Research",
       "description": "Searches and screens about 4,900 US-listed ETFs, returns dated holdings, holders, flows, fees, trading costs and benchmark comparisons, measures overlap between funds, ranks funds and themes, and points to the ETFIQ page to cite.",
-      "use_case": "Checking how much two Nasdaq-heavy ETFs overlap before buying both, finding which ETFs hold the most Nvidia."
+      "use_case": "Checking how much two Nasdaq-heavy ETFs overlap before buying both, finding which ETFs hold the most of a given company."
     },
     {
       "name": "Etiqpharma MCP",
@@ -76291,7 +76291,7 @@
       "marker": "C",
       "category": "Market Data and Investment Research",
       "description": "Finds public companies whose SEC 10-K and 10-Q filings discuss a plain-English research question, returning the original passages with EDGAR links, and reads any passage in full with its surrounding context.",
-      "use_case": "Finding companies that disclosed Red Sea shipping disruptions in their 2024 10-Ks, reading the exact tariff passage in a retailer's latest 10-Q."
+      "use_case": "Finding companies that disclosed shipping disruptions in their 2024 10-Ks, reading the exact tariff passage in a retailer's latest 10-Q."
     },
     {
       "name": "euinvoice",
@@ -76348,7 +76348,7 @@
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Values a small software or internet business from its revenue model, MRR, churn, growth and age with a published model, returning a range, ARR multiple and investor score, and checks whether a for-sale listing's asking price is fair.",
-      "use_case": "Valuing a SaaS with 9,000 dollars MRR and 3 percent churn before an exit talk, checking a listing that asks 400,000 dollars.",
+      "use_case": "Valuing a SaaS from its MRR and 3 percent churn before an exit talk, checking whether a for-sale listing's asking price is fair.",
       "subcategory": "Private Markets Real Estate and Deal Intelligence"
     },
     {
@@ -76456,7 +76456,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Checks whether a food or plant eaten by a dog or cat is toxic at a given dose with an emergency level, returns breed profiles, and finds vets, shelter animals and pet-friendly travel places in South Korea.",
-      "use_case": "Checking whether 30 grams of dark chocolate is dangerous for a 10-kg dog, finding a vet open late in Mapo."
+      "use_case": "Checking whether 30 grams of dark chocolate is dangerous for a 10-kg dog, finding a 24-hour vet in Mapo."
     },
     {
       "name": "K-Sports Info",
@@ -76545,7 +76545,7 @@
       "marker": "C",
       "category": "AI and ML",
       "description": "Searches explainx.ai AI news, compares model prices per million input and output tokens, finds AI tools, agents and MCP servers in its directory, and shows what is trending.",
-      "use_case": "Comparing token prices of three frontier models for a budget, finding this week's news on EU AI Act guidance."
+      "use_case": "Comparing token prices of three frontier models for a budget, finding recent news on EU AI Act guidance."
     },
     {
       "name": "EasyStory360",
@@ -78355,7 +78355,7 @@
       "marker": "C",
       "category": "Market Data and Investment Research",
       "description": "Gives Gale Finance's published risk and return metrics for about 200 stocks, ETFs, crypto assets and commodities, such as Sharpe and Sortino ratios, drawdowns and tail risk, compares assets and ranks them by metric, with source links.",
-      "use_case": "Comparing gold and bitcoin on max drawdown since 2018, ranking crypto assets by Sharpe ratio over the last year."
+      "use_case": "Comparing gold and bitcoin on max drawdown and recovery time, ranking crypto assets by Sharpe ratio over the last year."
     },
     {
       "name": "KnowKensington",
@@ -79378,8 +79378,8 @@
       "url": "https://gobatch.net",
       "marker": "C",
       "category": "Ticketing and Events",
-      "description": "Searches goBatch startup events, grants, accelerators, competitions, conferences and hackathons by deadline, reads details and compares opportunities, read-only.",
-      "use_case": "Finding AI hackathons in Europe with deadlines before March, comparing two accelerator programmes."
+      "description": "Searches goBatch startup events, grants, accelerators, competitions, conferences, exhibitions and hackathons in plain language, returning dates, locations and official links, reads details and compares opportunities, read-only.",
+      "use_case": "Finding AI hackathons in Europe taking place before March, comparing two accelerator programmes."
     },
     {
       "name": "Goblingains",
@@ -79444,9 +79444,10 @@
       "name": "Munchi",
       "url": "https://www.gomunchi.com",
       "marker": "C",
-      "category": "Lifestyle and Local",
+      "category": "Data and Analytics",
       "description": "Reads Munchi restaurant data, such as sales by store, channel, hour or staff, menus, products, recipes, stock levels, gift cards, loyalty, promotions and store settings, read-only.",
-      "use_case": "Comparing delivery and dine-in sales for Saturday, checking which ingredients run low this week."
+      "use_case": "Comparing delivery and dine-in sales for Saturday, checking which ingredients run low this week.",
+      "subcategory": "Commerce and Revenue Analytics"
     },
     {
       "name": "GoNextSet",
@@ -79998,7 +79999,7 @@
       "marker": "C",
       "category": "Market Data and Investment Research",
       "description": "Searches Indian mutual funds, reads fund profiles, compares funds, checks portfolio overlap, finds funds holding a stock, and shows category-relative GuideFin ratings and their trends, read-only.",
-      "use_case": "Comparing two flexi-cap funds, checking how much their holdings overlap."
+      "use_case": "Comparing two funds in the same category, checking how much their holdings overlap."
     },
     {
       "name": "GuideMark",
@@ -80136,7 +80137,7 @@
       "marker": "C",
       "category": "Market Data and Investment Research",
       "description": "Searches stocks on Tadawul, GCC and US markets and major crypto, gives quotes, market movers and breadth, Shariah screening classifications with sources and community sentiment, read-only.",
-      "use_case": "Checking the Shariah classification of a Tadawul bank, listing today's biggest movers in Kuwait."
+      "use_case": "Checking the Shariah classification of a Tadawul bank, listing today's biggest movers on the Saudi Exchange."
     },
     {
       "name": "KYB Vetter",
@@ -80209,7 +80210,7 @@
       "marker": "C",
       "category": "Marketing and Sales",
       "description": "Reads VoxoLib call statistics, listing tracking numbers and giving WebCallback and Call Tracking call volumes by status for a chosen period.",
-      "use_case": "Checking how many tracked calls were missed yesterday on the Google Ads number.",
+      "use_case": "Checking how many tracked calls were missed yesterday on one tracking number.",
       "subcategory": "Marketing Analytics and Consumer Insights"
     },
     {
@@ -81350,7 +81351,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Searches Belgian property adverts for sale or rent with prices, surfaces and energy labels, counts and maps matches, finds estate agencies, notaries and developers, contacts an advertiser and sets up e-mail alerts.",
-      "use_case": "Finding three-bedroom houses for sale near Ghent with energy label B or better, setting an alert for new matches."
+      "use_case": "Finding three-bedroom houses for sale near Ghent, setting an alert for new matches."
     },
     {
       "name": "iMoving",
@@ -81432,7 +81433,7 @@
       "marker": "C",
       "category": "Education",
       "description": "Lists where colleges and universities publish AI-policy material, with each source address, where it now lands, its document type and whether it opened at the last pass.",
-      "use_case": "Finding a university's current AI syllabus guidance page, checking which policy pages moved since September."
+      "use_case": "Finding a university's current AI syllabus guidance page, checking which policy pages moved at the last pass."
     },
     {
       "name": "IndexPulse",
@@ -81629,7 +81630,7 @@
       "marker": "C",
       "category": "Productivity",
       "description": "Checks drafts for thin claims, try-hard language, AP style issues and AI-sounding patterns, returns cleaned versions with a diff view, and reports usage.",
-      "use_case": "Cleaning a product launch press release before sending, checking a LinkedIn post for AP style."
+      "use_case": "Cleaning a product launch press release before sending, checking a social media post for AP style."
     },
     {
       "name": "Inorsa Platform",
@@ -81807,7 +81808,7 @@
       "marker": "C",
       "category": "Data and Analytics",
       "description": "Looks up Xcout Intel data on 530,000 companies, including funding rounds, investors, institutional holders, people, financial history, AI rank, live job postings and hiring trends, plus place-level economic data.",
-      "use_case": "Checking which funds co-invested in a fintech's Series B, seeing which functions Cloudflare is hiring for this quarter.",
+      "use_case": "Checking which funds co-invested in a fintech's Series B, seeing which functions a cloud software company is hiring for right now.",
       "subcategory": "Company and Market Intelligence"
     },
     {
@@ -81907,7 +81908,7 @@
       "marker": "C",
       "category": "Market Data and Investment Research",
       "description": "Searches and reads ASX company announcements, highlights price-sensitive releases, tracks company guidance and upcoming events, and manages a watchlist.",
-      "use_case": "Reading BHP's latest quarterly update, listing price-sensitive announcements on a watchlist this week."
+      "use_case": "Reading a mining company's latest quarterly update, listing price-sensitive announcements on a watchlist this week."
     },
     {
       "name": "InviziPoll",
@@ -82307,7 +82308,7 @@
       "marker": "C",
       "category": "Marketing and Sales",
       "description": "Reads a Jinn brand record, including voice, audience, messaging, colors, fonts, design tokens and products, answers brand questions, reviews assets against it and proposes edits.",
-      "use_case": "Pulling brand colors and fonts for a pitch deck, checking an Instagram caption against the brand voice.",
+      "use_case": "Pulling brand colors and fonts for a pitch deck, checking a social media caption against the brand voice.",
       "subcategory": "Brand Management and Content Creation"
     },
     {
@@ -82372,7 +82373,7 @@
       "marker": "C",
       "category": "Jobs",
       "description": "Searches jobs posted on employer career sites with first-seen date, open status and repost history, checks whether a posting link is still open, lists saved jobs and starts JobShifu resume tailoring.",
-      "use_case": "Checking whether a Stripe posting from last month is still open, tailoring a resume for a product manager role."
+      "use_case": "Checking whether a fintech company's posting from last month is still open, tailoring a resume for a product manager role."
     },
     {
       "name": "Jobsite Safety Reference",
@@ -83604,7 +83605,7 @@
       "url": "https://lastscanned.com",
       "marker": "C",
       "category": "Productivity",
-      "description": "Tracks packages across over 500 carriers including USPS, UPS, FedEx, DHL, UniUni and LTL freight, detects the carrier from the number and returns status, latest scan and estimated delivery, singly or in batches.",
+      "description": "Tracks packages across over 500 carriers including USPS, UPS, FedEx, DHL, UniUni and LTL freight, detects the carrier from the number and returns status, latest scan and scan history, singly or in batches.",
       "use_case": "Checking where a USPS package is, tracking ten order shipments at once."
     },
     {
@@ -84353,7 +84354,7 @@
       "marker": "C",
       "category": "Social Media and Influencer Marketing",
       "description": "Lists post ideas LitPost finds in a user's work, drafts, updates, schedules, unschedules and publishes social posts to connected accounts.",
-      "use_case": "Drafting a LinkedIn post about a new GitHub release, scheduling it for Tuesday morning."
+      "use_case": "Drafting a social post about a new GitHub release, scheduling it for Tuesday morning."
     },
     {
       "name": "Little Monk",
@@ -85018,7 +85019,7 @@
       "marker": "C",
       "category": "Design and Creative",
       "description": "Searches Creative Commons music and sound effects by mood, genre, instrument, length, tempo and license terms, finds similar tracks, edits audio, and manages collections with ready-to-paste credit lines.",
-      "use_case": "Finding a commercial-use CC0 intro track under 30 seconds for a podcast, exporting credit lines for a YouTube video's soundtrack."
+      "use_case": "Finding a commercial-use CC0 intro track under 30 seconds for a podcast, exporting credit lines for a video's soundtrack."
     },
     {
       "name": "Magistry",
@@ -85433,7 +85434,7 @@
       "marker": "C",
       "category": "Market Data and Investment Research",
       "description": "Analyzes a stock ticker through multi-model discussions on aggregated news, returning a forecast with expected price impact, key catalysts and risks.",
-      "use_case": "Getting a news-based outlook on NVDA before earnings, checking the main risks flagged for a regional bank stock."
+      "use_case": "Getting a news-based outlook on a chipmaker's stock before earnings, checking the main risks flagged for a regional bank stock."
     },
     {
       "name": "Maskerade",
@@ -86185,7 +86186,7 @@
       "marker": "C",
       "category": "Market Data and Investment Research",
       "description": "Reads quotes, profiles, price history, intraday data, fundamentals, SEC filings and news for stocks, ETFs, crypto, commodity futures and forex, screens and compares assets, and serves a point-in-time archive.",
-      "use_case": "Comparing Apple and Microsoft fundamentals, screening ETFs by today's volume, pulling gold futures history for a backtest."
+      "use_case": "Comparing two large tech companies' fundamentals, screening ETFs by today's volume, pulling gold futures history for a backtest."
     },
     {
       "name": "Forecast Coach",
@@ -86285,7 +86286,7 @@
       "marker": "C",
       "category": "Productivity",
       "description": "Watches web pages for changes to a chosen part such as a price, new listing or rule text, lists changes and outages, creates and updates watches and runs checks on demand.",
-      "use_case": "Watching a laptop's price on a Lithuanian shop, getting told when a new Volvo V60 listing appears."
+      "use_case": "Watching a laptop's price on an online shop, getting told when a new listing appears on a classifieds page."
     },
     {
       "name": "momo.ai",
@@ -86301,7 +86302,7 @@
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Reads Monarch budgets, spending, cash flow, net worth, investments and credit score history, and creates, recategorizes and updates transactions, categories, tags, rules, merchants and goals.",
-      "use_case": "Recategorizing 30 Amazon transactions as household, checking dining spend against budget, allocating 500 dollars to a vacation goal.",
+      "use_case": "Recategorizing 30 transactions from one merchant as household, checking dining spend against budget, allocating 500 dollars to a vacation goal.",
       "subcategory": "Personal Finance and Consumer Tax"
     },
     {
@@ -86363,7 +86364,7 @@
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Reads Money Magician bookkeeping data, querying invoices, expenses by category, vendors, customers, reconciliation status, profitability and tax position, and calculates taxes.",
-      "use_case": "Checking how much VAT is owed for the third quarter, listing invoices over 1,000 euros from the last six months.",
+      "use_case": "Checking how much VAT is owed for the third quarter, listing the top five customers this year.",
       "subcategory": "Accounting Payroll and Financial Planning"
     },
     {
@@ -86438,7 +86439,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Finds restaurants and dishes ranked by Morel ratings and friends' visits, reads menus, lists and taste profile, logs visits with photos, and follows and invites friends.",
-      "use_case": "Finding a ramen spot friends rated highly near Union Square, logging last night's dinner with two photos."
+      "use_case": "Finding a ramen spot friends rated highly near the office, logging last night's dinner with two photos."
     },
     {
       "name": "Morereply",
@@ -86480,7 +86481,7 @@
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Finds and reads Mortgage Maker comparison reports, looks up a property snapshot, reads the daily lock or float call and creates borrower reports for loan officers.",
-      "use_case": "Walking through a borrower's 30-year versus 15-year comparison, drafting a report for a 450,000 dollar purchase in Austin.",
+      "use_case": "Walking through a borrower's 30-year versus 15-year comparison, drafting a report for a 450,000 dollar home purchase.",
       "subcategory": "Private Markets Real Estate and Deal Intelligence"
     },
     {
@@ -86505,7 +86506,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Searches famous artworks, artists, museums and articles, reads their details and availability, and quotes prices for hand-painted reproductions and archival prints.",
-      "use_case": "Finding where The Starry Night is kept, getting a quote for a 60 by 80 cm hand-painted copy of it."
+      "use_case": "Finding where The Starry Night is kept, getting a quote for a hand-painted copy of it."
     },
     {
       "name": "Motex",
@@ -86666,7 +86667,7 @@
       "marker": "C",
       "category": "Documents and Files",
       "description": "Transcribes a public video link or a one-time upload into a timestamped transcript with flagged uncertain words and numbered speakers.",
-      "use_case": "Getting a timestamped transcript of a 20-minute conference talk, checking flagged names before quoting it."
+      "use_case": "Getting a timestamped transcript of a 20-minute conference talk, checking the flagged uncertain words before quoting it."
     },
     {
       "name": "Muzli",
@@ -86789,7 +86790,7 @@
       "marker": "C",
       "category": "Healthcare and Life Sciences",
       "description": "Looks up sourced Medicare statistics by state and county, including Medicare Advantage plans, Star Ratings, enrollment share and Part D, queries datasets and returns citation lines.",
-      "use_case": "Counting Medicare Advantage plans ending in a Maine county for 2027, getting a citation line for a Part D figure."
+      "use_case": "Counting Medicare Advantage plans ending in a Maine county, getting a citation line for a Part D figure."
     },
     {
       "name": "Picky",
@@ -86879,7 +86880,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Finds restaurants near an address, reads hours, delivery terms and menus with prices, prices a basket and returns a link to finish the order on the restaurant's own page.",
-      "use_case": "Finding pizza places open now near a Tel Aviv address, pricing a basket of two pizzas and a salad."
+      "use_case": "Finding pizza places open now near a home address, pricing a basket of two pizzas and a salad."
     },
     {
       "name": "MySooChef",
@@ -87388,7 +87389,7 @@
       "marker": "C",
       "category": "Research and Academic",
       "description": "Reads a personalized daily NexusDigest AI briefing, learn guides and recommendations, finds AI events, manages interests and a watchlist and reacts to items.",
-      "use_case": "Reading today's AI briefing for a product manager, finding AI meetups in London next month."
+      "use_case": "Reading today's AI briefing for a product manager, finding upcoming AI meetups and events."
     },
     {
       "name": "ngrok",
@@ -87485,7 +87486,7 @@
       "marker": "C",
       "category": "AI and ML",
       "description": "Reads NL;NL Labs daily AI test results on business jobs, comparing right answers per dollar with dated results, model histories and picks.",
-      "use_case": "Checking which model gave the most right answers per dollar on invoice extraction yesterday."
+      "use_case": "Checking which model gave the most right answers per dollar on the Extract job yesterday, tracking one model's results on support-ticket routing over the past month."
     },
     {
       "name": "NMOS.NET Crawl Analytics",
@@ -87575,7 +87576,7 @@
       "marker": "C",
       "category": "Government and Nonprofit",
       "description": "Looks up typical fire department arrival times by ZIP code in covered US cities, including the slowest 1 in 10 responses and fires on record, and lists cities with a Fire Clock.",
-      "use_case": "Checking how fast the first fire unit reaches ZIP 10027, listing Texas cities with a Fire Clock."
+      "use_case": "Checking how fast the first fire unit reaches ZIP 10027, listing the cities that have a Fire Clock."
     },
     {
       "name": "North Metric",
@@ -88530,7 +88531,7 @@
       "marker": "C",
       "category": "Cloud and Infrastructure",
       "description": "Finds and reads FinOps reference guides and waste runbooks with detection queries for AWS, Azure, GCP and Kubernetes, and returns live figures.",
-      "use_case": "Reading the guide on AWS Savings Plans versus Reserved Instances, finding a runbook for idle Kubernetes nodes."
+      "use_case": "Asking how to size a Savings Plan, asking which snapshots are safe to delete and the query to find them."
     },
     {
       "name": "Options Profit Calculator",
@@ -88836,7 +88837,7 @@
       "marker": "C",
       "category": "Productivity",
       "description": "Works in Oxygenius for Belgian construction firms, finding and creating dossiers, estimates, invoices and credit notes, checking VAT numbers, planning events, and drafting and sending emails.",
-      "use_case": "Creating an estimate for a kitchen renovation, sending the accepted estimate as an invoice."
+      "use_case": "Preparing an estimate for a tiling job, listing invoices that are overdue for payment."
     },
     {
       "name": "OxyLesson",
@@ -88852,7 +88853,7 @@
       "marker": "C",
       "category": "Ecommerce and Marketplace Selling",
       "description": "Inspects Assemblified bills of materials and nested assemblies for a Shopify store, shows buildable quantities and limiting components by location, explains costs, and creates draft work orders.",
-      "use_case": "Finding which component limits how many gift bundles can be built in the Berlin warehouse, drafting a work order for 50."
+      "use_case": "Finding which component limits how many gift bundles can be built at one warehouse location, drafting a work order for 50."
     },
     {
       "name": "Logistified",
@@ -88944,7 +88945,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Searches Paddock greeting cards and postcards, composes and previews a personal card, prepares, revises and pays for an order, and prints and mails it.",
-      "use_case": "Sending a birthday card to a grandmother in Ohio with a Friday mailing date, previewing it before paying."
+      "use_case": "Sending a birthday card to a grandmother with a Friday mailing date, previewing it before paying."
     },
     {
       "name": "Padel Expert Lab",
@@ -88984,7 +88985,7 @@
       "marker": null,
       "category": "Lifestyle and Local",
       "description": "Searches pagesjaunes for French businesses such as tradespeople, restaurants, hotels and shops, and returns details and phone numbers.",
-      "use_case": "Finding a plumber near Lyon open on Saturday, getting a restaurant's phone number in Bordeaux."
+      "use_case": "Finding a plumber near Lyon and checking the opening hours, getting a restaurant's phone number in Bordeaux."
     },
     {
       "name": "Pagesmith AI",
@@ -89760,7 +89761,7 @@
       "marker": null,
       "category": "Finance and Trading",
       "description": "Reads a merchant's Pine Labs One profile, stores, POS terminals, transactions, settlements and payouts, raises and tracks support tickets, and manages PineAI agents, chat sessions and scheduled reports, without moving funds.",
-      "use_case": "Checking today's payout for a Bengaluru store, raising a ticket for a faulty card terminal, scheduling a weekly sales report.",
+      "use_case": "Checking today's payout for one store, raising a ticket for a faulty card terminal, scheduling a weekly sales report.",
       "subcategory": "Payments Billing and Invoicing"
     },
     {
@@ -90229,7 +90230,7 @@
       "marker": "C",
       "category": "Ecommerce and Marketplace Selling",
       "description": "Searches Port66 listings of authenticated luxury, streetwear and collectibles, opens listing details with condition, authenticity and provenance, shows payment options and prices items in crypto, read-only.",
-      "use_case": "Finding a Gucci bezel under 500 dollars, checking a sneaker listing's provenance record and its price in ETH."
+      "use_case": "Finding a designer accessory under 500 dollars, checking a sneaker listing's provenance record and its price in crypto."
     },
     {
       "name": "PortalBase Safety Library",
@@ -90375,7 +90376,7 @@
       "marker": "C",
       "category": "CMS and Web Building",
       "description": "Creates and edits a Posy link-in-bio page, claiming a username, choosing a look, adding, moving and removing link, social, music and video tiles, setting the profile and theme, importing an existing page and publishing it.",
-      "use_case": "Building a musician's page with the Washi look and a Bandcamp link, moving a new single to the top tile."
+      "use_case": "Building a musician's page with the Washi look and a music link, moving a new single to the top tile."
     },
     {
       "name": "Powder Radar",
@@ -90992,7 +90993,7 @@
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Summarizes Ledgie household ledger months by income, spending, budgets and recurring payments, lists entries and adds, updates or deletes transactions, categories, budgets and recurring items.",
-      "use_case": "Recording a 3,200 yen grocery receipt and checking how this month's food budget is going.",
+      "use_case": "Recording a supermarket grocery receipt and checking how this month's food budget is going.",
       "subcategory": "Personal Finance and Consumer Tax"
     },
     {
@@ -91201,7 +91202,7 @@
       "marker": "C",
       "category": "Jobs",
       "description": "Searches quant interview problems by topic, company or difficulty, returns the question of the day, solutions and recommendations, bookmarks problems, tracks progress and searches quant jobs.",
-      "use_case": "Practising probability questions asked at Jane Street and tracking progress before an interview next week."
+      "use_case": "Practising probability questions asked at one trading firm and tracking progress before an interview next week."
     },
     {
       "name": "PV0T",
@@ -91391,7 +91392,7 @@
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Analyzes QuantStark portfolios for factor exposures, risk, performance attribution and red flags such as hidden overlap, screens stocks, compares ETFs and models trades and holding updates.",
-      "use_case": "Finding how much Apple a portfolio really holds through VTI and QQQ and modelling a trim.",
+      "use_case": "Finding how much of one stock a portfolio really holds through two overlapping ETFs and modelling a trim.",
       "subcategory": "Trading Brokerage and Wealth Management"
     },
     {
@@ -91557,7 +91558,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Finds current vouchers and offers for shops in Switzerland, Germany and Austria from rabatt.codes, with conditions, expiry dates and links to the codes, lists top discounts and advises whether to buy now or wait.",
-      "use_case": "Checking for a current Fressnapf voucher in Switzerland before ordering dog food."
+      "use_case": "Checking for a current voucher at a Swiss pet supply shop before ordering dog food."
     },
     {
       "name": "Rabbitts Capital",
@@ -91574,7 +91575,7 @@
       "marker": "C",
       "category": "Design and Creative",
       "description": "Creates and edits animated bar, line and pie race charts from data or researched financial datasets, attaches assets and exports videos.",
-      "use_case": "Making a bar chart race of the top 10 smartphone brands by sales from 2010 to 2025 for TikTok."
+      "use_case": "Making a portrait bar chart race of the top 10 smartphone brands by sales from 2010 to 2025."
     },
     {
       "name": "Račun123",
@@ -91680,7 +91681,7 @@
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Searches and compares company, business and online business sale listings on Rakko M&A, such as websites, social accounts and apps, and returns listing details.",
-      "use_case": "Finding YouTube channels for sale under 1 million yen with stable monthly revenue.",
+      "use_case": "Finding social media accounts for sale under 1 million yen with stable monthly revenue.",
       "subcategory": "Private Markets Real Estate and Deal Intelligence"
     },
     {
@@ -92049,7 +92050,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Searches public record shop listings by city, country, genre, new or used stock and online or physical location, and returns shop details and opening hours.",
-      "use_case": "Finding used jazz record shops in Lisbon open on Sunday."
+      "use_case": "Finding used jazz record shops in Lisbon and checking their listed Sunday opening hours."
     },
     {
       "name": "Recruiter OS",
@@ -93346,7 +93347,7 @@
       "marker": "C",
       "category": "Jobs",
       "description": "Searches open sales jobs such as SDR, account executive, account manager and sales engineer roles at employers' own careers systems, with stated pay and market summaries.",
-      "use_case": "Finding remote enterprise account executive roles with stated OTE over 200,000 dollars."
+      "use_case": "Finding enterprise account executive roles that state pay over 200,000 dollars."
     },
     {
       "name": "Salesmap",
@@ -93469,7 +93470,7 @@
       "marker": "C",
       "category": "Ecommerce and Marketplace Selling",
       "description": "Searches the Sandwich Panel EU building materials catalog, returns product specifications and quotes PLN net and gross prices for a quantity and sales unit.",
-      "use_case": "Pricing 120 square meters of 100 mm PIR roof panels."
+      "use_case": "Pricing roof sandwich panels for a warehouse extension and comparing panel specifications."
     },
     {
       "name": "Sandwich Panel PL",
@@ -93477,7 +93478,7 @@
       "marker": "C",
       "category": "Ecommerce and Marketplace Selling",
       "description": "Searches the Sandwich Panel PL building materials catalog, returns product specifications and quotes PLN net and gross prices for a quantity and sales unit.",
-      "use_case": "Pricing roof sandwich panels for a 60 square meter garage."
+      "use_case": "Pricing roof sandwich panels for a garage and getting the net and gross totals in PLN."
     },
     {
       "name": "Lumen UI",
@@ -93559,7 +93560,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Calculates Korean Four Pillars charts from a birth date, time and place, and returns daily and 2027 zodiac fortunes and dream interpretations.",
-      "use_case": "Calculating a saju chart and reading tomorrow's zodiac fortune."
+      "use_case": "Calculating the four pillars for a birth date and hour, reading the daily fortune for a given zodiac sign."
     },
     {
       "name": "Scalation",
@@ -93729,7 +93730,7 @@
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Searches business-for-sale listings against a buy box, manages pipeline deals, notes, stages, tasks and broker interactions, reads CIM analysis and runs loan and debt-service coverage scenarios in Searcher OS.",
-      "use_case": "Finding HVAC businesses for sale in Ohio under 3 million dollars, modeling an SBA loan on a 1.2 million dollar deal, logging a broker call and moving the deal to LOI.",
+      "use_case": "Finding HVAC businesses for sale under 3 million dollars that match a buy box, modeling a loan on a 1.2 million dollar deal, logging a broker call and moving the deal to the next stage.",
       "subcategory": "Private Markets Real Estate and Deal Intelligence"
     },
     {
@@ -93738,7 +93739,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Finds supported restaurants and creates, updates, inspects and pauses Seatchirp availability alerts by party size, dates and dinner window, with email notifications when a table opens.",
-      "use_case": "Setting an alert for a table for four at a booked-out restaurant any Friday in March between 7 and 9 pm, pausing an alert after a trip is cancelled."
+      "use_case": "Setting an alert for a table for four at a booked-out restaurant on two Friday evenings in March between 7 and 9 pm, pausing an alert after a trip is cancelled."
     },
     {
       "name": "SeatLayer",
@@ -93954,7 +93955,7 @@
       "marker": "C",
       "category": "SEO and Web",
       "description": "Crawls sites for Google and AI search issues, returns a prioritized fix plan with code snippets, checks keyword difficulty, Core Web Vitals, content gaps and AI citations, and reads Search Console insights.",
-      "use_case": "Auditing a SaaS marketing site before a relaunch, finding pages with high impressions but low click-through, checking whether ChatGPT's crawler is blocked."
+      "use_case": "Auditing a SaaS marketing site before a relaunch, finding pages with high impressions but low click-through, checking whether AI search engines cite the site."
     },
     {
       "name": "SEONexus",
@@ -94116,7 +94117,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Searches live US prices for more than 1,000 products such as GPUs, RAM, SSDs, phones and collectibles, with per-unit costs, used versus new savings, deals, weekly price moves and links to the cheapest listings.",
-      "use_case": "Checking the lowest current price for an RTX 4070, comparing used and new prices for a 20TB hard drive, finding this week's biggest price drops."
+      "use_case": "Checking the lowest current price for an RTX 4070, comparing used and new prices for a 2TB SSD, finding this week's biggest price drops."
     },
     {
       "name": "SheetDB",
@@ -94501,7 +94502,7 @@
       "marker": "C",
       "category": "Travel",
       "description": "Searches SimOptions travel eSIM destinations, finds and compares plans for one country or a multi-country trip by length and data, and checks phone eSIM compatibility.",
-      "use_case": "Finding a 10 GB eSIM for two weeks in Japan, comparing a regional plan for Thailand, Vietnam and Cambodia, checking whether a Pixel 7 supports eSIM."
+      "use_case": "Finding a 10 GB eSIM for two weeks in Japan, comparing a regional plan for Thailand, Vietnam and Cambodia, checking whether an older Android phone supports eSIM."
     },
     {
       "name": "SimoShop",
@@ -94951,7 +94952,7 @@
       "marker": "C",
       "category": "Security",
       "description": "Runs a passive, read-only security scan of a site the user owns for exposed API keys, readable Supabase tables, exposed files such as .env or .git, missing headers and certificate and domain issues, with plain-English fixes.",
-      "use_case": "Scanning a Lovable-built booking site before launch, checking whether a Supabase users table is publicly readable."
+      "use_case": "Scanning an AI-built booking site before launch, checking whether a Supabase users table is publicly readable."
     },
     {
       "name": "sniv",
@@ -94967,7 +94968,7 @@
       "marker": "C",
       "category": "Travel",
       "description": "Returns fresh snow over 24 hours, 7 days and 30 days and 7-day forecasts for over 1,000 ski resorts, ranks top snowfall, gives snow briefings and reports forecast accuracy against official stations.",
-      "use_case": "Picking between Val d'Isere and St Anton for a February weekend, checking which Japanese resorts got the most snow this week."
+      "use_case": "Picking between Val d'Isere and St Anton for this weekend, checking which Japanese resorts got the most snow this week."
     },
     {
       "name": "Solomon Vault",
@@ -95048,7 +95049,7 @@
       "url": "https://sofya.co",
       "marker": "C",
       "category": "Research and Academic",
-      "description": "Searches the web with Sofya's own index, fetches pages and documents as clean text, extracts answers from pages and produces cited research reports, and checks and buys credits.",
+      "description": "Searches the web with Sofya's own index, fetches pages and documents as clean text, extracts answers from pages and produces cited research reports, and checks the credit balance and returns a payment link to top up.",
       "use_case": "Pulling the exact clause from a regulator's PDF, compiling a cited report on 2026 heat pump subsidies in three EU countries."
     },
     {
@@ -95123,7 +95124,7 @@
       "marker": "C",
       "category": "Research and Academic",
       "description": "Searches the public Acervo Sonarview library of reports, surveys, case studies and regulations for strategic planning and reads documents with source links.",
-      "use_case": "Finding Brazilian retail market studies for a 2027 plan, reading a central bank regulation cited in a credit strategy."
+      "use_case": "Finding retail market studies for a 2027 plan, reading a regulation cited in a credit strategy."
     },
     {
       "name": "Sonarview Flow",
@@ -95198,7 +95199,7 @@
       "marker": "C",
       "category": "Market Data and Investment Research",
       "description": "Screens US, Indian NSE, ETF, forex and crypto markets in plain English with technical indicators and patterns, and returns returns, drawdowns, Sharpe ratio, beta, seasonality, backtests and options volatility for a symbol.",
-      "use_case": "Finding NSE stocks above their 200-day average with a fresh breakout, checking how SPY performed in Septembers since 2000."
+      "use_case": "Finding NSE stocks above their 200-day average with a fresh breakout, checking how SPY has typically performed in September."
     },
     {
       "name": "Soulog",
@@ -95231,7 +95232,7 @@
       "marker": "C",
       "category": "Entertainment",
       "description": "Turns track lists or public playlist URLs into Soundiiz import links, lists supported music services and checks transfer and Sync compatibility between two services.",
-      "use_case": "Preparing an import link for a 50-song road trip playlist from Spotify to Apple Music, checking whether Deezer to Tidal sync is supported."
+      "use_case": "Preparing an import link for a 50-song road trip playlist from one streaming service to another, checking whether Sync between two services is supported."
     },
     {
       "name": "corllet",
@@ -95255,7 +95256,7 @@
       "marker": "C",
       "category": "Security",
       "description": "Inspects tracking markup and tracker requests on websites the user owns or is authorized to check, compares consent observations, interprets consent evidence, exports a technical report and suggests remediation steps.",
-      "use_case": "Checking whether Google Analytics fires before the cookie banner on a shop's homepage, exporting a consent report for a client audit."
+      "use_case": "Checking whether an analytics tracker fires before the cookie banner on a shop's homepage, exporting a consent report for a client audit."
     },
     {
       "name": "Spacefast",
@@ -95296,7 +95297,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Searches catalogue furniture by size, store or style, checks retailer-listed dimensions against a measured rectangular room and proposes a top-down placement for one piece with clearances.",
-      "use_case": "Checking whether a 220 cm sofa fits a 3.5 by 4 metre living room, finding a desk under 120 cm wide for an alcove."
+      "use_case": "Checking whether a long sofa fits a measured living room, finding a narrow desk for an alcove."
     },
     {
       "name": "IPOInsider",
@@ -95427,7 +95428,7 @@
       "marker": "C",
       "category": "Marketing and Sales",
       "description": "Reads the Sporely growth board for the signed-in brand, with HubSpot funnel stages week by week against their usual range and logged marketing actions with results and verdicts.",
-      "use_case": "Checking whether the spring Google Ads campaign moved MQLs, reviewing which events last quarter were marked as working.",
+      "use_case": "Checking whether a spring paid campaign moved MQLs, reviewing which events last quarter were marked as working.",
       "subcategory": "Marketing Analytics and Consumer Insights"
     },
     {
@@ -95664,7 +95665,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Searches the SteelProfil building materials catalog, opens product specifications and checks net and gross PLN prices for a requested quantity and sales unit.",
-      "use_case": "Pricing 120 square metres of PIR sandwich panels for a garage roof, comparing trapezoidal sheet thicknesses."
+      "use_case": "Pricing roofing materials for a garage by quantity and sales unit, comparing the specifications of two roofing sheets."
     },
     {
       "name": "Steerd",
@@ -95753,7 +95754,7 @@
       "marker": "C",
       "category": "Market Data and Investment Research",
       "description": "Reads Indian mutual fund AUM data from AMFI, NAV history and metrics, equity and index history, and StockViz strategy backtests, definitions and portfolios.",
-      "use_case": "Ranking fund houses by AUM growth in 2026, comparing NAV drawdowns of two flexi-cap funds, reviewing a momentum strategy backtest."
+      "use_case": "Ranking fund houses by AUM growth in 2026, comparing NAV drawdowns of two mid-cap funds, reviewing a momentum strategy backtest."
     },
     {
       "name": "Stolio",
@@ -95761,7 +95762,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Searches restaurants that use Stolio by name or city and checks free table times for a date and party size, returning booking page links with details filled in.",
-      "use_case": "Finding a table for four in Brno on Friday at 7 pm, checking lunch availability at a Prague bistro."
+      "use_case": "Finding a table for four on Friday at 7 pm in a chosen city, checking lunch availability at a nearby bistro."
     },
     {
       "name": "Social Studio",
@@ -95803,7 +95804,7 @@
       "marker": "C",
       "category": "CMS and Web Building",
       "description": "Finds, creates, updates and deletes StoreRocket store locator locations, lists locators and filters, returns install code and reads top searches, searches with no results and most-clicked locations.",
-      "use_case": "Adding 12 new stockists with opening hours, finding searched cities with no nearby store, getting the embed code for a Shopify site."
+      "use_case": "Adding 12 new stockists with opening hours, finding searched cities with no nearby store, getting the embed code for a company website."
     },
     {
       "name": "Storied AI",
@@ -95852,7 +95853,7 @@
       "marker": "C",
       "category": "Ticketing and Events",
       "description": "Searches Salgo events, bars and venues, manages tickets, transfers and saved events, and lets venue and production owners create events, ticket types, discount codes, invites and places.",
-      "use_case": "Finding techno parties in Montevideo on Saturday, transferring a concert ticket to a friend, creating early-bird tickets for a festival."
+      "use_case": "Finding techno parties in town on Saturday, transferring a concert ticket to a friend, creating early-bird tickets for a festival."
     },
     {
       "name": "StreakZ",
@@ -96168,7 +96169,7 @@
       "marker": "C",
       "category": "Ecommerce and Marketplace Selling",
       "description": "Reads SUP Dropshipping account summary, orders, costs, tracking, inventory, connected stores and products, billing logs, invoices and sourcing requests.",
-      "use_case": "Checking tracking for 20 unfulfilled Shopify orders, reviewing last month's wallet charges."
+      "use_case": "Checking tracking for 20 unfulfilled store orders, reviewing last month's wallet charges."
     },
     {
       "name": "SuperApp HQ",
@@ -96201,7 +96202,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Searches SuperCatch public trading card and collectible listings, products and storefronts and help docs, and prepares and executes approved account, support, order tracking and seller operations.",
-      "use_case": "Researching current offers on a 1999 Pokemon base set card, preparing a support case about a delayed order."
+      "use_case": "Researching current offers on a vintage trading card, preparing a support case about a delayed order."
     },
     {
       "name": "CREparser Deal Review",
@@ -96472,7 +96473,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Searches Swippa second-hand listings by neighborhood, reads items, messages sellers, makes offers, creates alerts and lists items for sale.",
-      "use_case": "Finding a used kids' bike nearby under 50 euros, making an offer to the seller, listing an old sofa."
+      "use_case": "Finding a used kids' bike nearby within a set budget, making an offer to the seller, listing an old sofa."
     },
     {
       "name": "Swirvle",
@@ -97140,7 +97141,7 @@
       "marker": "C",
       "category": "Lifestyle and Local",
       "description": "Searches the TEKAEM building materials catalog, reads product specifications and checks PLN net and gross prices for a quantity.",
-      "use_case": "Pricing 120 square meters of PIR sandwich panels, comparing two trapezoidal sheet profiles."
+      "use_case": "Pricing roofing materials by quantity, comparing the specifications of two roofing sheet profiles."
     },
     {
       "name": "Talhão Digital MCP",
@@ -97324,7 +97325,7 @@
       "marker": "C",
       "category": "Research and Academic",
       "description": "Creates, copies and edits Testable experiments and surveys, trials and stimuli, imports library projects, reads and exports results and stats and checks Testable Minds studies and budget.",
-      "use_case": "Building a Stroop task from a template, exporting results for 200 participants."
+      "use_case": "Building a reaction-time task from a library template, exporting results for 200 participants."
     },
     {
       "name": "TestSnag",
@@ -97481,7 +97482,7 @@
       "marker": "C",
       "category": "Travel",
       "description": "Searches The Dive Connect dive tours and dive sites by country, price, dates, depth and certification and checks tour availability.",
-      "use_case": "Finding a dive tour for advanced-certified divers in Turkey in May with spots left."
+      "use_case": "Finding a dive tour in a chosen country for advanced-certified divers in May with spots left."
     },
     {
       "name": "Dream Trip",
@@ -97538,7 +97539,7 @@
       "marker": "C",
       "category": "CMS and Web Building",
       "description": "Creates and edits SR Anywhere sliders, heroes, one-page sites and studio pages, searches templates and effects, sets brand, adds media, previews and requests publishing.",
-      "use_case": "Building a hero slider for a Shopify store's homepage, previewing it before requesting publish."
+      "use_case": "Building a hero slider for an online store's homepage, previewing it before requesting publish."
     },
     {
       "name": "ThemeSpot",
@@ -97694,7 +97695,7 @@
       "marker": "C",
       "category": "Travel",
       "description": "Returns current, dated Travel Right Now conditions for Cancún and the Riviera Maya, Costa Rica, Hawaii, Iceland and Turks and Caicos with sources, and finds tours and stays.",
-      "use_case": "Checking sargassum conditions in Cancún next week, finding a snorkel tour in Turks and Caicos."
+      "use_case": "Checking current sargassum conditions in Cancún, finding a snorkel tour in Turks and Caicos."
     },
     {
       "name": "The UI Index",
@@ -97776,7 +97777,7 @@
       "marker": "C",
       "category": "Ticketing and Events",
       "description": "Searches Flare ticket events and artists, reads inventory, market analytics, sold data, seat maps, sellout forecasts and presale codes, and creates, edits and lists watchlist alerts and alert templates.",
-      "use_case": "Checking resale inventory for a stadium show, setting a drop alert on a Ticketmaster event."
+      "use_case": "Checking resale inventory for a stadium show, setting a drop alert on a watched event."
     },
     {
       "name": "TickNow",
@@ -98048,7 +98049,7 @@
       "marker": "C",
       "category": "Market Data and Investment Research",
       "description": "Reads Timefire graded AI stock forecasts, track record, calibration, book portfolios, simulation trades and a stock's resolved history, and verifies batches.",
-      "use_case": "Checking Timefire's track record and calibration, reviewing how one forecast on Nvidia resolved."
+      "use_case": "Checking Timefire's track record and calibration, reviewing how one forecast on a single stock resolved."
     },
     {
       "name": "Timeline: Trips & Places",
@@ -98292,7 +98293,7 @@
       "marker": "C",
       "category": "Design and Creative",
       "description": "Searches Impressionist artworks, artists, museums and articles on TopImpressionists, checks artwork availability and quotes the price of a hand-painted reproduction or print.",
-      "use_case": "Pricing a 60 by 80 cm reproduction of a Monet water lily painting, finding which museum holds a Cassatt portrait."
+      "use_case": "Pricing a large hand-painted reproduction of a Monet water lily painting, finding which museum holds a Cassatt portrait."
     },
     {
       "name": "Topo IA Connect",
@@ -98659,7 +98660,7 @@
       "marker": "C",
       "category": "Marketing and Sales",
       "description": "Retrieves consumer search-volume totals and breakdowns by product category and location from Trendata, compares places and periods, and shows growth and forecasts where available.",
-      "use_case": "Comparing search demand for air fryers in Germany and France, checking whether interest in protein snacks grew this year.",
+      "use_case": "Comparing search demand for a product category in two locations, checking whether interest in a snack category grew this year.",
       "subcategory": "Marketing Analytics and Consumer Insights"
     },
     {
@@ -98783,7 +98784,7 @@
       "marker": "C",
       "category": "Travel",
       "description": "Rates travel dates in 132 cities from measured weather, crowds and hotel prices, finds a city's best week or months, checks whether a nearby week is better and compares cities.",
-      "use_case": "Finding the best week in Kyoto in April, checking whether shifting a Lisbon stay by a week saves on hotels."
+      "use_case": "Finding a city's best week in April, checking whether shifting a stay by a week saves on hotels."
     },
     {
       "name": "Tripvite",
@@ -98914,7 +98915,7 @@
       "marker": null,
       "category": "Finance and Trading",
       "description": "Finds and profiles companies, founders and investors in Specter, with funding rounds, acquisitions, revenue and valuation estimates, competitors, talent and investor interest signals, and builds lists and saved searches.",
-      "use_case": "Finding stealth AI infrastructure startups founded by ex-Stripe engineers, building a list of Series A fintechs in Berlin.",
+      "use_case": "Finding stealth AI infrastructure startups and their founders, building a list of Series A fintech companies with funding histories.",
       "subcategory": "Private Markets Real Estate and Deal Intelligence"
     },
     {
@@ -99045,7 +99046,7 @@
       "marker": "C",
       "category": "Travel",
       "description": "Searches Tutu travel eSIM plans and prices in 190+ countries, compares them with other eSIMs and Ukrainian roaming, estimates roaming costs and lists blocked apps by destination.",
-      "use_case": "Finding a 10 GB eSIM for two weeks in Turkey, checking which calling apps are blocked in the UAE."
+      "use_case": "Finding a 10 GB eSIM for two weeks in Turkey, checking which calling apps are blocked at the destination."
     },
     {
       "name": "WorldIP.io",
@@ -99191,7 +99192,7 @@
       "marker": "C",
       "category": "Development Tools",
       "description": "Searches Arc's React components and page blocks by intent, reads how each works and returns the shadcn install command.",
-      "use_case": "Finding a date-range picker component, installing a pricing page block into a Next.js app."
+      "use_case": "Finding a date-range picker component, installing a pricing page block into a React app."
     },
     {
       "name": "UIVOID",
@@ -99331,7 +99332,7 @@
       "marker": "C",
       "category": "Cloud and Infrastructure",
       "description": "Manages Upstash Redis databases and backups, QStash messages and schedules, Workflow runs, Vector and Search indexes, Box sandboxes and Blob storage, and runs Redis commands.",
-      "use_case": "Creating a Redis database in eu-west-1, retrying three messages stuck in the QStash dead letter queue."
+      "use_case": "Creating a new Redis database for a staging app, retrying three messages stuck in the QStash dead letter queue."
     },
     {
       "name": "Uptimy",
@@ -99435,7 +99436,7 @@
       "marker": "C",
       "category": "Customer Support",
       "description": "Reads Conviro support analytics and workspace summaries, searches conversations and knowledge-base sources and lists connected support channels.",
-      "use_case": "Summarizing last week's WhatsApp support volume, finding the knowledge-base article behind a refund answer."
+      "use_case": "Summarizing last week's support volume, finding the knowledge-base article behind a refund answer."
     },
     {
       "name": "Follow Up",
@@ -99681,7 +99682,7 @@
       "marker": null,
       "category": "Marketing and Sales",
       "description": "Reads Validity Engage inbox placement, deliverability and competitor email data, weekly trends and email previews.",
-      "use_case": "Checking Gmail inbox placement for last week's newsletter, reviewing a competitor's Black Friday emails.",
+      "use_case": "Checking inbox placement for last week's newsletter, reviewing a competitor's Black Friday emails.",
       "subcategory": "Email SMS and Lifecycle Marketing"
     },
     {
@@ -99731,7 +99732,7 @@
       "marker": "C",
       "category": "Security",
       "description": "Reads VamiGRC risks, controls, incidents, vulnerabilities, suppliers and framework readiness, and assigns owners, changes statuses, adds notes, accepts risks and exports registers.",
-      "use_case": "Listing risks without controls ahead of a NIS2 audit, assigning an owner to an open ransomware incident."
+      "use_case": "Listing risks without controls ahead of a framework audit, assigning an owner to an open ransomware incident."
     },
     {
       "name": "Vamos UI",
@@ -99918,7 +99919,7 @@
       "marker": "C",
       "category": "Development Tools",
       "description": "Sends a code change to Veridu for review by two independent reviewers and returns a pass, review or block outcome with grounded findings.",
-      "use_case": "Verifying a Laravel migration change before commit, rechecking after fixing two flagged findings."
+      "use_case": "Verifying a PHP database migration change before commit, rechecking after fixing two flagged findings."
     },
     {
       "name": "Verifera job search",
@@ -100928,7 +100929,7 @@
       "marker": "C",
       "category": "SEO and Web",
       "description": "Measures a public page with PageSpeed Insights against its WebSpeed Fast copy on mobile and desktop, explains metrics and compares platform benchmarks.",
-      "use_case": "Measuring a Shopify product page's mobile LCP before and after acceleration."
+      "use_case": "Measuring an online store product page's mobile LCP before and after acceleration."
     },
     {
       "name": "Weekend Goals",
@@ -101130,7 +101131,7 @@
       "marker": "C",
       "category": "Marketing and Sales",
       "description": "Searches and reads Witbee's library of marketing analytics, tracking and data engineering guides, webinar notes and newsletters, with citations.",
-      "use_case": "Finding Witbee's guide on server-side GA4 tracking, citing its consent mode steps.",
+      "use_case": "Finding Witbee's guide on server-side tracking, citing its setup steps in an answer.",
       "subcategory": "Marketing Analytics and Consumer Insights"
     },
     {
@@ -101374,7 +101375,7 @@
       "marker": "C",
       "category": "SEO and Web",
       "description": "Lists and reads WriterGPT SEO articles, reads modes, checklists and templates, generates articles and checks jobs, credits and connected WordPress sites.",
-      "use_case": "Generating 20 how-to articles from a keyword list, checking a draft against the product review mode."
+      "use_case": "Generating 20 how-to articles from a keyword list, checking a draft against an SEO mode's checklist."
     },
     {
       "name": "Wultor",
@@ -101390,7 +101391,7 @@
       "marker": "C",
       "category": "Design and Creative",
       "description": "Searches Wunderlust creative references, including award-winning sites, animation and 3D libraries, UI components and AI tools, and finds similar or random picks.",
-      "use_case": "Finding scroll animation libraries similar to GSAP, pulling three award-winning portfolio sites for a moodboard."
+      "use_case": "Finding scroll animation libraries similar to a favourite one, pulling three award-winning portfolio sites for a moodboard."
     },
     {
       "name": "WyreIt",
@@ -101398,7 +101399,7 @@
       "marker": "C",
       "category": "Social Media and Influencer Marketing",
       "description": "Reads WyreIt scheduled posts, analytics summaries, connected accounts and account health across workspaces.",
-      "use_case": "Checking what goes out on Instagram and LinkedIn this week, finding which account disconnected."
+      "use_case": "Checking what goes out on each connected account this week, finding which account disconnected."
     },
     {
       "name": "PhishClean",
@@ -101422,7 +101423,7 @@
       "marker": "C",
       "category": "Ecommerce and Marketplace Selling",
       "description": "Manages xclade store orders, inventory, products, customers, B2B companies and wholesale quotes, and assigns admin roles and reads store analytics.",
-      "use_case": "Bulk-updating stock for 40 SKUs after a delivery, reviewing an open Net-30 wholesale quote."
+      "use_case": "Bulk-updating stock for 40 SKUs after a delivery, reviewing an open wholesale quote from a buyer company."
     },
     {
       "name": "XCPinata — Fine Art",
@@ -101689,7 +101690,7 @@
       "marker": "C",
       "category": "Development Tools",
       "description": "Searches Yugmir help for Revit and AutoCAD tools, explains shipped tools and returns API surfaces, templates, schemas and compatibility checks for writing in-house tools.",
-      "use_case": "Getting the csproj template for a new Revit tool, checking it against Revit 2025."
+      "use_case": "Getting the csproj template for a new Revit tool, checking it for problems in newer Revit versions."
     },
     {
       "name": "有報LAB",

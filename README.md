@@ -50,7 +50,7 @@ Each category has its own page; the list outgrew what GitHub will render as a si
 | [CMS and Web Building](categories/cms-and-web-building.md)                                   | 268        |
 | [Communication](categories/communication.md)                                                 | 279        |
 | [Customer Support](categories/customer-support.md)                                           | 198        |
-| [Data and Analytics](categories/data-and-analytics.md)                                       | 1,017      |
+| [Data and Analytics](categories/data-and-analytics.md)                                       | 1,018      |
 | [Design and Creative](categories/design-and-creative.md)                                     | 440        |
 | [Desktop Automation](categories/desktop-automation.md)                                       | 18         |
 | [Development Tools](categories/development-tools.md)                                         | 513        |
@@ -63,7 +63,7 @@ Each category has its own page; the list outgrew what GitHub will render as a si
 | [Healthcare and Life Sciences](categories/healthcare-and-life-sciences.md)                   | 268        |
 | [Jobs](categories/jobs.md)                                                                   | 251        |
 | [Legal](categories/legal.md)                                                                 | 496        |
-| [Lifestyle and Local](categories/lifestyle-and-local.md)                                     | 1,039      |
+| [Lifestyle and Local](categories/lifestyle-and-local.md)                                     | 1,038      |
 | [Market Data and Investment Research](categories/market-data-and-investment-research.md)     | 304        |
 | [Marketing and Sales](categories/marketing-and-sales.md)                                     | 1,168      |
 | [Observability and Monitoring](categories/observability-and-monitoring.md)                   | 133        |
