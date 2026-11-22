@@ -19,9 +19,9 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 > This is an independent, community-maintained list. Not affiliated with, endorsed by, or sponsored by Anthropic PBC. "Claude" and related marks are the property of Anthropic PBC. Each connector is the property of its respective owner.
 
 > [!TIP]
-> ### Connector Snap Stack — November 22, 2026
+> ### Splice — November 22, 2026
 >
-> Each sweep features a persona and a small stack of connectors that click together. Past stacks are archived in [docs/stacks](docs/stacks/); sweep-by-sweep history lives in the [changelog](docs/CHANGELOG.md).
+> Each sweep features a Splice: a persona and a small set of connectors joined for one job. Past Splices are archived in [docs/stacks](docs/stacks/); sweep-by-sweep history lives in the [changelog](docs/CHANGELOG.md).
 >
 > **The three-city spring trip** — Stopover *(new)* · TravelCharika · Booking.com · Google Calendar · running in **Claude**
 >

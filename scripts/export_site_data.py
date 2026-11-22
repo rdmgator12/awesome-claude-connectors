@@ -20,7 +20,7 @@ Layout (schema_version 1):
     site-data/categories/<slug>.json   full entries of one category
     site-data/held.json                Held for Verification rows
     site-data/editorial.json           featured picks and collections, from data/editorial.json
-    site-data/stacks.json              Connector Snap Stacks, parsed from docs/stacks/*.md
+    site-data/stacks.json              Splices (once Connector Snap Stacks), parsed from docs/stacks/*.md
 
 Entry ids are slugs of the entry name ("Google Drive" -> "google-drive"). Names
 are unique case-insensitively, but slugging drops punctuation and Latin accents,
@@ -137,8 +137,8 @@ STACK_LINK = re.compile(r"\*\*\[([^\]]+)\]\((https://[^)]+)\)\*\*( \*\(new\)\*)?
 def parse_stack(path, ids_by_name):
     """One docs/stacks/*.md file -> a stack record. Fails loud on an unexpected shape."""
     lines = path.read_text(encoding="utf-8").splitlines()
-    m = re.match(r"# Connector Snap Stack — (.+)$", lines[0])
-    meta = re.match(r"\*(\d{4}-\d{2}-\d{2}) · (\w+) stack\*$", lines[2])
+    m = re.match(r"# Splice — (.+)$", lines[0])
+    meta = re.match(r"\*(\d{4}-\d{2}-\d{2}) · (\w+) Splice\*$", lines[2])
     if not (m and meta):
         raise SystemExit(f"{path.name}: unexpected stack header")
     combo = lines[4]

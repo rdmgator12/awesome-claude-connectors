@@ -68,6 +68,6 @@ Catalog entries whose vendor URL cannot be confirmed are published in the README
 
 If you are the vendor of a held entry, or you know its canonical product page, open an issue or PR with the URL. The entry graduates to its category section once the page content confirms the product. Never point a held entry at a generic directory page as a placeholder -- shared placeholder links fail lint (`double-link`) and tell the reader nothing.
 
-### Connector Snap Stacks
+### Splices
 
-Each sweep features a Connector Snap Stack in the README tip: a persona plus a small stack of connectors that click together, run through Claude Cowork or Claude Code. Composition rule: at least one connector new to the list and at least one proven one (the 2026-08-10 debut used four new entries; that is the exception, not the pattern). Stacks are archived in docs/stacks/; sweep statistics live in docs/CHANGELOG.md. A stack write-up must not assert outcomes that have not been field-tested -- mark untested stacks as composed, and upgrade them when a Field Report comes in.
+Each sweep features a Splice in the README tip: a persona plus a small set of connectors joined for one job, run through Claude Cowork or Claude Code. Composition rule: at least one connector new to the list and at least one proven one (the 2026-08-10 debut used four new entries; that is the exception, not the pattern). Splices are archived in docs/stacks/ (the folder keeps its name from when they were called Connector Snap Stacks); sweep statistics live in docs/CHANGELOG.md. A Splice write-up must not assert outcomes that have not been field-tested -- mark untested Splices as composed, and upgrade them when a Field Report comes in.

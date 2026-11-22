@@ -1,6 +1,6 @@
-# Connector Snap Stack — The small-firm litigator's Monday
+# Splice — The small-firm litigator's Monday
 
-*2026-09-24 · third stack*
+*2026-09-24 · third Splice*
 
 **[Case Status](https://www.casestatus.com)** *(new)* · **[lawdiver.com](https://lawdiver.com)** *(new)* · **[PointOne](https://pointone.com)** *(new)* · **[CourtListener](https://www.courtlistener.com)** — running in **Claude Desktop**
 

@@ -1,6 +1,6 @@
-# Connector Snap Stack — The medical-bill and appeal night
+# Splice — The medical-bill and appeal night
 
-*2026-10-08 · fourth stack*
+*2026-10-08 · fourth Splice*
 
 **[Med Bill Check](https://goodturn-mcp.pages.dev/medbillcheck)** *(new)* · **[Appeal My Claim](https://goodturn-mcp.pages.dev/appealmyclaim)** *(new)* · **[Google Drive](https://drive.google.com)** · **[Google Calendar](https://calendar.google.com)** — running in **Claude Desktop**
 
