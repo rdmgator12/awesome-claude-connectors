@@ -2,7 +2,7 @@
 
 # Design and Creative
 
-[All categories](../README.md#categories) · 275 connectors · Last updated October 30, 2026
+[All categories](../README.md#categories) · 274 connectors · Last updated October 30, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -254,7 +254,6 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [Thanor](https://thanor.ai) **`C`** - Searches a library of website art directions by look, mood or industry and returns full design briefs with palette, type scale, motion and section structure for building pages, read-only. *Use case: Finding a dark editorial direction for a law firm site, pulling a full brief to build a landing page, checking whether a direction is included in the current plan.*
 - [Theysaid](https://www.theysaid.io) - Launches AI usability tests on live URLs, Figma prototypes or designs from tools such as v0, Bolt and Lovable, revises and relaunches them, and reports test status, findings, themes, question breakdowns, individual responses and cross-project comparisons. *Use case: Running a usability test on a new checkout prototype, reviewing the friction themes testers hit, comparing results with an earlier onboarding test.*
 - [Three.js 3D Viewer](https://threejs.org) - Interactive 3D scenes. *Use case: 3D visualization, WebGL prototyping, rendering 3D models.*
-- [Tinta](https://tinta.haikalakif.com) **`C`** - Names and converts colors, builds palettes in OKLCH, mixes colors, checks WCAG 2.2 contrast and color blindness, turns a brand color into light and dark UI themes, writes gradient CSS, audits pasted CSS for contrast failures, extracts palettes from images and searches a library of palettes and gradients. *Use case: Turning a brand blue into accessible light and dark theme roles, auditing a stylesheet for contrast failures, pulling a palette from a product photo.*
 - [tldraw](https://www.tldraw.com) - Sketch, draw, and diagram. *Use case: Quick sketching, informal diagrams, lightweight whiteboarding.*
 - [Trimble SketchUp](https://www.sketchup.com) - 3D modeling and design for AEC professionals. *Use case: Iterating on architectural and product 3D models, accessing 3D Warehouse libraries, building from real-world geocoded data.*
 - [trymermaid.app](https://trymermaid.app) **`C`** - Creates, validates, reads, updates, and deletes Mermaid diagrams, checking syntax against the Mermaid parser and returning edit, view, and embed links. *Use case: Drafting a flowchart of a signup process, fixing a sequence diagram's syntax error, getting an embed link for documentation.*

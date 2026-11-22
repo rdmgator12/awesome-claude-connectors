@@ -2,7 +2,7 @@
 
 # AI and ML
 
-[All categories](../README.md#categories) · 153 connectors · Last updated October 30, 2026
+[All categories](../README.md#categories) · 152 connectors · Last updated October 30, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -109,7 +109,6 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [Past.dev](https://past.dev) **`C`** - Administers an agent memory organization, managing projects, usage caps, API keys, members and access rules, checking plan and credit usage, reviewing request logs, and debugging failed ingestions. *Use case: Rotating a project API key after a leak, tracing why an overnight ingestion failed, setting a monthly credit cap on a test project.*
 - [Perseus Vault — Persistent Memory for Claude](https://perseus.observer/vault) - Perseus Vault is a local-first, single-binary memory server that gives AI agents persistent, encrypted, bi-temporal memory across sessions via more than 50 MCP tools. *Use case: Store a project decision as an entity so a future session can recall it instead of re-deriving it.*
 - [Pickaxe](https://pickaxe.co) **`C`** - Creates and updates Pickaxe AI agents with custom instructions and model settings, connects knowledge documents, actions and MCP connections, runs agents and reviews conversation history, and manages deployments, portals and access groups. *Use case: Building a customer FAQ agent from an uploaded product manual, connecting a new MCP server to an existing agent, reviewing last week's agent conversations for gaps.*
-- [PikaMd](https://pikamd.vercel.app) **`C`** - Searches and reads a free community library of AI agent guideline files, including CLAUDE.md and AGENTS.md rules, skills, prompt templates and subagent definitions, with author, version, license and verification status, and lists guidelines saved to a signed-in collection. *Use case: Finding a CLAUDE.md template for a Python monorepo, reading a code-review subagent definition before adopting it, pulling up saved prompt templates.*
 - [POMA Grill](https://www.poma-ai.com/products/grill) **`C`** - Turn any file into AI-searchable context. *Use case: Making a scanned PDF searchable within a conversation, turning a folder of spreadsheets into context an agent can query, feeding a slide deck in so it can be asked about later.*
 - [Primate Vision](https://primateintelligence.ai) **`C`** - Answers questions about video files and URLs, returning detected objects, actions, and events with frame locations and timestamps. *Use case: Finding when a forklift entered an aisle in warehouse footage, counting workers wearing hard hats in a safety clip, logging what happens after a door opens.*
 - [production.pretty-prompt.com](https://pretty-prompt.com) **`C`** - Stores, refines and iterates on prompts in one Pretty Prompt workspace. *Use case: Saving a prompt that finally worked, rewriting an older version after a model change, comparing two variants before picking one.*

@@ -3986,7 +3986,7 @@
     },
     {
       "name": "Kapture Browser Automation",
-      "url": "https://kapture.dev",
+      "url": "https://williamkapke.github.io/kapture",
       "marker": null,
       "category": "Development Tools",
       "description": "Browser control via DevTools.",
@@ -11405,7 +11405,7 @@
     },
     {
       "name": "table",
-      "url": "https://usetable.ai",
+      "url": "https://www.usetable.ai",
       "marker": "C",
       "category": "Productivity",
       "description": "Find and save relationship context from your table account.",
@@ -22965,14 +22965,6 @@
       "subcategory": "Payments Billing and Invoicing"
     },
     {
-      "name": "Kikusho",
-      "url": "https://kikusho.app",
-      "marker": "C",
-      "category": "Education",
-      "description": "Searches a synced language-learning flashcard library, reads card explanations and examples, checks due cards, and saves new cards to the iPhone app.",
-      "use_case": "Saving new vocabulary from a conversation as flashcards, checking which cards are due today, reviewing example sentences for a phrase."
-    },
-    {
       "name": "Kikuyo",
       "url": "https://kikuyo.app",
       "marker": "C",
@@ -24964,14 +24956,6 @@
       "description": "Read-only onchain analytics for tokens, wallets and Smart Money flows across 30+ chains.",
       "use_case": "Seeing what Smart Money wallets bought this week, profiling a wallet before a trade, checking how concentrated a token's holders are.",
       "subcategory": "Crypto and Web3"
-    },
-    {
-      "name": "MonoDuty",
-      "url": "https://monoduty.com",
-      "marker": "C",
-      "category": "Observability and Monitoring",
-      "description": "Reviews active alerts, monitoring coverage and on-call readiness, and drafts instrumentation proposals for administrator review.",
-      "use_case": "Listing open alerts during an incident, finding services with no on-call coverage, drafting a monitoring proposal for a new service."
     },
     {
       "name": "Meet Alto",
@@ -31196,7 +31180,7 @@
     },
     {
       "name": "PerilScore",
-      "url": "https://perilscore.com",
+      "url": "https://app.perilscore.com/developers/",
       "marker": "C",
       "category": "Finance and Trading",
       "description": "Scores US addresses for catastrophe risk, fire protection, crime and construction details, and builds underwriting reports with COPE information, replacement-cost ranges and building-permit signals, plus exportable score factors and report links.",
@@ -34772,14 +34756,6 @@
       "use_case": "Adding a reminder to renew a passport next month, moving overdue tasks into a new project, recording a cash expense in the personal ledger."
     },
     {
-      "name": "Lilara",
-      "url": "https://lilara.app",
-      "marker": "C",
-      "category": "Cloud and Infrastructure",
-      "description": "Publishes apps and sites built with Claude to a private Lilara web address, adds a database and file storage, keeps every version for restore, reads logs, sets secrets and manages who can open each project.",
-      "use_case": "Putting a prototype booking app online for five testers, rolling back to yesterday's version after a broken publish, adding an API secret key for a weather feature."
-    },
-    {
       "name": "LinkyCal",
       "url": "https://goodinbound.com",
       "marker": "C",
@@ -37638,14 +37614,6 @@
       "category": "SEO and Web",
       "description": "Researches keyword volume, difficulty and intent, pulls live Google organic and Maps results, analyzes competitor keywords and backlinks, runs site audits, prospects local business leads, and reads Search Console performance.",
       "use_case": "Finding keywords a plumbing site should target, checking Google Maps rank for a dentist in Austin, auditing a site after a traffic drop last month."
-    },
-    {
-      "name": "IndexLinks",
-      "url": "https://indexlinks.app",
-      "marker": "C",
-      "category": "SEO and Web",
-      "description": "Checks how search engines and AI crawlers see a site, sets up IndexNow keys and Search Console links, submits new pages to Bing, Google and AI crawlers, and tracks delivery status and crawler visits.",
-      "use_case": "Submitting a batch of new product pages after a launch, checking whether GPTBot can reach a blog, confirming Google visited an updated pricing page."
     },
     {
       "name": "JuzPost",
@@ -41868,16 +41836,8 @@
       "subcategory": "Geospatial and Industry Data"
     },
     {
-      "name": "nnuer",
-      "url": "https://nnuer.site",
-      "marker": "C",
-      "category": "Development Tools",
-      "description": "Submits AI-built UI as blocks with build prompts, React or HTML code and images to a review inbox, searches public and personal block libraries, and fetches a block's build prompt and code.",
-      "use_case": "Saving a newly built pricing section as a reusable block, searching public hero blocks for a landing page, fetching a footer block's build prompt to rebuild it."
-    },
-    {
       "name": "MonkeyPay",
-      "url": "https://monkeypay.app",
+      "url": "https://docs.monkeypay.app",
       "marker": "C",
       "category": "Development Tools",
       "description": "Searches MonkeyPay payment API documentation, returns endpoint parameters, requests and responses, retrieves integration guides, and diagnoses the cause of payment errors with fixes.",
@@ -43817,14 +43777,6 @@
       "subcategory": "Crypto and Web3"
     },
     {
-      "name": "Dialify",
-      "url": "https://dialify.io",
-      "marker": "C",
-      "category": "Communication",
-      "description": "Places phone calls to US businesses through a voice agent after a plan is approved, checks numbers, ends calls, and returns call results and transcripts.",
-      "use_case": "Moving a dentist appointment, reserving a table for six, asking a store whether an order is ready for pickup."
-    },
-    {
       "name": "Kommunity Organizer",
       "url": "https://kommunity.com",
       "marker": "C",
@@ -44278,7 +44230,7 @@
     },
     {
       "name": "InflueXpert",
-      "url": "https://www.influexpert.app",
+      "url": "https://business.influexpert.app",
       "marker": "C",
       "category": "Social Media and Influencer Marketing",
       "description": "Searches content creators by category, follower range, country, age and gender, reads creator profiles with social stats and rates, and lists the user's campaigns and their applicants in read-only mode.",
@@ -44816,15 +44768,6 @@
       "subcategory": "Sales Prospecting and Engagement"
     },
     {
-      "name": "Xrio",
-      "url": "https://xrio.de",
-      "marker": "C",
-      "category": "Finance and Trading",
-      "description": "Validates German e-invoices in XRechnung, ZUGFeRD or Factur-X format against EN 16931 with the KoSIT validator, generates XRechnung and ZUGFeRD invoices from invoice data, and renders them as PDF.",
-      "use_case": "Validating a supplier's ZUGFeRD PDF before booking it, generating an XRechnung for a public-sector client.",
-      "subcategory": "Payments Billing and Invoicing"
-    },
-    {
       "name": "Tebar",
       "url": "https://tebar.app",
       "marker": "C",
@@ -44888,14 +44831,6 @@
       "category": "Lifestyle and Local",
       "description": "Searches triathlon races, starts and tracks training plans, marks sessions done, updates athlete pacing settings and builds race fuel plans from label-verified products.",
       "use_case": "Finding a hilly 70.3 race in September, checking this week's training sessions, building a fuel plan for the bike leg."
-    },
-    {
-      "name": "Amerika Social",
-      "url": "https://www.amerika.social",
-      "marker": "C",
-      "category": "Communication",
-      "description": "Reads feeds, posts, threads, friends and messages on Amerika Social, likes and reposts from the human account, and manages linked AI bots that publish, edit and delete posts, send messages and update profiles.",
-      "use_case": "Catching up on a community feed, having a bot reply to a thread in its saved personality."
     },
     {
       "name": "PurpleBee",
@@ -45004,14 +44939,6 @@
       "description": "Reads energy and CSR audit results for independent French hotels, tracks monthly utility and occupancy readings, records invoices, updates action-plan status and compares consumption against hotel benchmarks.",
       "use_case": "Tracking electricity use per night since the audit, finding missing months in the follow-up, summarizing priority actions.",
       "subcategory": "Geospatial and Industry Data"
-    },
-    {
-      "name": "vinktar.ai",
-      "url": "https://vinktar.ai",
-      "marker": "C",
-      "category": "Communication",
-      "description": "Places phone calls to US business lines through a voice agent after a call plan is approved, then returns the outcome and transcript.",
-      "use_case": "Calling a restaurant to reserve a table for six, asking a shop whether an item is in stock."
     },
     {
       "name": "Data Pitfalls",
@@ -45390,14 +45317,6 @@
       "category": "Cloud and Infrastructure",
       "description": "Lists projects, deploy history, build and service logs and CPU, memory and traffic metrics on a deployment platform, and redeploys, rolls back, restarts services, sets environment variables and attaches custom domains.",
       "use_case": "Tailing the build log of a failed deploy, rolling back to the previous release, setting a new environment variable."
-    },
-    {
-      "name": "Openpath",
-      "url": "https://openpath.sh",
-      "marker": "C",
-      "category": "Jobs",
-      "description": "Searches live job listings in Austin, Texas and remote roles, along with local Austin businesses, and reads a listing in full with the owner's inbox address or the employer's apply link.",
-      "use_case": "Finding remote junior developer jobs, looking up an Austin bakery and getting the owner's contact address."
     },
     {
       "name": "eCFR Regulation Search by AAI",
@@ -47863,15 +47782,6 @@
       "use_case": "Listing elevators with expiring certification, reviewing response times for rescues this month, logging an emergency call-out."
     },
     {
-      "name": "OSVčalc",
-      "url": "https://osvcalc.cz",
-      "marker": "C",
-      "category": "Finance and Trading",
-      "description": "Calculates Czech self-employed income tax, social and health insurance, VAT registration status and the amount to set aside, comparing expense methods and projecting year-end totals.",
-      "use_case": "Working out how much to set aside after six months of OSVČ income, comparing the flat-rate tax with actual expenses, checking whether VAT registration is required.",
-      "subcategory": "Personal Finance and Consumer Tax"
-    },
-    {
       "name": "CallSys",
       "url": "https://callsys.com.br",
       "marker": "C",
@@ -48571,14 +48481,6 @@
       "description": "Searches job postings and company technology stacks from TheirStack, reports hiring signals and buying intents, and creates and manages saved searches, company lists and webhooks.",
       "use_case": "Finding companies hiring for Snowflake roles in Germany, listing the tech stack of a target account, setting a webhook for new matching job posts.",
       "subcategory": "Company and Market Intelligence"
-    },
-    {
-      "name": "Uviqora",
-      "url": "https://uviqora.ch",
-      "marker": "C",
-      "category": "Lifestyle and Local",
-      "description": "Searches people in Switzerland for short on-site tasks, publishes tasks, compares and accepts offers, creates and cancels bookings, messages the other party, confirms completion and submits reviews, with explicit confirmation for binding steps.",
-      "use_case": "Booking someone to pick up a parcel in Zurich, checking whether a delivery arrived at a site, comparing offers for a meter reading."
     },
     {
       "name": "tripfix Reisekosten",
@@ -50097,14 +49999,6 @@
       "category": "Design and Creative",
       "description": "Uploads videos to a BatchEdits workspace, processes them with saved editing styles such as auto captions, silence removal, zooms or cropping, creates and edits styles, and downloads finished videos.",
       "use_case": "Removing silences and adding bold captions to a batch of podcast clips, downloading the finished short-form videos."
-    },
-    {
-      "name": "PalletAudits",
-      "url": "https://palletaudits.com",
-      "marker": "C",
-      "category": "Productivity",
-      "description": "Reads finished rental pallet audits for CHEP, PECO and iGPS accounts, showing gaps between the pallet company's balance, internal records and physical counts, exceptions and dispute packets, with guides, count checklists and shortage cost estimates.",
-      "use_case": "Estimating what a 300-pallet shortage costs at contract rates, pulling the shipments to dispute from last month's audit."
     },
     {
       "name": "neimo.",
@@ -51705,7 +51599,7 @@
     },
     {
       "name": "SEN Energy Data by Sherpas",
-      "url": "https://www.sherpas.net",
+      "url": "https://sen.sherpas.net",
       "marker": "C",
       "category": "Data and Analytics",
       "description": "Queries curated analytics over Chile's public electricity-market data, running documented metrics and analytical operations on generation, demand, marginal costs, curtailment, battery storage and settlement, resolving plant, substation and company identities, and running read-only SQL.",
@@ -58514,15 +58408,6 @@
       "use_case": "Finding Yargıtay decisions that cite a specific labour law article, reading the full text of a Danıştay ruling, pulling the article index of a statute."
     },
     {
-      "name": "FennoraDesk Invoice Check",
-      "url": "https://fennoradesk-production.up.railway.app",
-      "marker": "C",
-      "category": "Finance and Trading",
-      "description": "Compares supplied invoice rows with quote terms and credits, reporting row-level matches, unit price and shipping differences, ambiguous or missing matches, expected totals after credits and changes between an invoice and its revision.",
-      "use_case": "Catching a supplier overcharge on unit price against the agreed quote, confirming credits were applied to a revised invoice, listing invoice lines with no matching quote line.",
-      "subcategory": "Payments Billing and Invoicing"
-    },
-    {
       "name": "Launch Llama",
       "url": "https://tools.launchllama.co",
       "marker": "C",
@@ -58613,14 +58498,6 @@
       "category": "Project Management",
       "description": "Runs planning poker sessions for sprint estimation, creating, joining and ending rooms, adding, editing and deleting stories, changing card decks, starting votes and timers, revealing and re-running votes, recording agreed estimates and exporting results.",
       "use_case": "Setting up an estimation room for next sprint's backlog, re-voting on a contested story after the reveal, exporting the agreed points."
-    },
-    {
-      "name": "PikaMd",
-      "url": "https://pikamd.vercel.app",
-      "marker": "C",
-      "category": "AI and ML",
-      "description": "Searches and reads a free community library of AI agent guideline files, including CLAUDE.md and AGENTS.md rules, skills, prompt templates and subagent definitions, with author, version, license and verification status, and lists guidelines saved to a signed-in collection.",
-      "use_case": "Finding a CLAUDE.md template for a Python monorepo, reading a code-review subagent definition before adopting it, pulling up saved prompt templates."
     },
     {
       "name": "Kotzilla",
@@ -65783,14 +65660,6 @@
       "subcategory": "Payments Billing and Invoicing"
     },
     {
-      "name": "Tinta",
-      "url": "https://tinta.haikalakif.com",
-      "marker": "C",
-      "category": "Design and Creative",
-      "description": "Names and converts colors, builds palettes in OKLCH, mixes colors, checks WCAG 2.2 contrast and color blindness, turns a brand color into light and dark UI themes, writes gradient CSS, audits pasted CSS for contrast failures, extracts palettes from images and searches a library of palettes and gradients.",
-      "use_case": "Turning a brand blue into accessible light and dark theme roles, auditing a stylesheet for contrast failures, pulling a palette from a product photo."
-    },
-    {
       "name": "Motherboard",
       "url": "https://www.motherboardlabs.com",
       "marker": null,
@@ -67355,6 +67224,86 @@
       "name": "Klisten EntityResolver",
       "catalog_description": "Match supplied entity records.",
       "why_held": "shares vendor URL klisten.co.kr with \"Klisten ToolGuard\" (list lint rejects duplicate links); needs its own product page (2026-10-30)"
+    },
+    {
+      "name": "Kikusho",
+      "catalog_description": "Save words from your conversations. Remember them on your iPhone.",
+      "why_held": "vendor homepage returns 404 in three weekly link checks and on a direct fetch (2026-11-22)"
+    },
+    {
+      "name": "MonoDuty",
+      "catalog_description": "Monitoring and on-call tools for your AI workflow",
+      "why_held": "vendor site returns Cloudflare 522 to 525 (origin unreachable) in three weekly link checks and on a direct fetch (2026-11-22)"
+    },
+    {
+      "name": "Lilara",
+      "catalog_description": "Publish what you make with Claude to a real, private web address — just say \"Publish this to Lilara.\"",
+      "why_held": "vendor domain has no address record in two weekly link checks and on a direct lookup (2026-11-22)"
+    },
+    {
+      "name": "IndexLinks",
+      "catalog_description": "Check how crawlers see a site, send new pages to search engines and AI crawlers, and read crawl receipts.",
+      "why_held": "vendor site returns 503 in every link check since 2026-10-30 and on a direct fetch (2026-11-22)"
+    },
+    {
+      "name": "nnuer",
+      "catalog_description": "Save the UI you build with AI as reusable blocks, each with the build prompt that recreates it.",
+      "why_held": "vendor site returns a hosting notice (deployment paused, HTTP 402) in three weekly link checks and on a direct fetch (2026-11-22)"
+    },
+    {
+      "name": "Dialify",
+      "catalog_description": "A phone for your AI agent. It calls a business for you, after you approve the plan, and tells you what they said.",
+      "why_held": "vendor domain has no address record in three weekly link checks and on a direct lookup (2026-11-22)"
+    },
+    {
+      "name": "Xrio",
+      "catalog_description": "xrio prüft und erstellt E-Rechnungen als XRechnung und ZUGFeRD nach EN 16931 und stellt sie als PDF dar, geprüft mit dem amtlichen KoSIT-Validator.",
+      "why_held": "vendor domain has no address record and its other host serves a certificate for another site, in two weekly link checks and on a direct fetch (2026-11-22)"
+    },
+    {
+      "name": "Amerika Social",
+      "catalog_description": "Read social feeds and manage your AI bots on Amerika Social. The Social Media Platform For Humans and Bots.",
+      "why_held": "vendor site serves a certificate for another host and its apex has no address record, in three weekly link checks and on a direct fetch (2026-11-22)"
+    },
+    {
+      "name": "vinktar.ai",
+      "catalog_description": "A phone for your AI agent. It calls a business for you, after you approve the plan, and tells you what they said.",
+      "why_held": "vendor domain has no address record in three weekly link checks and on a direct lookup (2026-11-22)"
+    },
+    {
+      "name": "Openpath",
+      "catalog_description": "Find live jobs (Austin and remote) and local businesses in Austin, Texas, and message the owner through Openpath.",
+      "why_held": "vendor homepage returns 404 in every link check since 2026-10-30 and on a direct fetch (2026-11-22)"
+    },
+    {
+      "name": "OSVčalc",
+      "catalog_description": "Czech OSVČ tax calculator: income tax, social and health insurance, VAT status and how much to set aside. No account, no API key",
+      "why_held": "the product site and the developer's own site both return a hosting notice (deployment paused, HTTP 402), in three weekly link checks and on a direct fetch (2026-11-22)"
+    },
+    {
+      "name": "Uviqora",
+      "catalog_description": "Find and book people in Switzerland for short on-site tasks such as pickups, deliveries and on-site checks. You confirm every binding step.",
+      "why_held": "vendor site returns 503 with a back-soon notice in two weekly link checks and on a direct fetch (2026-11-22)"
+    },
+    {
+      "name": "PalletAudits",
+      "catalog_description": "Reconcile CHEP, PECO and iGPS pallet accounts: see the gap between the pallet company's balance, your records and your count, and the exact shipments to declare or dispute.",
+      "why_held": "vendor site returns 410 with an Offline page in three weekly link checks and on a direct fetch (2026-11-22)"
+    },
+    {
+      "name": "FennoraDesk Invoice Check",
+      "catalog_description": "Check supplier invoices against your quotes and credits: matched rows, price and shipping differences, missing matches and totals, with row-level evidence.",
+      "why_held": "vendor URL is a hosting-platform address that returns 404 in two weekly link checks and on a direct fetch (2026-11-22)"
+    },
+    {
+      "name": "PikaMd",
+      "catalog_description": "A free, community library of AI agent guidelines: rules, skills and prompts. Search and read them in Claude, and use the ones you saved.",
+      "why_held": "vendor site returns a hosting notice (deployment paused, HTTP 402) in two weekly link checks and on a direct fetch (2026-11-22)"
+    },
+    {
+      "name": "Tinta",
+      "catalog_description": "Colour palettes, contrast checks and UI themes, computed — with an interactive palette lab in the chat.",
+      "why_held": "vendor site returns 500 with its own error page in three weekly link checks and on a direct fetch (2026-11-22)"
     }
   ]
 }

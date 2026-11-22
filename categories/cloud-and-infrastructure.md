@@ -2,7 +2,7 @@
 
 # Cloud and Infrastructure
 
-[All categories](../README.md#categories) · 157 connectors · Last updated October 30, 2026
+[All categories](../README.md#categories) · 156 connectors · Last updated October 30, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -76,7 +76,6 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [Kong Konnect MCP](https://konghq.com) **`C`** - Inspects and changes Kong Konnect API and AI gateway configuration by searching and running over a thousand Konnect operations covering control planes, services, routes, plugins, consumers, certificates, API products, the Developer Portal and analytics. *Use case: Adding a rate-limiting plugin to a gateway service, listing routes on a staging control plane, checking which consumers sent the most traffic this week.*
 - [Kubernetes MCP Server](https://kubernetes.io) - Container orchestration cluster management via kubectl. *Use case: Cluster management, pod debugging, deployment automation.*
 - [Lathe](https://lathe.live) **`C`** - Manages app, PostgreSQL, Redis and auth instances on dedicated machines, deploying and rolling back apps, reading logs, managing databases, buckets, backups, engine settings and auth users, running queries and handling plan upgrades through a price approval step. *Use case: Deploying the latest build and checking the logs, restoring a database backup, inviting a new auth user to an app.*
-- [Lilara](https://lilara.app) **`C`** - Publishes apps and sites built with Claude to a private Lilara web address, adds a database and file storage, keeps every version for restore, reads logs, sets secrets and manages who can open each project. *Use case: Putting a prototype booking app online for five testers, rolling back to yesterday's version after a broken publish, adding an API secret key for a weather feature.*
 - [Litmus MCP](https://litmus.io/litmus-edge) - Connect Claude to Litmus Edge industrial devices through your Litmus MCP Server. *Use case: Checking a sensor reading from a factory floor device without opening a separate dashboard, asking whether an industrial device is reporting data, pulling the current status of equipment on a production line.*
 - [Lium](https://lium.io) **`C`** - Compares live NVIDIA GPU rental prices and availability, finds rentable nodes, estimates provider earnings, searches documentation, and reads a signed-in user's pods with status, SSH command, hourly price and spend, plus account balance. *Use case: Comparing hourly prices across GPU models before a training run, estimating what renting out a server would earn, checking spend on running pods.*
 - [Livops](https://livops.uz) **`C`** - Lists projects, deploy history, build and service logs and CPU, memory and traffic metrics on a deployment platform, and redeploys, rolls back, restarts services, sets environment variables and attaches custom domains. *Use case: Tailing the build log of a failed deploy, rolling back to the previous release, setting a new environment variable.*

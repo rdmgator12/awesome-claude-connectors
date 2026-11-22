@@ -37,3 +37,12 @@ https://saturation.io/.*
 # www.vinilogy.com — "HTTP/2 protocol error" to lychee from the GitHub runner on 2026-10-12 (#32) and 2026-10-19 (#36);
 # a direct fetch on 2026-10-19 returned 200. Same HTTP/2-negotiation class, site alive.
 https://www.vinilogy.com/.*
+# qikcms.com — "Request timed out" to lychee from the GitHub runner on 2026-11-02 (#43), 11-09 (#48) and 11-16 (#52);
+# a direct fetch on 2026-11-22 returned 200 with the product's own title. Slow or filtered toward the runner, not dead.
+https://qikcms.com/.*
+# www.finhay.com.vn — 503 to lychee from the GitHub runner in the same three reports; a direct fetch on 2026-11-22
+# returned 200 with the Finhay homepage. Refuses the runner's network, not dead.
+https://www.finhay.com.vn/.*
+# www.magicpatterns.com — "HTTP/2 protocol error" from the runner on 2026-11-09 (#48) and 11-16 (#52); a direct fetch on
+# 2026-11-22 returned 200. Same HTTP/2-negotiation class as getyourguide.com and FRED.
+https://www.magicpatterns.com/.*

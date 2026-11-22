@@ -2,7 +2,7 @@
 
 # Education
 
-[All categories](../README.md#categories) · 162 connectors · Last updated October 30, 2026
+[All categories](../README.md#categories) · 161 connectors · Last updated October 30, 2026
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -70,7 +70,6 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [Joe Speaking](https://joespeaking.com) **`C`** - Reads IELTS Speaking practice data, including current question topics, practised and unpractised topics, recording and live conversation history, saved scores and feedback, without changing anything. *Use case: Finding which current IELTS topics remain unpractised, reviewing feedback on last week's recorded answers, choosing a focused next practice step before the exam.*
 - [Kahoot!](https://www.kahoot.com) - Creates and updates multiple-choice kahoots from a topic, document or link, previews them, lists workspaces, and returns editor links for further changes. *Use case: Turning study notes into a 10-question practice kahoot, building an onboarding quiz for new employees, creating an icebreaker game for a Monday team meeting.*
 - [Khattet](https://khattet.app) **`C`** - Explores supported university course catalogs, compares sections, builds conflict-free semester schedule options and calculates GPA for subscribed Khattet users. *Use case: Building a conflict-free spring timetable from a list of required courses, comparing two sections of an intro statistics course, projecting GPA after this term's grades.*
-- [Kikusho](https://kikusho.app) **`C`** - Searches a synced language-learning flashcard library, reads card explanations and examples, checks due cards, and saves new cards to the iPhone app. *Use case: Saving new vocabulary from a conversation as flashcards, checking which cards are due today, reviewing example sentences for a phrase.*
 - [Kuliko AI](https://kuliko.ai) - Study flashcards and quiz generator. *Use case: Building flashcard decks from study material, generating practice quizzes, running spaced-repetition review.*
 - [Laya UPSC](https://getlaya.in) **`C`** - Manages UPSC Mains preparation in Laya, searching and saving study answers, organizing them into sets, reading revision cards and mnemonics, running recall practice against key points, recording self-evaluations and managing a revision plan. *Use case: Saving a polished answer on federalism to a General Studies set, practising recall on last week's ethics answers, rescheduling the revision plan for exam week.*
 - [Learn It](https://trylearnit.com) **`C`** - Creates quizzes from a topic, pasted notes or photos of textbook pages and word lists, returning a short link that opens the quiz for multiple-choice, written-answer or flashcard practice in the Learn It iPhone and iPad app, used mostly by students in Sweden, or on its website. *Use case: Turning a photo of a handwritten Spanish word list into a flashcard quiz, making a multiple-choice quiz from biology notes.*
