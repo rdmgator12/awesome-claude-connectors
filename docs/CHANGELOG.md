@@ -2,6 +2,20 @@
 
 Counting convention: **listed** = entries in category sections; **held** = rows in Held for Verification; **tracked** = listed + held. Sweep deltas are stated as the net change in listed entries; gross additions are called out separately where they differ (renames and variant merges make a naive name-diff overcount).
 
+## 2026-11-22 — subcategories for Lifestyle and Local and Productivity (12,351 listed; held 129)
+
+The two largest pages without subheadings now have them, on the same pattern as Marketing and Sales, Finance and Trading and Data and Analytics. No entry text changed and no entry moved category. The site feed carries the new subcategories in `site-data/index.json` and on each row of the two category files.
+
+**Lifestyle and Local** (1,037): Shopping Deals and Price Comparison 238, Food Groceries and Restaurants 176, Fitness Sports and Outdoors 174, Home Pets and Local Services 159, Hobbies Culture and Everyday Life 151, Real Estate and Housing 76, Cars and Mobility 63.
+
+**Productivity** (970): Small Business and Field Operations 216, Notes and Knowledge Management 165, Tasks Planning and Habits 130, Meetings and Transcription 129, Forms Slides and Workspaces 112, Thinking Tools and Utilities 90, Team HR and Time Tracking 84, Reading and Saved Content 44.
+
+**Method.** Every entry was sorted from its description, use case and tool names, in 16 batches, after a pilot batch for each category (an even one-in-eight sample). The Lifestyle and Local pilot fitted its seven proposed headings (5 poor fits in 130). The Productivity pilot did not: 27 of 122 entries fitted none of the seven proposed headings, and they were scattered (idea and strategy tools, calculators, page monitors, software recommenders), so an eighth heading, Thinking Tools and Utilities, was added and the same batch then had 9. Across the full run the sorter marked 61 Lifestyle and Local entries and 93 Productivity entries as a poor fit for the nearest heading. The assignments were cross-checked against keywords and a sample was read, but they were not checked by a person one by one. Reading and Saved Content is the smallest heading at 44 and Shopping Deals and Price Comparison the largest at 238.
+
+**Listed for review, not moved.** Seventeen entries read as belonging to another category. In Lifestyle and Local, towards Productivity: SaveHQ, Lueira, MFIT Personal, Glacifier, TimePeace — Daily Log, MOXSEA, MyGymDesk, StudioFly and Tazman. In Productivity, towards Lifestyle and Local: ExposeDraft, Itemtopia Pro, Space Context and Viametry; towards Data and Analytics: xellstorm and GAIN; towards Project Management: KipperTie Media Projects; towards Ecommerce and Marketplace Selling: Tabzoola Custom Index Tabs.
+
+Page sizes after the change: Lifestyle and Local 403,814 bytes and Productivity 350,717 bytes, against the 500,000-byte ceiling.
+
 ## 2026-11-22 — seventh feed-era sweep (8,028 → 12,351 listed; held 77 → 129; 31 → 33 categories)
 
 The catch-up the review pass above left for review: the 4,403 candidate adds (4,405 against this feed), built against the feed captured at sweep time, **12,499 servers** (anthropic 10, community 11,299, partner 1,190), and a **1,205-slug** web sitemap. The catalog capture date moves to 2026-11-22.
