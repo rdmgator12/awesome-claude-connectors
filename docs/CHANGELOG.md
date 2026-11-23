@@ -2,6 +2,20 @@
 
 Counting convention: **listed** = entries in category sections; **held** = rows in Held for Verification; **tracked** = listed + held. Sweep deltas are stated as the net change in listed entries; gross additions are called out separately where they differ (renames and variant merges make a naive name-diff overcount).
 
+## 2026-11-22 — site feed: first-seen dates and a change log (12,351 listed; held 129)
+
+The site feed now says when each entry was first listed. Every row of `site-data/search.json` carries `added`, an ISO date, and a new file, `site-data/changes.json`, lists the ids added, removed and renamed on each date, newest first. No entry changed.
+
+Both are built from `data/changes.json`, the record of when each entry id joined or left the listed set. `scripts/backfill_changes.py` rebuilt it once from the git history of the two files that have held the catalog (`README.md` until 2026-08-10, `data/connectors.json` since): 90 commits, 23 dated changes, 12,408 additions, 57 removals and 83 renames, ending at today's 12,351 ids. The rules:
+
+- A date is the commit's own calendar date, and changes are netted per date: an entry held and restored the same day leaves no trace.
+- A name that changed while its URL stayed is a rename, and the entry keeps its first date. Google Cloud BigQuery, Intuit QuickBooks and Grafana MCP Server have been listed since 2026-04-13 and would otherwise read as new on 2026-05-15, the day the list took the catalog's names. A rename that also changed the URL cannot be told from a removal and an addition, and is recorded as one.
+- An id that left and came back keeps its first date.
+- `removed` means no longer listed: delisted, or moved to Held.
+- `added` is the date of first listing here, not the date Anthropic added the connector to its catalog.
+
+From here the export keeps the record. A plain `python3 scripts/export_site_data.py` appends a change dated that day when the listed ids differ from it, `--check` fails until the result is committed, and `--selftest` proves the record's reader on planted cases. CI needs no git history. By first date, 273 of today's entries go back to the first commit on 2026-04-13 and 4,332 are from 2026-11-22.
+
 ## 2026-11-22 — seventh feed-era sweep (8,028 → 12,351 listed; held 77 → 129; 31 → 33 categories)
 
 The catch-up the review pass above left for review: the 4,403 candidate adds (4,405 against this feed), built against the feed captured at sweep time, **12,499 servers** (anthropic 10, community 11,299, partner 1,190), and a **1,205-slug** web sitemap. The catalog capture date moves to 2026-11-22.
