@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "November 22, 2026",
+    "last_updated": "November 23, 2026",
     "capture_date": "2026-11-22",
     "render": {
       "category_counts": true,
@@ -6054,15 +6054,6 @@
       "description": "Access NetSuite data.",
       "use_case": "ERP data, financial reporting, inventory management within Oracle NetSuite.",
       "subcategory": "Accounting Payroll and Financial Planning"
-    },
-    {
-      "name": "Paddock Finance",
-      "url": "https://paddock.finance",
-      "marker": "C",
-      "category": "Finance and Trading",
-      "description": "Reads a market summary of on-chain payments between AI agents, with transaction volume, active agents and top spending categories, and per-category detail on services, transaction counts, provider concentration and reliability scores, from x402 transactions on Base and Solana.",
-      "use_case": "Checking which service categories AI agents spend the most on, comparing provider concentration and reliability within a category.",
-      "subcategory": "Payments Billing and Invoicing"
     },
     {
       "name": "Pagos",
@@ -25800,15 +25791,6 @@
       "use_case": "Pricing a 22x60 gang sheet for an Etsy batch, ordering 24 black team shirts with a left chest logo, checking pressing instructions for polyester blends."
     },
     {
-      "name": "DTMFRAME",
-      "url": "https://dtmframe.com",
-      "marker": "C",
-      "category": "Lifestyle and Local",
-      "description": "Looks up music-production software and gear sold in Japan, returning shop offers with check times, running sales and deadlines, lowest observed prices, edition comparisons and purchase suggestions from budget, DAW, OS and owned-product constraints.",
-      "use_case": "Checking when a synth plugin sale ends, comparing two editions of a DAW against an owned bundle, finding the lowest observed price for an audio interface.",
-      "subcategory": "Shopping Deals and Price Comparison"
-    },
-    {
       "name": "Farmooly — Local Food & Farmers Markets",
       "url": "https://farmooly.com",
       "marker": "C",
@@ -27841,15 +27823,6 @@
       "subcategory": "Private Markets Real Estate and Deal Intelligence"
     },
     {
-      "name": "GetYaData",
-      "url": "https://www.getyadata.com",
-      "marker": "C",
-      "category": "Data and Analytics",
-      "description": "Pulls registered Dubai property data for projects, buildings and areas, including sales, price per sqft, rents, yields and price trends, runs reports filtered by bedrooms, property type, off-plan or ready status and dates, compares up to four locations, and saves reports with branded PDFs.",
-      "use_case": "Comparing price per sqft and yields between Dubai Marina and JVC, running a two-bedroom off-plan report for a Downtown tower, producing a logo-branded PDF report for a client.",
-      "subcategory": "Geospatial and Industry Data"
-    },
-    {
       "name": "GMO賃貸DX",
       "url": "https://chintaidx.com",
       "marker": "C",
@@ -28351,15 +28324,6 @@
       "description": "Answers what can be built from current stock, what is running low, bill-of-materials contents and unit costs for an assembly add-on to QuickBooks Online and Xero, and drafts builds or transfers for review.",
       "use_case": "Checking whether 40 units of a kit can be made and what is short, listing components running low, drafting a transfer of containers into assembly inventory.",
       "subcategory": "Small Business and Field Operations"
-    },
-    {
-      "name": "PestPin",
-      "url": "https://pestpin.com",
-      "marker": "C",
-      "category": "Lifestyle and Local",
-      "description": "Checks US pest control company licenses against 35 states' official rosters, finds licensed companies for a pest in a city, looks up companies by phone number, and shows published and typical job prices.",
-      "use_case": "Looking up a company from the phone number on a flyer, finding licensed termite companies in Tampa, checking what a bed bug treatment typically costs nationally.",
-      "subcategory": "Home Pets and Local Services"
     },
     {
       "name": "PickYourPlace",
@@ -43473,7 +43437,7 @@
       "subcategory": "Fitness Sports and Outdoors"
     },
     {
-      "name": "mcp.browserstack.com",
+      "name": "BrowserStack",
       "url": "https://browserstack.com",
       "marker": null,
       "category": "Development Tools",
@@ -44584,14 +44548,6 @@
       "description": "Returns disc golf disc resale values from completed eBay sales matched to the exact release, price checks against new store prices, US store stock, recent drops, deals and sellout speed.",
       "use_case": "Checking what a used Tour Series disc resells for, judging whether an asking price is fair, finding a store with a mold in stock.",
       "subcategory": "Shopping Deals and Price Comparison"
-    },
-    {
-      "name": "FindTunes",
-      "url": "https://findtunes.app",
-      "marker": "C",
-      "category": "Entertainment",
-      "description": "Identifies songs from public video links or remembered lyrics, finds similar songs and returns song name, artist, previews and streaming links.",
-      "use_case": "Naming the song in a viral video clip, finding a track from half-remembered lyrics, getting songs similar to a favourite."
     },
     {
       "name": "Anry.io",
@@ -50375,14 +50331,6 @@
       "description": "Connects to a Rapiboy customer account to look up orders, statuses, vehicles, labels and delivery evidence, quote shipments, create, modify or cancel orders, and manage Food reservations and routes, with confirmation required for changes.",
       "use_case": "Quoting an on-demand delivery, tracking an order stuck in transit, assigning a Food order to a route.",
       "subcategory": "Small Business and Field Operations"
-    },
-    {
-      "name": "Botsona",
-      "url": "https://botsona.io",
-      "marker": "C",
-      "category": "Development Tools",
-      "description": "Starts and stops AI usability tests in which simulated personas use a web app in a cloud browser, and reads test progress and reports on where testers got stuck and what to fix first.",
-      "use_case": "Running a sign-up-and-checkout test with a keyboard-only persona, reading the report's top fixes before a release."
     },
     {
       "name": "Toolfound",
@@ -64507,15 +64455,6 @@
       "category": "Development Tools",
       "description": "Searches a public catalog of skills and returns each skill's full instructions, publisher, license, requirements and required authority for review before installing the local runtime, without running skills.",
       "use_case": "Finding a skill that formats changelogs and reviewing its required authority, checking a skill's license before installing it."
-    },
-    {
-      "name": "MatchMarkt",
-      "url": "https://matchmarkt.de",
-      "marker": "C",
-      "category": "Lifestyle and Local",
-      "description": "Searches public second-hand listings in Germany by price limit, place and radius, reads full listings with photos, and, with an account, runs saved searches that report new matches, drafts items for sale from one sentence and saves them after asking, answers questions about items, changes prices, pauses, resumes or ends listings and marks items sold.",
-      "use_case": "Finding a used espresso machine under 150 euros within 20 km of Leipzig, keeping a search running for a kids' bike, drafting a sale offer for an old office chair from one sentence.",
-      "subcategory": "Shopping Deals and Price Comparison"
     },
     {
       "name": "NETIX",
@@ -81370,7 +81309,7 @@
     },
     {
       "name": "mcp.cpgknowledgegraph.ai",
-      "url": "https://mcp.cpgknowledgegraph.ai/docs",
+      "url": "https://mcp.cpgknowledgegraph.ai",
       "marker": "C",
       "category": "Data and Analytics",
       "description": "Looks up a consumer packaged goods knowledge graph for beauty and personal care, resolving GTINs and markets, listing brands by market, finding makers and retail banners, counting GTIN coverage and checking order eligibility.",
@@ -89756,7 +89695,7 @@
     },
     {
       "name": "Oliimpe",
-      "url": "https://www.oliimpe.com",
+      "url": "https://oliimpe.com",
       "marker": "C",
       "category": "Legal",
       "description": "Searches official French and EU legal sources, reading texts, provisions and court decisions, finding related decisions by citation, tracking changes and timelines, and verifying references.",
@@ -104780,6 +104719,41 @@
       "name": "Agentic SEO Check",
       "catalog_description": "Audit any public page or site for SEO and for AI answer engines, and get every finding with the exact edit that fixes it.",
       "why_held": "the sweep's vendor URL was on agentic-seo.org, a domain the catalog record does not link (it links rivi.software and the vendor's GitHub repository); needs a direct read before listing (2026-11-22)"
+    },
+    {
+      "name": "GetYaData",
+      "catalog_description": "Dubai property data from registered records: sales, rents, yields and price trends for any project, building or area, with PDFs branded with your own logo.",
+      "why_held": "vendor site returns a hosting notice (service suspended, HTTP 503) in two weekly link checks (2026-11-16 and 2026-11-23) and on a direct fetch (2026-11-23)"
+    },
+    {
+      "name": "Botsona",
+      "catalog_description": "AI testers use your web app like real people, then report where they got stuck and what to fix first.",
+      "why_held": "vendor domain has no address record in two weekly link checks (2026-11-16 and 2026-11-23) and on a direct lookup (2026-11-23)"
+    },
+    {
+      "name": "FindTunes",
+      "catalog_description": "Find songs from video links. Free, with no sign-up needed.",
+      "why_held": "vendor site returns a hosting notice (deployment paused, HTTP 402) in two weekly link checks (2026-11-16 and 2026-11-23) and on a direct fetch (2026-11-23)"
+    },
+    {
+      "name": "Paddock Finance",
+      "catalog_description": "Paddock is the data layer for AI agent commerce.",
+      "why_held": "vendor site returns 503 in two weekly link checks (2026-11-16 and 2026-11-23) and on a direct fetch (2026-11-23)"
+    },
+    {
+      "name": "MatchMarkt",
+      "catalog_description": "Search second-hand listings in Germany, keep a search running that reports new finds, and list things for sale in one sentence.",
+      "why_held": "vendor site returns Cloudflare 530 (origin unreachable) in two weekly link checks (2026-11-16 and 2026-11-23) and on a direct fetch (2026-11-23)"
+    },
+    {
+      "name": "PestPin",
+      "catalog_description": "Check a US pest control company's state license and find licensed companies in your city, from official state records.",
+      "why_held": "vendor homepage returns 404 in two weekly link checks (2026-11-16 and 2026-11-23) and on a direct fetch (2026-11-23)"
+    },
+    {
+      "name": "DTMFRAME",
+      "catalog_description": "Prices of music-production (DTM) plugins, DAWs, virtual instruments and studio gear in Japan: shop-by-shop comparison, sales and Black Friday deals with end dates, each price with its check time.",
+      "why_held": "vendor homepage returns 410 Gone in the 2026-11-23 link check and on a direct fetch, after failing at the 2026-11-22 link audit (2026-11-23)"
     }
   ]
 }
