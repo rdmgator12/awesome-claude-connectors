@@ -29448,8 +29448,8 @@
       "url": "https://internetdata.io",
       "marker": "C",
       "category": "Data and Analytics",
-      "description": "Lists the VPN, proxy, hosting, Tor and CDN IP databases an organization licenses, showing license terms, columns, sample rows, build dates, sizes and checksums, and explains refused or failed download attempts.",
-      "use_case": "Checking whether today's proxy database build is worth fetching, verifying a downloaded MMDB file against the published checksum, finding out why a nightly download started failing.",
+      "description": "Looks up IPv4 and IPv6 addresses for location, network, owning company, abuse contact, reverse DNS and Tor, relay, VPN, proxy and hosting flags, an AS's operator, Whois record and announced prefixes with RPKI status, and a domain's DNS records and IP ranges, and lists the IP databases an organization licenses with sample rows and checksums.",
+      "use_case": "Finding which company owns an address hitting a login endpoint, pulling the abuse contact for a scanning IP, listing the prefixes an AS announces and their RPKI status.",
       "subcategory": "Geospatial and Industry Data"
     },
     {
