@@ -10,7 +10,7 @@ This list tracks every connector in Anthropic's official Connectors Directory. C
 
 To add or change an entry:
 
-1. Edit `data/connectors.json` (add the entry object anywhere -- sorting is automatic).
+1. Edit `data/connectors.json` (add the entry object anywhere -- sorting is automatic). Five categories are divided into subcategories (Data and Analytics, Finance and Trading, Lifestyle and Local, Marketing and Sales, Productivity): an entry in one of them also needs a `subcategory` set to one of the headings on that category's page. The generator rejects a category that is only partly subcategorized.
 2. Run `python3 scripts/generate_readme.py` and `python3 scripts/export_site_data.py` (stdlib only, no dependencies).
 3. Commit `data/connectors.json`, `README.md`, `categories/` and `site-data/` together, with `data/changes.json` when the export run changed it.
 
