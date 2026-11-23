@@ -2,6 +2,28 @@
 
 Counting convention: **listed** = entries in category sections; **held** = rows in Held for Verification; **tracked** = listed + held. Sweep deltas are stated as the net change in listed entries; gross additions are called out separately where they differ (renames and variant merges make a naive name-diff overcount).
 
+## 2026-11-22 — error pass: confirmation steps and thin descriptions (12,351 listed; held 129)
+
+A pass over entry text only: 1,987 entries changed, none added, removed or moved. It targets two defects found by a blind read earlier the same day. Every changed entry was checked against its record in the directory feed captured for this pass (12,500 servers; 12,314 of the 12,351 listed entries match exactly one record).
+
+**Dropped confirmation steps.** Where a connector's record says a person must confirm, approve or be asked before it acts, the entry should say so. A pattern match picked 858 entries whose record names such a step for an action the description names while the description does not; the match is crude, so each was read. Writers added the step to 629 and left 229 alone (the "approval" was the sign-in consent screen, or the step covers an action the entry does not name). Thirty were first shown with a record sentence cut at a line break; those were re-read against the full record and their first verdicts discarded.
+
+**Second wave.** The pattern match had set a further 1,417 candidates aside as lower yield. 451 of those were set aside only because the description already used a word such as "drafts", "reviews" or "previews". That word usually names something the connector does and not a step a person takes, and the rule had kept out one of the five entries the blind read found. The 451 were read with their full records: writers added the step to 290 and left 161 alone.
+
+**Thin descriptions.** 1,005 entries had a description under 60 characters, often the vendor's tagline (430 community tier, 563 unmarked, 12 Anthropic). 972 have a single catalog record; 965 of those were rewritten from the record's description and tool names, and 7 were left because the record says no more than the entry did. Use cases were rewritten in 735, mostly because the old one was a list of topics.
+
+**Review.** Reviewers read a seeded sample against the records. They were separate runs of the same model that wrote the changes, each given the entry and its record: 150 thin rewrites (22 minor breaches), 91 confirmation fixes (19 minor, 1 misleading) and 29 entries left unchanged (5 minor). Both sets were over the 10 percent line set beforehand, so each then got one full review pass, which was the last round:
+
+- Thin rewrites, all 965 read: 849 passed, 114 minor, 2 misleading. Most breaches were use-case details the record never names (a location filter, a report type, a time period). 114 corrections applied.
+- Confirmation set, all 858 read: of the 629 fixed entries 414 passed, 210 minor and 5 misleading; of the 229 left unchanged 173 passed, 55 minor and 1 misleading. Most of what the reviewers found was not the added clause: it was a limit the description had already dropped (a paid-plan gate, a country, a role) or a write the tools do not support. 269 corrections applied, 56 of them to entries the writers had left unchanged.
+- Second wave, all 451 read: of the 290 fixed entries 190 passed, 99 minor and 1 misleading; of the 161 left unchanged 114 passed, 46 minor and 1 misleading. The pattern was the same as in the first wave: in 105 of the 147 entries not passed, the reviewer's note says the description drops or omits something the record states. 147 corrections applied, 47 of them to entries the writers had left unchanged.
+
+First-wave reviewers saw each record's first 70 tool names. The 29 corrections on entries with longer tool lists were checked against the full list, and 4 were dropped because the full list supports the original text. Second-wave writers and reviewers saw each record's text in full and its first 150 tool names; nine entries have longer lists, one of them was corrected, and the full list does not contradict that correction.
+
+**Limits.** No person read these entries one by one. Writers and reviewers were the same model, so the review is a second read and not an independent one, and the reviewers' corrections were format-checked but not themselves reviewed. First-wave reviewers were given two conflicting instructions for entries the writers had left unchanged (check only for a missing confirmation step; grade the whole entry), so other defects in those 229 entries may be undercounted; second-wave reviewers were told to grade the whole entry. Not done: 966 lower-yield confirmation candidates the pattern match also raised, and 33 thin entries with no single catalog record. The reviewers' main finding, limits dropped from descriptions, was fixed only where they met it in these sets; the rest of the list has not been read for it. The added clauses make entries longer: 629 descriptions now run over 320 characters (449 before the pass) and the longest is 523.
+
+Page sizes after the pass: Marketing and Sales 466,616 bytes and Finance and Trading 448,498 bytes, against the 500,000-byte ceiling.
+
 ## 2026-11-22 — seventh feed-era sweep (8,028 → 12,351 listed; held 77 → 129; 31 → 33 categories)
 
 The catch-up the review pass above left for review: the 4,403 candidate adds (4,405 against this feed), built against the feed captured at sweep time, **12,499 servers** (anthropic 10, community 11,299, partner 1,190), and a **1,205-slug** web sitemap. The catalog capture date moves to 2026-11-22.
