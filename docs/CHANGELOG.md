@@ -24,6 +24,34 @@ First-wave reviewers saw each record's first 70 tool names. The 29 corrections o
 
 Page sizes after the pass: Marketing and Sales 466,616 bytes and Finance and Trading 448,498 bytes, against the 500,000-byte ceiling.
 
+## 2026-11-22 — subcategories for Lifestyle and Local and Productivity (12,351 listed; held 129)
+
+The two largest pages without subheadings now have them, on the same pattern as Marketing and Sales, Finance and Trading and Data and Analytics. No entry text changed and no entry moved category. The site feed carries the new subcategories in `site-data/index.json` and on each row of the two category files.
+
+**Lifestyle and Local** (1,037): Shopping Deals and Price Comparison 238, Food Groceries and Restaurants 176, Fitness Sports and Outdoors 174, Home Pets and Local Services 159, Hobbies Culture and Everyday Life 151, Real Estate and Housing 76, Cars and Mobility 63.
+
+**Productivity** (970): Small Business and Field Operations 216, Notes and Knowledge Management 165, Tasks Planning and Habits 130, Meetings and Transcription 129, Forms Slides and Workspaces 112, Thinking Tools and Utilities 90, Team HR and Time Tracking 84, Reading and Saved Content 44.
+
+**Method.** Every entry was sorted from its description, use case and tool names, in 16 batches, after a pilot batch for each category (an even one-in-eight sample). The Lifestyle and Local pilot fitted its seven proposed headings (5 poor fits in 130). The Productivity pilot did not: 27 of 122 entries fitted none of the seven proposed headings, and they were scattered (idea and strategy tools, calculators, page monitors, software recommenders), so an eighth heading, Thinking Tools and Utilities, was added and the same batch then had 9. Across the full run the sorter marked 61 Lifestyle and Local entries and 93 Productivity entries as a poor fit for the nearest heading. The assignments were cross-checked against keywords and a sample was read, but they were not checked by a person one by one. Reading and Saved Content is the smallest heading at 44 and Shopping Deals and Price Comparison the largest at 238.
+
+**Listed for review, not moved.** Seventeen entries read as belonging to another category. In Lifestyle and Local, towards Productivity: SaveHQ, Lueira, MFIT Personal, Glacifier, TimePeace — Daily Log, MOXSEA, MyGymDesk, StudioFly and Tazman. In Productivity, towards Lifestyle and Local: ExposeDraft, Itemtopia Pro, Space Context and Viametry; towards Data and Analytics: xellstorm and GAIN; towards Project Management: KipperTie Media Projects; towards Ecommerce and Marketplace Selling: Tabzoola Custom Index Tabs.
+
+Page sizes after the change: Lifestyle and Local 403,814 bytes and Productivity 350,717 bytes, against the 500,000-byte ceiling.
+
+## 2026-11-22 — site feed: first-seen dates and a change log (12,351 listed; held 129)
+
+The site feed now says when each entry was first listed. Every row of `site-data/search.json` carries `added`, an ISO date, and a new file, `site-data/changes.json`, lists the ids added, removed and renamed on each date, newest first. No entry changed.
+
+Both are built from `data/changes.json`, the record of when each entry id joined or left the listed set. `scripts/backfill_changes.py` rebuilt it once from the git history of the two files that have held the catalog (`README.md` until 2026-08-10, `data/connectors.json` since): 90 commits, 23 dated changes, 12,408 additions, 57 removals and 83 renames, ending at today's 12,351 ids. The rules:
+
+- A date is the commit's own calendar date, and changes are netted per date: an entry held and restored the same day leaves no trace.
+- A name that changed while its URL stayed is a rename, and the entry keeps its first date. Google Cloud BigQuery, Intuit QuickBooks and Grafana MCP Server have been listed since 2026-04-13 and would otherwise read as new on 2026-05-15, the day the list took the catalog's names. A rename that also changed the URL cannot be told from a removal and an addition, and is recorded as one.
+- An id that left and came back keeps its first date.
+- `removed` means no longer listed: delisted, or moved to Held.
+- `added` is the date of first listing here, not the date Anthropic added the connector to its catalog.
+
+From here the export keeps the record. A plain `python3 scripts/export_site_data.py` appends a change dated that day when the listed ids differ from it, `--check` fails until the result is committed, and `--selftest` proves the record's reader on planted cases. CI needs no git history. By first date, 273 of today's entries go back to the first commit on 2026-04-13 and 4,332 are from 2026-11-22.
+
 ## 2026-11-22 — seventh feed-era sweep (8,028 → 12,351 listed; held 77 → 129; 31 → 33 categories)
 
 The catch-up the review pass above left for review: the 4,403 candidate adds (4,405 against this feed), built against the feed captured at sweep time, **12,499 servers** (anthropic 10, community 11,299, partner 1,190), and a **1,205-slug** web sitemap. The catalog capture date moves to 2026-11-22.
