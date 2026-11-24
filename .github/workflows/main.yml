@@ -30,6 +30,8 @@ jobs:
       - uses: actions/setup-python@v7
         with:
           python-version: "3.13"
+      - name: Prove the validator on planted entries before trusting its check
+        run: python3 scripts/generate_readme.py --selftest
       - name: README.md must match data/connectors.json
         run: python3 scripts/generate_readme.py --check
       - name: site-data/ (the website's feed) must match data/connectors.json

@@ -2,6 +2,28 @@
 
 Counting convention: **listed** = entries in category sections; **held** = rows in Held for Verification; **tracked** = listed + held. Sweep deltas are stated as the net change in listed entries; gross additions are called out separately where they differ (renames and variant merges make a naive name-diff overcount).
 
+## 2026-11-24 — validator rules and a self-test (12,344 listed and 136 held, unchanged)
+
+Not a catalog sweep and no change to the data: every generated file is byte-identical.
+
+A review of the repository on 2026-11-23 planted hostile entries against the generator's validator, and it accepted them: markup or a bare URL in a name, a link written into a subcategory, an `A` marker on a third-party entry, an `ftp` link or an email address in a description, and several invisible characters. `SECURITY.md` said such entries were rejected; for names and subcategories that was not yet true. No entry in the list used any of them.
+
+**What the generator refuses now.**
+
+- A name containing `<`, `>`, a backtick or `://`. A name may still start with `www.`, as nine catalog names do: inside an entry's link it stays plain text.
+- A category or subcategory that is not letters, digits and spaces, and a subcategory that is not one of the headings listed for its category (38 across five categories).
+- An `A` marker on any entry outside a list of 14 names, and any of those 14 without it. Ten are the directory feed's `anthropic` tier as read on 2026-11-24; four are Anthropic's quickstart extensions (PDF Viewer, pdf-viewer, Word and PowerPoint), which the feed files under partner tier and which have kept `A` at every sync.
+- In a description, a use case or a held row: any `scheme://` link, where before only `http` and `https` were caught, and anything shaped like an email address.
+- A URL containing a quote, a backslash, an angle bracket, a brace, a pipe, a caret or a backtick, or whose host has an empty label (a trailing or doubled dot).
+- Anywhere in the data: every control character, line and paragraph separators, any space other than the ordinary one, blank-rendering filler characters, unassigned code points and the supplementary variation selectors, on top of the zero-width and bidirectional characters already refused.
+- A "last updated" or capture date that is not a plain date. Both are printed into the README and every category page as they stand, and until now only had to be non-empty.
+
+The two lists (headings and Anthropic-built names) live in `scripts/generate_readme.py`, not in `data/`, so a pull request that only touches data cannot extend them.
+
+**The website's editorial file.** `data/editorial.json` reached `site-data/` with only its ids checked. Its titles, intros and notes now get the same text rules, and a collection slug must be lowercase letters, digits and hyphens.
+
+**Proven before trusted.** `python3 scripts/generate_readme.py --selftest` plants one defect per rule on a small valid list and requires that rule's own message, then plants five things that must stay legal. CI runs it ahead of `--check`. Run against the validator as it stood before this change, 28 of its 30 planted defects passed through. The export's self-test gained six editorial cases.
+
 ## 2026-11-23 — five collections, link check #62 and a marker sync (12,351 → 12,344 listed; held 129 → 136)
 
 Not a catalog sweep. Five editorial collections join Personal health in the site feed, one entry takes its catalog name, 45 provenance markers are synced to the feed, and the first link report since the checker was throttled is acted on.
