@@ -2,6 +2,28 @@
 
 Counting convention: **listed** = entries in category sections; **held** = rows in Held for Verification; **tracked** = listed + held. Sweep deltas are stated as the net change in listed entries; gross additions are called out separately where they differ (renames and variant merges make a naive name-diff overcount).
 
+## 2026-11-23 — five collections and link check #62 (12,351 → 12,344 listed; held 129 → 136)
+
+Not a catalog sweep. Five editorial collections join Personal health in the site feed, one entry takes its catalog name, and the first link report since the checker was throttled is acted on.
+
+Count derivation:
+
+- 12,351 listed + 129 held at open
+- − 7 held on the link check = **12,344 listed + 136 held**
+
+**Collections.** `data/editorial.json` gains Research & writing (10 picks), Everyday planning (12), Learning & study (12), Vibe coders / non-SWEs (12) and Software engineers (13): 59 picks, 53 distinct entries. They were drafted in the site project and checked here before they were added. Every pick resolves to a listed entry and has exactly one record in the directory feed read on 2026-11-23 (12,688 servers): 37 partner tier and 16 community, each record naming an author, a support contact and a privacy policy. Each vendor page answered a direct fetch the same day; Booking.com, AccuWeather, Quizlet and Lovable answer only a browser. For 15 of the 16 community picks the vendor's page was also read for who runs the product and what it charges (TickTick's was not). One draft pick was replaced: an itinerary app whose catalog record and site are in Portuguese gave way to Tineo. No pick was connected or run, so the check is that each is a real, reachable product with a catalog record, not that it works well.
+
+**Rename.** mcp.browserstack.com is now BrowserStack, the name its catalog record carries. Its id in the site feed changes from `mcp-browserstack-com` to `browserstack`; `data/changes.json` records the rename, so the entry keeps its first-seen date.
+
+**Links.** [#62](https://github.com/rdmgator12/awesome-claude-connectors/issues/62) is the first report since lychee was set to `--max-concurrency 8`. It lists 29 errors and 3 timeouts in 12,542 links, where the three reports before it listed about 590 errors each, so the throttle cleared the runner's failures on Vercel-hosted sites. All 32 links were fetched directly on 2026-11-23, twice.
+
+- Held (7): GetYaData, Botsona, FindTunes, Paddock Finance, MatchMarkt, PestPin and DTMFRAME, seven of the eight entries the 2026-11-22 pass left on watch (VIU answered the checker). On a direct fetch they return, in that order, a service-suspended notice, no address record, a deployment-paused notice, 503, Cloudflare 530, 404 and 410.
+- Re-pointed (2): Oliimpe to its bare domain (the `www` host has no address record; the bare domain serves the product's page), and mcp.cpgknowledgegraph.ai from a documentation path that returns 404 to its root, which names the product.
+- Ignored for the checker (3): www.boulanger.com and aura.travel (HTTP/2 negotiation) and www.opentext.com (a nonstandard 444 to non-browsers). A forced live fetch from another network returned each page the same day.
+- Watching, still failing on a direct fetch: Contextaco, Capi Agent for Merchants, Capi Agent, ShieldPi and ShieldPi Watchtower (deployment paused, HTTP 402), Ferb (503 with an opening-soon page), Matterialis (certificate error), Autonoma (404 again, a day after it graduated from Held), NameFlow (no address record), Amp Map (Cloudflare 522) and DialogPlus AI (timed out). They stay listed and will be held if the next link check agrees.
+- Watching, cause not settled: BestPrice and BisBisLive gave no answer to the runner, to a US residential network or to a live fetch from a third network, while a stored copy of each page from recent days exists. A site that filters by network looks the same from here, so each needs a look from a browser or a European network before it is held.
+- Transient: Sittr, BibleMCP, Thrifle, Asgardian, Geekbot and the GitHub pages of Piranya Site Management and WanderLuxe answered 200 on a direct fetch (Piranya's on a second try).
+
 ## 2026-11-22 — error pass: confirmation steps and thin descriptions (12,351 listed; held 129)
 
 A pass over entry text only: 1,987 entries changed, none added, removed or moved. It targets two defects found by a blind read earlier the same day. Every changed entry was checked against its record in the directory feed captured for this pass (12,500 servers; 12,314 of the 12,351 listed entries match exactly one record).

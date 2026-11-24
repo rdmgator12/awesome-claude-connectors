@@ -2,7 +2,7 @@
 
 # Market Data and Investment Research
 
-[All categories](../README.md#categories) · 304 connectors · Last updated November 22, 2026
+[All categories](../README.md#categories) · 304 connectors · Last updated November 23, 2026 · [Star the list](https://github.com/rdmgator12/awesome-claude-connectors) if it helped
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 

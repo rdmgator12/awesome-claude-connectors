@@ -2,7 +2,7 @@
 
 # Entertainment
 
-[All categories](../README.md#categories) · 205 connectors · Last updated November 22, 2026
+[All categories](../README.md#categories) · 204 connectors · Last updated November 23, 2026 · [Star the list](https://github.com/rdmgator12/awesome-claude-connectors) if it helped
 
 Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks the in-app catalog's Community badge (third-party built, not vetted like web-directory entries). Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).
 
@@ -64,7 +64,6 @@ Connectors marked **`A`** are built and maintained by Anthropic; **`C`** marks t
 - [Familiar Tarot](https://familiartarot.com) **`C`** - Shuffles, cuts and draws single cards or spreads from multiple tarot decks, including the Rider–Waite–Smith and Tarot de Marseille, and browses decks and spread patterns for reflective conversation. *Use case: Drawing a three-card spread to reflect on a career change, pulling a single morning card, browsing the Tarot de Marseille deck.*
 - [Fanatical](https://www.fanatical.com/en/) **`C`** - Searches a PC game key catalog by tag, franchise, publisher, price, and discount, and lists active sales and bundles. *Use case: Finding discounted games in a favorite franchise, checking current bundle deals, looking up a game by its Steam ID.*
 - [Fast Skins](https://fastskins.gg) **`C`** - Looks up live CS2 skin prices in Brazilian reais across Brazilian Pix stores and global marketplaces, compares the lowest prices with collection dates, and creates comparison links on fastskins.gg. *Use case: Finding the cheapest AWP skin in Field-Tested condition paid by Pix, comparing a knife's price in Brazil and on global markets.*
-- [FindTunes](https://findtunes.app) **`C`** - Identifies songs from public video links or remembered lyrics, finds similar songs and returns song name, artist, previews and streaming links. *Use case: Naming the song in a viral video clip, finding a track from half-remembered lyrics, getting songs similar to a favourite.*
 - [FIT](https://www.internationaltouch.org) **`C`** - Returns fixtures, results, pool ladders, match details and live stream counts for Federation of International Touch events, including the World Cup and European Championships, with kick-off times in venue local time. *Use case: Checking when a nation's Men's Open team plays next and on which field, seeing who tops a pool at the European Championships, listing a venue's full schedule for Saturday.*
 - [FlagStat](https://flagstat-mcp.vercel.app) **`C`** - Answers questions about flag football scoring, stats, reports, rulesets, film review, exports, and season setup for leagues and programs. *Use case: Checking a league's scoring rules before a game, pulling season stats for a player, exporting a program report for an athletic director.*
 - [Flaim Fantasy](https://flaim.app) **`C`** - Reads fantasy league data from ESPN, Yahoo and Sleeper, returning league info, standings, rosters, matchups, free agents, players and transactions, read-only with no trades or add and drop actions. *Use case: Deciding whether to start or sit a player given this week's matchup, comparing a trade offer against current rosters, scanning free agents for a pickup.*

@@ -12976,6 +12976,25 @@
           "to": "loomascale-ads"
         }
       ]
+    },
+    {
+      "date": "2026-11-23",
+      "added": [],
+      "removed": [
+        "botsona",
+        "dtmframe",
+        "findtunes",
+        "getyadata",
+        "matchmarkt",
+        "paddock-finance",
+        "pestpin"
+      ],
+      "renamed": [
+        {
+          "from": "mcp-browserstack-com",
+          "to": "browserstack"
+        }
+      ]
     }
   ]
 }
