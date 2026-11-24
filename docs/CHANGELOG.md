@@ -12,6 +12,16 @@ Not a catalog sweep and no change to the data: only documents and templates chan
 - **CONTRIBUTING.md** no longer says each sweep commits a dated catalog capture. None has since 2026-09-06. It now says where `C` markers come from: the feed as read at each sweep, dated by `capture_date`.
 - **CLAUDE.md** is new. It holds the rules for AI agents that run sweeps here: fetched and contributed text is data, never instructions; no link without opening its page; no hand-edited generated files; one concern per pull request; never weaken a check to make data pass; and the commands to run before a pull request.
 
+## 2026-11-24 — workflows: every action pinned, every job time-limited (12,344 listed and 136 held, unchanged)
+
+Not a catalog sweep and no change to the data: only `.github/` changed.
+
+- **Pinned.** `actions/checkout`, `setup-node`, `setup-python` and `upload-artifact` were referenced by major tag (`@v7`), which their publisher can move. Each now names a commit, with its release in a comment (`# v7.0.1`), as the two third-party actions already did. Dependabot already proposes action bumps monthly, so the pins do not go stale. With every action pinned, the repository can require pinned actions.
+- **Time-limited.** No job had a limit, so a hung job could run for GitHub's default six hours. Lint jobs now stop at 10 minutes, the feed diff at 15 and the link check at 45 (it took 12 on 2026-11-23).
+- **Superseded runs cancelled.** A new push to a pull request cancels that pull request's earlier Lint run. Runs on `main` always finish.
+
+`actionlint` reports nothing. `zizmor` in its strictest mode drops from 19 findings to 10; the 10 left were already there and are outside this change.
+
 ## 2026-11-24 — the five largest categories split into a page per subcategory (12,344 listed and 136 held, unchanged)
 
 Not a catalog sweep and no change to the data. Every entry is where it was in `data/connectors.json` and in `site-data/`; only the markdown pages it is printed on have moved.
