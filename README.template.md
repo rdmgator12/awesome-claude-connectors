@@ -8,6 +8,8 @@
 
 **Last updated:** {{LAST_UPDATED}} | **Connectors tracked:** {{LISTED}} listed + {{HELD}} held | **Categories:** {{NCAT}}
 
+If this list saved you a search, [star it](https://github.com/rdmgator12/awesome-claude-connectors) so the next person can find it.
+
 Claude connectors are MCP (Model Context Protocol) servers that extend Claude with real-time access to external tools, data sources, and services. They work across Claude.ai, Claude Desktop, Claude Mobile, Claude Code, and Claude Cowork. Connectors in the **curated web directory** are vetted by Anthropic for security, reliability, and compatibility; the **in-app catalog** additionally surfaces community-built and local desktop-extension connectors that Anthropic makes available but does not itself build or vet. This list tracks the union of both surfaces — see CONTRIBUTING.md for the two-surface methodology.
 
 For more information, see the [Connectors Documentation](https://claude.com/docs/connectors/directory), [Submission Guidelines](https://claude.com/docs/connectors/building/submission), and [MCP Protocol Specification](https://modelcontextprotocol.io).

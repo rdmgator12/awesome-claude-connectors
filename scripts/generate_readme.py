@@ -30,6 +30,9 @@ DATA = REPO / "data" / "connectors.json"
 TEMPLATE = REPO / "README.template.md"
 README = REPO / "README.md"
 CATEGORIES_DIR = REPO / "categories"
+# Absolute, because a category page is a file view: it has no Star button of its
+# own, and a relative link would land on another file view.
+REPO_URL = "https://github.com/rdmgator12/awesome-claude-connectors"
 
 # GitHub truncates rendering at ~512 KB; fail well before it.
 RENDER_CEILING = 500_000
@@ -146,6 +149,7 @@ def render_category_page(data, cat, entries):
     if data["meta"]["render"]["category_counts"]:
         header.append(connector_count(len(entries)))
     header.append(f"Last updated {data['meta']['last_updated']}")
+    header.append(f"[Star the list]({REPO_URL}) if it helped")
     lines = [
         "<!-- Generated from data/connectors.json by scripts/generate_readme.py. Edit the data, not this file. -->",
         "",
