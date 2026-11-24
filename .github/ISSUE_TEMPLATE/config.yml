@@ -1,0 +1,5 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Report a harmful link privately
+    url: https://github.com/rdmgator12/awesome-claude-connectors/security/advisories/new
+    about: A listed link now serves malware, phishing or a scam, or its domain has changed hands. This report is private.

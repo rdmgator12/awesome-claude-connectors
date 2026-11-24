@@ -12,7 +12,12 @@ Ordinary link rot (a 404, an expired domain with nothing on it) is not sensitive
 
 ## How to report
 
-Email **coups.matins6v@icloud.com** with the entry name, the URL, what you saw and when. Please do not open a public issue for a link that is actively harmful: an issue advertises the link to everyone who reads it.
+Use either private route, with the entry name, the URL, what you saw and when:
+
+- **GitHub:** the repository's Security tab, then **Report a vulnerability** ([direct link](https://github.com/rdmgator12/awesome-claude-connectors/security/advisories/new)). Only you and the maintainer see it.
+- **Email:** **coups.matins6v@icloud.com**.
+
+Please do not open a public issue for a link that is actively harmful: an issue advertises the link to everyone who reads it.
 
 A report gets an acknowledgement, a check of the link from a second network, and one of three outcomes: the entry is re-pointed to the product's real page, moved to **Held for Verification** with the reason and date, or removed. The outcome is recorded in [docs/CHANGELOG.md](docs/CHANGELOG.md).
 
