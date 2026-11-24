@@ -83,7 +83,8 @@ CAPTURE_DATE = re.compile(r"[0-9]{4}-[0-9]{2}-[0-9]{2}")
 # Default_Ignorable_Code_Point that the category test in unsafe_chars() does not catch
 # (compared against the whole property in Unicode 13, plus U+180F from Unicode 14); it
 # includes the variation selectors, emoji selector U+FE0F among them, until a name
-# needs one. BLANK holds blank-rendering characters outside that property.
+# needs one. BLANK holds blank-rendering characters outside that property; U+FFFC drew
+# nothing in a sweep of every other accepted code point through macOS text rendering.
 IGNORABLE = (
     (0x034F, 0x034F),
     (0x115F, 0x1160),
@@ -94,7 +95,7 @@ IGNORABLE = (
     (0xFFA0, 0xFFA0),
     (0xE0100, 0xE01EF),
 )
-BLANK = {0x2800, 0x16FE4, 0x1D159}
+BLANK = {0x2800, 0xFFFC, 0x16FE4, 0x1D159}
 
 # The two allowlists live here, not in data/, so a data-only pull request cannot
 # edit its own guard: a new heading or a new Anthropic-built entry is a change to
@@ -504,7 +505,9 @@ def validate(data, template):
         used = Counter(
             e.get("category")
             for e in data["connectors"]
-            if isinstance(e, dict) and e.get("category") in catset
+            if isinstance(e, dict)
+            and isinstance(e.get("category"), str)
+            and e.get("category") in catset
         )
         for c in cats:
             if not used[c]:
@@ -734,6 +737,11 @@ def selftest():
             "is not a heading of",
         ),
         (
+            "a category that is not a string",
+            probe(category=["Zz Plain"]),
+            "unknown category",
+        ),
+        (
             "a category name carrying a link",
             new_category(f"Zz [x]({link})"),
             "letters, digits and spaces only",
@@ -859,6 +867,7 @@ def selftest():
         (0x2800, "braille blank"),
         (0x3164, "Hangul filler"),
         (0xFE0F, "variation selector 16"),
+        (0xFFFC, "object replacement character"),
         (0xFFFE, "a noncharacter"),
         (0x16FE4, "Khitan filler"),
         (0x1D159, "null notehead"),
