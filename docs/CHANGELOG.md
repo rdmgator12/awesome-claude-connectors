@@ -14,7 +14,7 @@ A review of the repository on 2026-11-23 planted hostile entries against the gen
 - A category or subcategory that is not letters, digits and spaces, and a subcategory that is not one of the headings listed for its category (38 across five categories).
 - An `A` marker on any entry outside a list of 14 names, and any of those 14 without it. Ten are the directory feed's `anthropic` tier as read on 2026-11-24; four are Anthropic's quickstart extensions (PDF Viewer, pdf-viewer, Word and PowerPoint), which the feed files under partner tier and which have kept `A` at every sync.
 - In a description, a use case or a held row: any `scheme://` link, where before only `http` and `https` were caught, and anything shaped like an email address.
-- A URL containing a quote, a backslash, an angle bracket, a brace, a pipe, a caret or a backtick, or whose host has an empty label (a trailing or doubled dot).
+- A URL containing a quote, a backslash, an angle bracket, a brace, a pipe, a caret or a backtick, or whose host has an empty label (a trailing or doubled dot) or ends in a number, which is how a browser recognises an IP address, hex forms such as `0x7f.0.0.1` included.
 - Anywhere in the data: every control character, line and paragraph separators, any space other than the ordinary one, blank-rendering filler characters, unassigned code points and the supplementary variation selectors, on top of the zero-width and bidirectional characters already refused.
 - A "last updated" or capture date that is not a plain date. Both are printed into the README and every category page as they stand, and until now only had to be non-empty.
 
@@ -22,7 +22,7 @@ The two lists (headings and Anthropic-built names) live in `scripts/generate_rea
 
 **The website's editorial file.** `data/editorial.json` reached `site-data/` with only its ids checked. Its titles, intros and notes now get the same text rules, and a collection slug must be lowercase letters, digits and hyphens.
 
-**Proven before trusted.** `python3 scripts/generate_readme.py --selftest` plants one defect per rule on a small valid list and requires that rule's own message, then plants five things that must stay legal. CI runs it ahead of `--check`. Run against the validator as it stood before this change, 28 of its 30 planted defects passed through. The export's self-test gained six editorial cases.
+**Proven before trusted.** `python3 scripts/generate_readme.py --selftest` plants one defect per rule on a small valid list and requires that rule's own message, then plants five things that must stay legal. CI runs it ahead of `--check`. Run against the validator as it stood before this change, 29 of its 31 planted defects passed through. The export's self-test gained six editorial cases.
 
 ## 2026-11-23 — five collections, link check #62 and a marker sync (12,351 → 12,344 listed; held 129 → 136)
 

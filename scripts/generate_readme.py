@@ -188,10 +188,12 @@ def url_problem(url):
         return "host is not lowercase ASCII"
     if "" in host.split("."):
         return "host has an empty label (a leading, trailing or doubled dot)"
-    if "." not in host or re.fullmatch(r"[0-9.]+", host):
-        return "host is not a domain name"
     if host.startswith("xn--") or ".xn--" in host:
         return "host is punycode (an internationalized domain needs a deliberate exception here)"
+    # A browser reads a host whose last label is a number as an IP address, and it
+    # accepts hex there (0x7f.0.0.1), so the last label must be letters.
+    if "." not in host or not re.fullmatch(r"[a-z]+", host.rsplit(".", 1)[1]):
+        return "host is not a domain name"
     return None
 
 
@@ -739,6 +741,11 @@ def selftest():
             "a URL host ending in a dot",
             probe(url="https://evil.example./x"),
             "empty label",
+        ),
+        (
+            "a URL whose host is an IP address written in hex",
+            probe(url="https://0x7f.0.0.1/x"),
+            "host is not a domain name",
         ),
         (
             "a URL carrying a double quote",
