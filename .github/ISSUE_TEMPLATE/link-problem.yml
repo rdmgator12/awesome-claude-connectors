@@ -1,0 +1,36 @@
+name: Dead or wrong link
+description: A listed link that no longer works or points to the wrong product. Not for links that have become harmful.
+labels: ["link-rot"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **Is the link harmful?** If it serves malware, phishing or a scam, or the domain has changed hands, don't open a public issue: it advertises the link to everyone who reads it. Report it privately instead (see SECURITY.md).
+  - type: input
+    id: name
+    attributes:
+      label: Entry name
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Listed URL
+    validations:
+      required: true
+  - type: dropdown
+    id: problem
+    attributes:
+      label: What's wrong?
+      options:
+        - It doesn't load (error, timeout, expired domain)
+        - It loads, but it's a different product or a generic page
+        - It redirects somewhere unexpected
+        - Something else
+    validations:
+      required: true
+  - type: textarea
+    id: details
+    attributes:
+      label: What you saw
+      description: When you checked, and the right page if you know it.

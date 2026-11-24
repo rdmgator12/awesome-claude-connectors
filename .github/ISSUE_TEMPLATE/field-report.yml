@@ -1,0 +1,28 @@
+name: Field report
+description: You used a listed connector for real work. Tell us what happened.
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Connector
+    validations:
+      required: true
+  - type: input
+    id: client
+    attributes:
+      label: Where you used it
+      placeholder: Claude.ai, Claude Desktop, Claude Code, Cowork...
+  - type: textarea
+    id: report
+    attributes:
+      label: Report
+      description: One paragraph. What you tried, what worked, what didn't, what surprised you. Be specific.
+    validations:
+      required: true
+  - type: checkboxes
+    id: safe
+    attributes:
+      label: Check
+      options:
+        - label: The report contains no passwords, tokens, or private data about anyone.
+          required: true

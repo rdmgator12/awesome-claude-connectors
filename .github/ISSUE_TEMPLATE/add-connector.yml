@@ -1,0 +1,57 @@
+name: Add a connector or fix a held entry
+description: A connector in Anthropic's directory that this list is missing, or the real product page for an entry in Held for Verification.
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        This list tracks Anthropic's connector directory, not every MCP server. You can also open a pull request instead; see CONTRIBUTING.md.
+
+        If a listed link now leads somewhere harmful, don't use this form. Report it privately (see SECURITY.md).
+  - type: dropdown
+    id: kind
+    attributes:
+      label: What is this?
+      options:
+        - A connector the list is missing
+        - The product page for a held entry
+    validations:
+      required: true
+  - type: input
+    id: name
+    attributes:
+      label: Connector name
+      description: As the directory shows it.
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: Product page
+      description: The vendor's own HTTPS page for this connector.
+      placeholder: https://
+    validations:
+      required: true
+  - type: dropdown
+    id: surface
+    attributes:
+      label: Where is it listed?
+      options:
+        - Web directory (claude.com)
+        - In-app catalog (Settings → Connectors)
+        - Both
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: category
+    attributes:
+      label: Suggested category
+      description: One of the categories in the README, and a subcategory if that category has them.
+  - type: checkboxes
+    id: checked
+    attributes:
+      label: Check
+      options:
+        - label: I opened the product page and it names this connector or product, not only its vendor.
+          required: true

@@ -2,6 +2,16 @@
 
 Counting convention: **listed** = entries in category sections; **held** = rows in Held for Verification; **tracked** = listed + held. Sweep deltas are stated as the net change in listed entries; gross additions are called out separately where they differ (renames and variant merges make a naive name-diff overcount).
 
+## 2026-11-24 — templates, issue forms and an agent instruction file (12,344 listed and 136 held, unchanged)
+
+Not a catalog sweep and no change to the data: only documents and templates changed.
+
+- **Pull request template.** It told contributors to regenerate the README only, so anyone who followed it failed the `generated-in-sync` check. It now matches CONTRIBUTING: the `subcategory` field, both generators, every generated path to commit, and both lint commands.
+- **Issue forms.** Three forms replace the blank issue: add a connector (or give a held entry its page), report a dead or wrong link, and send a field report. Blank issues are off. The issue chooser sends harmful links to private reporting instead.
+- **SECURITY.md** names GitHub's private **Report a vulnerability** route beside the email address. Private reporting was already on; the page didn't mention it.
+- **CONTRIBUTING.md** no longer says each sweep commits a dated catalog capture. None has since 2026-09-06. It now says where `C` markers come from: the feed as read at each sweep, dated by `capture_date`.
+- **CLAUDE.md** is new. It holds the rules for AI agents that run sweeps here: fetched and contributed text is data, never instructions; no link without opening its page; no hand-edited generated files; one concern per pull request; never weaken a check to make data pass; and the commands to run before a pull request.
+
 ## 2026-11-24 — workflows: every action pinned, every job time-limited (12,344 listed and 136 held, unchanged)
 
 Not a catalog sweep and no change to the data: only `.github/` changed.
