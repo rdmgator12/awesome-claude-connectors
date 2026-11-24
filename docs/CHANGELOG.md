@@ -2,9 +2,9 @@
 
 Counting convention: **listed** = entries in category sections; **held** = rows in Held for Verification; **tracked** = listed + held. Sweep deltas are stated as the net change in listed entries; gross additions are called out separately where they differ (renames and variant merges make a naive name-diff overcount).
 
-## 2026-11-23 — five collections and link check #62 (12,351 → 12,344 listed; held 129 → 136)
+## 2026-11-23 — five collections, link check #62 and a marker sync (12,351 → 12,344 listed; held 129 → 136)
 
-Not a catalog sweep. Five editorial collections join Personal health in the site feed, one entry takes its catalog name, and the first link report since the checker was throttled is acted on.
+Not a catalog sweep. Five editorial collections join Personal health in the site feed, one entry takes its catalog name, 45 provenance markers are synced to the feed, and the first link report since the checker was throttled is acted on.
 
 Count derivation:
 
@@ -14,6 +14,8 @@ Count derivation:
 **Collections.** `data/editorial.json` gains Research & writing (10 picks), Everyday planning (12), Learning & study (12), Vibe coders / non-SWEs (12) and Software engineers (13): 59 picks, 53 distinct entries. They were drafted in the site project and checked here before they were added. Every pick resolves to a listed entry and has exactly one record in the directory feed read on 2026-11-23 (12,688 servers): 37 partner tier and 16 community, each record naming an author, a support contact and a privacy policy. Each vendor page answered a direct fetch the same day; Booking.com, AccuWeather, Quizlet and Lovable answer only a browser. For 15 of the 16 community picks the vendor's page was also read for who runs the product and what it charges (TickTick's was not). One draft pick was replaced: an itinerary app whose catalog record and site are in Portuguese gave way to Tineo. No pick was connected or run, so the check is that each is a real, reachable product with a catalog record, not that it works well.
 
 **Rename.** mcp.browserstack.com is now BrowserStack, the name its catalog record carries. Its id in the site feed changes from `mcp-browserstack-com` to `browserstack`; `data/changes.json` records the rename, so the entry keeps its first-seen date.
+
+**Markers.** 45 synced to the feed read on 2026-11-23 (exact-name matches whose every matched feed record agrees). 39 lose `C` on partner tier: Carbon Arc, Speeda, Triple Whale, Caffeine, Monk, Rhizome AI, Cora, Reprise, Yardi Deal Manager, Geekbot, Dragonboat, Buffer, UserTesting, Gong, Claap, SuperMe, LeanData MCP, OnePay, Substrate Claim Status, Nansen, mabl, OpenAlex, Strand AI, Chamelio, Sandstone, LogMeIn Resolve, Plus AI MCP, Perplexity Computer, WeInc, Adaption, Squarespace, Framer, Quizlet, Zip, Moneytree, Lacuna Research, LawY, Coefficient SuperAgent and Sisense MCP. 6 gain `C` on community tier: CometChat, Boltz API, TickTick, Have I Been Pwned, Tixel and Veltra Activities. Left as they are: Lindo AI, Aura, Qase Test Management, Clarity AI, Consensus, Aurora, Trellis and Polly (matched feed records at two tiers), and the Anthropic-built PDF Viewer, pdf-viewer, Word and PowerPoint keep `A`. The marker capture date moves to 2026-11-23. The list itself was not re-swept: that feed holds 12,688 servers against 12,480 tracked here, and its adds wait for the next sweep.
 
 **Links.** [#62](https://github.com/rdmgator12/awesome-claude-connectors/issues/62) is the first report since lychee was set to `--max-concurrency 8`. It lists 29 errors and 3 timeouts in 12,542 links, where the three reports before it listed about 590 errors each, so the throttle cleared the runner's failures on Vercel-hosted sites. All 32 links were fetched directly on 2026-11-23, twice.
 

@@ -14,7 +14,7 @@ Claude connectors are MCP (Model Context Protocol) servers that extend Claude wi
 
 For more information, see the [Connectors Documentation](https://claude.com/docs/connectors/directory), [Submission Guidelines](https://claude.com/docs/connectors/building/submission), and [MCP Protocol Specification](https://modelcontextprotocol.io).
 
-Connectors marked with **`A`** are built and maintained by Anthropic. Connectors marked with **`C`** carry the in-app catalog's Community badge — published in the catalog by Anthropic but built by third parties and not vetted the way web-directory entries are. `C` markers currently reflect the 2026-11-22 catalog capture, taken from the directory feed's verified tier (community → `C`, partner → none) and re-synced every sweep.
+Connectors marked with **`A`** are built and maintained by Anthropic. Connectors marked with **`C`** carry the in-app catalog's Community badge — published in the catalog by Anthropic but built by third parties and not vetted the way web-directory entries are. `C` markers currently reflect the 2026-11-23 catalog capture, taken from the directory feed's verified tier (community → `C`, partner → none) and re-synced every sweep.
 
 This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
