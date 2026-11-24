@@ -271,6 +271,8 @@ def selftest_editorial():
         ("a collection intro carrying an email address", ed(intro="Write to sales@evil.example.")),
         ("a section title carrying a zero-width space", ed(sections=[{"title": "Hid" + chr(0x200B) + "den", "ids": ["a"]}])),
         ("a collection slug that is not URL-plain", ed(slug="../picks")),
+        ("a key carrying markup", ed(**{"<b>note</b>": "x"})),
+        ("a collection intro hiding a link in a character reference", ed(intro="See https&#58;//evil.example now.")),
         ("a pick that is not listed", ed(sections=[{"title": "Picks", "ids": ["zz"]}])),
     ]:
         try:
@@ -344,6 +346,7 @@ def check_editorial(ed, listed_ids):
                 walk(v, f"{path}[{n}]")
         elif isinstance(x, dict):
             for k, v in x.items():
+                walk(k, f"{path} key")
                 walk(v, f"{path}.{k}")
 
     walk(ed, "editorial")

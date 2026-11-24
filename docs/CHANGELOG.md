@@ -10,19 +10,21 @@ A review of the repository on 2026-11-23 planted hostile entries against the gen
 
 **What the generator refuses now.**
 
-- A name containing `<`, `>`, a backtick or `://`. A name may still start with `www.`, as nine catalog names do: inside an entry's link it stays plain text.
+- A name containing `<`, `>`, a backtick or `://`, a character reference such as `&#101;`, or a backslash that escapes the character after it, any of which would let one name read as another or unhook its link. A name may still start with `www.`, as nine catalog names do: inside an entry's link it stays plain text.
 - A category or subcategory that is not letters, digits and spaces, and a subcategory that is not one of the headings listed for its category (38 across five categories).
 - An `A` marker on any entry outside a list of 14 names, and any of those 14 without it. Ten are the directory feed's `anthropic` tier as read on 2026-11-24; four are Anthropic's quickstart extensions (PDF Viewer, pdf-viewer, Word and PowerPoint), which the feed files under partner tier and which have kept `A` at every sync.
-- In a description, a use case or a held row: any `scheme://` link, where before only `http` and `https` were caught, and anything shaped like an email address.
-- A URL containing a quote, a backslash, an angle bracket, a brace, a pipe, a caret or a backtick, or whose host has an empty label (a trailing or doubled dot) or ends in a number, which is how a browser recognises an IP address, hex forms such as `0x7f.0.0.1` included.
-- Anywhere in the data: every control character, line and paragraph separators, any space other than the ordinary one, blank-rendering filler characters, unassigned code points and the supplementary variation selectors, on top of the zero-width and bidirectional characters already refused.
+- In a description, a use case or a held row: any `scheme://` link, where before only `http` and `https` were caught; `www.` in any case; anything shaped like an email address, a host that starts with a dot included; and any backslash or character reference. GitHub looks for links after it has decoded references and dropped backslash escapes, so `https&#58;//…`, `www\.…` and `a\@…` each rendered as a link on its own renderer.
+- A URL containing a quote, a backslash, an angle bracket, a brace, a pipe, a caret, a backtick, an opening parenthesis or a character reference, or whose host has an empty label (a trailing or doubled dot) or ends in a number, which is how a browser recognises an IP address, hex forms such as `0x7f.0.0.1` included.
+- Anywhere in the data: every control character, line and paragraph separators, any space other than the ordinary one, unassigned code points, and every character Unicode marks as ignorable by default (blank fillers and all variation selectors among them, the emoji selector U+FE0F too, until a name needs one) plus three blank-rendering characters outside that set, on top of the zero-width and bidirectional characters already refused.
 - A "last updated" or capture date that is not a plain date. Both are printed into the README and every category page as they stand, and until now only had to be non-empty.
 
 The two lists (headings and Anthropic-built names) live in `scripts/generate_readme.py`, not in `data/`, so a pull request that only touches data cannot extend them.
 
-**The website's editorial file.** `data/editorial.json` reached `site-data/` with only its ids checked. Its titles, intros and notes now get the same text rules, and a collection slug must be lowercase letters, digits and hyphens.
+**The website's editorial file.** `data/editorial.json` reached `site-data/` with only its ids checked. Every string in it, keys included, now gets the same text rules, and a collection slug must be lowercase letters, digits and hyphens.
 
-**Proven before trusted.** `python3 scripts/generate_readme.py --selftest` plants one defect per rule on a small valid list and requires that rule's own message, then plants five things that must stay legal. CI runs it ahead of `--check`. Run against the validator as it stood before this change, 29 of its 31 planted defects passed through. The export's self-test gained six editorial cases.
+**Proven before trusted.** `python3 scripts/generate_readme.py --selftest` plants one defect per rule on a small valid list and requires that rule's own message, then plants eight things that must stay legal. CI runs it ahead of `--check`. Run against the validator as it stood before this change, 43 of its 46 planted defects were accepted outright. The export's self-test gained eight editorial cases.
+
+**Checked on GitHub's renderer.** The first version of these rules was handed to a second, independent pass whose job was to break it, and it did: the reference, backslash, capital-`WWW.` and dot-led address forms above, and 21 ignorable characters that sit in an ordinary letter-mark category. After the fix, 120 candidate strings were run through the validator and every one it accepted was rendered through GitHub's markdown API: none produced a link other than the entry's own. One thing is left as it is: an emoji shortcode such as `:octocat:` still renders GitHub's own emoji image.
 
 ## 2026-11-23 — five collections, link check #62 and a marker sync (12,351 → 12,344 listed; held 129 → 136)
 

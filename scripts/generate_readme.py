@@ -59,21 +59,42 @@ INDEX_HEADER = ("Category", "Connectors")
 
 # Entry text is emitted verbatim into markdown, so anything that would render as a
 # link, an image or raw HTML is refused: a description is prose, and the entry's one
-# link is its vetted `url`. A bare "www.", any scheme and an email address autolink
-# on GitHub.
-UNSAFE_TEXT = ("<", ">", "`", "](", "://", "www.")
-EMAIL = re.compile(r"[A-Za-z0-9._+-]+@[A-Za-z0-9_-]+(?:\.[A-Za-z0-9_-]+)+")
-# A name is the text of its entry's link, where "www." and an address stay inert.
+# link is its vetted `url`. A bare "www." in any case, any scheme and an email address
+# autolink on GitHub, and it looks for them after it has decoded character references
+# and dropped backslash escapes: "https&#58;//x.example", "www\.x.example" and
+# "a\@x.example" all rendered as links on its renderer (2026-11-24). So prose carries
+# no backslash and no reference at all ("www." is tested apart, for its case).
+UNSAFE_TEXT = ("<", ">", "`", "](", "://", "\\")
+ENTITY = re.compile(r"&(?:#[0-9]+|#[xX][0-9A-Fa-f]+|[A-Za-z][A-Za-z0-9]*);")
+# The host may start with a dot: GitHub links "a@.x.example" too.
+EMAIL = re.compile(r"[A-Za-z0-9._+-]@(?=[A-Za-z0-9._-]*\.[A-Za-z0-9_-])")
+# A name is the text of its entry's link, where "www." and an address stay inert. A
+# reference or an escape there would make one name read as another ("Strip&#101;").
 NAME_UNSAFE = ("<", ">", "`", "://")
-URL_UNSAFE = '"\\<>{}|^`'
+NAME_ESCAPE = re.compile(r"\\(?:\S|$)")
+URL_UNSAFE = '"\\<>{}|^`('
 URL_HOST = re.compile(r"https://([^/?#]*)")
 # A category or subcategory becomes a heading, an anchor and a link's text.
 HEADING = re.compile(r"[A-Za-z0-9 ]+")
 # Both dates are printed into the README and every category page as they stand.
 LAST_UPDATED = re.compile(r"[A-Z][a-z]+ [0-9]{1,2}, [0-9]{4}")
 CAPTURE_DATE = re.compile(r"[0-9]{4}-[0-9]{2}-[0-9]{2}")
-# Characters that render as nothing: fillers, the braille blank, the grapheme joiner.
-BLANK = {0x034F, 0x115F, 0x1160, 0x2800, 0x3164, 0xFFA0}
+# Characters that render as nothing. IGNORABLE holds the members of Unicode's
+# Default_Ignorable_Code_Point that the category test in unsafe_chars() does not catch
+# (compared against the whole property in Unicode 13, plus U+180F from Unicode 14); it
+# includes the variation selectors, emoji selector U+FE0F among them, until a name
+# needs one. BLANK holds blank-rendering characters outside that property.
+IGNORABLE = (
+    (0x034F, 0x034F),
+    (0x115F, 0x1160),
+    (0x17B4, 0x17B5),
+    (0x180B, 0x180F),
+    (0x3164, 0x3164),
+    (0xFE00, 0xFE0F),
+    (0xFFA0, 0xFFA0),
+    (0xE0100, 0xE01EF),
+)
+BLANK = {0x2800, 0x16FE4, 0x1D159}
 
 # The two allowlists live here, not in data/, so a data-only pull request cannot
 # edit its own guard: a new heading or a new Anthropic-built entry is a change to
@@ -154,9 +175,8 @@ ANTHROPIC_BUILT = {
 def unsafe_chars(value):
     """Code points that hide or reorder text: control, format (zero-width, bidi),
     private-use, surrogate and unassigned characters, line and paragraph separators,
-    any space but the ASCII one, blank-rendering fillers and the variation selectors
-    past the first sixteen. Unassigned follows the interpreter's Unicode tables; CI
-    runs Python 3.13."""
+    any space but the ASCII one, and everything in IGNORABLE and BLANK. Unassigned
+    follows the interpreter's Unicode tables; CI runs Python 3.13."""
     return sorted(
         {
             f"U+{ord(c):04X}"
@@ -164,7 +184,7 @@ def unsafe_chars(value):
             if unicodedata.category(c) in ("Cc", "Cf", "Co", "Cs", "Cn", "Zl", "Zp")
             or (unicodedata.category(c) == "Zs" and c != " ")
             or ord(c) in BLANK
-            or 0xE0100 <= ord(c) <= 0xE01EF
+            or any(lo <= ord(c) <= hi for lo, hi in IGNORABLE)
         }
     )
 
@@ -172,6 +192,10 @@ def unsafe_chars(value):
 def text_problems(value):
     """What in a piece of prose would render as a link or markup, as a list."""
     found = [repr(token) for token in UNSAFE_TEXT if token in value]
+    if "www." in value.lower():
+        found.append(repr("www."))
+    if ENTITY.search(value):
+        found.append("a character reference such as '&#58;'")
     if EMAIL.search(value):
         found.append("an email address")
     return found
@@ -393,6 +417,11 @@ def validate(data, template):
                 f"{label}: name must not contain any of {' '.join(NAME_UNSAFE)} "
                 "(it would render as a second link or markup)"
             )
+        elif ENTITY.search(name) or NAME_ESCAPE.search(name):
+            add(
+                f"{label}: name must not contain a character reference or a backslash "
+                "escape (it would read as another name)"
+            )
         else:
             names.setdefault(name.lower(), []).append(name)
         url = e.get("url")
@@ -402,6 +431,8 @@ def validate(data, template):
             add(f"{label}: url must not contain ')', spaces, or newlines")
         elif any(c in url for c in URL_UNSAFE):
             add(f"{label}: url must not contain any of {' '.join(URL_UNSAFE)}: {url}")
+        elif ENTITY.search(url):
+            add(f"{label}: url must not contain a character reference: {url}")
         elif url_problem(url):
             add(f"{label}: url {url_problem(url)}: {url}")
         else:
@@ -767,19 +798,70 @@ def selftest():
             meta("capture_date", "2026-11-23 <b>"),
             "meta.capture_date must read like",
         ),
+        (
+            "a description hiding a link's colon in a character reference",
+            probe(description="See https&#58;//evil.example/login."),
+            "a character reference",
+        ),
+        (
+            "a description hiding www. behind a backslash",
+            probe(description="See www\\.evil.example today."),
+            "must not contain '\\\\'",
+        ),
+        (
+            "a description with WWW. in capitals",
+            probe(description="See WWW.evil.example today."),
+            "must not contain 'www.'",
+        ),
+        (
+            "a use case with an address whose host starts with a dot",
+            probe(use_case="Write to a@.evil.example today."),
+            "an email address",
+        ),
+        (
+            "a name spelling a letter as a character reference",
+            probe(name="Zz Prob&#101;"),
+            "a character reference or a backslash escape",
+        ),
+        (
+            "a name escaping a character with a backslash",
+            probe(name="Zz\\&Probe"),
+            "a character reference or a backslash escape",
+        ),
+        (
+            "a name ending in a backslash, which would unhook its link",
+            probe(name="Zz Probe\\"),
+            "a character reference or a backslash escape",
+        ),
+        (
+            "a URL carrying a character reference",
+            probe(url="https://example.com/&#64;x"),
+            "url must not contain a character reference",
+        ),
+        (
+            "a URL carrying an opening parenthesis",
+            probe(url="https://example.com/a(b"),
+            "url must not contain any of",
+        ),
     ]
     for cp, what in [
         (0x007F, "delete"),
         (0x0085, "next line"),
         (0x00A0, "no-break space"),
         (0x034F, "combining grapheme joiner"),
+        (0x17B4, "Khmer inherent vowel"),
+        (0x180B, "Mongolian variation selector"),
+        (0x180F, "Mongolian variation selector four"),
         (0x200B, "zero-width space"),
         (0x202E, "right-to-left override"),
         (0x2028, "line separator"),
         (0x2029, "paragraph separator"),
         (0x2800, "braille blank"),
         (0x3164, "Hangul filler"),
+        (0xFE0F, "variation selector 16"),
         (0xFFFE, "a noncharacter"),
+        (0x16FE4, "Khitan filler"),
+        (0x1D159, "null notehead"),
         (0xE0100, "variation selector 17"),
     ]:
         cases.append(
@@ -799,6 +881,13 @@ def selftest():
             None,
         ),
         ("a description ending in 。", probe(description="日本語の説明。"), None),
+        (
+            "a name with & and ; that spell no reference",
+            probe(name="Zz & Probe; one"),
+            None,
+        ),
+        ("a price in a description", probe(description="Costs $5 a month."), None),
+        ("R&D in a use case", probe(use_case="Planning R&D budgets; and more."), None),
     ]
     failed = 0
     for why, plant, want in cases:
