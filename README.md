@@ -41,7 +41,7 @@ This list is maintained weekly. To contribute, see [CONTRIBUTING.md](CONTRIBUTIN
 
 ## Categories
 
-Each category has its own page; the list outgrew what GitHub will render as a single file.
+Each category has its own page; the list outgrew what GitHub will render as a single file. The largest categories are split again, into one page per subcategory.
 
 | Category                                                                                     | Connectors |
 | -------------------------------------------------------------------------------------------- | ---------- |

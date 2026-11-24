@@ -246,6 +246,18 @@ def category_path(cat):
     return f"categories/{slugify(cat)}.md"
 
 
+def subcategory_path(cat, sub):
+    # Flat, beside the category's own page: the lint script, the link checker and the
+    # stray-file check all read categories/*.md. The dot keeps the two halves apart (a
+    # slug never holds one); awesome-lint refuses a doubled dash in a file name.
+    return f"categories/{slugify(cat)}.{slugify(sub)}.md"
+
+
+def file_name(path):
+    """A page's name as a sibling page links to it."""
+    return path.rsplit("/", 1)[1]
+
+
 def connector_count(n):
     return f"{n:,} connector{'s' if n != 1 else ''}"
 
@@ -275,17 +287,18 @@ def page_subcategories(data, entries):
     )
 
 
-def render_category_page(data, cat, entries):
-    entries = sorted(entries, key=lambda e: e["name"].lower())
-    header = [f"[All categories](../README.md#{slugify(INDEX_SECTION)})"]
+def page_top(data, title, trail, count):
+    """The lines every category page opens with: its title, one line of where it sits
+    and what it holds, and the marker legend."""
+    header = list(trail)
     if data["meta"]["render"]["category_counts"]:
-        header.append(connector_count(len(entries)))
+        header.append(connector_count(count))
     header.append(f"Last updated {data['meta']['last_updated']}")
     header.append(f"[Star the list]({REPO_URL}) if it helped")
-    lines = [
+    return [
         "<!-- Generated from data/connectors.json by scripts/generate_readme.py. Edit the data, not this file. -->",
         "",
-        f"# {cat}",
+        f"# {title}",
         "",
         " · ".join(header),
         "",
@@ -294,17 +307,65 @@ def render_category_page(data, cat, entries):
         "Methodology and the held-entry policy are in the [README](../README.md) and [CONTRIBUTING.md](../CONTRIBUTING.md).",
         "",
     ]
-    subs = page_subcategories(data, entries)
-    if subs:
-        # one line, not a list: awesome-lint's list-item rule rejects anchor links
-        lines += [" · ".join(f"[{s}](#{slugify(s)})" for s in subs), ""]
-        for sub in subs:
-            lines += [f"## {sub}", ""]
-            lines += [render_entry(e) for e in entries if e.get("subcategory") == sub]
-            lines.append("")
-    else:
-        lines += [render_entry(e) for e in entries] + [""]
+
+
+ALL_CATEGORIES = f"[All categories](../README.md#{slugify(INDEX_SECTION)})"
+HUB_HEADER = ("Subcategory", "Connectors")
+
+
+def render_category_page(data, cat, entries):
+    """A category on one page: every category that has no subcategories."""
+    lines = page_top(data, cat, [ALL_CATEGORIES], len(entries))
+    lines += [render_entry(e) for e in entries] + [""]
     return "\n".join(lines)
+
+
+def render_hub_page(data, cat, groups):
+    """A split category's own page: no entries, a table of its subcategory pages."""
+    lines = page_top(data, cat, [ALL_CATEGORIES], sum(len(g) for g in groups.values()))
+    # a table, not a list: awesome-lint's list-item rule rejects relative links
+    rows = [
+        (f"[{sub}]({file_name(subcategory_path(cat, sub))})", f"{len(group):,}")
+        for sub, group in groups.items()
+    ]
+    lines += [
+        "This category is split by subcategory, one page each.",
+        "",
+        render_table(HUB_HEADER, rows),
+        "",
+    ]
+    return "\n".join(lines)
+
+
+def render_subcategory_page(data, cat, sub, groups):
+    """One subcategory's entries, with the way back to its category and across to its siblings."""
+    trail = [ALL_CATEGORIES, f"[{cat}]({file_name(category_path(cat))})"]
+    lines = page_top(data, f"{cat}: {sub}", trail, len(groups[sub]))
+    # one line, not a list: awesome-lint's list-item rule rejects relative links
+    siblings = [
+        f"**{s}**" if s == sub else f"[{s}]({file_name(subcategory_path(cat, s))})"
+        for s in groups
+    ]
+    lines += [" · ".join(siblings), ""]
+    lines += [render_entry(e) for e in groups[sub]] + [""]
+    return "\n".join(lines)
+
+
+def category_pages(data, cat, entries):
+    """{path: text} for one category. With subcategories it is always a hub plus one page
+    each, whatever its size: a split that came and went at a size threshold would move a
+    category's entries between addresses as it grew."""
+    entries = sorted(entries, key=lambda e: e["name"].lower())
+    subs = page_subcategories(data, entries)
+    if not subs:
+        return {category_path(cat): render_category_page(data, cat, entries)}
+    groups = {s: [e for e in entries if e.get("subcategory") == s] for s in subs}
+    pages = {category_path(cat): render_hub_page(data, cat, groups)}
+    for sub in subs:
+        pages[subcategory_path(cat, sub)] = render_subcategory_page(
+            data, cat, sub, groups
+        )
+    return pages
 
 
 def render_table(header, rows):
@@ -330,6 +391,45 @@ def render_held_table(rows):
 def suppressed_markers(connectors):
     return [
         e["name"] for e in connectors if e.get("marker") and not marker_renderable(e)
+    ]
+
+
+def build_outputs(data, template):
+    """{path under the repo: bytes} for the README and every category page."""
+    by_cat = {c: [] for c in data["categories"]}
+    for e in data["connectors"]:
+        by_cat[e["category"]].append(e)
+
+    subs = {
+        "{{LAST_UPDATED}}": data["meta"]["last_updated"],
+        "{{CAPTURE_DATE}}": data["meta"]["capture_date"],
+        "{{LISTED}}": f"{len(data['connectors']):,}",
+        "{{HELD}}": f"{len(data['held']):,}",
+        "{{NCAT}}": str(len(data["categories"])),
+        "{{TOC}}": render_toc(),
+        "{{CATEGORY_INDEX}}": render_index(data, by_cat),
+        "{{HELD_TABLE}}": render_held_table(data["held"]),
+    }
+    out = template
+    for k, v in subs.items():
+        out = out.replace(k, v)
+    leftover = re.findall(r"\{\{[^}]*\}\}", out)
+    if leftover:
+        sys.exit(f"UNFILLED placeholders: {sorted(set(leftover))}")
+
+    outputs = {"README.md": out.encode("utf-8")}
+    for cat in data["categories"]:
+        for path, text in category_pages(data, cat, by_cat[cat]).items():
+            outputs[path] = text.encode("utf-8")
+    return outputs
+
+
+def oversize(outputs):
+    """The pages GitHub would stop rendering part-way, as 'path (bytes)'."""
+    return [
+        f"{path} ({len(b):,} bytes)"
+        for path, b in outputs.items()
+        if len(b) > RENDER_CEILING
     ]
 
 
@@ -578,10 +678,17 @@ def validate(data, template):
 
     walk(data, "data")
 
-    # anchors are per file now: the README's own headings, then each category page's
-    pages = {"README.md": ["Contents", INDEX_SECTION] + list(TAIL_SECTIONS)}
+    # anchors: only the README has more than one heading; a category page has its title
+    slugs = {}
+    for title in ["Contents", INDEX_SECTION] + list(TAIL_SECTIONS):
+        slugs.setdefault(slugify(title), []).append(title)
+    for slug, group in slugs.items():
+        if len(group) > 1:
+            add(f"headings collide on GitHub anchor #{slug} in README.md: {group}")
+    # paths: one per category, and one per subcategory of a category that has them
+    paths = {}
     for c in cats:
-        subs = set()
+        paths.setdefault(category_path(c), []).append(c)
         if subheadings_on and isinstance(data["connectors"], list):
             subs = {
                 e["subcategory"]
@@ -590,20 +697,11 @@ def validate(data, template):
                 and e.get("category") == c
                 and isinstance(e.get("subcategory"), str)
             }
-        pages[category_path(c)] = [c] + sorted(subs)
-    for page, titles in pages.items():
-        slugs = {}
-        for t in titles:
-            slugs.setdefault(slugify(t), []).append(t)
-        for slug, group in slugs.items():
-            if len(group) > 1:
-                add(f"headings collide on GitHub anchor #{slug} in {page}: {group}")
-    paths = {}
-    for c in cats:
-        paths.setdefault(category_path(c), []).append(c)
+            for s in sorted(subs):
+                paths.setdefault(subcategory_path(c, s), []).append(f"{c} / {s}")
     for path, group in paths.items():
         if len(group) > 1:
-            add(f"categories collide on page {path}: {group}")
+            add(f"pages collide on {path}: {group}")
 
     tokens = Counter(re.findall(r"\{\{[^}]*\}\}", template))
     for t in tokens:
@@ -671,6 +769,99 @@ def _fixture():
         ],
     }
     return data, " ".join(sorted(KNOWN_TOKENS))
+
+
+def _render_cases():
+    """What the generator writes for the fixture, as (why, got, want)."""
+    data, template = _fixture()
+    cat = sorted(SUBCATEGORIES)[0]
+    first, second = SUBCATEGORIES[cat][:2]
+    for name, sub in (
+        ("Zz Split One", first),
+        ("Zz Split Two", second),
+        ("Zz Split Three", second),
+    ):
+        data["connectors"].append(
+            {
+                "name": name,
+                "url": f"https://split.example/{len(data['connectors'])}",
+                "marker": None,
+                "category": cat,
+                "description": "Does one thing.",
+                "use_case": "Doing that one thing.",
+                "subcategory": sub,
+            }
+        )
+    if validate(data, template):
+        sys.exit("validator self-test failed -- the render fixture is refused")
+
+    def stem(title):
+        return title.lower().replace(" ", "-")
+
+    hub = f"categories/{stem(cat)}.md"
+    parts = [f"categories/{stem(cat)}.{stem(s)}.md" for s in (first, second)]
+
+    def written(d):
+        return {p: b.decode("utf-8") for p, b in build_outputs(d, template).items()}
+
+    def entries(text):
+        return [line for line in text.splitlines() if line.startswith("- [")]
+
+    def of_category(pages):
+        return sorted(p for p in pages if p.startswith(hub[:-2]))
+
+    pages = written(data)
+    mine = sorted(render_entry(e) for e in data["connectors"] if e["category"] == cat)
+    yield (
+        "a category with subcategories is written as a hub and one page per subcategory",
+        of_category(pages),
+        sorted([hub] + parts),
+    )
+    yield ("its hub holds no entries", entries(pages.get(hub, "")), [])
+    yield (
+        "each of its entries is on exactly one of those pages",
+        sorted(line for p in parts for line in entries(pages.get(p, ""))),
+        mine,
+    )
+    yield (
+        "the hub links each page and gives its count",
+        re.findall(r"\| \[([^\]]+)\]\(([^)]+)\) +\| ([0-9,]+) +\|", pages.get(hub, "")),
+        [
+            (first, parts[0].split("/")[1], "2"),
+            (second, parts[1].split("/")[1], "2"),
+        ],
+    )
+    links = {
+        (p, target)
+        for p, text in pages.items()
+        if p.startswith("categories/")
+        for target in re.findall(r"\]\(([^)#:]+\.md)\)", text)
+        if not target.startswith("../")
+    }
+    yield (
+        "every link from one category page to another names a page that is written",
+        sorted(t for p, t in links if f"categories/{t}" not in pages),
+        [],
+    )
+    yield (
+        "a category without subcategories stays one page",
+        sorted(p for p in pages if p.startswith("categories/zz-plain")),
+        ["categories/zz-plain.md"],
+    )
+    data["meta"]["render"]["subcategory_headings"] = False
+    flat = written(data)
+    yield (
+        "with the subcategory switch off the same category is one flat page",
+        (of_category(flat), sorted(entries(flat[hub]))),
+        ([hub], mine),
+    )
+    data, template = _fixture()
+    data["connectors"][-1]["description"] = "x" * RENDER_CEILING + "."
+    yield (
+        "a page over the render ceiling is reported",
+        [o.split(" ")[0] for o in oversize(build_outputs(data, template))],
+        ["categories/zz-plain.md"],
+    )
 
 
 def selftest():
@@ -909,6 +1100,12 @@ def selftest():
         print(f"  {'ok  ' if ok else 'FAIL'} {why}: must be {must}")
         if not ok:
             print(f"       want {want!r}\n       got  {errors}")
+    for why, got, want in _render_cases():
+        ok = got == want
+        failed += not ok
+        print(f"  {'ok  ' if ok else 'FAIL'} {why}")
+        if not ok:
+            print(f"       want {str(want)[:300]}\n       got  {str(got)[:300]}")
     if failed:
         sys.exit("validator self-test failed -- do not trust this check")
     print("  self-test passed")
@@ -927,43 +1124,16 @@ def main():
             print(f"ERROR: {e}", file=sys.stderr)
         sys.exit(f"{len(errors)} validation error(s) in data/connectors.json")
 
-    by_cat = {c: [] for c in data["categories"]}
-    for e in data["connectors"]:
-        by_cat[e["category"]].append(e)
-
-    subs = {
-        "{{LAST_UPDATED}}": data["meta"]["last_updated"],
-        "{{CAPTURE_DATE}}": data["meta"]["capture_date"],
-        "{{LISTED}}": f"{len(data['connectors']):,}",
-        "{{HELD}}": f"{len(data['held']):,}",
-        "{{NCAT}}": str(len(data["categories"])),
-        "{{TOC}}": render_toc(),
-        "{{CATEGORY_INDEX}}": render_index(data, by_cat),
-        "{{HELD_TABLE}}": render_held_table(data["held"]),
-    }
-    out = template
-    for k, v in subs.items():
-        out = out.replace(k, v)
-    leftover = re.findall(r"\{\{[^}]*\}\}", out)
-    if leftover:
-        sys.exit(f"UNFILLED placeholders: {sorted(set(leftover))}")
-
-    outputs = {README: out.encode("utf-8")}
-    for cat in data["categories"]:
-        outputs[REPO / category_path(cat)] = render_category_page(
-            data, cat, by_cat[cat]
-        ).encode("utf-8")
-
-    oversize = [
-        f"{p.relative_to(REPO)} ({len(b):,} bytes)"
-        for p, b in outputs.items()
-        if len(b) > RENDER_CEILING
-    ]
-    if oversize:
+    built = build_outputs(data, template)
+    too_big = oversize(built)
+    if too_big:
         sys.exit(
             f"OVER THE RENDER CEILING ({RENDER_CEILING:,} bytes; GitHub stops rendering at ~512 KB): "
-            + ", ".join(oversize)
+            + ", ".join(too_big)
+            + ". A category's own page over it needs subcategories (SUBCATEGORIES), which split it "
+            "into a page each; a subcategory's page over it needs that subcategory divided."
         )
+    outputs = {REPO / path: b for path, b in built.items()}
     stray = sorted(
         str(p.relative_to(REPO))
         for p in (CATEGORIES_DIR.glob("*.md") if CATEGORIES_DIR.exists() else [])
@@ -1004,6 +1174,15 @@ def main():
             sys.exit(
                 f"NOT GENERATED from the data (delete them, then re-run --check): {', '.join(stray)}"
             )
+    near = [
+        f"{path} {len(b) * 100 // RENDER_CEILING}%"
+        for path, b in sorted(built.items(), key=lambda kv: -len(kv[1]))
+        if len(b) > RENDER_CEILING * 0.8
+    ]
+    if near:
+        print(
+            f"note: {len(near)} page(s) past 80% of the render ceiling: {', '.join(near)}"
+        )
     sup = suppressed_markers(data["connectors"])
     if sup:
         print(

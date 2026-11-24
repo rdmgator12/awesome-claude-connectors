@@ -2,6 +2,22 @@
 
 Counting convention: **listed** = entries in category sections; **held** = rows in Held for Verification; **tracked** = listed + held. Sweep deltas are stated as the net change in listed entries; gross additions are called out separately where they differ (renames and variant merges make a naive name-diff overcount).
 
+## 2026-11-24 — the five largest categories split into a page per subcategory (12,344 listed and 136 held, unchanged)
+
+Not a catalog sweep and no change to the data. Every entry is where it was in `data/connectors.json` and in `site-data/`; only the markdown pages it is printed on have moved.
+
+**Why.** GitHub stops rendering a markdown file at about 512 KB, and the generator refuses any page over 500,000 bytes. Marketing and Sales had reached 466,665 bytes, about 83 entries short of that, while the directory feed has been growing by 1,300 to 1,500 servers a week, roughly one in ten of them landing on that page. The next ordinary sweep would not have built. Four more pages stood between 368 KB and 448 KB.
+
+**What changed.** A category that has subcategories is now written as a short index page plus one page for each subcategory. The index keeps the category's address (`categories/marketing-and-sales.md`), so the front page and any link to the category still arrive; it lists the subcategories with their counts. Each subcategory's entries are on a page of their own (`categories/marketing-and-sales.crm-and-pipeline-management.md`) that links back to the index and across to its siblings. This applies to Data and Analytics, Finance and Trading, Lifestyle and Local, Marketing and Sales and Productivity: 5 index pages and 38 subcategory pages in place of 5 long ones. The other 28 category pages are byte-identical.
+
+The split does not wait for a size. A category with subcategories is always written this way, because a page that split only past a threshold would move its entries from one address to another as it grew and back if it shrank.
+
+**What is lost.** A link to a heading inside one of the five old pages (`…/marketing-and-sales.md#crm-and-pipeline-management`) now opens the index at its top instead of that section.
+
+**Headroom.** The largest page is now Legal at 206,996 bytes; the largest subcategory page is Geospatial and Industry Data at about 127 KB. The generator prints a note once any page passes 80% of the limit, and when one goes over it says which split would fix it. Categories without subcategories are not helped by this: Legal, Development Tools and Travel are each near 200 KB and will need subcategories of their own as the list grows.
+
+**Checked.** The 12,344 entry lines are the same lines before and after, sorted and compared. `site-data/` did not change. The generator's self-test gained eight rendering cases, written before the change and seen to fail against the old generator.
+
 ## 2026-11-24 — validator rules, a self-test and an inert feed report (12,344 listed and 136 held, unchanged)
 
 Not a catalog sweep and no change to the data: every generated file is byte-identical.
