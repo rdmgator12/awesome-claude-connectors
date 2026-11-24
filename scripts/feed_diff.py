@@ -746,14 +746,15 @@ def selftest():
     def hostile_report():
         """A report with hostile text in every feed, sitemap, list and roster field: the
         hostile words left outside its code spans, and the table rows with a wrong cell count.
-        """
+        The date is hostile inside its first ten characters, and the matched pair carries
+        hostile names on both sides, so sections 5 to 7 print them too."""
         h = "x https://evil.example www.evil.example a@evil.example |`<b>**bold** @octocat #1"
         servers = [
             {
                 "name": n,
                 "verified_tier": h,
                 "type": h,
-                "added_at": h,
+                "added_at": "octocat #1",
                 "author": {"url": h},
                 "one_liner": h,
             }
@@ -761,10 +762,10 @@ def selftest():
         ]
         servers.append(
             {
-                "name": "Zq MCP",
+                "name": "Zq " + h + " MCP",
                 "verified_tier": "community",
                 "type": h,
-                "added_at": "2026-01-01",
+                "added_at": "octocat #1",
                 "author": {"url": "https://evil.example/" + h},
                 "one_liner": h,
             }
@@ -773,7 +774,7 @@ def selftest():
         data = {
             "connectors": [
                 {
-                    "name": "Zq",
+                    "name": "Zq " + h,
                     "url": "https://zq.example/" + h,
                     "category": h,
                     "marker": h,
@@ -797,6 +798,18 @@ def selftest():
         tables = len(re.findall(r"^\| ---", report, re.M))
         return leaked, bad_rows, tables
 
+    def slug_line():
+        """Section 8 with three unmatched slugs at two rows per table: its line, and the note."""
+        report = build_report(
+            [{"name": "Aa"}],
+            {},
+            {"qq-one", "qq-two", "qq-three"},
+            {"connectors": [{"name": "Bb", "url": "https://bb.example"}], "held": []},
+            2,
+        )
+        after = report.split("## 8.", 1)[1].splitlines()
+        return after[2], "1 more slugs" in report
+
     def raises(call):
         try:
             call()
@@ -809,6 +822,16 @@ def selftest():
             "a report built from hostile text keeps all of it inside code spans, in whole rows, in all 8 tables",
             hostile_report(),
             ([], 0, 8),
+        ),
+        (
+            "the slug line follows the row cap and says what it left out",
+            slug_line(),
+            ("`qq-one` `qq-three`", True),
+        ),
+        (
+            "a value given no limit is still cut",
+            len(md_cell("x" * 500)),
+            102,
         ),
         (
             "a report that fits only at one row per table is cut down to it",
