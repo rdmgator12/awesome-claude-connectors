@@ -1,7 +1,7 @@
 {
   "meta": {
     "last_updated": "November 23, 2026",
-    "capture_date": "2026-11-22",
+    "capture_date": "2026-11-23",
     "render": {
       "category_counts": true,
       "subcategory_headings": true
@@ -1294,7 +1294,7 @@
     {
       "name": "CometChat",
       "url": "https://www.cometchat.com",
-      "marker": null,
+      "marker": "C",
       "category": "Communication",
       "description": "Searches CometChat documentation, fetches reference pages and pulls implementation bundles for React, Flutter, iOS, Android, React Native, the JavaScript SDK, the no-code widget, moderation, multi-tenant SaaS chat and presence, read-only with no account required.",
       "use_case": "Pulling the React implementation bundle to add chat to an app, looking up how CometChat moderation is set up."
@@ -1918,7 +1918,7 @@
     {
       "name": "Carbon Arc",
       "url": "https://www.carbonarc.co",
-      "marker": "C",
+      "marker": null,
       "category": "Data and Analytics",
       "description": "Turns natural-language questions into structured data tables from Carbon Arc's proprietary data, searches companies, locations and metrics, analyzes trends across time periods and regions and explores relationships between entities.",
       "use_case": "Pulling a company's credit card spend for a year, comparing a metric across regions over time, checking which data exists for a company.",
@@ -2872,7 +2872,7 @@
     {
       "name": "Speeda",
       "url": "https://www.ub-speeda.com",
-      "marker": "C",
+      "marker": null,
       "category": "Data and Analytics",
       "description": "Japanese business intelligence covering standardized company financials, industry reports, and expert views.",
       "use_case": "Pulling a Japanese company's financials before a deal, gathering industry reports for a market-entry study, sourcing expert commentary.",
@@ -3016,7 +3016,7 @@
     {
       "name": "Triple Whale",
       "url": "https://triplewhale.com",
-      "marker": "C",
+      "marker": null,
       "category": "Data and Analytics",
       "description": "Answers questions on Triple Whale store data across channels by pulling summary KPIs, explaining metric changes, running pixel attribution and SQL queries on store tables, and searching the knowledge base, scoped to the store's timezone and currency.",
       "use_case": "Asking why a KPI changed last week, comparing performance across channels, checking pixel attribution for a date range.",
@@ -3845,7 +3845,7 @@
     {
       "name": "Caffeine",
       "url": "https://caffeine.ai",
-      "marker": "C",
+      "marker": null,
       "category": "Development Tools",
       "description": "Describe an app and Caffeine builds, deploys, and hosts it — no servers, no setup.",
       "use_case": "Natural-language app building on the Internet Computer, zero-infrastructure prototyping and hosting."
@@ -5919,7 +5919,7 @@
     {
       "name": "Monk",
       "url": "https://monk.com",
-      "marker": "C",
+      "marker": null,
       "category": "Finance and Trading",
       "description": "Accounts receivable automation platform that manages invoicing, collections, and cash application.",
       "use_case": "Check the status of outstanding invoices and recent payment matches for a customer.",
@@ -7037,7 +7037,7 @@
     {
       "name": "Boltz API",
       "url": "https://boltz.bio",
-      "marker": null,
+      "marker": "C",
       "category": "Healthcare and Life Sciences",
       "description": "Predicts molecular structures and binding interactions and screens small-molecule and protein libraries against a target through the Boltz API, estimating each job's cost before it runs and downloading results when it completes.",
       "use_case": "Predicting how a small molecule binds a target protein, screening a small-molecule library against a target, checking a job's cost before starting it."
@@ -7317,7 +7317,7 @@
     {
       "name": "Rhizome AI",
       "url": "https://rhizomeai.com",
-      "marker": "C",
+      "marker": null,
       "category": "Healthcare and Life Sciences",
       "description": "Researches FDA, EMA, MHRA and PMDA documents through a regulatory agent for life sciences, covering precedents and FDA expectations on clinical endpoints, trial design and labeling with each fact cited to a health authority page, and reviews briefing booklets and writes pre-IND meeting packages.",
       "use_case": "Researching FDA expectations for a trial's clinical endpoints, finding precedents for a labeling question, drafting a pre-IND meeting package."
@@ -8991,7 +8991,7 @@
     {
       "name": "Cora",
       "url": "https://www.cora.ai",
-      "marker": "C",
+      "marker": null,
       "category": "Marketing and Sales",
       "description": "Query customer data, prep for every meeting, and run agents that do the work.",
       "use_case": "Pulling everything known about a client before a renewal call, checking what's changed with an account since the last meeting, setting an agent to draft follow-up emails automatically.",
@@ -10070,7 +10070,7 @@
     {
       "name": "Reprise",
       "url": "https://www.reprise.com",
-      "marker": "C",
+      "marker": null,
       "category": "Marketing and Sales",
       "description": "Creates Reprise interactive product tours and demos by capturing screens, editing and hiding page elements, injecting demo data through datasets and sources, and working with cloned app routes and requests, for live calls or external sharing with an AI avatar tour guide.",
       "use_case": "Putting together a guided product tour for a new feature, loading demo data into a demo before a live sales call.",
@@ -10567,7 +10567,7 @@
     {
       "name": "Yardi Deal Manager",
       "url": "https://www.yardi.com/product/deal-manager",
-      "marker": "C",
+      "marker": null,
       "category": "Marketing and Sales",
       "description": "Surface commercial leasing pipeline insights from Yardi Deal Manager.",
       "use_case": "Checking which leases in the pipeline are closing this quarter, reviewing which deals have stalled.",
@@ -11077,7 +11077,7 @@
     {
       "name": "Geekbot",
       "url": "https://geekbot.com",
-      "marker": "C",
+      "marker": null,
       "category": "Productivity",
       "description": "Creates standups and polls for Slack and Microsoft Teams, posts, edits and deletes standup reports, reads reports, poll results and participation, and manages out-of-office entries, on a Geekbot paid plan.",
       "use_case": "Kicking off a Monday standup for the team, running a quick poll to pick a meeting time.",
@@ -11500,7 +11500,7 @@
     {
       "name": "TickTick",
       "url": "https://ticktick.com",
-      "marker": null,
+      "marker": "C",
       "category": "Productivity",
       "description": "Search, create, and manage your tasks and habits in TickTick.",
       "use_case": "Task capture from conversation, habit tracking, daily planning.",
@@ -12495,7 +12495,7 @@
     {
       "name": "Have I Been Pwned",
       "url": "https://haveibeenpwned.com",
-      "marker": null,
+      "marker": "C",
       "category": "Security",
       "description": "Searches email addresses and verified domains against Have I Been Pwned breach data, returning breach details, exposed data types, paste and stealer log exposure and Pwned Passwords range results, and runs domain verification by DNS token or email.",
       "use_case": "Checking whether an email address appears in known breaches, reviewing breach and stealer log exposure across a verified domain."
@@ -13143,7 +13143,7 @@
     {
       "name": "Tixel",
       "url": "https://tixel.com",
-      "marker": null,
+      "marker": "C",
       "category": "Ticketing and Events",
       "description": "Searches Tixel for live events such as concerts, festivals, sports, theatre and comedy and shows the ticket listings for an event with their details, where resale prices are capped near face value.",
       "use_case": "Finding resale tickets for a sold-out concert, comparing listings for a festival before buying on Tixel."
@@ -13551,7 +13551,7 @@
     {
       "name": "Veltra Activities",
       "url": "https://www.veltra.com",
-      "marker": null,
+      "marker": "C",
       "category": "Travel",
       "description": "Searches VELTRA tours, food experiences and cultural activities in Japan, Hawaii, Southeast Asia and other destinations, returning prices, ratings, durations and booking links on Veltra.com, read-only.",
       "use_case": "Finding a food tour in Tokyo, comparing Mt. Fuji day trip prices and ratings, getting a booking link for a Honolulu luau dinner."
@@ -13748,7 +13748,7 @@
     {
       "name": "Dragonboat",
       "url": "https://dragonboat.io",
-      "marker": "C",
+      "marker": null,
       "category": "Project Management",
       "description": "Searches, creates, and updates Dragonboat operating objects across strategy, intake, investment, roadmap, and work items, and runs scenario plans.",
       "use_case": "Turning customer interview notes into structured insights, checking which roadmap items carry a strategic goal, drafting a quarterly investment scenario."
@@ -15280,7 +15280,7 @@
     {
       "name": "Buffer",
       "url": "https://buffer.com",
-      "marker": "C",
+      "marker": null,
       "category": "Social Media and Influencer Marketing",
       "description": "Creates and schedules social posts, saves content ideas, and reports performance across the channels connected to a Buffer account.",
       "use_case": "Queuing a week of posts across three channels, parking a half-formed idea for later, checking which post drew the most engagement last month."
@@ -16950,7 +16950,7 @@
     {
       "name": "UserTesting",
       "url": "https://usertesting.com",
-      "marker": "C",
+      "marker": null,
       "category": "Research and Academic",
       "description": "Generates a test plan, configures and launches UserTesting studies, and retrieves customer insights and results from completed tests.",
       "use_case": "Drafting a task list for an onboarding study, launching it to a target audience, summarizing what testers said about a checkout flow."
@@ -17017,7 +17017,7 @@
     {
       "name": "Gong",
       "url": "https://www.gong.io",
-      "marker": "C",
+      "marker": null,
       "category": "Marketing and Sales",
       "description": "Surfaces revenue insights from Gong AI OS data — risks, objections, next steps and stakeholder context — and generates briefs from customer conversations.",
       "use_case": "Pulling the objections raised across a deal's calls, briefing a manager before a renewal conversation, listing the next steps a rep committed to.",
@@ -17152,7 +17152,7 @@
     {
       "name": "Claap",
       "url": "https://www.claap.io",
-      "marker": "C",
+      "marker": null,
       "category": "Marketing and Sales",
       "description": "Searches Claap call recordings, summaries, and synced emails, and queries deals, companies, and contacts with their CRM fields and saved views.",
       "use_case": "Pulling next steps from yesterday's demo, finding every call where pricing came up as an objection, reviewing a MEDDIC view before a forecast meeting.",
@@ -20381,7 +20381,7 @@
     {
       "name": "SuperMe",
       "url": "https://www.superme.ai",
-      "marker": "C",
+      "marker": null,
       "category": "Research and Academic",
       "description": "Finds professionals whose profiles are built from their published work and returns their perspectives, with search across profiles, workgroups, and uploaded files.",
       "use_case": "Finding people who have shipped a similar product, comparing two experts' takes on a pricing question, reading the work behind a profile before reaching out."
@@ -23214,7 +23214,7 @@
     {
       "name": "LeanData MCP",
       "url": "https://www.leandata.com",
-      "marker": "C",
+      "marker": null,
       "category": "Calendar and Scheduling",
       "description": "Retrieves booking links, reschedules meetings, checks team availability, routes and books meetings for reps, and manages scheduling pools and metrics.",
       "use_case": "Getting a booking link for an intro call, checking SDR availability for Friday, adding a rep to a routing pool."
@@ -23745,7 +23745,7 @@
     {
       "name": "OnePay",
       "url": "https://www.onepay.com",
-      "marker": "C",
+      "marker": null,
       "category": "Finance and Trading",
       "description": "Reads balances and transactions across banking, credit card, Pay Later, investment, and crypto accounts.",
       "use_case": "Reviewing last month's spending by category, checking a credit card balance, viewing investment and crypto holdings next to cash.",
@@ -24450,7 +24450,7 @@
     {
       "name": "Substrate Claim Status",
       "url": "https://www.substrateai.com",
-      "marker": "C",
+      "marker": null,
       "category": "Healthcare and Life Sciences",
       "description": "Checks healthcare claim status by routing each inquiry to the right payer and returning normalized results for revenue-cycle teams.",
       "use_case": "Following up on aging claims, investigating outstanding A/R, cutting manual payer follow-up."
@@ -25121,7 +25121,7 @@
     {
       "name": "Nansen",
       "url": "https://www.nansen.ai",
-      "marker": "C",
+      "marker": null,
       "category": "Finance and Trading",
       "description": "Read-only onchain analytics for tokens, wallets and Smart Money flows across 30+ chains.",
       "use_case": "Seeing what Smart Money wallets bought this week, profiling a wallet before a trade, checking how concentrated a token's holders are.",
@@ -25138,7 +25138,7 @@
     {
       "name": "mabl",
       "url": "https://www.mabl.com",
-      "marker": "C",
+      "marker": null,
       "category": "Development Tools",
       "description": "Authors, runs and maintains automated end-to-end test suites and analyzes failures for you and your coding agents.",
       "use_case": "Writing an end-to-end test for a new checkout flow, triaging why last night's run failed, updating tests after a UI change."
@@ -28259,7 +28259,7 @@
     {
       "name": "OpenAlex",
       "url": "https://openalex.org",
-      "marker": "C",
+      "marker": null,
       "category": "Research and Academic",
       "description": "Searches more than 250 million scholarly works, authors and institutions with keyword or semantic queries filtered by year, type or open-access status and ranked by citation count, traces citations, checks bibliographies for fabricated references, and profiles research output by institution, funder or topic.",
       "use_case": "Finding the most-cited open-access reviews on a topic since 2020, verifying every reference in a draft bibliography, profiling a university's output in climate research."
@@ -31833,7 +31833,7 @@
     {
       "name": "Strand AI",
       "url": "https://strandai.com",
-      "marker": "C",
+      "marker": null,
       "category": "Healthcare and Life Sciences",
       "description": "Predicts spatially resolved protein-marker channels from de-identified H&E whole-slide images for research use, with sample upload, marker browsing, credit estimates, job submission and cancellation, cell segmentation, and OME-Zarr or OME-TIFF downloads.",
       "use_case": "Estimating the credit cost of a virtual multiplex immunofluorescence run on an archival tumor slide, requesting cell segmentation on a finished sample, downloading results as OME-TIFF."
@@ -31930,7 +31930,7 @@
     {
       "name": "Chamelio",
       "url": "https://chamelio.ai",
-      "marker": "C",
+      "marker": null,
       "category": "Legal",
       "description": "Searches contract repositories and extracted fields, tracks legal request tasks, starts workflows such as NDA requests after confirmation, retrieves signed-document links, and delegates multi-contract questions to the Chamelio legal agent.",
       "use_case": "Summarizing key terms of an MSA with a supplier, checking which NDA requests still await legal review, starting a new NDA request for a prospective partner."
@@ -32291,7 +32291,7 @@
     {
       "name": "Sandstone",
       "url": "https://sandstone.com",
-      "marker": "C",
+      "marker": null,
       "category": "Legal",
       "description": "Searches legal requests, tasks, documents, companies, people and teams in a legal department workspace, pulls the history behind a request, and creates or updates requests, tasks and comments when permitted.",
       "use_case": "Finding past agreements negotiated with a vendor before a renewal, reviewing the history behind a marketing team's contract request, creating a task to review a new DPA."
@@ -35023,7 +35023,7 @@
     {
       "name": "LogMeIn Resolve",
       "url": "https://www.logmein.com/products/resolve",
-      "marker": "C",
+      "marker": null,
       "category": "Cloud and Infrastructure",
       "description": "Reviews device health, alerts and hardware and software inventory across managed tenants, acknowledges alerts, runs remote execution jobs, manages helpdesk tickets and knowledge base articles, and starts remote support sessions.",
       "use_case": "Bulk-acknowledging a noisy disk-space alert across a client's laptops, opening a high-priority ticket for a failed backup, sending an SMS invite to start a remote support session."
@@ -35787,7 +35787,7 @@
     {
       "name": "Plus AI MCP",
       "url": "https://plusai.com",
-      "marker": "C",
+      "marker": null,
       "category": "Documents and Files",
       "description": "Creates native PowerPoint and Google Slides presentations from existing templates and slides, including agent-driven deck building with session tracking.",
       "use_case": "Building a quarterly business review deck on a company template, turning a project brief into a Google Slides pitch."
@@ -40677,7 +40677,7 @@
     {
       "name": "Perplexity Computer",
       "url": "https://www.perplexity.ai",
-      "marker": "C",
+      "marker": null,
       "category": "Productivity",
       "description": "Imports a dashboard exported from Claude into a new Perplexity Computer thread, then reads the thread's status and messages, lists the files it produced and creates download links for them.",
       "use_case": "Handing a quarterly sales dashboard off to Perplexity Computer for further work, checking whether the rebuilt thread has finished, downloading the files it generated.",
@@ -45157,7 +45157,7 @@
     {
       "name": "WeInc",
       "url": "https://we.inc",
-      "marker": "C",
+      "marker": null,
       "category": "CMS and Web Building",
       "description": "Starts AI-built website projects, browses styles, lists websites and their details, edits sites by chat and sends bigger design changes to the WeInc editor to confirm, publishes sites after confirmation, and reads contact-form enquiries.",
       "use_case": "Starting a website for a bakery from a description, requesting a new menu page on an existing site."
@@ -48530,7 +48530,7 @@
     {
       "name": "Adaption",
       "url": "https://adaptionlabs.ai",
-      "marker": "C",
+      "marker": null,
       "category": "AI and ML",
       "description": "Imports datasets from Hugging Face, Kaggle or Google Sheets, adapts, augments, translates, localizes, combines and generates training data, recommends hyperparameters, and launches and monitors fine-tuning runs on Adaption.",
       "use_case": "Importing a Kaggle dataset and augmenting it with synthetic rows, generating a synthetic dataset from a description, checking progress on a fine-tuning run."
@@ -53797,7 +53797,7 @@
     {
       "name": "Squarespace",
       "url": "https://www.squarespace.com",
-      "marker": "C",
+      "marker": null,
       "category": "Ecommerce and Marketplace Selling",
       "description": "Checks domain availability and pricing, generates business name and domain ideas, reads store orders, creates and updates physical, service and gift card products, and creates, updates and searches customer contacts for Squarespace websites.",
       "use_case": "Checking whether a .com is free for a new bakery name, adding a holiday gift card product, looking up last week's store orders."
@@ -54153,7 +54153,7 @@
     {
       "name": "Framer",
       "url": "https://www.framer.com",
-      "marker": "C",
+      "marker": null,
       "category": "CMS and Web Building",
       "description": "Creates and edits website projects, adding pages with existing styles and components, adjusting layouts, updating copy, managing CMS collections and publishing changes.",
       "use_case": "Adding a pricing page that matches a site's existing styles, rewriting the homepage hero copy, publishing a new blog collection entry."
@@ -54447,7 +54447,7 @@
     {
       "name": "Quizlet",
       "url": "https://quizlet.com",
-      "marker": "C",
+      "marker": null,
       "category": "Education",
       "description": "Generates flashcard sets from a prompt, file or notes for review in the conversation, with the option to open the full set in Quizlet for other study modes.",
       "use_case": "Turning lecture notes on the Krebs cycle into flashcards, making a Spanish vocabulary set before a quiz, building a review set for an in-class activity."
@@ -54793,7 +54793,7 @@
     {
       "name": "Zip",
       "url": "https://zip.com",
-      "marker": "C",
+      "marker": null,
       "category": "Finance and Trading",
       "description": "Looks up purchase requests with approval status and audit trails, pending approvals, vendors, agreements, purchase orders, invoices, credit memos and catalog items, and browses departments, locations, GL accounts, categories, workflow configurations and intake forms.",
       "use_case": "Checking who still needs to approve a software purchase request, pulling every open purchase order for a vendor, seeing how a new laptop request gets routed.",
@@ -59008,7 +59008,7 @@
     {
       "name": "Moneytree",
       "url": "https://getmoneytree.com",
-      "marker": "C",
+      "marker": null,
       "category": "Finance and Trading",
       "description": "Reads linked financial accounts, institutions, balances, transactions, spending categories and investment holdings, lists unusual transactions and utilities insights, and helps spot subscriptions that grow more expensive over time.",
       "use_case": "Breaking down last month's spending by category, spotting a subscription whose price crept up, reviewing how an investment portfolio is allocated.",
@@ -63429,7 +63429,7 @@
     {
       "name": "Lacuna Research",
       "url": "https://lacuna.tiptreesystems.com",
-      "marker": "C",
+      "marker": null,
       "category": "Research and Academic",
       "description": "Searches a knowledge graph of 2.3 million ML and AI papers, authors, research directions, venues, institutions and research proposals, returning paper summaries, figures, key concepts, related papers and versions, author profiles and similar researchers, and linked code, datasets and models on GitHub, Hugging Face and Zenodo.",
       "use_case": "Mapping the research directions around diffusion model distillation, finding researchers similar to a given author, locating the code repository for a paper."
@@ -65358,7 +65358,7 @@
     {
       "name": "LawY",
       "url": "https://www.lawy.ai",
-      "marker": "C",
+      "marker": null,
       "category": "Legal",
       "description": "Lists legal matters, folders and documents, reads document text and originals, searches matter documents by keyword and meaning, uploads and updates documents, creates folders and moves documents between them.",
       "use_case": "Searching a large litigation matter for every mention of an indemnity cap, uploading a revised draft, filing it in the correspondence folder."
@@ -65442,7 +65442,7 @@
     {
       "name": "Coefficient SuperAgent",
       "url": "https://coefficient.io",
-      "marker": "C",
+      "marker": null,
       "category": "Data and Analytics",
       "description": "Answers plain-language questions about company data such as pipeline, revenue and customers from connected systems, shows the source queries, filters and calculations behind each answer, renders charts, data tables and dashboards, runs saved Playbooks and sends answers or charts to Slack or email after confirmation.",
       "use_case": "Asking for new pipeline by region last quarter and inspecting the rows behind it, running a weekly revenue Playbook, sending the resulting chart to a Slack channel.",
@@ -65800,7 +65800,7 @@
     {
       "name": "Sisense MCP",
       "url": "https://sisense.com",
-      "marker": "C",
+      "marker": null,
       "category": "Data and Analytics",
       "description": "Lists accessible Sisense data sources, inspects model tables, fields and joins, turns natural-language business questions into queries that return numbers, and renders results as interactive charts, without changing dashboards, models or data.",
       "use_case": "Asking for quarterly revenue by region from a sales model, switching the chart to bars, breaking churn down by plan.",
