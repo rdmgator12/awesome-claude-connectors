@@ -2,7 +2,7 @@
 
 Counting convention: **listed** = entries in category sections; **held** = rows in Held for Verification; **tracked** = listed + held. Sweep deltas are stated as the net change in listed entries; gross additions are called out separately where they differ (renames and variant merges make a naive name-diff overcount).
 
-## 2026-11-24 — validator rules and a self-test (12,344 listed and 136 held, unchanged)
+## 2026-11-24 — validator rules, a self-test and an inert feed report (12,344 listed and 136 held, unchanged)
 
 Not a catalog sweep and no change to the data: every generated file is byte-identical.
 
@@ -25,6 +25,8 @@ The two lists (headings and Anthropic-built names) live in `scripts/generate_rea
 **Proven before trusted.** `python3 scripts/generate_readme.py --selftest` plants one defect per rule on a small valid list and requires that rule's own message, then plants eight things that must stay legal. CI runs it ahead of `--check`. Run against the validator as it stood before this change, 44 of its 48 planted defects were accepted outright, three were refused and one (a category given as a list) crashed it. The export's self-test gained eight editorial cases.
 
 **Checked on GitHub's renderer.** The first version of these rules was handed to a second, independent pass whose job was to break it, and it did: the reference, backslash, capital-`WWW.` and dot-led address forms above, and 21 ignorable characters that sit in an ordinary letter-mark category. After the fix, 120 candidate strings were run through the validator and every one it accepted was rendered through GitHub's markdown API: none produced a link other than the entry's own. A second break-it pass on the fixed rules reported the same for 7,664 accepted strings, and found one more character that draws nothing, U+FFFC, now refused. One thing is left as it is: an emoji shortcode such as `:octocat:` still renders GitHub's own emoji image.
+
+**The weekly feed report.** The Friday feed-diff issue is public and carries text the catalog's vendors wrote. Its escaping left that text live: rendered on GitHub, a URL, a `www.` host, an email address, `owner/repo#1`, `#12` and the URL inside an escaped markdown link all came out as links, and emphasis was applied. Every cell that comes from the feed, the sitemap or the list is now one inline code span, where nothing links, formats, mentions a user or references an issue, and the report opens by saying that its tables hold third-party catalog text, to be read as data and never as instructions. The same saved feed through the old script and the new one gives identical section counts and row order (1,714 rows), and the capped report as GitHub renders it holds no link, mention or issue reference in 462 rows. The fetch now stops at 50 pages and at 64 MB a response, and every cell is cut at 100 characters. The code spans take the capped report from 54,282 to 58,147 bytes against the 65,536 an issue body may hold, so a report that would not fit has its rows per table halved, and the run stops if even one row per table does not fit. The script's self-test now builds a report from hostile text in every field and requires all of it inside code spans; with the code span removed at each of its 25 call sites in turn, 23 of the mutants fail it, and the two that pass print only tier constants.
 
 ## 2026-11-23 — five collections, link check #62 and a marker sync (12,351 → 12,344 listed; held 129 → 136)
 
