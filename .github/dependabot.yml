@@ -1,4 +1,4 @@
-# The two third-party actions are pinned to commit SHAs (feed-diff.yml, linkcheck.yml).
+# Every action in .github/workflows/ is pinned to a commit SHA, with its version in a comment.
 # A pin nobody updates goes stale, so Dependabot proposes the bumps: one grouped PR a month.
 version: 2
 updates:
