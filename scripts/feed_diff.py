@@ -15,7 +15,8 @@ Usage:
 This is a LOOK, not an UPDATE. It reports what changed upstream; a person (or a
 sweep session) applies the changes under CONTRIBUTING.md: adds need a verified
 vendor URL, a description, a use case and a category; removals need the
-two-surface test. Stdlib only. Exit 0 on a completed report, 2 on a fetch error.
+two-surface test. Stdlib only. Exit 0 on a completed report, 2 on a fetch error or a
+report too large to file as an issue.
 
 The two surfaces:
   feed     https://api.anthropic.com/api/directory/servers  (in-app catalog, all tiers)
@@ -304,10 +305,11 @@ def on_web(name, slugs, slug_keys, slug_loose):
 # ---------------------------------------------------------------- report
 
 
-def md_cell(text, limit=None):
+def md_cell(text, limit=100):
     # Feed-supplied text lands in a public issue, so every cell is one inline code span: inside
     # it nothing autolinks, formats, mentions a user or references an issue (checked on GitHub's
     # renderer, 2026-11-24). A backtick would close the span and a bare pipe would end the cell.
+    # No cell is unbounded: a value is cut at `limit` characters.
     text = clean(text).replace("`", "'")
     if limit and len(text) > limit:
         text = text[: limit - 1] + "…"
@@ -515,7 +517,10 @@ def build_report(servers, meta, slugs, data, cap, roster_names=None, today=None)
         f"## 8. Sitemap slugs matching no list name — {len(orphan_slugs)} (web-only candidate adds or naming drift)",
         "",
     ]
-    lines += [" ".join(md_cell(s) for s in orphan_slugs) or "_none_", ""]
+    shown = orphan_slugs if cap == 0 else orphan_slugs[:cap]
+    lines += [" ".join(md_cell(s) for s in shown) or "_none_", ""]
+    if cap and len(orphan_slugs) > cap:
+        lines += [f"_… {len(orphan_slugs) - cap} more slugs in the full report._", ""]
 
     # 9. Coverage check against a paste export
     if roster_names is not None:
@@ -546,6 +551,12 @@ def fit_issue(build, rows):
     while rows > 1 and len(report.encode("utf-8")) > ISSUE_BODY_LIMIT:
         rows //= 2
         report = build(rows)
+    size = len(report.encode("utf-8"))
+    if rows and size > ISSUE_BODY_LIMIT:
+        raise ValueError(
+            f"the report is {size:,} bytes at one row per table, over the "
+            f"{ISSUE_BODY_LIMIT:,} an issue body may hold"
+        )
     return report
 
 
@@ -732,7 +743,83 @@ def selftest():
             globals()["MAX_RESPONSE_BYTES"] = cap
         return "no error"
 
+    def hostile_report():
+        """A report with hostile text in every feed, sitemap, list and roster field: the
+        hostile words left outside its code spans, and the table rows with a wrong cell count.
+        """
+        h = "x https://evil.example www.evil.example a@evil.example |`<b>**bold** @octocat #1"
+        servers = [
+            {
+                "name": n,
+                "verified_tier": h,
+                "type": h,
+                "added_at": h,
+                "author": {"url": h},
+                "one_liner": h,
+            }
+            for n in (h, h + " two")
+        ]
+        servers.append(
+            {
+                "name": "Zq MCP",
+                "verified_tier": "community",
+                "type": h,
+                "added_at": "2026-01-01",
+                "author": {"url": "https://evil.example/" + h},
+                "one_liner": h,
+            }
+        )
+        meta = {"total": h, "next_cursor": h, "stale_feeds": [h], "refetched_after": h}
+        data = {
+            "connectors": [
+                {
+                    "name": "Zq",
+                    "url": "https://zq.example/" + h,
+                    "category": h,
+                    "marker": h,
+                },
+                {"name": h + " listed", "url": h, "category": h, "marker": None},
+                {"name": "Zw Web", "url": h, "category": h, "marker": None},
+            ],
+            "held": [{"name": h}],
+        }
+        slugs = {"evil.example|`slug", "zw-web"}
+        report = build_report(
+            servers, meta, slugs, data, 100, [h + " roster"], "2026-01-01"
+        )
+        outside = re.sub(r"`[^`\n]*`", "", report)
+        leaked = [w for w in ("evil.example", "octocat", "bold") if w in outside]
+        cells = lambda line: len(re.findall(r"(?<!\\)\|", line))
+        bad_rows, width = 0, None
+        for line in report.splitlines():
+            width = (width or cells(line)) if line.startswith("| ") else None
+            bad_rows += bool(width) and cells(line) != width
+        tables = len(re.findall(r"^\| ---", report, re.M))
+        return leaked, bad_rows, tables
+
+    def raises(call):
+        try:
+            call()
+        except ValueError:
+            return "ValueError"
+        return "no error"
+
     cases += [
+        (
+            "a report built from hostile text keeps all of it inside code spans, in whole rows, in all 8 tables",
+            hostile_report(),
+            ([], 0, 8),
+        ),
+        (
+            "a report that fits only at one row per table is cut down to it",
+            len(fit_issue(lambda rows: "x" * (rows * 40_000), 8)),
+            40_000,
+        ),
+        (
+            "a report too large even at one row per table stops the run",
+            raises(lambda: fit_issue(lambda rows: "x" * 70_000, 100)),
+            "ValueError",
+        ),
         ("an empty value stays an empty cell", (md_cell(""), md_cell(None)), ("", "")),
         (
             "a long value is cut inside its span",
@@ -833,10 +920,14 @@ def main():
             if clean(line)
         ]
 
-    capped = fit_issue(
-        lambda rows: build_report(servers, meta, slugs, data, rows, roster, today),
-        args.max_rows,
-    )
+    try:
+        capped = fit_issue(
+            lambda rows: build_report(servers, meta, slugs, data, rows, roster, today),
+            args.max_rows,
+        )
+    except ValueError as exc:
+        print(f"feed_diff: {exc}", file=sys.stderr)
+        return 2
     if args.out:
         Path(args.out).write_text(capped, encoding="utf-8")
     if args.full_out:
