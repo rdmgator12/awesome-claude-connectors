@@ -6,11 +6,11 @@ This list tracks every connector in Anthropic's official Connectors Directory. C
 
 ## How This Repo Works (Data-First)
 
-`data/connectors.json` is the source of truth. `README.md` (the front page and category index) and `categories/<category>.md` (one page per category, holding the entries) are generated from it -- don't hand-edit either; CI rejects any generated file that doesn't match the data (`generated-in-sync` job). The entries moved to per-category pages in September 2026 because GitHub stops rendering a markdown file at about 512 KB; the generator now fails any page over 500,000 bytes.
+`data/connectors.json` is the source of truth. `README.md` (the front page and category index) and the pages under `categories/` are generated from it -- don't hand-edit any of them; CI rejects any generated file that doesn't match the data (`generated-in-sync` job). A category has one page, `categories/<category>.md`, holding its entries. A category with subcategories is split: that page becomes a short index of its subcategories, and each subcategory's entries go on a page of their own, `categories/<category>.<subcategory>.md`. The entries moved to per-category pages in September 2026 because GitHub stops rendering a markdown file at about 512 KB; the generator fails any page over 500,000 bytes and says which split would fix it.
 
 To add or change an entry:
 
-1. Edit `data/connectors.json` (add the entry object anywhere -- sorting is automatic). Five categories are divided into subcategories (Data and Analytics, Finance and Trading, Lifestyle and Local, Marketing and Sales, Productivity): an entry in one of them also needs a `subcategory` set to one of the headings on that category's page. The generator rejects a category that is only partly subcategorized, and a heading that is not in `SUBCATEGORIES` in `scripts/generate_readme.py`: a new heading is a maintainer change, made apart from the data.
+1. Edit `data/connectors.json` (add the entry object anywhere -- sorting is automatic). Five categories are divided into subcategories (Data and Analytics, Finance and Trading, Lifestyle and Local, Marketing and Sales, Productivity): an entry in one of them also needs a `subcategory` set to one of the subcategories listed on that category's page. The generator rejects a category that is only partly subcategorized, and a heading that is not in `SUBCATEGORIES` in `scripts/generate_readme.py`: a new heading is a maintainer change, made apart from the data.
 2. Run `python3 scripts/generate_readme.py` and `python3 scripts/export_site_data.py` (stdlib only, no dependencies).
 3. Commit `data/connectors.json`, `README.md`, `categories/` and `site-data/` together, with `data/changes.json` when the export run changed it.
 
