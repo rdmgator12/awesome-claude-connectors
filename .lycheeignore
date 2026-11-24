@@ -45,16 +45,10 @@ https://www.finhay.com.vn/.*
 # 2026-11-22 returned 200. Same HTTP/2-negotiation class as getyourguide.com and FRED.
 https://www.magicpatterns.com/.*
 # www.boulanger.com and aura.travel — "HTTP/2 protocol error" to lychee from the GitHub runner on 2026-11-23 (#62), and
-# curl gets the same stream error from a residential network; an Exa crawl the same day returned each live homepage.
-# Same HTTP/2-negotiation class as getyourguide.com and FRED.
+# curl gets the same stream error from a residential network; a forced live fetch through Exa the same day returned
+# each homepage. Same HTTP/2-negotiation class as getyourguide.com and FRED.
 https://www.boulanger.com/.*
 https://aura.travel/.*
-# www.opentext.com — nonstandard 444 to lychee from the runner on 2026-11-23 (#62) and "Access Denied" to curl; an Exa
-# crawl the same day returned the product page. Bot-armored, not dead.
+# www.opentext.com — nonstandard 444 to lychee from the runner on 2026-11-23 (#62) and "Access Denied" to curl; a forced
+# live fetch through Exa the same day returned the product page. Bot-armored, not dead.
 https://www.opentext.com/.*
-# www.bestprice.gr — connection failed from the runner on 2026-11-23 (#62) and timed out twice from a US residential
-# network; an Exa crawl the same day returned the live homepage with that evening's update stamp. Filtered by network.
-https://www.bestprice.gr/.*
-# www.bisbislive.com — timed out from the runner on 2026-11-23 (#62) and twice from a US residential network; an Exa
-# crawl the same day returned the live page, worded for the crawler's own location. Filtered by network, not dead.
-https://www.bisbislive.com/.*
