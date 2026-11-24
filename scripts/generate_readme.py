@@ -4,6 +4,7 @@
 Usage:
     python3 scripts/generate_readme.py          # regenerate README.md + category pages
     python3 scripts/generate_readme.py --check  # verify every generated file matches the data (CI)
+    python3 scripts/generate_readme.py --selftest  # CI: prove the validator on planted entries, then exit
 
 README.md is the front page (intro, Splice, category index, held table); each
 category's entries live on their own page because GitHub stops rendering a
@@ -58,20 +59,147 @@ INDEX_HEADER = ("Category", "Connectors")
 
 # Entry text is emitted verbatim into markdown, so anything that would render as a
 # link, an image or raw HTML is refused: a description is prose, and the entry's one
-# link is its vetted `url`. A bare "www." or a scheme autolinks on GitHub.
-UNSAFE_TEXT = ("<", ">", "`", "](", "http://", "https://", "www.")
+# link is its vetted `url`. A bare "www." in any case, any scheme and an email address
+# autolink on GitHub, and it looks for them after it has decoded character references
+# and dropped backslash escapes: "https&#58;//x.example", "www\.x.example" and
+# "a\@x.example" all rendered as links on its renderer (2026-11-24). So prose carries
+# no backslash and no reference at all ("www." is tested apart, for its case).
+UNSAFE_TEXT = ("<", ">", "`", "](", "://", "\\")
+ENTITY = re.compile(r"&(?:#[0-9]+|#[xX][0-9A-Fa-f]+|[A-Za-z][A-Za-z0-9]*);")
+# The host may start with a dot: GitHub links "a@.x.example" too.
+EMAIL = re.compile(r"[A-Za-z0-9._+-]@(?=[A-Za-z0-9._-]*\.[A-Za-z0-9_-])")
+# A name is the text of its entry's link, where "www." and an address stay inert. A
+# reference or an escape there would make one name read as another ("Strip&#101;").
+NAME_UNSAFE = ("<", ">", "`", "://")
+NAME_ESCAPE = re.compile(r"\\(?:\S|$)")
+URL_UNSAFE = '"\\<>{}|^`('
 URL_HOST = re.compile(r"https://([^/?#]*)")
+# A category or subcategory becomes a heading, an anchor and a link's text.
+HEADING = re.compile(r"[A-Za-z0-9 ]+")
+# Both dates are printed into the README and every category page as they stand.
+LAST_UPDATED = re.compile(r"[A-Z][a-z]+ [0-9]{1,2}, [0-9]{4}")
+CAPTURE_DATE = re.compile(r"[0-9]{4}-[0-9]{2}-[0-9]{2}")
+# Characters that render as nothing. IGNORABLE holds the members of Unicode's
+# Default_Ignorable_Code_Point that the category test in unsafe_chars() does not catch
+# (compared against the whole property in Unicode 13, plus U+180F from Unicode 14); it
+# includes the variation selectors, emoji selector U+FE0F among them, until a name
+# needs one. BLANK holds blank-rendering characters outside that property; U+FFFC drew
+# nothing in a sweep of every other accepted code point through macOS text rendering.
+IGNORABLE = (
+    (0x034F, 0x034F),
+    (0x115F, 0x1160),
+    (0x17B4, 0x17B5),
+    (0x180B, 0x180F),
+    (0x3164, 0x3164),
+    (0xFE00, 0xFE0F),
+    (0xFFA0, 0xFFA0),
+    (0xE0100, 0xE01EF),
+)
+BLANK = {0x2800, 0xFFFC, 0x16FE4, 0x1D159}
+
+# The two allowlists live here, not in data/, so a data-only pull request cannot
+# edit its own guard: a new heading or a new Anthropic-built entry is a change to
+# this file, made on purpose.
+#
+# Subcategory headings, per subcategorized category.
+SUBCATEGORIES = {
+    "Data and Analytics": (
+        "Business Intelligence and Dashboards",
+        "Commerce and Revenue Analytics",
+        "Company and Market Intelligence",
+        "Data Engineering and Pipelines",
+        "Databases and Warehouses",
+        "Geospatial and Industry Data",
+        "People and Customer Insights",
+        "Product and Web Analytics",
+    ),
+    "Finance and Trading": (
+        "Accounting Payroll and Financial Planning",
+        "Business Banking and Spend Management",
+        "Credit Risk Compliance and Insurance",
+        "Crypto and Web3",
+        "Payments Billing and Invoicing",
+        "Personal Finance and Consumer Tax",
+        "Private Markets Real Estate and Deal Intelligence",
+        "Trading Brokerage and Wealth Management",
+    ),
+    "Lifestyle and Local": (
+        "Cars and Mobility",
+        "Fitness Sports and Outdoors",
+        "Food Groceries and Restaurants",
+        "Hobbies Culture and Everyday Life",
+        "Home Pets and Local Services",
+        "Real Estate and Housing",
+        "Shopping Deals and Price Comparison",
+    ),
+    "Marketing and Sales": (
+        "Advertising and Paid Media",
+        "Brand Management and Content Creation",
+        "CRM and Pipeline Management",
+        "Email SMS and Lifecycle Marketing",
+        "Loyalty Referrals and Partner Programs",
+        "Marketing Analytics and Consumer Insights",
+        "Sales Prospecting and Engagement",
+    ),
+    "Productivity": (
+        "Forms Slides and Workspaces",
+        "Meetings and Transcription",
+        "Notes and Knowledge Management",
+        "Reading and Saved Content",
+        "Small Business and Field Operations",
+        "Tasks Planning and Habits",
+        "Team HR and Time Tracking",
+        "Thinking Tools and Utilities",
+    ),
+}
+# The names that carry marker "A": the directory feed's `anthropic` tier, plus the
+# four Anthropic quickstart extensions (github.com/anthropics) that the feed files
+# under its partner tier.
+ANTHROPIC_BUILT = {
+    "Anthropic Economic Index",
+    "bioRxiv",
+    "ChEMBL",
+    "Claude Academy",
+    "Clinical Trials",
+    "CMS Coverage",
+    "ICD-10 Codes",
+    "Microsoft 365",
+    "NPI Registry",
+    "PDF Viewer",
+    "pdf-viewer",
+    "PowerPoint (By Anthropic)",
+    "PubMed",
+    "Word (By Anthropic)",
+}
 
 
 def unsafe_chars(value):
-    """Control, zero-width, bidi-override, private-use and surrogate code points."""
+    """Code points that hide or reorder text: control, format (zero-width, bidi),
+    private-use, surrogate and unassigned characters, line and paragraph separators,
+    any space but the ASCII one, and everything in IGNORABLE and BLANK. Unassigned
+    follows the interpreter's Unicode tables; CI runs Python 3.13."""
     return sorted(
         {
             f"U+{ord(c):04X}"
             for c in value
-            if ord(c) < 32 or unicodedata.category(c) in ("Cf", "Co", "Cs")
+            if unicodedata.category(c) in ("Cc", "Cf", "Co", "Cs", "Cn", "Zl", "Zp")
+            or (unicodedata.category(c) == "Zs" and c != " ")
+            or ord(c) in BLANK
+            or any(lo <= ord(c) <= hi for lo, hi in IGNORABLE)
         }
     )
+
+
+def text_problems(value):
+    """What in a piece of prose would render as a link or markup, as a list."""
+    found = [repr(token) for token in UNSAFE_TEXT if token in value]
+    if "www." in value.lower():
+        found.append(repr("www."))
+    if ENTITY.search(value):
+        found.append("a character reference such as '&#58;'")
+    if EMAIL.search(value):
+        found.append("an email address")
+    return found
 
 
 def url_problem(url):
@@ -83,10 +211,14 @@ def url_problem(url):
         return "carries a port"
     if not re.fullmatch(r"[a-z0-9.-]+", host):
         return "host is not lowercase ASCII"
-    if "." not in host or re.fullmatch(r"[0-9.]+", host):
-        return "host is not a domain name"
+    if "" in host.split("."):
+        return "host has an empty label (a leading, trailing or doubled dot)"
     if host.startswith("xn--") or ".xn--" in host:
         return "host is punycode (an internationalized domain needs a deliberate exception here)"
+    # A browser reads a host whose last label is a number as an IP address, and it
+    # accepts hex there (0x7f.0.0.1), so the last label must be letters.
+    if "." not in host or not re.fullmatch(r"[a-z]+", host.rsplit(".", 1)[1]):
+        return "host is not a domain name"
     return None
 
 
@@ -222,9 +354,12 @@ def validate(data, template):
     }:
         add("meta keys must be exactly last_updated/capture_date/render")
     else:
-        for k in ("last_updated", "capture_date"):
-            if not isinstance(meta[k], str) or not meta[k].strip():
-                add(f"meta.{k} must be a non-empty string")
+        for k, shape, like in (
+            ("last_updated", LAST_UPDATED, "November 23, 2026"),
+            ("capture_date", CAPTURE_DATE, "2026-11-23"),
+        ):
+            if not isinstance(meta[k], str) or not shape.fullmatch(meta[k]):
+                add(f"meta.{k} must read like {like!r}, got {meta[k]!r}")
         render = meta["render"]
         if not isinstance(render, dict) or set(render) != {
             "category_counts",
@@ -247,6 +382,12 @@ def validate(data, template):
     for low, group in _grouped(cats, str.lower):
         if len(group) > 1:
             add(f"duplicate category (case-insensitive): {group}")
+    for heading in cats + [s for subs in SUBCATEGORIES.values() for s in subs]:
+        if not HEADING.fullmatch(heading):
+            add(
+                f"category or subcategory {heading!r} must be letters, digits and "
+                "spaces only (it becomes a heading, an anchor and a link)"
+            )
 
     catset = set(cats)
     names, urls, subcategories = {}, {}, set()
@@ -272,6 +413,16 @@ def validate(data, template):
             add(f"{label}: name must be a non-empty stripped string")
         elif "[" in name or "]" in name or "\n" in name or "\r" in name:
             add(f"{label}: name must not contain square brackets or newlines")
+        elif any(token in name for token in NAME_UNSAFE):
+            add(
+                f"{label}: name must not contain any of {' '.join(NAME_UNSAFE)} "
+                "(it would render as a second link or markup)"
+            )
+        elif ENTITY.search(name) or NAME_ESCAPE.search(name):
+            add(
+                f"{label}: name must not contain a character reference or a backslash "
+                "escape (it would read as another name)"
+            )
         else:
             names.setdefault(name.lower(), []).append(name)
         url = e.get("url")
@@ -279,6 +430,10 @@ def validate(data, template):
             add(f"{label}: url must start with https://")
         elif ")" in url or " " in url or "\n" in url or "\r" in url:
             add(f"{label}: url must not contain ')', spaces, or newlines")
+        elif any(c in url for c in URL_UNSAFE):
+            add(f"{label}: url must not contain any of {' '.join(URL_UNSAFE)}: {url}")
+        elif ENTITY.search(url):
+            add(f"{label}: url must not contain a character reference: {url}")
         elif url_problem(url):
             add(f"{label}: url {url_problem(url)}: {url}")
         else:
@@ -286,6 +441,13 @@ def validate(data, template):
         if e.get("marker") not in ("A", "C", None):
             add(
                 f"{label}: marker must be \"A\", \"C\", or null, got {e.get('marker')!r}"
+            )
+        elif (e.get("marker") == "A") != (
+            isinstance(name, str) and name in ANTHROPIC_BUILT
+        ):
+            add(
+                f"{label}: marker {e.get('marker')!r} disagrees with ANTHROPIC_BUILT "
+                '(scripts/generate_readme.py): "A" goes on exactly the names listed there'
             )
         cat = e.get("category")
         if not isinstance(cat, str) or cat not in catset:
@@ -301,11 +463,10 @@ def validate(data, template):
                 add(
                     f"{label}: {field} must not contain '*' (breaks the italic wrapper)"
                 )
-            for token in UNSAFE_TEXT:
-                if token in v:
-                    add(
-                        f"{label}: {field} must not contain {token!r} (it would render as a link or markup)"
-                    )
+            for found in text_problems(v):
+                add(
+                    f"{label}: {field} must not contain {found} (it would render as a link or markup)"
+                )
             if not v.endswith(TERMINAL):
                 add(
                     f"{label}: {field} must end with one of {'/'.join(TERMINAL)}, got ...{v[-15:]!r}"
@@ -322,6 +483,13 @@ def validate(data, template):
                 add(f"{label}: subcategory must be null or a non-empty stripped string")
             elif isinstance(sub, str):
                 subcategories.add(sub)
+                if sub not in SUBCATEGORIES.get(
+                    cat if isinstance(cat, str) else "", ()
+                ):
+                    add(
+                        f"{label}: subcategory {sub!r} is not a heading of {cat!r} "
+                        "in SUBCATEGORIES (scripts/generate_readme.py)"
+                    )
 
     for low, group in _grouped_dict(names):
         if len(group) > 1:
@@ -329,12 +497,17 @@ def validate(data, template):
     for url, group in urls.items():
         if len(group) > 1:
             add(f"duplicate URL {url}: {group}")
+    listed_names = {n for group in names.values() for n in group}
+    for stale in sorted(ANTHROPIC_BUILT - listed_names):
+        add(f"ANTHROPIC_BUILT names no listed entry: {stale!r}")
 
     if isinstance(data["connectors"], list):
         used = Counter(
             e.get("category")
             for e in data["connectors"]
-            if isinstance(e, dict) and e.get("category") in catset
+            if isinstance(e, dict)
+            and isinstance(e.get("category"), str)
+            and e.get("category") in catset
         )
         for c in cats:
             if not used[c]:
@@ -376,11 +549,10 @@ def validate(data, template):
             elif "|" in v or "\n" in v or "\r" in v:
                 add(f"held {hlabel}: {k} must not contain '|' or newlines")
             else:
-                for token in UNSAFE_TEXT:
-                    if token in v:
-                        add(
-                            f"held {hlabel}: {k} must not contain {token!r} (it would render as a link or markup)"
-                        )
+                for found in text_problems(v):
+                    add(
+                        f"held {hlabel}: {k} must not contain {found} (it would render as a link or markup)"
+                    )
         if isinstance(h["name"], str) and h["name"]:
             held_names.setdefault(h["name"].lower(), []).append(h["name"])
     for low, group in _grouped_dict(held_names):
@@ -395,7 +567,7 @@ def validate(data, template):
                 add(f"'{{{{' / '}}}}' not allowed in data ({path}): {x[:60]!r}")
             if unsafe_chars(x):
                 add(
-                    f"control, zero-width or bidi character {unsafe_chars(x)} in data ({path}): {x[:60]!r}"
+                    f"control, invisible, unassigned or non-ASCII space character {unsafe_chars(x)} in data ({path}): {x[:60]!r}"
                 )
         elif isinstance(x, list):
             for i, v in enumerate(x):
@@ -458,7 +630,294 @@ def _grouped_dict(groups):
     return groups.items()
 
 
+def _fixture():
+    """A small valid list built from the two allowlists, so the self-test never
+    depends on what data/connectors.json holds today. The last entry is the probe."""
+    plain = "Zz Plain"
+    connectors = []
+
+    def entry(name, category, **extra):
+        connectors.append(
+            {
+                "name": name,
+                "url": f"https://example.com/{len(connectors)}",
+                "marker": None,
+                "category": category,
+                "description": "Does one thing.",
+                "use_case": "Doing that one thing.",
+                **extra,
+            }
+        )
+
+    for cat, subs in SUBCATEGORIES.items():
+        entry(f"Filed {len(connectors)}", cat, subcategory=subs[0])
+    for name in sorted(ANTHROPIC_BUILT):
+        entry(name, plain, marker="A")
+    entry("Zz Probe", plain)
+    data = {
+        "meta": {
+            "last_updated": "November 23, 2026",
+            "capture_date": "2026-11-23",
+            "render": {"category_counts": True, "subcategory_headings": True},
+        },
+        "categories": sorted(SUBCATEGORIES) + [plain],
+        "connectors": connectors,
+        "held": [
+            {
+                "name": "Zz Held",
+                "catalog_description": "A held row.",
+                "why_held": "No vendor page.",
+            }
+        ],
+    }
+    return data, " ".join(sorted(KNOWN_TOKENS))
+
+
+def selftest():
+    """A validator nobody has seen refuse an entry proves nothing. Plant one defect
+    per rule and require that rule's own message, then plant what must stay legal."""
+    if validate(*_fixture()):
+        sys.exit("validator self-test failed -- its own clean fixture is refused")
+
+    def probe(**fields):
+        return lambda d: d["connectors"][-1].update(fields)
+
+    def filed(sub):  # the first entry sits in a subcategorized category
+        return lambda d: d["connectors"][0].update(subcategory=sub)
+
+    def meta(key, value):
+        return lambda d: d["meta"].update({key: value})
+
+    def held(key, value):
+        return lambda d: d["held"][0].update({key: value})
+
+    def new_category(name):
+        def plant(d):
+            d["categories"].append(name)
+            d["connectors"][-1]["category"] = name
+
+        return plant
+
+    def unmark(d):
+        next(e for e in d["connectors"] if e["marker"] == "A")["marker"] = None
+
+    def unlist(d):
+        d["connectors"].remove(next(e for e in d["connectors"] if e["marker"] == "A"))
+
+    link = "https://evil.example"
+    cases = [
+        (
+            "a name carrying an HTML link",
+            probe(name=f'Zz Probe <a href="{link}">Stripe</a>'),
+            "name must not contain any of",
+        ),
+        (
+            "a name carrying a code span",
+            probe(name="Zz `Probe`"),
+            "name must not contain any of",
+        ),
+        (
+            "a name carrying a bare URL",
+            probe(name=f"Zz {link}"),
+            "name must not contain any of",
+        ),
+        (
+            "a subcategory written as a link",
+            filed(f"Zz]({link}) [more"),
+            "is not a heading of",
+        ),
+        (
+            "a subcategory nobody added to SUBCATEGORIES",
+            filed("Brand New Heading"),
+            "is not a heading of",
+        ),
+        (
+            "a subcategory in a category that has none",
+            probe(subcategory="Crypto and Web3"),
+            "is not a heading of",
+        ),
+        (
+            "a category that is not a string",
+            probe(category=["Zz Plain"]),
+            "unknown category",
+        ),
+        (
+            "a category name carrying a link",
+            new_category(f"Zz [x]({link})"),
+            "letters, digits and spaces only",
+        ),
+        (
+            'marker "A" on a name outside ANTHROPIC_BUILT',
+            probe(marker="A"),
+            "disagrees with ANTHROPIC_BUILT",
+        ),
+        (
+            'an ANTHROPIC_BUILT name without marker "A"',
+            unmark,
+            "disagrees with ANTHROPIC_BUILT",
+        ),
+        (
+            "an ANTHROPIC_BUILT name that is not listed",
+            unlist,
+            "ANTHROPIC_BUILT names no listed entry",
+        ),
+        (
+            "a description carrying an ftp link",
+            probe(description="See ftp://evil.example/x."),
+            "must not contain '://'",
+        ),
+        (
+            "a use case carrying an email address",
+            probe(use_case="Write to sales@evil.example."),
+            "an email address",
+        ),
+        (
+            "a held row carrying an email address",
+            held("why_held", "Ask sales@evil.example."),
+            "an email address",
+        ),
+        (
+            "a URL host ending in a dot",
+            probe(url="https://evil.example./x"),
+            "empty label",
+        ),
+        (
+            "a URL whose host is an IP address written in hex",
+            probe(url="https://0x7f.0.0.1/x"),
+            "host is not a domain name",
+        ),
+        (
+            "a URL carrying a double quote",
+            probe(url='https://example.com/"x'),
+            "url must not contain any of",
+        ),
+        (
+            "a URL carrying a backslash",
+            probe(url="https://example.com/a\\b"),
+            "url must not contain any of",
+        ),
+        (
+            "a last-updated date carrying a link",
+            meta("last_updated", f"[x]({link})"),
+            "meta.last_updated must read like",
+        ),
+        (
+            "a capture date carrying markup",
+            meta("capture_date", "2026-11-23 <b>"),
+            "meta.capture_date must read like",
+        ),
+        (
+            "a description hiding a link's colon in a character reference",
+            probe(description="See https&#58;//evil.example/login."),
+            "a character reference",
+        ),
+        (
+            "a description hiding www. behind a backslash",
+            probe(description="See www\\.evil.example today."),
+            "must not contain '\\\\'",
+        ),
+        (
+            "a description with WWW. in capitals",
+            probe(description="See WWW.evil.example today."),
+            "must not contain 'www.'",
+        ),
+        (
+            "a use case with an address whose host starts with a dot",
+            probe(use_case="Write to a@.evil.example today."),
+            "an email address",
+        ),
+        (
+            "a name spelling a letter as a character reference",
+            probe(name="Zz Prob&#101;"),
+            "a character reference or a backslash escape",
+        ),
+        (
+            "a name escaping a character with a backslash",
+            probe(name="Zz\\&Probe"),
+            "a character reference or a backslash escape",
+        ),
+        (
+            "a name ending in a backslash, which would unhook its link",
+            probe(name="Zz Probe\\"),
+            "a character reference or a backslash escape",
+        ),
+        (
+            "a URL carrying a character reference",
+            probe(url="https://example.com/&#64;x"),
+            "url must not contain a character reference",
+        ),
+        (
+            "a URL carrying an opening parenthesis",
+            probe(url="https://example.com/a(b"),
+            "url must not contain any of",
+        ),
+    ]
+    for cp, what in [
+        (0x007F, "delete"),
+        (0x0085, "next line"),
+        (0x00A0, "no-break space"),
+        (0x034F, "combining grapheme joiner"),
+        (0x17B4, "Khmer inherent vowel"),
+        (0x180B, "Mongolian variation selector"),
+        (0x180F, "Mongolian variation selector four"),
+        (0x200B, "zero-width space"),
+        (0x202E, "right-to-left override"),
+        (0x2028, "line separator"),
+        (0x2029, "paragraph separator"),
+        (0x2800, "braille blank"),
+        (0x3164, "Hangul filler"),
+        (0xFE0F, "variation selector 16"),
+        (0xFFFC, "object replacement character"),
+        (0xFFFE, "a noncharacter"),
+        (0x16FE4, "Khitan filler"),
+        (0x1D159, "null notehead"),
+        (0xE0100, "variation selector 17"),
+    ]:
+        cases.append(
+            (
+                f"U+{cp:04X} ({what}) in a description",
+                probe(description=f"Hidden{chr(cp)}character."),
+                f"U+{cp:04X}",
+            )
+        )
+    cases += [
+        ("a name that starts with www.", probe(name="www.zz-probe.example"), None),
+        ("a name with _ | ~ and \\", probe(name="Zz_probe | one ~ two \\ three"), None),
+        ("a name in another script", probe(name="ずんだ ノート"), None),
+        (
+            "an @handle in a use case",
+            probe(use_case="Following @handle mentions."),
+            None,
+        ),
+        ("a description ending in 。", probe(description="日本語の説明。"), None),
+        (
+            "a name with & and ; that spell no reference",
+            probe(name="Zz & Probe; one"),
+            None,
+        ),
+        ("a price in a description", probe(description="Costs $5 a month."), None),
+        ("R&D in a use case", probe(use_case="Planning R&D budgets; and more."), None),
+    ]
+    failed = 0
+    for why, plant, want in cases:
+        data, template = _fixture()
+        plant(data)
+        errors = validate(data, template)
+        ok = not errors if want is None else any(want in e for e in errors)
+        failed += not ok
+        must = "accepted" if want is None else "refused"
+        print(f"  {'ok  ' if ok else 'FAIL'} {why}: must be {must}")
+        if not ok:
+            print(f"       want {want!r}\n       got  {errors}")
+    if failed:
+        sys.exit("validator self-test failed -- do not trust this check")
+    print("  self-test passed")
+
+
 def main():
+    if "--selftest" in sys.argv:
+        selftest()
+        return
     data = json.loads(DATA.read_text(encoding="utf-8"))
     template = TEMPLATE.read_text(encoding="utf-8")
 

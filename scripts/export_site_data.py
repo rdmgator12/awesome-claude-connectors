@@ -4,7 +4,7 @@
 Usage:
     python3 scripts/export_site_data.py           # write site-data/, record new changes
     python3 scripts/export_site_data.py --check   # CI: fail if site-data/ is stale
-    python3 scripts/export_site_data.py --selftest  # CI: prove the id rule and the change log on planted cases
+    python3 scripts/export_site_data.py --selftest  # CI: prove the id rule, the change log and the editorial checks on planted cases
 
 Why a separate export: data/connectors.json is about 6 MB and shaped for the
 README generator. A browser wants small files it can fetch lazily and a
@@ -55,6 +55,8 @@ import re
 import sys
 import unicodedata
 from pathlib import Path
+
+from generate_readme import text_problems, unsafe_chars
 
 REPO = Path(__file__).resolve().parent.parent
 DATA = REPO / "data" / "connectors.json"
@@ -143,6 +145,7 @@ def selftest():
     else:
         sys.exit("id self-test failed -- a mark with no rule must stop the export")
     selftest_changes()
+    selftest_editorial()
     print("  self-test passed")
 
 
@@ -253,6 +256,33 @@ def selftest_changes():
         sys.exit("change-log self-test failed -- the export records changes wrongly")
 
 
+def selftest_editorial():
+    """The editorial file on planted cases: one defect each, on a file proven clean first."""
+    def ed(**over):
+        c = {"slug": "picks", "title": "Research & writing", "intro": "Checked picks.", "since": "2026-01-01",
+             "sections": [{"title": "Vibe coders / non-SWEs", "ids": ["a"]}]}
+        return {"featured": [{"id": "a", "label": "Featured", "since": "2026-01-01", "note": "A note."}],
+                "collections": [{**c, **over}]}
+    check_editorial(ed(), {"a"})
+    print("  ok  a clean editorial file passes")
+    for why, bad in [
+        ("a collection title carrying an HTML link", ed(title='Picks <a href="https://evil.example">x</a>')),
+        ("a collection intro carrying a bare URL", ed(intro="See https://evil.example now.")),
+        ("a collection intro carrying an email address", ed(intro="Write to sales@evil.example.")),
+        ("a section title carrying a zero-width space", ed(sections=[{"title": "Hid" + chr(0x200B) + "den", "ids": ["a"]}])),
+        ("a collection slug that is not URL-plain", ed(slug="../picks")),
+        ("a key carrying markup", ed(**{"<b>note</b>": "x"})),
+        ("a collection intro hiding a link in a character reference", ed(intro="See https&#58;//evil.example now.")),
+        ("a pick that is not listed", ed(sections=[{"title": "Picks", "ids": ["zz"]}])),
+    ]:
+        try:
+            check_editorial(bad, {"a"})
+        except SystemExit:
+            print(f"  ok  {why} stops the export")
+        else:
+            sys.exit(f"editorial self-test failed -- {why} must stop the export")
+
+
 ORDINALS = {"debut": 1, "first": 1, "second": 2, "third": 3, "fourth": 4, "fifth": 5,
             "sixth": 6, "seventh": 7, "eighth": 8, "ninth": 9, "tenth": 10}
 STACK_LINK = re.compile(r"\*\*\[([^\]]+)\]\((https://[^)]+)\)\*\*( \*\(new\)\*)?")
@@ -289,19 +319,45 @@ def parse_stack(path, ids_by_name):
     }
 
 
+EDITORIAL_SLUG = re.compile(r"[a-z0-9-]+")
+
+
+def check_editorial(ed, listed_ids):
+    """Stops on a pick that is not listed, a slug that is not URL-plain, or text that would
+    render as a link or markup: this file reaches the site as it stands."""
+    for f in ed["featured"]:
+        if f["id"] not in listed_ids:
+            raise SystemExit(f"editorial featured id {f['id']!r} is not a listed entry")
+    for c in ed["collections"]:
+        if not isinstance(c["slug"], str) or not EDITORIAL_SLUG.fullmatch(c["slug"]):
+            raise SystemExit(f"collection slug {c['slug']!r} must be lowercase letters, digits and hyphens")
+        for sec in c["sections"]:
+            for i in sec["ids"]:
+                if i not in listed_ids:
+                    raise SystemExit(f"collection {c['slug']!r} id {i!r} is not a listed entry")
+
+    def walk(x, path):
+        if isinstance(x, str):
+            bad = text_problems(x) + unsafe_chars(x)
+            if bad:
+                raise SystemExit(f"data/editorial.json {path} must not contain {', '.join(bad)}: {x[:60]!r}")
+        elif isinstance(x, list):
+            for n, v in enumerate(x):
+                walk(v, f"{path}[{n}]")
+        elif isinstance(x, dict):
+            for k, v in x.items():
+                walk(k, f"{path} key")
+                walk(v, f"{path}.{k}")
+
+    walk(ed, "editorial")
+
+
 def build_editorial(listed_ids):
     if not EDITORIAL.exists():
         return {"schema_version": SCHEMA_VERSION, "featured": [], "collections": []}
     ed = json.loads(EDITORIAL.read_text(encoding="utf-8"))
     ed.pop("_comment", None)
-    for f in ed["featured"]:
-        if f["id"] not in listed_ids:
-            raise SystemExit(f"editorial featured id {f['id']!r} is not a listed entry")
-    for c in ed["collections"]:
-        for sec in c["sections"]:
-            for i in sec["ids"]:
-                if i not in listed_ids:
-                    raise SystemExit(f"collection {c['slug']!r} id {i!r} is not a listed entry")
+    check_editorial(ed, listed_ids)
     return {"schema_version": SCHEMA_VERSION, **ed}
 
 

@@ -10,7 +10,7 @@ This list tracks every connector in Anthropic's official Connectors Directory. C
 
 To add or change an entry:
 
-1. Edit `data/connectors.json` (add the entry object anywhere -- sorting is automatic). Five categories are divided into subcategories (Data and Analytics, Finance and Trading, Lifestyle and Local, Marketing and Sales, Productivity): an entry in one of them also needs a `subcategory` set to one of the headings on that category's page. The generator rejects a category that is only partly subcategorized.
+1. Edit `data/connectors.json` (add the entry object anywhere -- sorting is automatic). Five categories are divided into subcategories (Data and Analytics, Finance and Trading, Lifestyle and Local, Marketing and Sales, Productivity): an entry in one of them also needs a `subcategory` set to one of the headings on that category's page. The generator rejects a category that is only partly subcategorized, and a heading that is not in `SUBCATEGORIES` in `scripts/generate_readme.py`: a new heading is a maintainer change, made apart from the data.
 2. Run `python3 scripts/generate_readme.py` and `python3 scripts/export_site_data.py` (stdlib only, no dependencies).
 3. Commit `data/connectors.json`, `README.md`, `categories/` and `site-data/` together, with `data/changes.json` when the export run changed it.
 
@@ -35,7 +35,7 @@ Tested a connector and have real-world notes? Open an issue or PR with one parag
 - One PR per change unless closely related.
 - Keep descriptions concise -- one sentence for the description, one sentence for the use case.
 - The use case is one sentence containing a concrete task or 2--3 comma-separated task fragments a user would actually perform in Claude (e.g. "Comparing carrier rates for a 40-lb package, buying a return label, checking where an order stalled in transit."). It must NOT restate the description -- it adds scenario information the description lacks. No vendor voice ("your"/"our"), no marketing adjectives, and every capability it implies must be stated in the description.
-- Provenance markers: **`A`** only for entries whose canonical URL is Anthropic-owned (anthropic.com / github.com/anthropics) or whose catalog name self-identifies as Anthropic-built; **`C`** for entries carrying the in-app catalog's Community badge, applied from the directory feed's `verified_tier` at each sweep (`python3 scripts/feed_diff.py`; dated captures in docs/catalog-snapshots/).
+- Provenance markers: **`A`** only for entries built by Anthropic: those the directory feed puts in its `anthropic` tier (the link may lead to a third party's data, as with PubMed or CMS Coverage), and those whose canonical URL is Anthropic-owned (anthropic.com / github.com/anthropics) or whose catalog name self-identifies as Anthropic-built. The names are listed in `ANTHROPIC_BUILT` in `scripts/generate_readme.py` and the generator rejects an `A` on any other entry, so a new one is a maintainer change, made apart from the data; **`C`** for entries carrying the in-app catalog's Community badge, applied from the directory feed's `verified_tier` at each sweep (`python3 scripts/feed_diff.py`; dated captures in docs/catalog-snapshots/).
 - Don't add connectors that aren't in the official Anthropic directory. This list tracks the official directory, not all MCP servers (see [awesome-mcp-servers](https://github.com/punkpeye/awesome-mcp-servers) for that).
 - Alphabetical order within categories is enforced by the generator -- add entries anywhere in `data/connectors.json`.
 
