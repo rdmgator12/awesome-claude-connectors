@@ -4,9 +4,9 @@
   <img src="media/banner.svg" alt="Awesome Claude Connectors" width="800">
 </p>
 
-> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 13,132 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 144 held pending vendor verification, organized by category with descriptions and use cases.
+> A comprehensive directory of the connectors in Anthropic's [Claude Connectors catalog](https://www.anthropic.com/partners/mcp) — 13,133 MCP integrations across both catalog surfaces (the curated web directory and the in-app catalog, which additionally surfaces community-built and desktop-extension connectors), plus 144 held pending vendor verification, organized by category with descriptions and use cases.
 
-**Last updated:** November 25, 2026 | **Connectors tracked:** 13,132 listed + 144 held | **Categories:** 33
+**Last updated:** November 27, 2026 | **Connectors tracked:** 13,133 listed + 144 held | **Categories:** 33
 
 If this list saved you a search, [star it](https://github.com/rdmgator12/awesome-claude-connectors) so the next person can find it.
 
@@ -71,7 +71,7 @@ Each category has its own page; the list outgrew what GitHub will render as a si
 | [Observability and Monitoring](categories/observability-and-monitoring.md)                   | 139        |
 | [Productivity](categories/productivity.md)                                                   | 1,068      |
 | [Project Management](categories/project-management.md)                                       | 393        |
-| [Research and Academic](categories/research-and-academic.md)                                 | 201        |
+| [Research and Academic](categories/research-and-academic.md)                                 | 202        |
 | [SAP](categories/sap.md)                                                                     | 7          |
 | [Security](categories/security.md)                                                           | 281        |
 | [SEO and Web](categories/seo-and-web.md)                                                     | 259        |

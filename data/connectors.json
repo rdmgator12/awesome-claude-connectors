@@ -1,6 +1,6 @@
 {
   "meta": {
-    "last_updated": "November 25, 2026",
+    "last_updated": "November 27, 2026",
     "capture_date": "2026-11-25",
     "render": {
       "category_counts": true,
@@ -65470,7 +65470,7 @@
       "url": "https://www.mappu.ai",
       "marker": "C",
       "category": "Travel",
-      "description": "Saves trip plans as day-by-day itineraries with ordered stops, times, tips and food notes on an editable map, finds free self-guided walks for a city or landmark, looks up audio guides in six languages and searches public travel pages.",
+      "description": "Saves trip plans as day-by-day itineraries with ordered stops, times, tips and food notes on an editable map, finds free self-guided walks for a city or landmark, looks up audio guides in eight languages and searches public travel pages.",
       "use_case": "Saving a three-day city itinerary with food stops to a map, finding a self-guided walk around a cathedral with its walking time."
     },
     {
@@ -110777,6 +110777,14 @@
       "description": "Reads zOrder ERP retail data for an admin account with reporting enabled, read-only: sales by branch, month, category, brand, size or salesperson, stock value and ageing, this financial year against last, customer lookups, and top customers and suppliers, switching between the account's companies.",
       "use_case": "Comparing this financial year's sales by branch against last year, checking stock value and ageing before a reorder, listing top suppliers.",
       "subcategory": "Commerce and Revenue Analytics"
+    },
+    {
+      "name": "AI Science Tracker",
+      "url": "https://aisciencetracker.org",
+      "marker": "C",
+      "category": "Research and Academic",
+      "description": "Searches a curated catalog of AI-enabled scientific results since 2020 by topic, DOI, year, field or organization, opens a record with its linked original paper or announcement, evidence notes and caveats, and looks up publicly disclosed software vulnerabilities whose discovery involved AI by CVE ID, product or AI system with CVSS, impacts and remediation status, read-only and without an account, on CC BY 4.0 data whose figures are reported by the linked sources and not independently verified.",
+      "use_case": "Finding AI-enabled results in materials science from 2024, looking up a CVE ID in the collection of AI-found vulnerabilities, reading the evidence notes and caveats on a climate result."
     }
   ],
   "held": [
