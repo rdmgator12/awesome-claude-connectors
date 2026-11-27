@@ -2,6 +2,14 @@
 
 Counting convention: **listed** = entries in category sections; **held** = rows in Held for Verification; **tracked** = listed + held. Sweep deltas are stated as the net change in listed entries; gross additions are called out separately where they differ (renames and variant merges make a naive name-diff overcount).
 
+## 2026-11-27 — one add from an issue and one description fix from a contributor (13,132 → 13,133 listed; held 144, unchanged)
+
+**Added: AI Science Tracker** (Research and Academic), requested in issue #72 by its maintainer. The directory published it on 2026-11-26, after the 11-25 capture, so its record was read from the directory feed on 11-27 (13,739 servers; community tier, five read-only tools). The entry text was written from that record's description and tool names only. A different model then read it against the record and graded three minor points, none misleading: the use case read a lookup in a curated collection as a yes-or-no check, "opening the original paper" overstated a linked source that may be an announcement, and the entry had dropped "curated" and the data licence. All three are fixed, and the fixes were not reviewed again. Not carried: the record's request that the assistant cite the original source, which is guidance to an assistant and not a capability. The link, aisciencetracker.org, was fetched on 11-27 and its title and site name carry the product's name. The entry takes `C` from the feed's community tier. The catalog capture date stays 2026-11-25, because only this one record was read from the newer feed.
+
+**Mappu** (Travel): the description now says its audio guides are in eight languages, not six, from pull request #71 by Mappu's maker. The vendor's own site lists eight for its published audio guides (English, Spanish, French, German, Italian, Portuguese, Japanese and Traditional Chinese; mappu.ai/llms.txt, read 11-27). The directory feed's record still said six on 11-27, so the entry now differs from the catalog text on that one word. The pull request's generated travel file conflicted with the 11-25 sweep, so the change was re-applied on top of it and the pages were regenerated.
+
+**Checked.** `generate_readme.py --selftest` and `--check`, `export_site_data.py --check` and `--selftest`, `name_url_check.py --selftest`, `feed_diff.py --selftest`, `awesome-lint` and `lint_category_pages.sh` all pass. `data/changes.json` records 1 added, 0 removed and 0 renamed, dated 2026-11-27.
+
 ## 2026-11-25 — eighth feed-era sweep (12,344 → 13,132 listed; held 136 → 144)
 
 Built against the feed captured at sweep time, **13,300 servers** (anthropic 10, community 12,079, partner 1,211), and a **1,226-slug** web sitemap. The catalog capture date moves to 2026-11-25. No removals and no change to any existing entry.

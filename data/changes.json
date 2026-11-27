@@ -13790,6 +13790,14 @@
       ],
       "removed": [],
       "renamed": []
+    },
+    {
+      "date": "2026-11-27",
+      "added": [
+        "ai-science-tracker"
+      ],
+      "removed": [],
+      "renamed": []
     }
   ]
 }
